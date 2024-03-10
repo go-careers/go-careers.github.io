@@ -1,5 +1,6 @@
 {
   "name": "go-careers",
+  "homepage": "https://go-careers.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +18,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ext ts,tsx,js,jsx",
-    "lint:fix": "eslint . --ext ts,tsx,js,jsx --fix"
+    "lint:fix": "eslint . --ext ts,tsx,js,jsx --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +45,7 @@
     "@typescript-eslint/parser": "^6.18.0",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^6.1.1",
     "prettier": "^3.1.1",
     "sass": "^1.71.1",
     "typescript": "^4.9.5"

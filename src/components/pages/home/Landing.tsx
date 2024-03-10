@@ -99,7 +99,7 @@ const LandingPage = (_props: LandingPageProps) => {
               }, {
                 id: 'Entry Level'
               }, {
-                id: 'Mid Senior Level'
+                id: 'Mid Senior'
               }]}
               selectedOption={jobLevel}
               updateSelection={setJobLevel}
