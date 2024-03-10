@@ -1,8 +1,8 @@
-import GoCareersIcon from './components/custom-icons/GoCareersIcon'
+import Filter from './components/filter/Filter'
 
 function App() {
   return (
-    <GoCareersIcon/>
+    <Filter/>
   )
 }
 
