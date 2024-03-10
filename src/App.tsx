@@ -1,8 +1,8 @@
-import Filter from './components/filter/Filter'
+import Landing from './components/pages/home/Landing'
 
 function App() {
   return (
-    <Filter/>
+    <Landing/>
   )
 }
 
