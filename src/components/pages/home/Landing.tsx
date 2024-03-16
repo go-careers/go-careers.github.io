@@ -2,9 +2,11 @@ import JobCards from '../../job-cards/JobCards'
 import SwitchTheme from '../../custom-icons/SwitchTheme'
 import SideFilter from '../../filters/common/SideFilter'
 import { useState, useEffect } from 'react'
-import { getJobs } from '../../../utils/ApiUtils'
+import { GetJobsResponse, getJobs } from '../../../utils/ApiUtils'
 import { JobCardProps } from '../../job-cards/JobCard'
 import { transformToJobCardsModel } from '../../../utils/TransformerUtils'
+import { useInViewTrigger } from '../../../hooks/ScrollHooks'
+import { FIRST_PAGE_NUMBER, DEFAULT_PAGE_SIZE } from '../../../configs/ApiConfigs'
 
 interface LandingPageProps {
 }
@@ -15,19 +17,45 @@ const LandingPage = (_props: LandingPageProps) => {
   const [location, setLocation] = useState<string>()
   const [jobLevel, setJobLevel] = useState<string>()
   const [jobs, setJobs] = useState<JobCardProps[]>([])
+  const [pageNumber, setPageNumber] = useState<number>(FIRST_PAGE_NUMBER)
+  const [endOfList, setEndOfList] = useState<boolean>(false)
 
-  const fetchJobs = () => {
-    getJobs({
-      location,
-      job_type: jobType,
-      experience_type: jobLevel
+  const fetchJobs = (page_no: number = FIRST_PAGE_NUMBER): Promise<GetJobsResponse>  => {
+    return getJobs({
+      page_no,
+      page_size: DEFAULT_PAGE_SIZE,
+      job_filter: {
+        location,
+        job_type: jobType,
+        experience_type: jobLevel
+      }
     })
-      .then(transformToJobCardsModel)
-      .then(setJobs)
   }
 
+  const addJobsToList = (freshList: boolean = false) => {
+    if (freshList) {
+      setEndOfList(false)
+    }
+    else if (endOfList) {
+      // Do not fetch list if alread reached end of list
+      return
+    }
+
+    fetchJobs(freshList? FIRST_PAGE_NUMBER: pageNumber)
+      .then(transformToJobCardsModel)
+      .then((newList) => {
+        if (!newList?.length) {
+          setEndOfList(true)
+        }
+        setJobs((prevList) => [...(freshList? []: prevList), ...newList])
+      })
+      .then(() => setPageNumber((currentPageNumber) => (freshList? FIRST_PAGE_NUMBER: currentPageNumber) + 1))
+  }
+
+  const pageEndRef = useInViewTrigger(addJobsToList)
+
   useEffect(() => {
-    fetchJobs()
+    addJobsToList(true)
   }, [jobType, location, jobLevel])
 
   return (
@@ -59,7 +87,7 @@ const LandingPage = (_props: LandingPageProps) => {
               <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16" /></svg>
             {jobLevel ?? <input type="text" placeholder="All Seniority Levels" disabled/>}
           </div>
-          <button className="search-button" onClick={fetchJobs}>Find Job</button>
+          <button className="search-button" onClick={() => addJobsToList(true)}>Find Job</button>
         </div>
 
         <div className="main-container">
@@ -67,13 +95,16 @@ const LandingPage = (_props: LandingPageProps) => {
             <SideFilter
               filterTitle='Job Type'
               options={[{
-                id: 'Software Engineer'
-              }, {
-                id: 'Frontend Developer'
-              }, {
                 id: 'App Developer'
               }, {
+                id: 'Data Analyst'
+              }, {
                 id: 'Data Scientist'
+              }, {
+                id: 'Web Developer'
+              }, {
+                id: 'SDE',
+                displayText: 'Software Engineer (SDE)'
               }]}
               selectedOption={jobType}
               updateSelection={setJobType}
@@ -81,7 +112,7 @@ const LandingPage = (_props: LandingPageProps) => {
             <SideFilter
               filterTitle='Location'
               options={[{
-                id: 'Bangalore'
+                id: 'Bengaluru'
               }, {
                 id: 'Gurgaon'
               }, {
@@ -95,11 +126,9 @@ const LandingPage = (_props: LandingPageProps) => {
             <SideFilter
               filterTitle='Seniority Level'
               options={[{
-                id: 'Intern'
-              }, {
                 id: 'Entry Level'
               }, {
-                id: 'Mid Senior'
+                id: 'Associate'
               }]}
               selectedOption={jobLevel}
               updateSelection={setJobLevel}
@@ -111,6 +140,7 @@ const LandingPage = (_props: LandingPageProps) => {
             />
           </div>
         </div>
+        <div ref={pageEndRef}></div>
       </div>
     </div>
   )

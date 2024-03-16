@@ -9,7 +9,7 @@ const JobCards = ({ cardProps }: JobCardsProps) => {
   return (
     <>
       <div className="searched-bar">
-        <div className="searched-show">Showing {cardProps.length} Jobs</div>
+        <div className="searched-show">Showing {cardProps.length}+ Jobs</div>
       </div>
       <div className="job-cards">
         {cardProps.map((cardProp, index) => (
