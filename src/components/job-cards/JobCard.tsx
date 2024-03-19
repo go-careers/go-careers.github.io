@@ -1,10 +1,12 @@
 import '../../styles/styles.scss'
 import '../../styles/jobCard.scss'
+import { recordJobAnalytics } from '../../utils/ApiUtils'
 
 export interface JobCardProps {
   title: string;
   subTitle: string;
   tags?: string[];
+  jobId: string;
   companyIcon: string;
   applicationUrl: string;
 }
@@ -12,12 +14,16 @@ export interface JobCardProps {
 const JobCard = ({
   tags = [],
   title,
+  jobId,
   subTitle,
   companyIcon,
   applicationUrl
 }: JobCardProps) => {
   const startApplication = () => {
-    window.open(applicationUrl, '_blank')
+    recordJobAnalytics({
+      job_id: jobId
+    }).catch(console.error)
+      .finally(() => window.open(applicationUrl, '_blank'))
   }
 
   return (

@@ -6,6 +6,7 @@ export const transformToJobCardsModel = (jobs: GetJobsResponse): JobCardProps[] 
     title: job.title,
     subTitle: job.company,
     tags: job.skills,
+    jobId: job.id,
     companyIcon: job.company_logo,
     applicationUrl: job.job_link
   }))

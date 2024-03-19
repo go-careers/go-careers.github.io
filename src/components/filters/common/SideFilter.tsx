@@ -1,11 +1,13 @@
 import '../../../styles/styles.scss'
 
-interface SideFilterProps {
+export interface SideFilterPropOption {
+  id: string;
+  displayText?: string;
+}
+
+export interface SideFilterProps {
   filterTitle: string;
-  options: Array<{
-    id: string;
-    displayText?: string;
-  }>;
+  options: SideFilterPropOption[];
   selectedOption?: string;
   updateSelection: (selection?: string) => void;
   maxSelection?: number;
