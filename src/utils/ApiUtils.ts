@@ -3,7 +3,7 @@ import { API_ENDPOINTS, API_URL } from '../configs/ApiConfigs'
 interface GetJobsRequest {
   job_filter?: {
     experience_type?: string
-    location?: string
+    location_ids?: string[]
     job_type?: string
   },
   page_no?: number,

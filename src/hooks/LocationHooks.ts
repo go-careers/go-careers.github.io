@@ -4,6 +4,7 @@ import { getAllLocations } from '../utils/ApiUtils'
 
 export const useJobLocations = () => {
   const [locationOptions, setLocationOptions] = useState<SideFilterPropOption[]>()
+  const [locationIdNameMap, setLocationIdNameMap] = useState<Record<string, string>>({})
 
   useEffect(() => { 
     getAllLocations()
@@ -12,9 +13,14 @@ export const useJobLocations = () => {
       .then((locations) => {
         setLocationOptions([])
         locations.forEach((location) => {
+          const locationDisplayText = `${location.city}, ${location.state}, ${location.country}`
+          setLocationIdNameMap((prevMap) => ({
+            ...prevMap,
+            [location.id]: locationDisplayText
+          }))
           setLocationOptions((existingLocations) => [...(existingLocations ?? []), {
-            id: location.city,
-            displayText: `${location.city}, ${location.state}, ${location.country}`
+            id: location.id,
+            displayText: locationDisplayText
           }])
         })})
       .catch((error) => {
@@ -24,6 +30,7 @@ export const useJobLocations = () => {
   }, [])
 
   return {
-    locationOptions
+    locationOptions,
+    locationIdNameMap
   }
 }

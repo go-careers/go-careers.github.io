@@ -1,30 +1,26 @@
 import '../../../styles/styles.scss'
+import { SideFilterPropOption } from './SideFilter'
 
-export interface SideFilterPropOption {
-  id: string;
-  displayText?: string;
-}
 
-export interface SideFilterProps {
+export interface SideFilterMultiselectProps {
   filterTitle: string;
   options: SideFilterPropOption[];
-  selectedOption?: string;
-  updateSelection: (selection?: string) => void;
+  selectedOptions?: string[];
+  updateSelection: React.Dispatch<React.SetStateAction<string[]>>
 }
 
-const SideFilter = ({
+const SideFilterMultiselect = ({
   options,
   filterTitle,
-  selectedOption,
+  selectedOptions,
   updateSelection
-}: SideFilterProps) => {
-
+}: SideFilterMultiselectProps) => {
   // TODO: Currently supports single selection, extend it to support multi select.
   const handleSelection = (event: React.ChangeEvent<HTMLInputElement>) => {
-    if (event.target.checked){
-      updateSelection(event.target.id)
+    if (event.target.checked && !selectedOptions?.includes(event.target.id)){
+      updateSelection((prevSelection) => [...prevSelection, event.target.id])
     } else {
-      updateSelection(undefined)
+      updateSelection((prevSelection) => prevSelection.filter((value) => value != event.target.id))
     }
   }
 
@@ -38,7 +34,7 @@ const SideFilter = ({
               id={option.id}
               type="checkbox"
               onChange={(event) => handleSelection(event)}
-              checked={selectedOption === option.id}
+              checked={selectedOptions?.includes(option.id)}
               className="job-style"
             />
             <label htmlFor={option.id}>{option.displayText ?? option.id}</label>
@@ -49,4 +45,4 @@ const SideFilter = ({
   )
 }
 
-export default SideFilter
+export default SideFilterMultiselect

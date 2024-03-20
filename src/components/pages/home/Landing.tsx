@@ -8,6 +8,8 @@ import { transformToJobCardsModel } from '../../../utils/TransformerUtils'
 import { useInViewTrigger } from '../../../hooks/ScrollHooks'
 import { FIRST_PAGE_NUMBER, DEFAULT_PAGE_SIZE } from '../../../configs/ApiConfigs'
 import { useJobLocations } from '../../../hooks/LocationHooks'
+import SideFilterMultiselect from '../../filters/common/SideFilterMultiselect'
+import { multipleSelectedLocationDisplayText } from '../../../utils/CommonUtils'
 
 interface LandingPageProps {
 }
@@ -15,19 +17,19 @@ interface LandingPageProps {
 {/* TODO: Refactor this shit!!! */}
 const LandingPage = (_props: LandingPageProps) => {
   const [jobType, setJobType] = useState<string>()
-  const [location, setLocation] = useState<string>()
+  const [locations, setLocations] = useState<string[]>([])
   const [jobLevel, setJobLevel] = useState<string>()
   const [jobs, setJobs] = useState<JobCardProps[]>([])
   const [pageNumber, setPageNumber] = useState<number>(FIRST_PAGE_NUMBER)
   const [endOfList, setEndOfList] = useState<boolean>(false)
-  const { locationOptions } = useJobLocations()
+  const { locationOptions, locationIdNameMap } = useJobLocations()
 
   const fetchJobs = (page_no: number = FIRST_PAGE_NUMBER): Promise<GetJobsResponse>  => {
     return getJobs({
       page_no,
       page_size: DEFAULT_PAGE_SIZE,
       job_filter: {
-        location,
+        location_ids: locations,
         job_type: jobType,
         experience_type: jobLevel
       }
@@ -58,7 +60,7 @@ const LandingPage = (_props: LandingPageProps) => {
 
   useEffect(() => {
     addJobsToList(true)
-  }, [jobType, location, jobLevel])
+  }, [jobType, locations, jobLevel])
 
   return (
     <div className="job">
@@ -87,7 +89,7 @@ const LandingPage = (_props: LandingPageProps) => {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
               <circle cx="12" cy="10" r="3" />
             </svg>
-            {location ?? <input type="text" placeholder="All Locations" disabled/>}
+            {!locations.length ? <input type="text" placeholder="All Locations" disabled/>: multipleSelectedLocationDisplayText(locations, locationIdNameMap)}
           </div>
           <button className="search-button" onClick={() => addJobsToList(true)}>Find Job</button>
         </div>
@@ -121,19 +123,11 @@ const LandingPage = (_props: LandingPageProps) => {
               selectedOption={jobLevel}
               updateSelection={setJobLevel}
             />
-            <SideFilter
+            <SideFilterMultiselect
               filterTitle='Location'
-              options={locationOptions ?? [{
-                id: 'Bengaluru'
-              }, {
-                id: 'Gurgaon'
-              }, {
-                id: 'Mumbai'
-              }, {
-                id: 'Hyderabad'
-              }]}
-              selectedOption={location}
-              updateSelection={setLocation}
+              options={locationOptions ?? []}
+              selectedOptions={locations}
+              updateSelection={setLocations}
             />
           </div>
           <div className="searched-jobs">
