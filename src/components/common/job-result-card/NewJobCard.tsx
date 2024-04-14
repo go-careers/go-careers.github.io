@@ -179,7 +179,7 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
 
           <div className=''>
             <a
-              href={`job-info/${jobData?.id}`}
+              href={`#/job-info/${jobData?.id}`}
               target='_blank'
               className='cursor-pointer mt-2 min-w-[120px] smd:w-[80px] h-[29px] box-border bg-[#4869d7] text-white text-[10px] smd:text-xs md:text-sm flex jobCard:hidden items-center justify-center leading-[18px] px-2 py-0 rounded-3xl border-0 '>
               View Job
@@ -210,7 +210,7 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
             </div>
 
             <a
-              href={`job-info/${jobData?.id}`}
+              href={`#/job-info/${jobData?.id}`}
               className='hidden cursor-pointer mt-2 w-100 max-w-[206px] h-[29px] box-border bg-[#4869d7] text-white text-sm jobCard:flex items-center justify-center leading-[18px] px-2 py-0 rounded-3xl border-0 '>
               View Job
             </a>

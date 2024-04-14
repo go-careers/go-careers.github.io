@@ -1,13 +1,9 @@
-import { createBrowserRouter } from "react-router-dom";
-import DashboardLayout from "../Layout/DashboardLayout";
+import { createHashRouter } from "react-router-dom";
 import Layout from "../Layout/Layout";
 import JobDetails from "../pages/JobDetails";
-import PaymentMethod from "../pages/PaymentMethod";
-import Privacy from "../pages/Privacy";
-import Profile from "../pages/Profile";
 import SearchResult from "../pages/SearchResult";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
@@ -21,37 +17,37 @@ const router = createBrowserRouter([
         element: <Home />,
       }, */
       {
-        path: "/",
+        path: "",
         element: <SearchResult />,
       },
       {
-        path: "/search-result",
+        path: "search-result",
         element: <SearchResult />,
       },
       {
-        path: "/job-info/:jobId",
+        path: "job-info/:jobId",
         element: <JobDetails />,
       },
     ],
   },
-  {
-    path: "/dashboard",
-    element: <DashboardLayout />,
-    children: [
-      {
-        path: "profile-details",
-        element: <Profile />,
-      },
-      {
-        path: "payment-methods",
-        element: <PaymentMethod />,
-      },
-      {
-        path: "privacy",
-        element: <Privacy />,
-      },
-    ],
-  },
+  // {
+  //   path: "/dashboard",
+  //   element: <DashboardLayout />,
+  //   children: [
+  //     {
+  //       path: "profile-details",
+  //       element: <Profile />,
+  //     },
+  //     {
+  //       path: "payment-methods",
+  //       element: <PaymentMethod />,
+  //     },
+  //     {
+  //       path: "privacy",
+  //       element: <Privacy />,
+  //     },
+  //   ],
+  // },
 ]);
 
 export default router;
