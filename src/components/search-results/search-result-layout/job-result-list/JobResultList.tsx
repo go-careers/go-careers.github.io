@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useGetAllJobsQuery } from "../../../../../redux/features/queries/Job_APIS";
 import Loader from "../../../Loader/Loader";
@@ -74,6 +74,13 @@ const JobResultList: React.FC = () => {
     },
   }) as unknown as { data: JobResult; isError: boolean; isLoading: boolean }; // Add isError property;
   const totalPages = jobResult?.data?.total_pages || 0;
+
+  // Set to first page if current page is greater than total pages.
+  useEffect(() => {
+    if (currentPage > totalPages) {
+      setCurrentPage(1)
+    }
+  }, [totalPages, currentPage])
 
   const goToPage = (pageNumber: number) => {
     setCurrentPage(pageNumber);
