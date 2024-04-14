@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "icon": "finance.png",
+        "title": "Finance",
+        "postCounts": "1,720 postings"
+    },
+    {
+        "id": 2,
+        "icon": "marketing.png",
+        "title": "Marketing",
+        "postCounts": "1,720 postings"
+    },
+    {
+        "id": 3,
+        "icon": "it-services.png",
+        "title": "IT Services",
+        "postCounts": "1,720 postings"
+    },
+    {
+        "id": 4,
+        "icon": "science.png",
+        "title": "Science",
+        "postCounts": "1,720 postings"
+    },
+    {
+        "id": 5,
+        "icon": "tech.png",
+        "title": "Tech",
+        "postCounts": "1,720 postings"
+    },
+    {
+        "id": 6,
+        "icon": "gastronomy.png",
+        "title": "Gastronomy",
+        "postCounts": "1,720 postings"
+    },
+    {
+        "id": 7,
+        "icon": "sales.png",
+        "title": "Sales",
+        "postCounts": "1,720 postings"
+    }
+]
