@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import React, { Dispatch, SetStateAction, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -22,7 +21,6 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
   const {
     job_type,
     job_location,
-    emp_type: empType,
     yoe,
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } = useSelector((state: any) => state.filters);
@@ -95,23 +93,6 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
     dispatch(
       updateFormState({ ...formData, job_location: selectedLocationValues })
     );
-  };
-
-  const handleSliderChange = (value: number | number[]) => {
-    let minExperience: number;
-    let maxExperience: number;
-
-    if (Array.isArray(value)) {
-      [minExperience, maxExperience] = value;
-    } else {
-      minExperience = maxExperience = value;
-    }
-
-    setFormData((prevFormData) => ({
-      ...prevFormData,
-      min_exp: minExperience,
-      max_exp: maxExperience,
-    }));
   };
 
   const handleYoeChange = (value: number) => {
