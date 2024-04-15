@@ -126,11 +126,11 @@ const JobInfo: React.FC = () => {
                     </small>
                   </div>
 
-                  {/* Experience Type */}
+                  {/* Job Platform Type */}
                   <div>
                     <h4 className='text-[#030303] text-sm font-medium leading-[16px] sm:leading-[18px] smd:leading-[22px] flex items-center gap-x-2'>
                       <BsPersonWorkspace />
-                      {jobDetails?.data?.exp_type}
+                      {jobDetails?.data?.job_platform}
                     </h4>
                   </div>
 
@@ -177,8 +177,8 @@ const JobInfo: React.FC = () => {
           )}
 
           <div className='mb-5 text-sm sm:text-base md:text-lg'>
-            {jobDetails?.data?.description?.about_company.length > 0 &&
-              jobDetails?.data?.description?.about_company}
+            <span>{jobDetails?.data?.description?.about_company.length > 0 &&
+              jobDetails?.data?.description?.about_company}</span>
           </div>
         </div>
 
