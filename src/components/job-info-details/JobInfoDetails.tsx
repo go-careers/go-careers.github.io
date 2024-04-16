@@ -9,7 +9,7 @@ import { GoDotFill } from "react-icons/go";
 import { IoHome } from "react-icons/io5";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link, useParams } from "react-router-dom";
-import { useGetJobsDetailsQuery, getYOEText } from "../../../redux/features/queries/Job_APIS";
+import { useGetJobsDetailsQuery, getYOEText, useCallJobAnalyticsQuery } from "../../../redux/features/queries/Job_APIS";
 
 const JobInfo: React.FC = () => {
   const { jobId } = useParams();
@@ -20,6 +20,10 @@ const JobInfo: React.FC = () => {
     isLoading,
     isError,
   } = useGetJobsDetailsQuery({
+    job_id: jobId,
+  });
+
+  const {} = useCallJobAnalyticsQuery({
     job_id: jobId,
   });
 

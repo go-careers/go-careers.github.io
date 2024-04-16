@@ -55,6 +55,14 @@ export const Job_API = injectEndpoints({
         method: "GET",
       }),
     }),
+    /* Dump Job Analytics API ENDPOINT */
+    callJobAnalytics: builder.query({
+      query: (data) => ({
+        url: "/job-analytics",
+        method: "POST",
+        body: data,
+      }),
+    }),
   }),
 });
 
@@ -64,4 +72,5 @@ export const {
   useGetJobsDetailsQuery,
   useGetAllJobLocationQuery,
   useGetJobsFilterOptionQuery,
+  useCallJobAnalyticsQuery,
 } = Job_API;
