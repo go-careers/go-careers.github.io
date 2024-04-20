@@ -13,6 +13,7 @@ interface JobFilterRequest {
     experience_type: string;
     skills: string[];
     yoe: number;
+    posted_in_days?: number;
   };
 }
 

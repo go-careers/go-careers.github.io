@@ -10,6 +10,7 @@ import {
 import { updateFormState } from "../../../../../redux/features/slices/filters/AdvanceSearchSlice";
 import { updateFilters } from "../../../../../redux/features/slices/filters/JobFilterSlices";
 import { CustomSelect } from "./CustomSelect";
+import { JobPostedInOptions } from "../../../../configs/FilterOptionConfigs";
 
 interface AdvanceSearchProps {
   setShow: Dispatch<SetStateAction<boolean>>;
@@ -22,6 +23,7 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
     job_type,
     job_location,
     yoe,
+    posted_in_days
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } = useSelector((state: any) => state.filters);
 
@@ -51,6 +53,7 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
     job_type: job_type || "",
     yoe: yoe || 0,
     emp_type: "", // Initializing employment type in formData
+    posted_in_days: posted_in_days || undefined
   });
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -299,10 +302,45 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
               </div> */}
             </div>
 
+            {/* Job posted in days filter */}
+            <div className='mt-4'>
+              <label
+                htmlFor='postedInDays'
+                className='text-[#030303] text-sm font-bold leading-[22px]'>
+                Job posted in
+              </label>
+              <div className='relative'>
+                <Select<Option>
+                  styles={{
+                    control: (baseStyles, state) => ({
+                      ...baseStyles,
+                      borderColor: state.isFocused ? "grey" : "transparent",
+                    }),
+                  }}
+                  className='md:w-[280px] w-full h-[42px] text-sm z-10'
+                  id='grid-job-posted-in-days'
+                  placeholder='Select duration of job post'
+                  options={JobPostedInOptions}
+                  value={JobPostedInOptions.find(
+                      (option: { value: string }) =>
+                        option.value === formData.posted_in_days
+                    )}
+                  onChange={(selectedOption) =>
+                    handleChange({
+                      target: {
+                        name: "posted_in_days",
+                        value: selectedOption?.value,
+                      },
+                    } as React.ChangeEvent<HTMLSelectElement>)
+                  }
+                />
+              </div>
+            </div>
+
             {/* Submit btn */}
             <div className='mt-6'>
               <button className='submit-button' type='submit'>
-                Find Job
+                Find Jobs
               </button>
             </div>
           </form>

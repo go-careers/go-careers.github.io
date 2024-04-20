@@ -6,6 +6,7 @@ const initialState = {
   updatedFormData: null,
   exp_type: "",
   yoe: 0,
+  posted_in_days: undefined
 };
 
 //create slice

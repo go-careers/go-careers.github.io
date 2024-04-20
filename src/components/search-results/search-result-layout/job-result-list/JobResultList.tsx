@@ -53,6 +53,7 @@ const JobResultList: React.FC = () => {
     job_type: jobType,
     job_location: jobLocation,
     selectedSkills,
+    posted_in_days: postedInDays,
     yoe,
     emp_type,
   } = useSelector((state: any) => state.filters);
@@ -69,6 +70,7 @@ const JobResultList: React.FC = () => {
       location_ids: jobLocation,
       job_type: jobType,
       skills: selectedSkills,
+      posted_in_days: postedInDays,
       emp_type,
       yoe,
     },
