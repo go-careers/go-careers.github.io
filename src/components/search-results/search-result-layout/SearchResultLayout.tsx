@@ -36,9 +36,8 @@ export default function SearchResultLayout() {
             Filter
           </button>
           <div>
-            <p className='text-[#030303] text-sm leading-[22px]'>Results for</p>
             <h2 className='text-[#030303] hidden md:block text-2xl font-semibold leading-9'>
-              Available Jobs
+              Available jobs
             </h2>
           </div>
         </div>

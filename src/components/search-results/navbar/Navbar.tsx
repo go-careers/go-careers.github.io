@@ -48,13 +48,16 @@ const Navbar: React.FC = () => {
               ))}
             </ul>
             {/* Buttons for Apply Now and Sign In */}
-            <div className='hidden'>
-              <button className='w-[116px] h-[38px] border box-border bg-white text-[#030303] text-sm leading-[18px] px-2 py-0 rounded-3xl border-solid border-[#030303] me-4'>
+            <div>
+              {/* <button className='w-[116px] h-[38px] border box-border bg-white text-[#030303] text-sm leading-[18px] px-2 py-0 rounded-3xl border-solid border-[#030303] me-4'>
                 Apply Now
               </button>
               <button className='w-[108px] h-[38px] box-border bg-[#4869d7] text-white text-sm leading-[18px] px-2 py-0 rounded-3xl border-0'>
                 Sign In
-              </button>
+              </button> */}
+              <span className="text-sm">
+                Empowering job seekers since 2021!
+              </span>
             </div>
           </div>
         </div>

@@ -113,75 +113,17 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
       <div className='md:px-16 px-10 pb-6'>
         <div>
           <h2 className='text-[#030303] text-xl font-medium leading-[30px] mt-[18px]'>
-            Search For Jobs
+            Search for jobs
           </h2>
 
           <form onSubmit={handleSubmit}>
-            {/* Location Field */}
-            <div className='mt-4'>
-              <label
-                htmlFor='location'
-                className='text-[#030303] text-sm font-bold leading-[22px]'>
-                Location
-              </label>
-
-              <div className='relative'>
-                <CustomSelect
-                  placeholder='Where do you want to work?'
-                  multiple
-                  options={jobLocations}
-                  value={jobLocations?.filter((option: { value: unknown }) =>
-                    formData.job_location.includes(option.value)
-                  )}
-                  onChange={handleLocationChange}
-                />
-              </div>
-            </div>
-
-            {/* Job Type Field */}
-            <div className='mt-4'>
-              <label
-                htmlFor='jobType'
-                className='text-[#030303] text-sm font-bold leading-[22px]'>
-                Job Type
-              </label>
-              <div className='relative'>
-                <Select<Option>
-                  styles={{
-                    control: (
-                      baseStyles: CSSObjectWithLabel,
-                      state: { isFocused: unknown }
-                    ) => ({
-                      ...baseStyles,
-                      borderColor: state.isFocused ? "grey" : "transparent",
-                    }),
-                  }}
-                  className='md:w-[280px] w-full h-[42px] text-sm z-30'
-                  id='grid-job-type'
-                  placeholder='Select job type'
-                  options={jobTypeOptions}
-                  value={jobTypeOptions?.find(
-                    (option: { value: unknown }) =>
-                      option.value === formData.job_type
-                  )}
-                  onChange={(selectedOption) =>
-                    handleChange({
-                      target: {
-                        name: "job_type",
-                        value: selectedOption?.value,
-                      },
-                    } as React.ChangeEvent<HTMLSelectElement>)
-                  }
-                />
-              </div>
-            </div>
 
             {/* Employment Type Field */}
             <div className='mt-4'>
               <label
                 htmlFor='employmentType'
                 className='text-[#030303] text-sm font-bold leading-[22px]'>
-                Employment Type
+                Employment type
               </label>
               <div className='relative'>
                 <Select<Option>
@@ -218,11 +160,69 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
                 />
               </div>
             </div>
+            {/* Location Field */}
+            <div className='mt-4'>
+              <label
+                htmlFor='location'
+                className='text-[#030303] text-sm font-bold leading-[22px]'>
+                Location
+              </label>
+
+              <div className='relative'>
+                <CustomSelect
+                  placeholder='Where do you want to work?'
+                  multiple
+                  options={jobLocations}
+                  value={jobLocations?.filter((option: { value: unknown }) =>
+                    formData.job_location.includes(option.value)
+                  )}
+                  onChange={handleLocationChange}
+                />
+              </div>
+            </div>
+
+            {/* Job Type Field */}
+            <div className='mt-4'>
+              <label
+                htmlFor='jobType'
+                className='text-[#030303] text-sm font-bold leading-[22px]'>
+                Job type
+              </label>
+              <div className='relative'>
+                <Select<Option>
+                  styles={{
+                    control: (
+                      baseStyles: CSSObjectWithLabel,
+                      state: { isFocused: unknown }
+                    ) => ({
+                      ...baseStyles,
+                      borderColor: state.isFocused ? "grey" : "transparent",
+                    }),
+                  }}
+                  className='md:w-[280px] w-full h-[42px] text-sm z-30'
+                  id='grid-job-type'
+                  placeholder='Select job type'
+                  options={jobTypeOptions}
+                  value={jobTypeOptions?.find(
+                    (option: { value: unknown }) =>
+                      option.value === formData.job_type
+                  )}
+                  onChange={(selectedOption) =>
+                    handleChange({
+                      target: {
+                        name: "job_type",
+                        value: selectedOption?.value,
+                      },
+                    } as React.ChangeEvent<HTMLSelectElement>)
+                  }
+                />
+              </div>
+            </div>
 
             {/* Min and Max Experience Level */}
             <div className='mt-4 md:w-[280px] w-full'>
               <label className='text-[#030303] me-2 text-sm font-bold leading-[22px]'>
-                Experience In Years
+                Experience in years
               </label>
               <div className='relative'>
                 <input
@@ -317,7 +317,7 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
                       borderColor: state.isFocused ? "grey" : "transparent",
                     }),
                   }}
-                  className='md:w-[280px] w-full h-[42px] text-sm z-10'
+                  className='md:w-[280px] w-full h-[42px] text-sm z-5'
                   id='grid-job-posted-in-days'
                   placeholder='Select duration of job post'
                   options={JobPostedInOptions}
@@ -340,7 +340,7 @@ const AdvanceSearch: React.FC<AdvanceSearchProps> = ({ setShow }) => {
             {/* Submit btn */}
             <div className='mt-6'>
               <button className='submit-button' type='submit'>
-                Find Jobs
+                Find jobs
               </button>
             </div>
           </form>
