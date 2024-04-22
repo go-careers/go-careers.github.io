@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
           <span className='text-[#030303] w-[170px] text-2xl font-semibold leading-9'>
             {/* Link to the homepage */}
             <div className='w-[60px] h-[60px]'>
-              <Link to='/'>
+              <Link to='/' >
                 <img src={Logo} className='w-full h-full' alt='Logo' />
               </Link>
             </div>
