@@ -82,7 +82,7 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
     return (
         // New Version Card
         <div className="h-fit bg-white shadow-[0px_2px_10px_rgba(3,3,3,0.1)] rounded-3xl mt-6">
-            <div className="grid grid-cols-4 items-center gap-x-3 smd:gap-x-4 md-gap-x-8 lg:gap-x-12 px-1 py-2 smd:px-2 md:px-3  md:py-3">
+            <div className="grid grid-cols-4 items-center gap-x-3 smd:gap-x-4 md-gap-x-8 px-1 py-2 smd:px-2 md:px-3 md:py-3">
                 {/* left part */}
                 <div className="w-[50px] sm:w-[70px] mt-2 smd:mt-0 smd:w-[100px] md:w-[120px] mx-auto">
                     <img
@@ -122,10 +122,10 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
                     </div>
 
                     <div className="mt-2 md:mt-4">
-                        <h4 className="text-[#030303] text-xs sm:text-sm font-medium leading-[16px] sm:leading-[18px] smd:leading-[22px] flex items-center gap-x-1">
+                        <div className="text-[#030303] text-xs sm:text-sm font-medium leading-[16px] sm:leading-[18px] smd:leading-[22px] flex items-center gap-x-1">
                             <MdLocationOn />
                             {jobData?.job_location}
-                        </h4>
+                        </div>
                         <small className="text-[#030303] text-xs sm:text-sm font-light leading-[16px] sm:leading-[18px] smd:leading-[22px]">
                             {jobData?.job_type}
                         </small>
@@ -152,24 +152,28 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
                         </small>
                     </div>
 
-                    <div className="flex items-center flex-wrap gap-y-2 gap-x-1 mt-1 smd:mt-2 md:mt-3">
+                    <div className="flex items-center flex-wrap gap-2 mt-2">
                         {(showAllSkills
                             ? jobData?.skills
                             : jobData?.skills?.slice(0, 2)
                         ).map((skill, i) => (
-                            <button
+                            <span
                                 key={i}
-                                className="flex items-center border box-border bg-white text-[#030303] text-[10px] smd:text-[12px] leading-[12px] sm:leading-[14px] smd:leading-[16px] md:leading-[18px] py-1 px-1 md:px-2 rounded-3xl border-solid border-[#030303] font-normal gap-x-1"
+                                className="flex items-center border box-border bg-white text-gray-800 text-[10px] smd:text-[12px] py-1 px-2 rounded-2xl border-solid border-gray-800 font-normal hover:cursor-pointer hover:text-black hover:scale-[1.02] transition-all ease-in-out duration-200"
                             >
-                                {skill}
-                            </button>
+                                {skill &&
+                                    (skill as string)
+                                        ?.slice(0, 1)
+                                        ?.toUpperCase() +
+                                        (skill as string)?.slice(1)}
+                            </span>
                         ))}
 
                         {jobData?.skills?.length > 2 &&
                             (showAllSkills ? (
                                 <button
                                     onClick={toggleSkillsVisibility}
-                                    className="flex items-center box-border bg-white text-[#030303] text-[10px] smd:text-[12px] leading-[12px] sm:leading-[14px] smd:leading-[16px] md:leading-[18px] py-1 px-1 smd:px-2 md:px-3 rounded-3xl border-solid border-[#030303] font-medium -gap-x-1"
+                                    className="text-[10px] smd:text-[12px] font-medium text-black hover:text-gray-600 "
                                 >
                                     Show Less
                                 </button>
@@ -179,7 +183,7 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
                                         onClick={toggleSkillsVisibility}
                                         onMouseEnter={handleMouseEnter}
                                         onMouseLeave={handleMouseLeave}
-                                        className="flex items-center box-border bg-white text-[#030303] text-[10px] smd:text-[12px] leading-[12px] sm:leading-[14px] smd:leading-[16px] md:leading-[18px] py-1 px-1 smd:px-2 md:px-3 rounded-3xl border-solid border-[#030303] font-medium -gap-x-1"
+                                        className="text-[10px] smd:text-[12px] font-medium text-black hover:text-gray-600 "
                                     >
                                         More...
                                     </button>
@@ -207,7 +211,7 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
                         <a
                             href={`#/job-info/${jobData?.id}`}
                             target="_blank"
-                            className="cursor-pointer mt-2 min-w-[120px] smd:w-[80px] h-[29px] box-border bg-[#4869d7] text-white text-[10px] smd:text-xs md:text-sm flex jobCard:hidden items-center justify-center leading-[18px] px-2 py-0 rounded-3xl border-0 "
+                            className="cursor-pointer mt-2 min-w-[120px] smd:w-[80px] h-[32px] box-border bg-[#4869d7] hover:bg-[#5774d5] transition-all ease-in-out duration-200 text-white text-[10px] smd:text-xs md:text-sm flex jobCard:hidden items-center justify-center leading-[18px] px-2 py-0 rounded-3xl border-0 "
                         >
                             View Job
                         </a>
@@ -215,21 +219,20 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
                 </div>
 
                 {/* right part */}
-                <div className="h-full hidden jobCard:flex flex-col justify-start jobCard:justify-between items-end">
+                <div className="h-full w-full hidden jobCard:flex flex-col justify-start jobCard:justify-between items-end">
                     <div className="flex items-center gap-x-2">
                         <FaBriefcase />
-
                         <span className="text-xs smd:text-sm md:text-[14px] font-medium">
                             {getYOEText(jobData?.min_exp, jobData?.max_exp)}
                         </span>
                     </div>
-                    {/* bottom part */}
 
-                    <div className="w-100">
+                    {/* bottom part */}
+                    <div className="w-full flex flex-col items-end justify-center">
                         <div className="hidden job_posted_at:flex justify-center gap-x-1 items-center">
                             <FaClock />
                             <small>
-                                <span className="text-xs uppercase">
+                                <span className="text-xs whitespace-nowrap uppercase ml-1">
                                     {/* {moment(jobData?.posted_at).format("lll")} */}
                                     posted{" "}
                                     {moment(jobData?.posted_at)
@@ -241,7 +244,7 @@ const NewJobCard: React.FC<JobCardProps> = ({ jobData }) => {
 
                         <a
                             href={`#/job-info/${jobData?.id}`}
-                            className="hidden cursor-pointer mt-2 w-100 max-w-[206px] h-[29px] box-border bg-[#4869d7] text-white text-sm jobCard:flex items-center justify-center leading-[18px] px-2 py-0 rounded-3xl border-0 "
+                            className="hidden cursor-pointer mt-2 w-full min-w-[100px] max-w-[150px] h-[32px] box-border bg-[#4869d7] hover:bg-[#5774d5] transition-all ease-in-out duration-200 text-white text-sm jobCard:flex items-center justify-center leading-[18px] px-2 py-0 rounded-3xl border-0 "
                         >
                             View Job
                         </a>
