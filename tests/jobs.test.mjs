@@ -4,7 +4,10 @@ import { mkdtemp, readFile, rm, access } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { columns, parseCSV, readJobs, activeJobs } from "../scripts/jobs.mjs";
-import { build } from "../scripts/build.mjs";
+import { build as buildSite } from "../scripts/build.mjs";
+
+const companyAudit = { companies: [{ company: 'Example', eligible: true, stage: 'Seed', ownership: { status: 'private', independent: true, checked_at: '2026-11-16', sources: ['https://example.com/about'] } }] };
+const build = options => buildSite({ companyAudit, ...options });
 
 const row = {
   id: "frontend-1",
@@ -22,6 +25,9 @@ const row = {
   expiry_date: "2026-11-30",
   description: "A useful role.",
   is_demo: "false",
+  funding_stage: "Seed",
+  funding_source_url: "https://example.com/seed",
+  funding_checked_at: "2026-11-16",
 };
 const csv = (...rows) =>
   [
@@ -55,7 +61,7 @@ test("headers, required values, row widths and duplicate IDs are validated", () 
     () => readJobs(csv({ ...row, title: "" })),
     /title is required/,
   );
-  assert.throws(() => readJobs(csv(row) + ",extra"), /expected 15 cells/);
+  assert.throws(() => readJobs(csv(row) + ",extra"), /expected 18 cells/);
 });
 test("unsafe URLs, path IDs, dates and reversed experience ranges are rejected", () => {
   for (const apply_url of [
@@ -100,6 +106,24 @@ test("expiry is inclusive through its UTC date; future listings remain hidden", 
     activeJobs(jobs, "2026-11-16").map((j) => j.id),
     ["frontend-1", "today"],
   );
+});
+test("unknown posting date requires verification and stays undated in the rendered listing", async () => {
+  const unknown = {...row,posted_date:'',work_mode:'Not specified'};
+  assert.throws(() => readJobs(csv(unknown)), /requires verified_date/);
+  const [header,line] = csv(unknown).split('\r\n');
+  const source = `${header},verified_date\r\n${line},2026-11-16`;
+  const jobs = readJobs(source);
+  assert.equal(activeJobs(jobs,'2026-11-16').length,1);
+  const output = await mkdtemp(join(tmpdir(),'gocareers-undated-'));
+  try {
+    await build({output,csv:source,today:'2026-11-16'});
+    const detail = await readFile(join(output,'jobs/frontend-1/index.html'),'utf8');
+    assert.ok(!detail.includes('<dt>Posted</dt>'));
+    assert.ok(detail.includes('<dt>Listing checked</dt>'));
+    const index = await readFile(join(output,'index.html'),'utf8');
+    const card = index.match(/<article class="job-card"[\s\S]*?<\/article>/)[0];
+    assert.ok(!card.includes('<span>Not specified</span>'));
+  } finally { await rm(output,{recursive:true,force:true}); }
 });
 test("real builds create static detail pages, canonical URLs and sitemap while escaping CSV content", async () => {
   const output = await mkdtemp(join(tmpdir(), "gocareers-test-"));
@@ -192,4 +216,39 @@ test('unspecified and open-ended experience is preserved without invented limits
     assert.match(html, /5\+ years/);
     assert.match(html, /data-min="5" data-max=""/);
   } finally { await rm(output, { recursive: true, force: true }); }
+});
+
+test('startup eligibility excludes later and unknown funding stages and requires evidence', () => {
+  for (const funding_stage of ['Series D', 'Series E', 'Series F', 'Unknown', ''])
+    assert.throws(() => readJobs(csv({ ...row, funding_stage })), /funding_stage/);
+  for (const funding_stage of ['Bootstrapped', 'Pre-seed', 'Seed', 'Series A', 'Series B', 'Series C'])
+    assert.equal(readJobs(csv({ ...row, funding_stage }))[0].funding_stage, funding_stage);
+  for (const funding_source_url of ['', 'javascript:alert(1)', 'https://user:pass@example.com'])
+    assert.throws(() => readJobs(csv({ ...row, funding_source_url })), /funding_source_url/);
+  assert.throws(() => readJobs(csv({ ...row, funding_checked_at: '2026-02-30' })), /funding_checked_at/);
+});
+
+test('build blocks public, acquired and unaudited employers before replacing output', async () => {
+  const output = await mkdtemp(join(tmpdir(), 'gocareers-ownership-'));
+  const good = companyAudit.companies[0];
+  try {
+    await build({output, csv: csv(row), today: '2026-11-16'});
+    const before = await readFile(join(output, 'index.html'), 'utf8');
+    for (const companies of [
+      [],
+      [{...good, ownership: undefined}],
+      [{...good, eligible: false}],
+      [{...good, ownership: {...good.ownership, status: 'public'}}],
+      [{...good, ownership: {...good.ownership, status: 'unknown'}}],
+      [{...good, ownership: {...good.ownership, independent: false}}],
+      [{...good, ownership: {...good.ownership, sources: []}}],
+      [{...good, ownership: {...good.ownership, checked_at: '2026-02-30'}}],
+      [{...good, ownership: {...good.ownership, sources: ['http://example.com']}}],
+      [{...good, stage: 'Series D'}],
+      [{...good, stage: 'Series B'}],
+    ]) {
+      await assert.rejects(build({output, csv: csv(row), companyAudit: {companies}, today: '2026-11-16'}), /privately held|ownership|funding stage/);
+      assert.equal(await readFile(join(output, 'index.html'), 'utf8'), before);
+    }
+  } finally { await rm(output, {recursive: true, force: true}); }
 });

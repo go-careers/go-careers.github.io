@@ -1,0 +1,791 @@
+{
+  "policy": "Only independent, privately held startups through Series C inclusive. Exclude publicly traded companies, acquired subsidiaries, Series D or later, and unknown ownership/stages. Minority investments by public companies do not make a startup public. Funding and ownership are separately researched; recheck both before adding or updating listings.",
+  "checked_at": "2026-11-16",
+  "companies": [
+    {
+      "company": "Onehouse",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "2024-06-26",
+      "source_url": "https://www.onehouse.ai/blog/series-b",
+      "additional_sources": [
+        "https://www.onehouse.ai/in-the-news",
+        "https://www.craftventures.com/articles/why-we-invested-in-onehouse"
+      ],
+      "note": "Latest publicly disclosed round found after checking company news and later-round searches; undisclosed financing cannot be ruled out.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/onehousehq"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "JumpCloud",
+      "stage": "Series F",
+      "eligible": false,
+      "round_date": "2021-10-19",
+      "source_url": "https://jumpcloud.com/press/seriesFclose",
+      "note": "Already beyond the Series C ceiling."
+    },
+    {
+      "company": "Mindtickle",
+      "stage": "Series E",
+      "eligible": false,
+      "round_date": "2021-08-05",
+      "source_url": "https://go.mindtickle.com/rs/270-YTL-592/images/Aug%20%2721%20NL.pdf",
+      "note": "Company newsletter confirms Series E; beyond the Series C ceiling."
+    },
+    {
+      "company": "Drivetrain",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "2022-10-19",
+      "source_url": "https://www.drivetrain.ai/post/drivetrain-raises-15m-to-help-companies-drive-predictable-growth",
+      "additional_sources": [
+        "https://jungle.vc/portfolio",
+        "https://www.crunchbase.com/organization/drivetrain"
+      ],
+      "checked_at": "2026-11-16",
+      "note": "Company announcement confirms $15M funding; investor and funding profiles identify Series A. No later disclosed round or acquisition found.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/drivetrainai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Hevo Data",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "2021-12-17",
+      "source_url": "https://hevodata.com/blog/series-b-funding/",
+      "additional_sources": [
+        "https://jobs.lever.co/hevodata",
+        "https://www.crunchbase.com/organization/hevodata"
+      ],
+      "checked_at": "2026-11-16",
+      "note": "Latest disclosed round found is Series B; checked for later rounds and acquisition. Refers to Hevo Data, not the unrelated HEVO electric vehicle company.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.nasdaqprivatemarket.com/company/hevo/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Sarvam AI",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.sarvam.ai/announcing-series-b",
+      "homepage": "https://www.sarvam.ai",
+      "category": "Foundation models and enterprise AI",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.barandbench.com/dealstreet/trilegal-tta-cyril-amarchand-mangaldas-act-on-sarvam-ai-300-million-series-b-fundraise"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Cohere Health",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://www.coherehealth.com/news/cohere-health-90m-series-c-ai-platform-expansion",
+      "homepage": "https://www.coherehealth.com",
+      "category": "AI for healthcare authorization",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.nasdaqprivatemarket.com/company/cohere-health/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "CodeRabbit",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://www.coderabbit.ai/newsroom/coderabbit-series-c-agentic-change-management",
+      "homepage": "https://www.coderabbit.ai",
+      "category": "AI code review",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.caplight.com/company/coderabbit"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Composio",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://composio.dev/content/enterprise-ai-agents-evaluation-criteria",
+      "homepage": "https://composio.dev",
+      "category": "Tools and infrastructure for AI agents",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://lsip.com/company/composio-2/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Smallest.ai",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://inc42.com/company/smallest-ai/funding/",
+      "homepage": "https://smallest.ai",
+      "category": "Speech models and voice agents",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.caplight.com/company/smallestai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "DevRev",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://devrev.ai/blog/devrev-raises-series-a",
+      "homepage": "https://devrev.ai",
+      "category": "Enterprise AI and knowledge graphs",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.nasdaqprivatemarket.com/company/devrev/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Emergent",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://www.prnewswire.com/news-releases/emergent-raises-series-c-at-1-5-billion-valuation-becomes-unicorn-in-a-year-of-launch-302828600.html",
+      "homepage": "https://emergent.sh",
+      "category": "AI software development agents",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://notice.co/c/emergent-sh"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Endor Labs",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.endorlabs.com/about",
+      "homepage": "https://www.endorlabs.com",
+      "category": "Agentic application security",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/endorlabs"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Enterpret",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://www.enterpret.com/blog/enterpret-series-a",
+      "homepage": "https://www.enterpret.com",
+      "category": "AI customer intelligence",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.caplight.com/company/enterpret",
+          "https://www.canaan.com/companies/enterpret"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry. GetLatka describes an acquisition without identifying a buyer or deal date; this was not corroborated by the current company/investor material and private-market profiles. Retained based on those stronger sources; revisit if a named transaction is reported.",
+        "conflicting_source": "https://getlatka.com/companies/enterpret.com"
+      }
+    },
+    {
+      "company": "Skild AI",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://skild.ai/blogs/series-c",
+      "homepage": "https://www.skild.ai",
+      "category": "Robotics foundation models",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.nasdaqprivatemarket.com/company/skild-ai/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "TrueFoundry",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://www.truefoundry.com/blog/announcing-our-19m-series-a-scaling-ai-deployment-with-autonomous-agents-on-autopilot",
+      "homepage": "https://www.truefoundry.com",
+      "category": "AI deployment infrastructure",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://pitchbook.com/profiles/company/491274-10"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Acceldata",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://www.acceldata.io/newsroom/acceldata-significant-corporate-momentum-record-revenue-customer-growth-series-c-funding-key-executive-hires",
+      "homepage": "https://www.acceldata.io",
+      "category": "Data observability and AI infrastructure",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/acceldata"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Neuron7",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.neuron7.ai/about-us",
+      "homepage": "https://www.neuron7.ai",
+      "category": "AI agents for enterprise service",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.nasdaqprivatemarket.com/company/neuron7/",
+          "https://www.neuron7.ai/about-us"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry. GetLatka describes an acquisition without identifying a buyer or deal date; this was not corroborated by the current company/investor material and private-market profiles. Retained based on those stronger sources; revisit if a named transaction is reported.",
+        "conflicting_source": "https://getlatka.com/companies/neuron7.ai"
+      }
+    },
+    {
+      "company": "Atlan",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://atlan.com/newsroom/",
+      "homepage": "https://atlan.com",
+      "category": "Data and AI governance infrastructure",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://forgeglobal.com/atlan_ipo/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Outmarket AI",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.prnewswire.com/news-releases/outmarket-ai-raises-34-5m-series-b-to-solidify-position-as-the-1-ai-platform-for-insurance-302891583.html",
+      "homepage": "https://www.outmarket.ai",
+      "category": "Insurance AI agents",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://coverager.com/company/outmarket-ai/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Skan AI",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://www.prnewswire.com/news-releases/skan-ai-raises-63-million-to-give-enterprise-ai-the-context-its-missing-how-work-actually-gets-done-302849114.html",
+      "homepage": "https://www.skan.ai",
+      "category": "Enterprise process intelligence and agent context",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/skan-ai/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Lyzr AI",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.lyzr.ai/resources/newsroom/",
+      "homepage": "https://www.lyzr.ai",
+      "category": "Enterprise AI agent platform",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "additional_sources": [
+        "https://www.cbinsights.com/company/lyzr/financials"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/lyzr-platform"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Sprinto",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://sprinto.com/blog/sprinto-series-b/",
+      "homepage": "https://sprinto.com",
+      "category": "AI-enabled compliance automation",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/sprinto-com"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "CloudSEK",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.cloudsek.com/about-us",
+      "homepage": "https://www.cloudsek.com",
+      "category": "AI cyber threat intelligence",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/cloudsek"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Bureau",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://bureau.id/resources/blog/bureau-raises-30m-series-b-as-global-fraud-losses-hit-486b",
+      "homepage": "https://www.bureau.id",
+      "category": "AI fraud and identity intelligence",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.nasdaqprivatemarket.com/company/bureau/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Signzy",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://inc42.com/company/signzy/",
+      "homepage": "https://www.signzy.com",
+      "category": "AI identity verification and digital banking",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/teamsignzy"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Testsigma",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://www.cbinsights.com/company/testsigma-technologies/financials",
+      "homepage": "https://testsigma.com",
+      "category": "AI test automation",
+      "checked_at": "2026-11-16",
+      "note": "Latest named stage found: Series A. A later September 2025 venture investment was reported without a series label; no Series D or later round found. Recheck before future refreshes.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://pitchbook.com/profiles/company/310529-26"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry. PitchBook identifies private-equity backing, which alone does not establish a controlling acquisition; latest disclosed series caveat remains in the funding note."
+      }
+    },
+    {
+      "company": "Nurix AI",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://inc42.com/buzz/prosus-joins-mukesh-bansal-led-nurix-ais-cap-table-with-fresh-capital-infusion/",
+      "homepage": "https://www.nurix.ai",
+      "category": "Enterprise voice and workflow AI",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/nuplayai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry. Now branded NuPlay AI; its purchase of Verloop.io does not mean NuPlay itself was acquired."
+      }
+    },
+    {
+      "company": "Ema",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/23/3367506/0/en/ema-raises-77m-series-b-to-put-ai-employees-to-work-across-the-enterprise.html",
+      "homepage": "https://www.ema.ai",
+      "category": "Enterprise AI employees",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/ema-unlimited"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "EnCharge AI",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.enchargeai.com/news-and-publications",
+      "homepage": "https://www.enchargeai.com",
+      "category": "AI inference compute and software",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/encharge-ai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Cyble",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://cyble.com/press/cyble-secures-24m-in-series-b-funding/",
+      "homepage": "https://cyble.com",
+      "category": "AI-native cyber threat intelligence",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.nasdaqprivatemarket.com/company/cyble/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Observe.AI",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://www.observe.ai/press-releases/observe-ai-raises-125m-series-c-to-usher-in-ai-empowered-era-for-contact-centers",
+      "homepage": "https://www.observe.ai",
+      "category": "Contact-center AI agents",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://forgeglobal.com/observe-ai_ipo/"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Bolna",
+      "stage": "Seed",
+      "eligible": true,
+      "source_url": "https://www.bolna.ai/newsroom/bolna-bags-63-million-seed-funding-led-by-general-catalyst-to-build-indias-voice-ai-platform",
+      "homepage": "https://www.bolna.ai",
+      "category": "Multilingual voice AI agents",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/bolna-ai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Vahan AI",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://inc42.com/company/vahan-1/funding/",
+      "homepage": "https://www.vahan.ai",
+      "category": "AI recruitment platform",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://in.linkedin.com/company/vahan-inc-"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Atomicwork",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://www.atomicwork.com/company/newsroom",
+      "homepage": "https://www.atomicwork.com",
+      "category": "AI service management",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://mc.linkedin.com/company/atomicworkhq"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "SiMa.ai",
+      "stage": "Series C",
+      "eligible": true,
+      "source_url": "https://sima.ai/press-release/sima-ai-reaches-1-45b-valuation-with-500-million-in-total-funding-to-scale-physical-ai-in-humanoids-automotive-and-drones/",
+      "homepage": "https://sima.ai",
+      "category": "Physical AI and embedded ML software",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.caplight.com/company/simaai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Simplismart",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://simplismart.ai/blog/nvidia-backs-our-14m-series-b",
+      "homepage": "https://simplismart.ai",
+      "category": "AI inference infrastructure",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found in this cross-source search; checked for subsequent rounds and acquisition. Employer/investor announcements take precedence over stale job-board company profiles.",
+      "additional_sources": [
+        "https://titancapital.vc/blogs/simplismart"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://in.linkedin.com/company/simplismart"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Fibr AI",
+      "stage": "Seed",
+      "eligible": true,
+      "source_url": "https://newsletter.fibr.ai/p/big-announcement-fibr-ai-secures-7-5-million-in-seed-funding-to-build-the-agentic-web-experience-pla",
+      "homepage": "https://fibr.ai",
+      "category": "AI agents for web personalization",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found in this cross-source search; checked for subsequent rounds and acquisition. Employer/investor announcements take precedence over stale job-board company profiles.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://in.linkedin.com/company/fibrai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Zenskar",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://zenskar.notion.site/Staff-Engineer-GenAI-33340c1b83f1802ab372d09925b4ff1f",
+      "homepage": "https://www.zenskar.com",
+      "category": "AI revenue automation",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found in this cross-source search; checked for subsequent rounds and acquisition. Employer/investor announcements take precedence over stale job-board company profiles.",
+      "additional_sources": [
+        "https://wellfound.com/company/zenskar"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://www.linkedin.com/company/zenskar"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "OrbitShift AI",
+      "stage": "Seed",
+      "eligible": true,
+      "source_url": "https://orbitshift.ai/resources/news/orbitshift-an-ai-native-sales-operating-system-raises-7m-in-a-seed-funding",
+      "homepage": "https://orbitshift.ai",
+      "category": "Agentic AI for enterprise sales",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found in this cross-source search; checked for subsequent rounds and acquisition. Employer/investor announcements take precedence over stale job-board company profiles.",
+      "additional_sources": [
+        "https://orbitshift.ai/resources/news",
+        "https://www.cbinsights.com/company/orbitshift/financials"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://gm.linkedin.com/company/orbitshift-ai"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Prodigal",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://www.prodigaltech.com/blog/our-series-a",
+      "homepage": "https://www.prodigaltech.com",
+      "category": "AI agents for consumer finance",
+      "checked_at": "2026-11-16",
+      "note": "Latest publicly named funding stage found in this cross-source search; checked for subsequent rounds and acquisition. Employer/investor announcements take precedence over stale job-board company profiles.",
+      "additional_sources": [
+        "https://www.cbinsights.com/company/prodigal-technologies/financials"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-16",
+        "sources": [
+          "https://in.linkedin.com/company/prodigaltech"
+        ],
+        "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    }
+  ]
+}

@@ -1,19 +1,84 @@
 (() => {
   const byId = (id) => document.getElementById(id);
   const today = () => new Date().toISOString().slice(0, 10);
+  const savedKey = 'go-careers:saved:v1';
+  const decodeSaved = value => {
+    try {
+      const ids = JSON.parse(value || '[]');
+      return new Set(Array.isArray(ids) ? ids.filter(id => typeof id === 'string' && /^[a-z0-9-]{1,100}$/.test(id)).slice(0, 1000) : []);
+    } catch { return new Set(); }
+  };
+  let saved = new Set(), storageAvailable = true, onSavedChange = () => {}, statusTimer;
+  try { saved = decodeSaved(localStorage.getItem(savedKey)); }
+  catch { storageAvailable = false; }
+  const saveButtons = [...document.querySelectorAll('[data-save-id]')];
+  function syncSavedButtons() {
+    for (const button of saveButtons) {
+      const selected = saved.has(button.dataset.saveId);
+      button.hidden = false;
+      button.setAttribute('aria-pressed', String(selected));
+      button.setAttribute('aria-label', `${selected ? 'Unsave' : 'Save'} ${button.dataset.saveTitle}`);
+      button.querySelector('.save-label').textContent = selected ? 'Saved job' : 'Save job';
+    }
+  }
+  syncSavedButtons();
+  document.querySelectorAll('.saved-nav').forEach(link => { link.hidden = false; });
+  for (const button of saveButtons) button.addEventListener('click', () => {
+    const id = button.dataset.saveId;
+    const removing = saved.has(id);
+    if (removing) saved.delete(id); else saved.add(id);
+    try { localStorage.setItem(savedKey, JSON.stringify([...saved])); storageAvailable = true; }
+    catch { storageAvailable = false; }
+    syncSavedButtons();
+    onSavedChange();
+    const card = button.closest('.job-card');
+    if (card) {
+      const nextFocus = card.hidden ? document.querySelector('.job-card:not([hidden]) [data-save-id]') || byId('saved-view') : button;
+      nextFocus.focus({preventScroll: true});
+    }
+    clearTimeout(statusTimer);
+    byId('save-status').textContent = removing ? 'Job removed from saved jobs.' : storageAvailable ? 'Job saved on this browser.' : 'Saved for this visit. Browser storage is unavailable.';
+    statusTimer = setTimeout(() => { byId('save-status').textContent = ''; }, 4500);
+  });
+  window.addEventListener('storage', event => {
+    if (event.key !== savedKey && event.key !== null) return;
+    saved = decodeSaved(event.newValue);
+    syncSavedButtons();
+    onSavedChange();
+  });
+  const backTop = byId('back-top');
+  const syncBackTop = () => { backTop.hidden = scrollY < 900; };
+  window.addEventListener('scroll', syncBackTop, {passive: true});
+  syncBackTop();
+  backTop.addEventListener('click', () => {
+    window.scrollTo({top: 0, behavior: 'auto'});
+    (byId('search') || document.querySelector('.back-link'))?.focus({preventScroll: true});
+  });
   const share = byId("share");
   if (share) {
     share.hidden = false;
     share.addEventListener("click", async () => {
+      const sharedURL = new URL(location.href);
+      sharedURL.searchParams.delete('return');
       try {
-        await navigator.clipboard.writeText(location.href);
+        await navigator.clipboard.writeText(sharedURL.href);
         byId("share-status").textContent = "Job link copied.";
       } catch {
-        byId("share-status").textContent = `Copy this link: ${location.href}`;
+        byId("share-status").textContent = `Copy this link: ${sharedURL.href}`;
       }
     });
   }
   const detail = document.querySelector(".detail-page");
+  if (detail) {
+    const returnQuery = new URLSearchParams(location.search).get("return");
+    if (returnQuery?.startsWith("?")) {
+      const back = detail.querySelector(".back-link");
+      const url = new URL(back.href);
+      url.search = returnQuery;
+      back.href = url.href;
+      back.textContent = "← Back to your results";
+    }
+  }
   const checkDetail = () => {
     if (detail?.dataset.expiry && detail.dataset.expiry < today()) {
       byId("closed-notice").hidden = false;
@@ -29,19 +94,39 @@
   const cards = [...list.querySelectorAll(".job-card")];
   const controls = {
     q: byId("search"),
+    company: byId("company"),
     location: byId("location"),
     mode: byId("mode"),
     type: byId("type"),
     experience: byId("experience"),
     sort: byId("sort"),
   };
-  const pageSize = 6;
+  const pageSize = 20;
   let page = 1;
+  let savedOnly = false;
+  const narrow = matchMedia("(max-width: 760px)");
+  const filterToggle = byId("filter-toggle");
+  function syncFilterPanel() {
+    byId("filters").hidden = narrow.matches && filterToggle.getAttribute("aria-expanded") !== "true";
+    byId("filter-toggle-bar").hidden = !narrow.matches;
+  }
+  filterToggle.addEventListener("click", () => {
+    filterToggle.setAttribute("aria-expanded", String(filterToggle.getAttribute("aria-expanded") !== "true"));
+    syncFilterPanel();
+  });
+  narrow.addEventListener("change", syncFilterPanel);
+  byId('filters-done').addEventListener('click', () => {
+    filterToggle.setAttribute('aria-expanded', 'false');
+    syncFilterPanel();
+    filterToggle.focus({preventScroll: true});
+    byId('view-bar').scrollIntoView({block: 'start'});
+  });
   const active = (card) =>
     card.dataset.posted <= today() &&
     (!card.dataset.expiry || card.dataset.expiry >= today());
   function readURL() {
     const params = new URLSearchParams(location.search);
+    savedOnly = params.get('saved') === '1';
     for (const [key, input] of Object.entries(controls)) {
       const value = params.get(key) || (key === "sort" ? "newest" : "");
       input.value =
@@ -64,6 +149,8 @@
     }
     if (page > 1) url.searchParams.set("page", String(page));
     else url.searchParams.delete("page");
+    if (savedOnly) url.searchParams.set('saved', '1');
+    else url.searchParams.delete('saved');
     history.replaceState(null, "", url);
   }
   function render(updateURL = true) {
@@ -80,7 +167,9 @@
         const d = card.dataset;
         return (
           active(card) &&
+          (!savedOnly || saved.has(d.id)) &&
           tokens.every((token) => d.search.includes(token)) &&
+          (!controls.company.value || controls.company.value === d.company) &&
           (!controls.location.value ||
             controls.location.value === d.location) &&
           (!controls.mode.value || controls.mode.value === d.mode) &&
@@ -93,6 +182,7 @@
       })
       .sort(
         (a, b) =>
+          Number(!a.dataset.posted) - Number(!b.dataset.posted) ||
           (controls.sort.value === "oldest" ? 1 : -1) *
             a.dataset.posted.localeCompare(b.dataset.posted) ||
           a.dataset.id.localeCompare(b.dataset.id),
@@ -111,6 +201,18 @@
       ? `Showing ${start}–${Math.min(page * pageSize, filtered.length)} of ${filtered.length} opportunities`
       : "0 opportunities";
     byId("total-count").textContent = cards.filter(active).length;
+    const savedCount = cards.filter(card => active(card) && saved.has(card.dataset.id)).length;
+    byId('saved-count').textContent = savedCount;
+    byId('saved-view').setAttribute('aria-pressed', String(savedOnly));
+    byId('all-view').setAttribute('aria-pressed', String(!savedOnly));
+    byId('saved-hint').hidden = !savedOnly;
+    byId('clear-search').hidden = !controls.q.value;
+    byId('filters-done').textContent = `Show ${filtered.length} ${filtered.length === 1 ? 'result' : 'results'}`;
+    byId('empty-title').textContent = savedOnly && !savedCount ? 'Your shortlist starts here' : 'No matching opportunities';
+    byId('empty-description').textContent = savedOnly && !savedCount
+      ? 'Save roles you like using the bookmark button. Your open saved jobs will appear here.'
+      : savedOnly ? 'No saved jobs match these filters. Try clearing a filter.' : cards.filter(active).length ? 'Try another keyword or remove a filter to see more roles.' : 'There are no open roles listed right now. Check back soon.';
+    byId('empty-browse').hidden = !savedOnly;
     byId("empty-state").hidden = filtered.length > 0;
     byId("empty-reset").hidden = !Object.entries(controls).some(
       ([key, input]) => key !== "sort" && input.value,
@@ -119,7 +221,46 @@
     byId("previous").disabled = page <= 1;
     byId("next").disabled = page >= pages;
     byId("page-label").textContent = `Page ${page} of ${pages}`;
+    const pageSelect = byId("page-select");
+    if (pageSelect.options.length !== pages) {
+      pageSelect.replaceChildren(...Array.from({ length: pages }, (_, i) => new Option(String(i + 1), String(i + 1))));
+    }
+    pageSelect.value = String(page);
+    const applied = Object.entries(controls).filter(([key, input]) => key !== "sort" && input.value.trim());
+    const chips = byId("active-filters");
+    // Preserve focused chips during the periodic expiry check.
+    const signature = JSON.stringify(applied.map(([key, input]) => [key, input.value]));
+    if (chips.dataset.signature !== signature) {
+      chips.replaceChildren(...applied.map(([key, input]) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "filter-chip";
+        const label = key === "q" ? `Search: ${input.value.trim()}` : input.selectedOptions[0].textContent;
+        button.textContent = `${label} ×`;
+        button.setAttribute("aria-label", `Remove ${label} filter`);
+        button.addEventListener("click", () => {
+          input.value = "";
+          changed();
+          (chips.querySelector("button") || controls.q).focus({ preventScroll: true });
+        });
+        return button;
+      }));
+      chips.dataset.signature = signature;
+    }
+    chips.hidden = !applied.length;
+    byId("reset").disabled = !applied.length;
+    const filterCount = applied.filter(([key]) => key !== "q").length;
+    byId("filter-count").textContent = filterCount ? `(${filterCount})` : "";
+    document.querySelectorAll("[data-quick]").forEach(button => {
+      button.setAttribute("aria-pressed", String(controls[button.dataset.quick].value === button.dataset.value));
+    });
     if (updateURL) writeURL();
+    for (const link of list.querySelectorAll('a[href*="jobs/"]')) {
+      const url = new URL(link.href);
+      if (location.search) url.searchParams.set("return", location.search);
+      else url.searchParams.delete("return");
+      link.href = url.href;
+    }
   }
   function changed() {
     page = 1;
@@ -130,10 +271,20 @@
       input.value = key === "sort" ? "newest" : "";
     changed();
   }
+  function changeView(onlySaved) {
+    savedOnly = onlySaved;
+    changed();
+  }
+  onSavedChange = () => render();
+  byId('saved-view').addEventListener('click', () => changeView(true));
+  byId('all-view').addEventListener('click', () => changeView(false));
+  byId('empty-browse').addEventListener('click', () => { savedOnly = false; reset(); byId('all-view').focus(); });
+  byId('clear-search').addEventListener('click', () => { controls.q.value = ''; changed(); controls.q.focus(); });
   readURL();
   render(false);
-  for (const id of ["search-form", "filters", "sort-control"])
+  for (const id of ["search-form", "quick-searches", "sort-control", "view-bar"])
     byId(id).hidden = false;
+  syncFilterPanel();
   controls.q.addEventListener("input", changed);
   for (const [key, input] of Object.entries(controls))
     if (key !== "q") input.addEventListener("change", changed);
@@ -148,13 +299,22 @@
   });
   byId("reset").addEventListener("click", reset);
   byId("empty-reset").addEventListener("click", reset);
-  document.querySelectorAll("[data-query]").forEach((button) =>
+  document.querySelectorAll("[data-quick]").forEach((button) =>
     button.addEventListener("click", () => {
-      reset();
-      controls.q.value = button.dataset.query;
+      const control = controls[button.dataset.quick];
+      control.value = control.value === button.dataset.value ? "" : button.dataset.value;
       changed();
     }),
   );
+  function focusResults() {
+    list.querySelector(".job-card:not([hidden]) h3 a")?.focus({ preventScroll: true });
+    byId("opportunities").scrollIntoView();
+  }
+  byId("page-select").addEventListener("change", () => {
+    page = Number(byId("page-select").value);
+    render();
+    focusResults();
+  });
   for (const [id, delta] of [
     ["previous", -1],
     ["next", 1],
@@ -162,10 +322,7 @@
     byId(id).addEventListener("click", () => {
       page += delta;
       render();
-      list
-        .querySelector(".job-card:not([hidden]) h3 a")
-        ?.focus({ preventScroll: true });
-      byId("opportunities").scrollIntoView();
+      focusResults();
     });
   window.addEventListener("popstate", () => {
     readURL();

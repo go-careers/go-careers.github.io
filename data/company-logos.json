@@ -1,0 +1,240 @@
+{
+  "checked_at": "2026-11-16",
+  "note": "Official company icons or recruiting-page logos, stored locally for job-listing identification. Trademarks belong to their respective owners.",
+  "logos": [
+    {
+      "company": "Onehouse",
+      "file": "onehouse.png",
+      "page": "https://www.onehouse.ai/",
+      "url": "https://www.onehouse.ai/favicon.png"
+    },
+    {
+      "company": "Hevo Data",
+      "file": "hevo-data.png",
+      "page": "https://hevodata.com/",
+      "url": "https://res.cloudinary.com/hevo/image/upload/v1767677715/website-rewamp/favicon/white/Favicon_white_144x144_dgkmoi.png"
+    },
+    {
+      "company": "Drivetrain",
+      "file": "drivetrain.png",
+      "page": "https://jobs.lever.co/drivetrain",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/f495f3c4-a779-4518-bd25-a72468ad2616-1672027437244.png"
+    },
+    {
+      "company": "Sarvam AI",
+      "file": "sarvam-ai.png",
+      "page": "https://www.sarvam.ai",
+      "url": "https://www.sarvam.ai/favicon.svg"
+    },
+    {
+      "company": "CodeRabbit",
+      "file": "coderabbit.png",
+      "page": "https://www.coderabbit.ai",
+      "url": "https://www.coderabbit.ai/apple-touch-icon.png?v=4"
+    },
+    {
+      "company": "Cohere Health",
+      "file": "cohere-health.png",
+      "page": "https://www.coherehealth.com",
+      "url": "https://cdn.prod.website-files.com/682f8a4f57b1c18d8559493d/6851eefd38b734c05fb6134b_Cohere%20Health%20Favicon.png"
+    },
+    {
+      "company": "Smallest.ai",
+      "file": "smallest-ai.png",
+      "page": "https://smallest.ai",
+      "url": "https://framerusercontent.com/images/8aGg1mfHwnBJJYiECyUmneAyRVA.png"
+    },
+    {
+      "company": "Composio",
+      "file": "composio.png",
+      "page": "https://composio.dev",
+      "url": "https://composio.dev/apple-touch-icon.png"
+    },
+    {
+      "company": "Enterpret",
+      "file": "enterpret.png",
+      "page": "https://www.enterpret.com",
+      "url": "https://cdn.prod.website-files.com/69e6b779dbc68d6b76294ae1/69e6b779dbc68d6b76294e61_Final%20icon%20256.png"
+    },
+    {
+      "company": "Endor Labs",
+      "file": "endor-labs.png",
+      "page": "https://www.endorlabs.com",
+      "url": "https://cdn.prod.website-files.com/656eaf5c6da3527caf362363/6a860de45ffdf3b4121f2d62_Endorlabs%20Favicon%20256.png"
+    },
+    {
+      "company": "TrueFoundry",
+      "file": "truefoundry.png",
+      "page": "https://www.truefoundry.com",
+      "url": "https://cdn.prod.website-files.com/6291b38507a5238373237679/62c52662b8171f9546cfa886_Untitled%20design%20(4).png"
+    },
+    {
+      "company": "Acceldata",
+      "file": "acceldata.png",
+      "page": "https://www.acceldata.io",
+      "url": "https://cdn.prod.website-files.com/64fef88ee8b22d3d21b71560/657ee30ee263ba3262c35484_Webclip.png"
+    },
+    {
+      "company": "Emergent",
+      "file": "emergent.png",
+      "page": "https://emergent.sh",
+      "url": "https://cdn.prod.website-files.com/6a0edf12ef1a8562ed56d806/6a16a2349f51334d1700e015_emergent.png"
+    },
+    {
+      "company": "Skild AI",
+      "file": "skild-ai.png",
+      "page": "https://www.skild.ai",
+      "url": "https://www.skild.ai/favicon.ico?favicon.08xdsroznjyyk.ico"
+    },
+    {
+      "company": "Atlan",
+      "file": "atlan.png",
+      "page": "https://atlan.com",
+      "url": "https://atlan.com/favicon-96x96.png"
+    },
+    {
+      "company": "Skan AI",
+      "file": "skan-ai.png",
+      "page": "https://www.skan.ai",
+      "url": "https://www.skan.ai/apple-icon.png?apple-icon.14lf9tu4xp92y.png"
+    },
+    {
+      "company": "Outmarket AI",
+      "file": "outmarket-ai.png",
+      "page": "https://www.outmarket.ai",
+      "url": "https://framerusercontent.com/images/UcoaiyVRB7nh32y5cPmsGe5k.png"
+    },
+    {
+      "company": "Neuron7",
+      "file": "neuron7.png",
+      "page": "https://www.neuron7.ai",
+      "url": "https://cdn.prod.website-files.com/69248bab2c70be8eea76d81c/6a16a77ae95ae03383db384c_webclip.png"
+    },
+    {
+      "company": "Lyzr AI",
+      "file": "lyzr-ai.png",
+      "page": "https://www.lyzr.ai",
+      "url": "https://b3591924.assetcdn.net/2.0/3591924/wp-content/uploads/2024/03/cropped-Lyzr_Logo_1-removebg-icon-180x180.png?lossy=1&strip=1&webp=1"
+    },
+    {
+      "company": "Signzy",
+      "file": "signzy.png",
+      "page": "https://www.signzy.com",
+      "url": "https://www.signzy.com/icon.ico?9af30be1c4417de5"
+    },
+    {
+      "company": "CloudSEK",
+      "file": "cloudsek.png",
+      "page": "https://www.cloudsek.com",
+      "url": "https://cdn.prod.website-files.com/634fc5026f66af518e897c77/634fc72bbb51ca5becedfe90_Logo%20Emblem%20only%20dark.png"
+    },
+    {
+      "company": "Bureau",
+      "file": "bureau.png",
+      "page": "https://www.bureau.id",
+      "url": "https://framerusercontent.com/images/B2ZDZvFO66XC2ZAPEgLS8zzUnnU.png"
+    },
+    {
+      "company": "Testsigma",
+      "file": "testsigma.png",
+      "page": "https://testsigma.com",
+      "url": "https://website-static.testsigma.com/website-next/nextjs/4b89b8/favicons/apple-touch-icon.png"
+    },
+    {
+      "company": "EnCharge AI",
+      "file": "encharge-ai.png",
+      "page": "https://www.enchargeai.com",
+      "url": "https://cdn.prod.website-files.com/65402f08bc39306f5f20748d/65428a2dbd87828481295915_EnCharge-AI-Icon.png"
+    },
+    {
+      "company": "Ema",
+      "file": "ema.png",
+      "page": "https://www.ema.ai",
+      "url": "https://www.ema.ai/static/favicon.ico"
+    },
+    {
+      "company": "Observe.AI",
+      "file": "observe-ai.png",
+      "page": "https://www.observe.ai",
+      "url": "https://cdn.prod.website-files.com/5caac3a8d636b7cfc2606d35/6786bed796ada207c1066414_Webclip.jpg"
+    },
+    {
+      "company": "Vahan AI",
+      "file": "vahan-ai.png",
+      "page": "https://www.vahan.ai",
+      "url": "https://www.vahan.ai/favicon.svg"
+    },
+    {
+      "company": "Bolna",
+      "file": "bolna.png",
+      "page": "https://www.bolna.ai",
+      "url": "https://www.bolna.ai/apple-icon.png?apple-icon.0iqi-sk08ysil.png"
+    },
+    {
+      "company": "Nurix AI",
+      "file": "nurix-ai.png",
+      "page": "https://www.nurix.ai",
+      "url": "https://cdn.prod.website-files.com/6a290260f0673e64e88e03ae/6a2aab69470321cd6803dc8a_Webclick%20256.png"
+    },
+    {
+      "company": "Atomicwork",
+      "file": "atomicwork.png",
+      "page": "https://www.atomicwork.com",
+      "url": "https://cdn.prod.website-files.com/64f08da4e7effe6dcb06d456/6a101cab8074dd96fe410307_Logomark.png"
+    },
+    {
+      "company": "SiMa.ai",
+      "file": "sima-ai.png",
+      "page": "https://sima.ai",
+      "url": "https://sima.ai/wp-content/uploads/2022/01/icon.png?w=59"
+    },
+    {
+      "company": "Cyble",
+      "file": "cyble.png",
+      "page": "https://www.ycombinator.com/companies/cyble",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/f1559fe73a2c1a1b683d40299a231a3a0becfe24.png"
+    },
+    {
+      "company": "DevRev",
+      "file": "devrev.png",
+      "page": "https://job-boards.greenhouse.io/devrev",
+      "url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/069/400/original/devrev_lockup_primary_black_®_RGB.png?1772668365"
+    },
+    {
+      "company": "Sprinto",
+      "file": "sprinto.png",
+      "page": "https://jobs.lever.co/Sprinto",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/421fb05d-e2ec-425b-b296-15925ffdcc58-1784617144350.png"
+    },
+    {
+      "company": "Simplismart",
+      "file": "simplismart.png",
+      "page": "https://simplismart.tech",
+      "url": "https://photos.wellfound.com/startups/i/9077937-04efbeb58dc9247199bf724fbbd011b2-medium_jpg.jpg?buster=1787032090"
+    },
+    {
+      "company": "Fibr AI",
+      "file": "fibr-ai.png",
+      "page": "https://fibr.ai/",
+      "url": "https://photos.wellfound.com/startups/i/9071263-bcf49b60142bb09871ed8c0904adaf0f-medium_jpg.jpg?buster=1736836212"
+    },
+    {
+      "company": "Zenskar",
+      "file": "zenskar.png",
+      "page": "https://www.zenskar.com",
+      "url": "https://photos.wellfound.com/startups/i/8873963-f685fe77d20a16c42fa9752ff4ec2c1c-medium_jpg.jpg?buster=1710908459"
+    },
+    {
+      "company": "OrbitShift AI",
+      "file": "orbitshift-ai.png",
+      "page": "https://orbitshift.ai",
+      "url": "https://cdn.sanity.io/images/8o5kdxko/production/569aec7fbaf4d4b40a162eb0281a923e2aea97be-75x75.svg"
+    },
+    {
+      "company": "Prodigal",
+      "file": "prodigal.png",
+      "page": "https://www.prodigaltech.com",
+      "url": "https://cdn.prod.website-files.com/5fcb3bbf6fdac54bdd345a59/5fcb3bbf6fdac5c37c345bfa_logo-orange.png"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "checked_at": "2026-11-16",
+  "method": "Company IDs extracted from the public LinkedIn company page's View all employees / See all employees link (facetCurrentCompany in the LinkedIn sign-in redirect). Company names and domains checked against the employer. No member profiles or connection data stored.",
+  "companies": [
+    {
+      "company": "Acceldata",
+      "company_id": "35604738",
+      "source_url": "https://www.linkedin.com/company/acceldata",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Atlan",
+      "company_id": "3374473",
+      "source_url": "https://www.linkedin.com/company/atlan-hq",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Atomicwork",
+      "company_id": "82804658",
+      "source_url": "https://www.linkedin.com/company/atomicworkhq",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Bolna",
+      "company_id": "101366370",
+      "source_url": "https://www.linkedin.com/company/bolna-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Bureau",
+      "company_id": "42725409",
+      "source_url": "https://www.linkedin.com/company/bureauidentity",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "CloudSEK",
+      "company_id": "7596816",
+      "source_url": "https://www.linkedin.com/company/cloudsek",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "CodeRabbit",
+      "company_id": "97023698",
+      "source_url": "https://www.linkedin.com/company/coderabbitai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Cohere Health",
+      "company_id": "30772606",
+      "source_url": "https://www.linkedin.com/company/coherehealth",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Composio",
+      "company_id": "100723307",
+      "source_url": "https://www.linkedin.com/company/composiohq",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Cyble",
+      "company_id": "14707748",
+      "source_url": "https://www.linkedin.com/company/cyble-global",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "DevRev",
+      "company_id": "69088800",
+      "source_url": "https://www.linkedin.com/company/devrev",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Drivetrain",
+      "company_id": "71174461",
+      "source_url": "https://www.linkedin.com/company/drivetrainai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Ema",
+      "company_id": "96298946",
+      "source_url": "https://www.linkedin.com/company/ema-unlimited",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Emergent",
+      "company_id": "105280458",
+      "source_url": "https://www.linkedin.com/company/emergentlabs",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "EnCharge AI",
+      "company_id": "91579959",
+      "source_url": "https://www.linkedin.com/company/encharge-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Endor Labs",
+      "company_id": "74949406",
+      "source_url": "https://www.linkedin.com/company/endorlabs",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Enterpret",
+      "company_id": "67122035",
+      "source_url": "https://www.linkedin.com/company/enterpret",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Fibr AI",
+      "company_id": "83046718",
+      "source_url": "https://www.linkedin.com/company/fibrai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Hevo Data",
+      "company_id": "13296733",
+      "source_url": "https://www.linkedin.com/company/hevodata",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Lyzr AI",
+      "company_id": "96242391",
+      "source_url": "https://www.linkedin.com/company/lyzr-platform",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Neuron7",
+      "company_id": "72342530",
+      "source_url": "https://www.linkedin.com/company/neuron7-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Nurix AI",
+      "company_id": "102690514",
+      "source_url": "https://www.linkedin.com/company/nurixai/",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Observe.AI",
+      "company_id": "18090845",
+      "source_url": "https://www.linkedin.com/company/observeai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Onehouse",
+      "company_id": "80166284",
+      "source_url": "https://www.linkedin.com/company/onehousehq",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "OrbitShift AI",
+      "company_id": "89833601",
+      "source_url": "https://www.linkedin.com/company/orbitshift-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Outmarket AI",
+      "company_id": "97412897",
+      "source_url": "https://www.linkedin.com/company/outmarket-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Prodigal",
+      "company_id": "18734010",
+      "source_url": "https://www.linkedin.com/company/prodigaltech",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Sarvam AI",
+      "company_id": "101315625",
+      "source_url": "https://www.linkedin.com/company/sarvam-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Signzy",
+      "company_id": "10347848",
+      "source_url": "https://www.linkedin.com/company/teamsignzy",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "SiMa.ai",
+      "company_id": "18369400",
+      "source_url": "https://www.linkedin.com/company/sima-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Simplismart",
+      "company_id": "82819726",
+      "source_url": "https://www.linkedin.com/company/simplismart",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Skan AI",
+      "company_id": "96075807",
+      "source_url": "https://www.linkedin.com/company/skan-ai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Skild AI",
+      "company_id": "96247220",
+      "source_url": "https://www.linkedin.com/company/skildai",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Smallest.ai",
+      "company_id": "35940731",
+      "source_url": "https://www.linkedin.com/company/smallest",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Sprinto",
+      "company_id": "31215334",
+      "source_url": "https://www.linkedin.com/company/sprinto-com",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Testsigma",
+      "company_id": "13359845",
+      "source_url": "https://www.linkedin.com/company/testsigma",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "TrueFoundry",
+      "company_id": "76255156",
+      "source_url": "https://www.linkedin.com/company/truefoundry",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Vahan AI",
+      "company_id": "10113453",
+      "source_url": "https://www.linkedin.com/company/vahan-inc-",
+      "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Zenskar",
+      "company_id": "83495951",
+      "source_url": "https://www.linkedin.com/company/zenskar",
+      "checked_at": "2026-11-16"
+    }
+  ]
+}

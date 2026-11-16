@@ -1,0 +1,96 @@
+{
+  "checked_at": "2026-11-16",
+  "scope": "India-eligible technical roles, prioritizing AI startups, through Series C. Additions only after role-level review and deduplication.",
+  "added_ids": [
+    "wellfound-3650842",
+    "wellfound-4126035",
+    "wellfound-4748652",
+    "wellfound-5061244",
+    "wellfound-5061367",
+    "orbitshift-235055000000652003",
+    "orbitshift-235055000000517668",
+    "orbitshift-235055000000403066",
+    "prodigal-5073194007",
+    "prodigal-5229531007",
+    "prodigal-5261059007",
+    "prodigal-5260510007",
+    "prodigal-5208862007"
+  ],
+  "sources": [
+    {
+      "name": "Wellfound",
+      "status": "Searched live employer pages; added five roles at Simplismart, Fibr AI and Zenskar.",
+      "url": "https://wellfound.com/location/bangalore"
+    },
+    {
+      "name": "LinkedIn",
+      "status": "Public indexed job/company posts yielded OrbitShift leads. Direct Engineering Manager page returned HTTP 429; current role confirmed on employer Zoho feed.",
+      "url": "https://in.linkedin.com/jobs/view/engineering-manager-at-orbitshift-ai-4474921919"
+    },
+    {
+      "name": "Himalayas",
+      "status": "Found India-specific remote OrbitShift roles and confirmed active remote status on employer feed. Application links use the employer site.",
+      "url": "https://himalayas.app/companies/orbitshift-ai/jobs/staff-ai-engineer"
+    },
+    {
+      "name": "Instahyre",
+      "status": "Search page failed; individual public pages returned errors/challenge content. SudoHire supplied leads but was not treated as employer verification; no unverified Instahyre-only jobs imported.",
+      "url": "https://www.instahyre.com/search-jobs/"
+    },
+    {
+      "name": "Naukri",
+      "status": "Automated retrieval denied by robots.txt. No Naukri-only listings claimed as verified.",
+      "url": "https://www.naukri.com/ai-engineer-jobs"
+    },
+    {
+      "name": "Remotive",
+      "status": "Searched India AI listings. No distinct role met all selection and verification requirements in this pass.",
+      "url": "https://remotive.com/remote-jobs/lc-artificial-intelligence-india"
+    },
+    {
+      "name": "Remote OK",
+      "status": "Searched India AI listings; no additional independently verified qualifying role selected.",
+      "url": "https://remoteok.com"
+    },
+    {
+      "name": "Cutshort",
+      "status": "Searched AI startup engineering roles; no additional qualifying live employer posting selected.",
+      "url": "https://cutshort.io/jobs"
+    },
+    {
+      "name": "Employer careers / YC",
+      "status": "Added five Prodigal engineering requisitions from the current Greenhouse feed; used company career pages to confirm other board leads.",
+      "url": "https://job-boards.greenhouse.io/prodigal"
+    }
+  ],
+  "excluded_leads": [
+    {
+      "url": "https://wellfound.com/jobs/4348073-product-engineer",
+      "reason": "Fibr AI listing explicitly taken down; HTTP 410 despite a recent search index result."
+    },
+    {
+      "url": "https://wellfound.com/company/arintra/jobs",
+      "reason": "Only current Wellfound opening is product management; India engineering leads from Instahyre could not be verified."
+    },
+    {
+      "url": "https://careers.antler.co/companies/segwise/jobs/32494201-frontend-developer",
+      "reason": "Explicitly no longer accepting applications."
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/ai-agent-qc-at-ringg-ai-4473335830",
+      "reason": "Call auditing / operations rather than a software or ML engineering role."
+    },
+    {
+      "url": "https://in.linkedin.com/jobs/view/ml-engineer-nuplay-nurix-ai-at-meraki-labs-4461753380",
+      "reason": "Matches the existing Nurix conversational ML role; not added as a second opportunity."
+    },
+    {
+      "url": "https://in.linkedin.com/company/portkey-ai",
+      "reason": "Company identifies itself as a Palo Alto Networks company; fails independence policy."
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/hyperbound/jobs",
+      "reason": "Current technical role restricted to San Francisco; no India eligibility established."
+    }
+  ]
+}
