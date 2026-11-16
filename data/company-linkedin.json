@@ -235,6 +235,410 @@
       "company_id": "83495951",
       "source_url": "https://www.linkedin.com/company/zenskar",
       "checked_at": "2026-11-16"
+    },
+    {
+      "company": "Agentic Universe",
+      "company_id": "78432966",
+      "source_url": "https://www.linkedin.com/company/formi-co-in",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "AiPrise",
+      "company_id": "82286398",
+      "source_url": "https://www.linkedin.com/company/aiprise",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Alchemyst AI",
+      "company_id": "88382866",
+      "source_url": "https://www.linkedin.com/company/alchemystai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Allminds",
+      "company_id": "74697301",
+      "source_url": "https://www.linkedin.com/company/allmindstherapy",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "AuxoAI",
+      "company_id": "82527888",
+      "source_url": "https://www.linkedin.com/company/auxoai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Azodha",
+      "company_id": "83071960",
+      "source_url": "https://www.linkedin.com/company/azodha",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Bitwarden",
+      "company_id": "24776937",
+      "source_url": "https://www.linkedin.com/company/bitwarden1",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Blitzy",
+      "company_id": "100439397",
+      "source_url": "https://www.linkedin.com/company/blitzyai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Branch",
+      "company_id": "9380094",
+      "source_url": "https://www.linkedin.com/company/branch-co",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Certa",
+      "company_id": "11744621",
+      "source_url": "https://www.linkedin.com/company/getcerta",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "CloudCrane",
+      "company_id": "108433548",
+      "source_url": "https://www.linkedin.com/company/cloudcrane-ai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "retrieved_source_url": "https://in.linkedin.com/company/cloudcrane-ai"
+    },
+    {
+      "company": "Cube",
+      "company_id": "91421969",
+      "source_url": "https://www.linkedin.com/company/cubehqai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Cyberhaven",
+      "company_id": "10639445",
+      "source_url": "https://www.linkedin.com/company/cyberhaven",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Cypherock Wallet",
+      "company_id": "13686377",
+      "source_url": "https://www.linkedin.com/company/cypherockwallet",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Databricks",
+      "company_id": "3477522",
+      "source_url": "https://www.linkedin.com/company/databricks",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Decentro",
+      "company_id": "31274583",
+      "source_url": "https://www.linkedin.com/company/decentro",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Druva",
+      "company_id": "960262",
+      "source_url": "https://www.linkedin.com/company/druva",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Edmo",
+      "company_id": "89557169",
+      "source_url": "https://www.linkedin.com/company/edmo-ai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "FOXO",
+      "company_id": "105279770",
+      "source_url": "https://www.linkedin.com/company/foxoclub",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "FilterPixel",
+      "company_id": "42766550",
+      "source_url": "https://www.linkedin.com/company/filterpixel",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Fivetran",
+      "company_id": "89509671",
+      "source_url": "https://www.linkedin.com/company/fivetran",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "affiliated_ids_in_source": [
+        "89509671",
+        "19055959",
+        "1223092",
+        "3954657"
+      ]
+    },
+    {
+      "company": "FloMobility",
+      "company_id": "31285168",
+      "source_url": "https://www.linkedin.com/company/flomobility",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Fuze",
+      "company_id": "89600330",
+      "source_url": "https://www.linkedin.com/company/fuzehq",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Get My Parking",
+      "company_id": "10640338",
+      "source_url": "https://www.linkedin.com/company/getmyparking",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Glean",
+      "company_id": "74882602",
+      "source_url": "https://www.linkedin.com/company/gleanwork",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Gyrus.AI",
+      "company_id": "26577254",
+      "source_url": "https://www.linkedin.com/company/gyrusai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "H2O.ai",
+      "company_id": "2820918",
+      "source_url": "https://www.linkedin.com/company/h2oai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Harness",
+      "company_id": "6646849",
+      "source_url": "https://www.linkedin.com/company/harnessinc",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "affiliated_ids_in_source": [
+        "6646849",
+        "12180348",
+        "37503801",
+        "89946885",
+        "42673941",
+        "18249313"
+      ]
+    },
+    {
+      "company": "Innovaccer",
+      "company_id": "2414538",
+      "source_url": "https://www.linkedin.com/company/innovaccer/",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Javis",
+      "company_id": "14379808",
+      "source_url": "https://www.linkedin.com/company/okjavis",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Juniper Square",
+      "company_id": "7947803",
+      "source_url": "https://www.linkedin.com/company/juniper-square",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Kong",
+      "company_id": "278819",
+      "source_url": "https://www.linkedin.com/company/konghq",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "LearnTube.ai",
+      "company_id": "13328177",
+      "source_url": "https://www.linkedin.com/company/careerninja",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "retrieved_source_url": "https://in.linkedin.com/company/careerninja"
+    },
+    {
+      "company": "Loopr AI",
+      "company_id": "75650711",
+      "source_url": "https://www.linkedin.com/company/loopr-ai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Marmeto",
+      "company_id": "13407062",
+      "source_url": "https://www.linkedin.com/company/marmeto",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Marvedge",
+      "company_id": "99167920",
+      "source_url": "https://www.linkedin.com/company/marvedge",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "retrieved_source_url": "https://in.linkedin.com/company/marvedge"
+    },
+    {
+      "company": "Metaforms",
+      "company_id": "14613092",
+      "source_url": "https://www.linkedin.com/company/metaformsai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Mira Labs Ai",
+      "company_id": "99070215",
+      "source_url": "https://www.linkedin.com/company/miralabs-ai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "NEVONAI",
+      "company_id": "109851383",
+      "source_url": "https://www.linkedin.com/company/nevon-ai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "retrieved_source_url": "https://in.linkedin.com/company/nevon-ai"
+    },
+    {
+      "company": "Netradyne",
+      "company_id": "18265897",
+      "source_url": "https://www.linkedin.com/company/netradyne",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "affiliated_ids_in_source": [
+        "18265897",
+        "6622341"
+      ]
+    },
+    {
+      "company": "Procureyard Technologies",
+      "company_id": "101992942",
+      "source_url": "https://www.linkedin.com/company/procureyard",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "RentOk",
+      "company_id": "14509967",
+      "source_url": "https://www.linkedin.com/company/rentokofficial",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Right-Hand Cybersecurity",
+      "company_id": "19126566",
+      "source_url": "https://www.linkedin.com/company/righthandai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "SciSpace",
+      "company_id": "9193000",
+      "source_url": "https://www.linkedin.com/company/scispace",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Sciative - We Price Right",
+      "company_id": "13378673",
+      "source_url": "https://www.linkedin.com/company/sciative-solutions-private-limited",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Scopex",
+      "company_id": "93815665",
+      "source_url": "https://www.linkedin.com/company/scopexmoney",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Sei AI",
+      "company_id": "97400216",
+      "source_url": "https://www.linkedin.com/company/sei-ai",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Spenza",
+      "company_id": "80866480",
+      "source_url": "https://www.linkedin.com/company/spenza",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Suki",
+      "company_id": "17877435",
+      "source_url": "https://www.linkedin.com/company/sukihq",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Swift",
+      "company_id": "14562120",
+      "source_url": "https://www.linkedin.com/company/go-swift/",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Sycamore",
+      "company_id": "112727276",
+      "source_url": "https://www.linkedin.com/company/sycamore-labs",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Tekion",
+      "company_id": "96632587",
+      "source_url": "https://www.linkedin.com/company/tekion",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer.",
+      "affiliated_ids_in_source": [
+        "96632587",
+        "41315"
+      ]
+    },
+    {
+      "company": "Turing",
+      "company_id": "18846814",
+      "source_url": "https://www.linkedin.com/company/turingcom",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Vested Finance",
+      "company_id": "18909743",
+      "source_url": "https://www.linkedin.com/company/vestedfinance",
+      "checked_at": "2026-11-17",
+      "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
     }
   ]
 }

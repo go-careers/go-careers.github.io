@@ -3720,6 +3720,3210 @@
       ],
       "verification": "Read live employer-authored listing or current employer ATS feed. No closed-listing marker present. India eligibility checked separately from generic remote labels.",
       "note": "Distinct Bengaluru and Mumbai FDE requisitions are retained. The Bengaluru role has 2+ years in the main requirements and a conflicting 1–3 years preferred qualification; no upper bound is invented."
+    },
+    {
+      "id": "druva-8814695002",
+      "source_url": "https://www.druva.com/why-druva/explore/careers/jobs/8814695002/?gh_jid=8814695002",
+      "application_url": "https://www.druva.com/why-druva/explore/careers/jobs/8814695002/?gh_jid=8814695002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/druva/jobs?content=true",
+      "checked_at": "2026-11-16T19:15:45.685059+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-16T01:05:12-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8814695002",
+      "source_location": {
+        "name": "Pune, Maharashtra, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "aca6991e5cadccc13744e8654ebc8d99e7c55262ad0c5247cc06d2007e43fce8",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "tekion-f9e2b20f-90d7-4f02-afbf-df120601e825",
+      "source_url": "https://jobs.ashbyhq.com/Tekion/f9e2b20f-90d7-4f02-afbf-df120601e825",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/f9e2b20f-90d7-4f02-afbf-df120601e825",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-02T07:30:58.206+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "f9e2b20f-90d7-4f02-afbf-df120601e825",
+      "source_location": "Bangalore HQ",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "488480217a996276505fbed4258371547f8d6bf8e0b43da3e66c5d9d2269b265",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "tekion-1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+      "source_url": "https://jobs.ashbyhq.com/Tekion/1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-11T09:14:52.177+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+      "source_location": "Chennai Regional Office",
+      "source_secondary_locations": [
+        {
+          "location": "Chennai Regional Office",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "Tamil Nādu",
+              "addressCountry": "India",
+              "addressLocality": "Chennai"
+            }
+          }
+        }
+      ],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "2b311b5613e4c2730c589588ae25d86d78e3fa35d63381602da10948a7554972",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "tekion-f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+      "source_url": "https://jobs.ashbyhq.com/Tekion/f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-02T09:42:47.253+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+      "source_location": "Bangalore HQ",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "d4434fb90b25a51e0aa205cf1579a4e58ff8e82d3da37b650e69744621166038",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "tekion-cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+      "source_url": "https://jobs.ashbyhq.com/Tekion/cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-23T07:11:02.943+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+      "source_location": "Chennai Regional Office",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "fc669349801b9d0083d368103e1972194c9f42e0acac3609280ad2afa8c99135",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "metaforms-0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+      "source_url": "https://jobs.ashbyhq.com/metaforms/0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+      "application_url": "https://jobs.ashbyhq.com/metaforms/0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/metaforms?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.249704+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-16T06:35:43.747+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "3a1d1be23a26f37471cfe2f17dabac11a6f2d7a178d75e500a3209e550abfeda",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "metaforms-fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+      "source_url": "https://jobs.ashbyhq.com/metaforms/fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+      "application_url": "https://jobs.ashbyhq.com/metaforms/fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/metaforms?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.249704+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T03:35:04.647+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "fd81dad84216d7473ab820fd5657f577a7c244c97c9981347bc6be279744d773",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "glean-4746981005",
+      "source_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746981005",
+      "application_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746981005",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs?content=true",
+      "checked_at": "2026-11-16T18:55:38.500806+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T03:31:57-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "4746981005",
+      "source_location": {
+        "name": "Bangalore, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "b89dc1dc39cdb7f95faf8f7f31f5b3c2485fd9b31e1b60cc4c0b5b0926e86b29",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "sycamore-485cebea-8422-4a2d-b9b0-c03e309de058",
+      "source_url": "https://jobs.ashbyhq.com/sycamore/485cebea-8422-4a2d-b9b0-c03e309de058",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/485cebea-8422-4a2d-b9b0-c03e309de058",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-22T00:54:03.550+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "485cebea-8422-4a2d-b9b0-c03e309de058",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "5b7116294169fb55495446df593c110222c176fb419e97186db839f588d9e5a9",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "sycamore-3c611cca-d5ea-4db7-9da9-50b045753974",
+      "source_url": "https://jobs.ashbyhq.com/sycamore/3c611cca-d5ea-4db7-9da9-50b045753974",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/3c611cca-d5ea-4db7-9da9-50b045753974",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-22T00:58:16.901+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "3c611cca-d5ea-4db7-9da9-50b045753974",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "5f6eba829aafad2b3fc285e03597ca25bfd20485696bec621e8364ca20d68b83",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "sycamore-ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+      "source_url": "https://jobs.ashbyhq.com/sycamore/ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-22T01:05:23.762+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "b8c0b60b81dff930cc2552a556e69654d50f0d20b7933565b7f1222b38765c68",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "sycamore-faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+      "source_url": "https://jobs.ashbyhq.com/sycamore/faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-22T01:03:01.946+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "ac4b3697ac9b721d6bd9ce92705f0885a6ecce82d61961352795ea73fa3680ac",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "harness-5252771007",
+      "source_url": "https://www.harness.io/company/jobs/apply?gh_jid=5252771007&gh_jid=5252771007",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5252771007",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-23T04:08:15-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "5252771007",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "585861367cdabd657691d58d64a361d19068e0e70b167b58c1c31aba51357368",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "harness-5270901007",
+      "source_url": "https://www.harness.io/company/jobs/apply?gh_jid=5270901007&gh_jid=5270901007",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5270901007",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-23T01:42:00-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "5270901007",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "85db54a1cedd58b500e9dd1645a2b86706d986e70b16daba62e8e181f80ab88f",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "harness-5258603007",
+      "source_url": "https://www.harness.io/company/jobs/apply?gh_jid=5258603007&gh_jid=5258603007",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5258603007",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-21T12:34:29-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "5258603007",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "0ea8d84fe150777db7fe4fc59b6803f664e32ad32f5db15dc1c3619a3f36d3ea",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "harness-5266286007",
+      "source_url": "https://www.harness.io/company/jobs/apply?gh_jid=5266286007&gh_jid=5266286007",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5266286007",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T02:27:03-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "5266286007",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "7e183b3ca220bf141d6f2ce33e2cbec14bf72cb6d5f9e85557b653e044c4f9bb",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "harness-5284038007",
+      "source_url": "https://www.harness.io/company/jobs/apply?gh_jid=5284038007&gh_jid=5284038007",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5284038007",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-05T00:32:45-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "5284038007",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "cd19fc56f2f77ed6d4b2ada753300d305063a98e5afd5367b2b0768fce70787e",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "harness-5278974007",
+      "source_url": "https://www.harness.io/company/jobs/apply?gh_jid=5278974007&gh_jid=5278974007",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5278974007",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-30T01:30:30-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "5278974007",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "b81ff42218bc77b239167b4b8c7139ee04937ec979f2ceceb8eeb683208cf38f",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "databricks-8876680002",
+      "source_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876680002",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876680002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-19T00:40:24-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8876680002",
+      "source_location": {
+        "name": "Remote - India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "9b085b3ca0c4678ad6d812a3027ebac11ace2e726726ba63abff16366f12a32c",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "databricks-7647294002",
+      "source_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647294002",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647294002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-07T03:50:11-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "7647294002",
+      "source_location": {
+        "name": "Bengaluru, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "e56440897303c0a9fde1c6eb1258170221f14fd0a16782dcd01dc6eade359467",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "databricks-8924868002",
+      "source_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8924868002",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8924868002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-02T00:01:00-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8924868002",
+      "source_location": {
+        "name": "Bengaluru, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "8cd994635f7cfef2c5bb15127daf18f49da000daff31c648e49019d0f904b647",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "databricks-8944097002",
+      "source_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8944097002",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8944097002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-14T23:36:01-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8944097002",
+      "source_location": {
+        "name": "Bengaluru, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "2b294eb423caefbdeac9c19ed2697360771b1c4243003d82f734f1c15b1220e6",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "databricks-8926498002",
+      "source_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8926498002",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8926498002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-02T00:02:35-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8926498002",
+      "source_location": {
+        "name": "Bengaluru, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "80f68e0c2b688d2540a0b4c5213baaac0e8a07a949fa1cb7f6b46c199d9e3dab",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "databricks-8788176002",
+      "source_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8788176002",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8788176002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T12:00:07-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8788176002",
+      "source_location": {
+        "name": "Bengaluru, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "414fb1b6721eec6564808d4e31521dfe571b8c644bb83d921b309f476f49d6b1",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "drivetrain-c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+      "source_url": "https://jobs.lever.co/drivetrain/c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+      "application_url": "https://jobs.lever.co/drivetrain/c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+      "source_api": "https://api.lever.co/v0/postings/drivetrain?mode=json",
+      "checked_at": "2026-11-16T18:53:25.085721+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": 1794475935527,
+      "publication_date_field": "createdAt",
+      "source_requisition_id": "c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+      "source_location": null,
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "remote",
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "bc09c68dcf08e04cf3cf6e1ccfd267af0667029aaa4d84b723bec537fb0075cf",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "cyberhaven-edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+      "source_url": "https://jobs.ashbyhq.com/Cyberhaven/edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+      "application_url": "https://jobs.ashbyhq.com/Cyberhaven/edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/cyberhaven?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.248900+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-06T17:39:14.630+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+      "source_location": "Bangalore",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "Hybrid",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "8d253e592fbb1a021541f760f50f9a8137cbc7afdaca67ad1eafc9a05fde96e4",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "cyberhaven-020d895a-a68e-400d-8b19-71634a331915",
+      "source_url": "https://jobs.ashbyhq.com/Cyberhaven/020d895a-a68e-400d-8b19-71634a331915",
+      "application_url": "https://jobs.ashbyhq.com/Cyberhaven/020d895a-a68e-400d-8b19-71634a331915",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/cyberhaven?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.248900+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T15:12:22.116+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "020d895a-a68e-400d-8b19-71634a331915",
+      "source_location": "EU Remote",
+      "source_secondary_locations": [
+        {
+          "location": "Bangalore",
+          "address": {
+            "postalAddress": {
+              "addressRegion": "India",
+              "addressCountry": "India",
+              "addressLocality": "Bangalore"
+            }
+          }
+        }
+      ],
+      "source_applicant_locations": null,
+      "source_workplace_type": "Remote",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "19ad113dedb2a72096dcf4e692c62eb8d83384da35627e7c521fdd2f84a63f06",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "turing-6235517004",
+      "source_url": "https://job-boards.greenhouse.io/turing/jobs/6235517004",
+      "application_url": "https://job-boards.greenhouse.io/turing/jobs/6235517004",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/turing/jobs?content=true",
+      "checked_at": "2026-11-16T18:54:14.456386+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-26T20:55:19-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "6235517004",
+      "source_location": {
+        "name": "Mumbai, Maharashtra, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "38c14541a567d4426ea0a604373880d2db831455a65a0f3e57c7de0531434586",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "kong-1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+      "source_url": "https://jobs.ashbyhq.com/kong/1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+      "application_url": "https://jobs.ashbyhq.com/kong/1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/kong",
+      "checked_at": "2026-11-16T19:14:00.829135+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T10:41:33.243+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+      "source_location": "Bangalore, India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "Hybrid",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "cd46902646be1b3096512677f86e08e9dfdd1f1e3ebec93858ebc92df4c99fd3",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "kong-2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+      "source_url": "https://jobs.ashbyhq.com/kong/2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+      "application_url": "https://jobs.ashbyhq.com/kong/2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/kong",
+      "checked_at": "2026-11-16T19:14:00.829135+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-02T11:51:51.286+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+      "source_location": "Bangalore, India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "Hybrid",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "6534b4c675c91a359d8200b3c170f02698528017021a423a214c2a156cceb8ff",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "kong-18c59e96-348f-4dda-adfc-974416d624ca",
+      "source_url": "https://jobs.ashbyhq.com/kong/18c59e96-348f-4dda-adfc-974416d624ca",
+      "application_url": "https://jobs.ashbyhq.com/kong/18c59e96-348f-4dda-adfc-974416d624ca",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/kong",
+      "checked_at": "2026-11-16T19:14:00.829135+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T05:51:56.577+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "18c59e96-348f-4dda-adfc-974416d624ca",
+      "source_location": "Bangalore, India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "Hybrid",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "f30e7d2ebe68585a03ef5cf0ecc524246922038fb18421698be8cc1f701f4375",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "fivetran-8044038003",
+      "source_url": "https://www.fivetran.com/careers/job?gh_jid=8044038003",
+      "application_url": "https://www.fivetran.com/careers/job?gh_jid=8044038003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+      "checked_at": "2026-11-16T19:14:01.130047+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T02:32:46-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8044038003",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India, APAC"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "b494748643d4f033fc5e47365ab318b0e2fcf5f095ccce5063ad0ec9007ed318",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "fivetran-8046982003",
+      "source_url": "https://www.fivetran.com/careers/job?gh_jid=8046982003",
+      "application_url": "https://www.fivetran.com/careers/job?gh_jid=8046982003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+      "checked_at": "2026-11-16T19:14:01.130047+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-06T01:38:14-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8046982003",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India, APAC"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "f6b67652347ec9566ed862bfd84a5d7443af45f1402d21c3774d8e5cb1094efd",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "fivetran-8201478003",
+      "source_url": "https://www.fivetran.com/careers/job?gh_jid=8201478003",
+      "application_url": "https://www.fivetran.com/careers/job?gh_jid=8201478003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+      "checked_at": "2026-11-16T19:14:01.130047+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-12T03:13:12-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8201478003",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India, APAC"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "aafde77790eb51404be7bf4d5615cd5f3271955abf5f7afff73198aac59534f0",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "netradyne-4747924005",
+      "source_url": "https://www.netradyne.com/company/careers?gh_jid=4747924005",
+      "application_url": "https://www.netradyne.com/company/careers?gh_jid=4747924005",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/netradyne/jobs?content=true",
+      "checked_at": "2026-11-16T19:15:45.652665+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T03:09:37-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "4747924005",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "f85bcfafc3d472b276afafb18310631a17a011b3ff4bb70606445cd4cd7c88d1",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "netradyne-4748413005",
+      "source_url": "https://www.netradyne.com/company/careers?gh_jid=4748413005",
+      "application_url": "https://www.netradyne.com/company/careers?gh_jid=4748413005",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/netradyne/jobs?content=true",
+      "checked_at": "2026-11-16T19:15:45.652665+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-29T05:13:15-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "4748413005",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "36f64e45032f2233c9d6f5302e31914e939f71bed8324cbcab8bf34a0cf766ce",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "netradyne-4748411005",
+      "source_url": "https://www.netradyne.com/company/careers?gh_jid=4748411005",
+      "application_url": "https://www.netradyne.com/company/careers?gh_jid=4748411005",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/netradyne/jobs?content=true",
+      "checked_at": "2026-11-16T19:15:45.652665+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-29T04:59:13-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "4748411005",
+      "source_location": {
+        "name": "Bengaluru, Karnataka, India"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "d5b15751c261a99e6418381d7a33456cb86e6f0b237ee150a88dca979e32768c",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "juniper-square-0baacd60-460d-4379-8361-c6851c2a3ffc",
+      "source_url": "https://jobs.ashbyhq.com/junipersquare/0baacd60-460d-4379-8361-c6851c2a3ffc",
+      "application_url": "https://jobs.ashbyhq.com/junipersquare/0baacd60-460d-4379-8361-c6851c2a3ffc",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.249388+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T08:01:29.914+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "0baacd60-460d-4379-8361-c6851c2a3ffc",
+      "source_location": "India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "Remote",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "afd3b26116cb107a695b6554261b549c238a499b8142bad5244e63a8ea54f334",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "juniper-square-229d03c3-9bb7-4754-947b-fdc37d37e687",
+      "source_url": "https://jobs.ashbyhq.com/junipersquare/229d03c3-9bb7-4754-947b-fdc37d37e687",
+      "application_url": "https://jobs.ashbyhq.com/junipersquare/229d03c3-9bb7-4754-947b-fdc37d37e687",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.249388+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-11T09:18:21.377+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "229d03c3-9bb7-4754-947b-fdc37d37e687",
+      "source_location": "India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "Remote",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "3f040f238e66f28d09d2037c8ef7724c949fb50b436dd5e28e4d2259ae78ddc5",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "bitwarden-7896607003",
+      "source_url": "https://bitwarden.com/careers/7896607003/?gh_jid=7896607003",
+      "application_url": "https://bitwarden.com/careers/7896607003/?gh_jid=7896607003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T10:34:01-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "7896607003",
+      "source_location": {
+        "name": "Delhi"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "efe3660ba108e2691a0e726b4722a61a589154dff28f337fc672ecac4933ed04",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "bitwarden-8005304003",
+      "source_url": "https://bitwarden.com/careers/8005304003/?gh_jid=8005304003",
+      "application_url": "https://bitwarden.com/careers/8005304003/?gh_jid=8005304003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-13T04:53:32-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8005304003",
+      "source_location": {
+        "name": "Noida, Delhi NCR"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "1b14eb35799f3281da3d4ab306fdaf76d4ad57d07b6f936d9069eb2b579e0347",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "bitwarden-8196573003",
+      "source_url": "https://bitwarden.com/careers/8196573003/?gh_jid=8196573003",
+      "application_url": "https://bitwarden.com/careers/8196573003/?gh_jid=8196573003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-11T00:09:04-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8196573003",
+      "source_location": {
+        "name": "Noida"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "335f24b3dd2251755c261dcb17a100794ca53ec5d7b5192e1de7d2f3dca5e90a",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "bitwarden-8015111003",
+      "source_url": "https://bitwarden.com/careers/8015111003/?gh_jid=8015111003",
+      "application_url": "https://bitwarden.com/careers/8015111003/?gh_jid=8015111003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-22T07:51:56-04:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8015111003",
+      "source_location": {
+        "name": "Noida"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "2030951ea35047f4ef522ac3e8ca1bdebb3a68834f3ddb52cddb431c542f05bf",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "bitwarden-8076045003",
+      "source_url": "https://bitwarden.com/careers/8076045003/?gh_jid=8076045003",
+      "application_url": "https://bitwarden.com/careers/8076045003/?gh_jid=8076045003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-05T09:33:12-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8076045003",
+      "source_location": {
+        "name": "Noida"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "a23de778a2e86183b5bf8058f2d2a18161ed2e4e241b8688ed3e0ff189af890d",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "suki-8026661003",
+      "source_url": "https://www.suki.ai/open-positions?gh_jid=8026661003",
+      "application_url": "https://www.suki.ai/open-positions?gh_jid=8026661003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/suki/jobs?content=true",
+      "checked_at": "2026-11-16T19:15:45.199995+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-12T01:36:30-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8026661003",
+      "source_location": {
+        "name": "Bengaluru "
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "c3555f09fb1b36ba6254362b773970b97f140daa1fba347fd0134763f3af75d8",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "suki-8188901003",
+      "source_url": "https://www.suki.ai/open-positions?gh_jid=8188901003",
+      "application_url": "https://www.suki.ai/open-positions?gh_jid=8188901003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/suki/jobs?content=true",
+      "checked_at": "2026-11-16T19:15:45.199995+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T03:29:44-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8188901003",
+      "source_location": {
+        "name": "Bengaluru "
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "04089353b836ec030e8747b8285f25c45eeec252d1f74e558154124458164ee2",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "suki-8174866003",
+      "source_url": "https://www.suki.ai/open-positions?gh_jid=8174866003",
+      "application_url": "https://www.suki.ai/open-positions?gh_jid=8174866003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/suki/jobs?content=true",
+      "checked_at": "2026-11-16T19:15:45.199995+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-03T10:27:56-05:00",
+      "publication_date_field": "first_published",
+      "source_requisition_id": "8174866003",
+      "source_location": {
+        "name": "Bengaluru "
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "dd0d5ebabe3a24dd1274e0db0e8a3ac81368f51e6e04d8c0fdb5d885456d6b06",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "blitzy-fed53b6a-c54b-4da0-804d-d621e048a8bb",
+      "source_url": "https://jobs.ashbyhq.com/blitzy/fed53b6a-c54b-4da0-804d-d621e048a8bb",
+      "application_url": "https://jobs.ashbyhq.com/blitzy/fed53b6a-c54b-4da0-804d-d621e048a8bb",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/blitzy",
+      "checked_at": "2026-11-16T19:15:44.221928+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-23T14:11:16.801+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "fed53b6a-c54b-4da0-804d-d621e048a8bb",
+      "source_location": "India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "7a2dd19135acf6c910e9e1cb752c1334a21c5725bcd17f86f32bcdd622ace73c",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "certa-9f7caf0b-46ff-49ab-ae78-62deadec106e",
+      "source_url": "https://jobs.ashbyhq.com/certa/9f7caf0b-46ff-49ab-ae78-62deadec106e",
+      "application_url": "https://jobs.ashbyhq.com/certa/9f7caf0b-46ff-49ab-ae78-62deadec106e",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/certa?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.249556+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T06:03:09.175+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "9f7caf0b-46ff-49ab-ae78-62deadec106e",
+      "source_location": "India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "4a192edbde8a2f0e87a97b0d4b8247d0d3dd694bf5b3baec8a44627f1ea0b7f5",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "certa-2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+      "source_url": "https://jobs.ashbyhq.com/certa/2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+      "application_url": "https://jobs.ashbyhq.com/certa/2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/certa?includeCompensation=true",
+      "checked_at": "2026-11-16T19:00:26.249556+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-15T15:35:47.159+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+      "source_location": "India",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "86071e7365cdc0b3e27a7a504c0f1678feb864f4b5ac4065551801d91a55a0d0",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "aiprise-5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+      "source_url": "https://jobs.ashbyhq.com/aiprise/5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+      "application_url": "https://jobs.ashbyhq.com/aiprise/5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+      "checked_at": "2026-11-16T19:12:32.292885+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-30T07:14:11.874+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "48ee66c883bf4275ddbe9bb7c72fd5dcae014535a1b33d1dd08a18944a15cdac",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "aiprise-4994f7fc-b974-420f-9823-32d6c493f5c2",
+      "source_url": "https://jobs.ashbyhq.com/aiprise/4994f7fc-b974-420f-9823-32d6c493f5c2",
+      "application_url": "https://jobs.ashbyhq.com/aiprise/4994f7fc-b974-420f-9823-32d6c493f5c2",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+      "checked_at": "2026-11-16T19:12:32.292885+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-11T06:28:29.997+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "4994f7fc-b974-420f-9823-32d6c493f5c2",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "21d18b6a2e72b80cf34ed218233076cfcbc5ebf6f76de18200dc41bca24322f5",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "aiprise-41af4efa-a550-484e-afde-a9f5f3807eca",
+      "source_url": "https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca",
+      "application_url": "https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+      "checked_at": "2026-11-16T19:12:32.292885+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-11T06:30:03.514+00:00",
+      "publication_date_field": "publishedAt",
+      "source_requisition_id": "41af4efa-a550-484e-afde-a9f5f3807eca",
+      "source_location": "Bengaluru",
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": "OnSite",
+      "source_commitment": "FullTime",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "fed9953ac3a71fea095fe7d0a16ce4153ad4601fbb454d36882c1ce1ec24f030",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "h2o-ai-y4xkgbiojt",
+      "source_url": "https://h2oai.applytojob.com/apply/Y4XkgBiojT",
+      "application_url": "https://h2oai.applytojob.com/apply/Y4XkgBiojT",
+      "source_api": "https://h2oai.applytojob.com/apply/Y4XkgBiojT",
+      "checked_at": "2026-11-16T18:57:03.636930+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-03",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "Y4XkgBiojT",
+      "source_location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "",
+          "addressRegion": "",
+          "postalCode": ""
+        }
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": "FULL_TIME",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "99826cefc944f114ea2e42f31a74649cd28efabf02e6affe6d6ebabeb39b734f",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "filterpixel-5027294",
+      "source_url": "https://wellfound.com/jobs/5027294-senior-software-engineer-backend-infrastructure",
+      "application_url": "https://wellfound.com/jobs/5027294-senior-software-engineer-backend-infrastructure",
+      "source_api": "https://wellfound.com/jobs/5027294-senior-software-engineer-backend-infrastructure",
+      "checked_at": "2026-11-16T19:00:22.733268+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-09T10:31:38Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5027294",
+      "source_location": [
+        "Noida"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 120000.0,
+          "maxValue": 160000.0
+        }
+      },
+      "salary_exclusion_note": "Annual metadata appears to contain a monthly-sized value; pay period not independently resolved.",
+      "content_sha256": "332906eb5d0c72d65b3943759722a37a13c886957bdd0d2a6e51e6551df2726f",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "marvedge-4995303",
+      "source_url": "https://wellfound.com/jobs/4995303-full-stack-developer-intern",
+      "application_url": "https://wellfound.com/jobs/4995303-full-stack-developer-intern",
+      "source_api": "https://wellfound.com/jobs/4995303-full-stack-developer-intern",
+      "checked_at": "2026-11-16T19:00:22.734016+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-05T19:31:28Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4995303",
+      "source_location": [
+        "Bhubaneswar"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "ccc6ad47e5eef51a9fb224087e8646862c71205ef8af5ce2867e441dbb853dcd",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "spenza-4491416",
+      "source_url": "https://wellfound.com/jobs/4491416-ai-native-tech-lead",
+      "application_url": "https://wellfound.com/jobs/4491416-ai-native-tech-lead",
+      "source_api": "https://wellfound.com/jobs/4491416-ai-native-tech-lead",
+      "checked_at": "2026-11-16T19:00:23.554591+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-29T17:31:11Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4491416",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 3000000.0,
+          "maxValue": 5000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "405f70448ae4a63f61d6e1679d3281dbc37056aaa25594bee740c38dfccdfa7b",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "marmeto-4901481",
+      "source_url": "https://wellfound.com/jobs/4901481-backend-developer-integrations-automation",
+      "application_url": "https://wellfound.com/jobs/4901481-backend-developer-integrations-automation",
+      "source_api": "https://wellfound.com/jobs/4901481-backend-developer-integrations-automation",
+      "checked_at": "2026-11-16T19:00:23.899894+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T14:48:06Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4901481",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 400000.0,
+          "maxValue": 600000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "aaa2fca0fd1a68ef5262715f378fc6c8d8d8f30e8818baf697bee0d989275cfb",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "marmeto-4372239",
+      "source_url": "https://wellfound.com/jobs/4372239-frontend-developer-recurpay",
+      "application_url": "https://wellfound.com/jobs/4372239-frontend-developer-recurpay",
+      "source_api": "https://wellfound.com/jobs/4372239-frontend-developer-recurpay",
+      "checked_at": "2026-11-16T19:00:23.944855+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-26T06:30:07Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4372239",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 700000.0,
+          "maxValue": 900000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "2bd015ba4e4754fcc5c4b99c77563d322eaa2d32df0d83d21f6ac0f6f86e1b91",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "sei-ai-3162567",
+      "source_url": "https://wellfound.com/jobs/3162567-llm-engineer",
+      "application_url": "https://wellfound.com/jobs/3162567-llm-engineer",
+      "source_api": "https://wellfound.com/jobs/3162567-llm-engineer",
+      "checked_at": "2026-11-16T19:00:24.589444+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-26T08:52:18Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3162567",
+      "source_location": [
+        "Chennai"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2000000.0,
+          "maxValue": 5000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "ce5c6baf0ecf1c540785560276db28d3219045c34c9cab86a2cb76ec986f9fbe",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "allminds-3143348",
+      "source_url": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+      "application_url": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+      "source_api": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+      "checked_at": "2026-11-16T19:00:25.378631+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-17T07:23:16Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3143348",
+      "source_location": [
+        "India"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 45000.0,
+          "maxValue": 80000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "50082c449d4bd8272b7be97ed1badb873997784d7c3cf4828f6f3b1b92607341",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "azodha-5086001",
+      "source_url": "https://wellfound.com/jobs/5086001-automation-testing",
+      "application_url": "https://wellfound.com/jobs/5086001-automation-testing",
+      "source_api": "https://wellfound.com/jobs/5086001-automation-testing",
+      "checked_at": "2026-11-16T19:00:25.473696+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-16T09:50:52Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5086001",
+      "source_location": [
+        "Pune"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE_OR_REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 20000000.0,
+          "maxValue": 25000000.0
+        }
+      },
+      "salary_exclusion_note": "INR 2–2.5 crore automation-testing amount is inconsistent with the advertised level; excluded pending employer confirmation.",
+      "content_sha256": "d16a9b41a23d13bc8661042f0ecc29be80fcc0718035bbfd99f361f49222bae6",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "javis-3355468",
+      "source_url": "https://wellfound.com/jobs/3355468-software-development-engineer-ii-backend-java",
+      "application_url": "https://wellfound.com/jobs/3355468-software-development-engineer-ii-backend-java",
+      "source_api": "https://wellfound.com/jobs/3355468-software-development-engineer-ii-backend-java",
+      "checked_at": "2026-11-16T19:00:25.668638+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-09T17:30:27Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3355468",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2500000.0,
+          "maxValue": 3500000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "638a1c94570bf2fb36c4963707c5bfa3e1cc13564c4abc31e2e924bce0fe183d",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "gyrus-ai-2360186",
+      "source_url": "https://wellfound.com/jobs/2360186-computer-vision-engineer",
+      "application_url": "https://wellfound.com/jobs/2360186-computer-vision-engineer",
+      "source_api": "https://wellfound.com/jobs/2360186-computer-vision-engineer",
+      "checked_at": "2026-11-16T19:00:25.867759+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-26T17:30:55Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "2360186",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 600000.0,
+          "maxValue": 1000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "18f7d40522a4f2ffd48841837b892d85830d673ca20137ef09a4c39bf96ce9e4",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "swift-3020063",
+      "source_url": "https://wellfound.com/jobs/3020063-frontend-developer-intern",
+      "application_url": "https://wellfound.com/jobs/3020063-frontend-developer-intern",
+      "source_api": "https://wellfound.com/jobs/3020063-frontend-developer-intern",
+      "checked_at": "2026-11-16T19:00:25.983779+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-13T08:57:41Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3020063",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "internship",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 360000.0,
+          "maxValue": 480000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "f5257eec306d1ccd49d471d7928df8f1e8ac4c732d375b5c498452e4649fc5ff",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "sciative-we-price-right-4064959",
+      "source_url": "https://wellfound.com/jobs/4064959-devops-engineer",
+      "application_url": "https://wellfound.com/jobs/4064959-devops-engineer",
+      "source_api": "https://wellfound.com/jobs/4064959-devops-engineer",
+      "checked_at": "2026-11-16T19:00:26.129281+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T17:30:29Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4064959",
+      "source_location": [
+        "Navi Mumbai"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 35000.0,
+          "maxValue": 45000.0
+        }
+      },
+      "salary_exclusion_note": "Annual metadata contains INR 35–45k for a full-time experienced DevOps role; probable period mismatch not resolved.",
+      "content_sha256": "670485f7f10dd0a11a493864e1809793f963fb3268d86012aaf2fa07243cceb9",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "mira-labs-ai-4897561",
+      "source_url": "https://wellfound.com/jobs/4897561-senior-product-security-devsecops-engineer",
+      "application_url": "https://wellfound.com/jobs/4897561-senior-product-security-devsecops-engineer",
+      "source_api": "https://wellfound.com/jobs/4897561-senior-product-security-devsecops-engineer",
+      "checked_at": "2026-11-16T19:00:27.139191+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T12:10:02Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4897561",
+      "source_location": [
+        "Hinjawadi Rajiv Gandhi Infotech Park"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "882d41a222bebfabc75415efc41d0dc3df9fedb1d7a5e86731c84f9d289e5705",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "procureyard-technologies-4793779",
+      "source_url": "https://wellfound.com/jobs/4793779-ml-ai-engineer-intern-procureyard",
+      "application_url": "https://wellfound.com/jobs/4793779-ml-ai-engineer-intern-procureyard",
+      "source_api": "https://wellfound.com/jobs/4793779-ml-ai-engineer-intern-procureyard",
+      "checked_at": "2026-11-16T19:00:27.451206+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T12:07:50Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4793779",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "internship",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 300000.0,
+          "maxValue": 360000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "fbb7e91047878a416122d6e7c15064d24202481927babebaad8f5d01ec7fce46",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "right-hand-cybersecurity-4897506",
+      "source_url": "https://wellfound.com/jobs/4897506-senior-product-engineer-ai-native",
+      "application_url": "https://wellfound.com/jobs/4897506-senior-product-engineer-ai-native",
+      "source_api": "https://wellfound.com/jobs/4897506-senior-product-engineer-ai-native",
+      "checked_at": "2026-11-16T19:00:27.994820+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T10:29:10Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4897506",
+      "source_location": [
+        "India Gate"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 35000.0,
+          "maxValue": 45000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "86fbc3b4b7864749d2f87ace345e5510d70f945d4e3fe633b51e165180d10c21",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "scispace-3534689",
+      "source_url": "https://wellfound.com/jobs/3534689-senior-agentic-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/3534689-senior-agentic-ai-engineer",
+      "source_api": "https://wellfound.com/jobs/3534689-senior-agentic-ai-engineer",
+      "checked_at": "2026-11-16T19:00:28.039644+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-17T07:06:37Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3534689",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 3000000.0,
+          "maxValue": 4700000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "dd5aae97652bc16b1140e9518ca3c7fe4f9734c6b270dfd04933803bde2019ae",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "cube-4157977",
+      "source_url": "https://wellfound.com/jobs/4157977-full-stack-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4157977-full-stack-ai-engineer",
+      "source_api": "https://wellfound.com/jobs/4157977-full-stack-ai-engineer",
+      "checked_at": "2026-11-16T19:00:28.300679+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-03T10:12:18Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4157977",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "6c1b92f7a5756cdc1c5bc177eed292c21fdf12b88b8528f33a64b11bd10b2e08",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "nevonai-5031257",
+      "source_url": "https://wellfound.com/jobs/5031257-computer-vision-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/5031257-computer-vision-ai-engineer",
+      "source_api": "https://wellfound.com/jobs/5031257-computer-vision-ai-engineer",
+      "checked_at": "2026-11-16T19:00:28.315277+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-10T07:50:34Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5031257",
+      "source_location": [
+        "New Delhi"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "5ae98b3cef9fe850938e3c7953bc6cf7f390ec46c3daa9810247b873b70efa6c",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "flomobility-5062846",
+      "source_url": "https://wellfound.com/jobs/5062846-robotics-engineer",
+      "application_url": "https://wellfound.com/jobs/5062846-robotics-engineer",
+      "source_api": "https://wellfound.com/jobs/5062846-robotics-engineer",
+      "checked_at": "2026-11-16T19:00:29.091930+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-14T05:25:18Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5062846",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "9971771c88bbbd2886f1b81f131d2d9f589696598542686f0487f1b7091b3701",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "flomobility-4985524",
+      "source_url": "https://wellfound.com/jobs/4985524-firmware-engineer",
+      "application_url": "https://wellfound.com/jobs/4985524-firmware-engineer",
+      "source_api": "https://wellfound.com/jobs/4985524-firmware-engineer",
+      "checked_at": "2026-11-16T19:00:29.324552+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-14T05:24:57Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4985524",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "06081827a54f9186c74004be24e312247dce0e5a5d9bf1cfc72feca37d6a676a",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "rentok-5067313",
+      "source_url": "https://wellfound.com/jobs/5067313-fullstack-engineer",
+      "application_url": "https://wellfound.com/jobs/5067313-fullstack-engineer",
+      "source_api": "https://wellfound.com/jobs/5067313-fullstack-engineer",
+      "checked_at": "2026-11-16T19:00:29.641932+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-13T11:59:28Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5067313",
+      "source_location": [
+        "Gurgaon"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "d3797a29d02a0c4c6ebaaa7e65e44a9c030a908868322c74bb782a82742fd56f",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "fuze-2448180",
+      "source_url": "https://wellfound.com/jobs/2448180-software-engineer",
+      "application_url": "https://wellfound.com/jobs/2448180-software-engineer",
+      "source_api": "https://wellfound.com/jobs/2448180-software-engineer",
+      "checked_at": "2026-11-16T19:00:29.789868+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T06:42:44Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "2448180",
+      "source_location": [
+        "Dubai",
+        "Bengaluru",
+        "Abu Dhabi",
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "Estonia"
+        },
+        {
+          "@type": "Country",
+          "name": "Iceland"
+        },
+        {
+          "@type": "Country",
+          "name": "Russia"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "Turkey"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Luxembourg"
+        },
+        {
+          "@type": "Country",
+          "name": "Lithuania"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "Romania"
+        },
+        {
+          "@type": "Country",
+          "name": "Ireland"
+        },
+        {
+          "@type": "Country",
+          "name": "Poland"
+        },
+        {
+          "@type": "Country",
+          "name": "Denmark"
+        },
+        {
+          "@type": "Country",
+          "name": "Sweden"
+        },
+        {
+          "@type": "Country",
+          "name": "Czech Republic"
+        },
+        {
+          "@type": "Country",
+          "name": "Belgium"
+        },
+        {
+          "@type": "Country",
+          "name": "Ukraine"
+        },
+        {
+          "@type": "Country",
+          "name": "Norway"
+        },
+        {
+          "@type": "Country",
+          "name": "Netherlands"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        },
+        {
+          "@type": "Country",
+          "name": "Hungary"
+        },
+        {
+          "@type": "Country",
+          "name": "Serbia"
+        },
+        {
+          "@type": "Country",
+          "name": "Bulgaria"
+        },
+        {
+          "@type": "Country",
+          "name": "Greece"
+        },
+        {
+          "@type": "Country",
+          "name": "Malta"
+        },
+        {
+          "@type": "Country",
+          "name": "Finland"
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        },
+        {
+          "@type": "Country",
+          "name": "Croatia"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        },
+        {
+          "@type": "Country",
+          "name": "Belarus"
+        },
+        {
+          "@type": "Country",
+          "name": "Armenia"
+        },
+        {
+          "@type": "Country",
+          "name": "Slovenia"
+        },
+        {
+          "@type": "Country",
+          "name": "Latvia"
+        },
+        {
+          "@type": "Country",
+          "name": "Cyprus"
+        },
+        {
+          "@type": "Country",
+          "name": "Monaco"
+        },
+        {
+          "@type": "Country",
+          "name": "Slovakia"
+        },
+        {
+          "@type": "Country",
+          "name": "Georgia"
+        },
+        {
+          "@type": "Country",
+          "name": "Bosnia and Herzegovina"
+        },
+        {
+          "@type": "Country",
+          "name": "Macedonia (FYROM)"
+        },
+        {
+          "@type": "Country",
+          "name": "Moldova"
+        },
+        {
+          "@type": "Country",
+          "name": "Liechtenstein"
+        },
+        {
+          "@type": "Country",
+          "name": "Albania"
+        },
+        {
+          "@type": "Country",
+          "name": "Azerbaijan"
+        },
+        {
+          "@type": "Country",
+          "name": "Jersey"
+        },
+        {
+          "@type": "Country",
+          "name": "Andorra"
+        },
+        {
+          "@type": "Country",
+          "name": "Montenegro"
+        },
+        {
+          "@type": "Country",
+          "name": "Gibraltar"
+        },
+        {
+          "@type": "Country",
+          "name": "Kosovo"
+        },
+        {
+          "@type": "Country",
+          "name": "San Marino"
+        },
+        {
+          "@type": "Country",
+          "name": "Åland Islands"
+        },
+        {
+          "@type": "Country",
+          "name": "Guernsey"
+        },
+        {
+          "@type": "Country",
+          "name": "Isle of Man"
+        },
+        {
+          "@type": "Country",
+          "name": "Faroe Islands"
+        },
+        {
+          "@type": "Country",
+          "name": "Vatican City"
+        },
+        {
+          "@type": "Country",
+          "name": "Svalbard and Jan Mayen"
+        },
+        {
+          "@type": "Country",
+          "name": "Czechia"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 40000.0,
+          "maxValue": 100000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "e9c82fc62926c139c0744de902c65fb268ac35256ab033d9abc20a5efedd152d",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "scopex-4970149",
+      "source_url": "https://wellfound.com/jobs/4970149-senior-react-native-engineer",
+      "application_url": "https://wellfound.com/jobs/4970149-senior-react-native-engineer",
+      "source_api": "https://wellfound.com/jobs/4970149-senior-react-native-engineer",
+      "checked_at": "2026-11-16T19:00:29.840668+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T09:10:38Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4970149",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "Estonia"
+        },
+        {
+          "@type": "Country",
+          "name": "Iceland"
+        },
+        {
+          "@type": "Country",
+          "name": "Russia"
+        },
+        {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        {
+          "@type": "Country",
+          "name": "Turkey"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "France"
+        },
+        {
+          "@type": "Country",
+          "name": "Luxembourg"
+        },
+        {
+          "@type": "Country",
+          "name": "Lithuania"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "Romania"
+        },
+        {
+          "@type": "Country",
+          "name": "Ireland"
+        },
+        {
+          "@type": "Country",
+          "name": "Poland"
+        },
+        {
+          "@type": "Country",
+          "name": "Denmark"
+        },
+        {
+          "@type": "Country",
+          "name": "Sweden"
+        },
+        {
+          "@type": "Country",
+          "name": "Czech Republic"
+        },
+        {
+          "@type": "Country",
+          "name": "Belgium"
+        },
+        {
+          "@type": "Country",
+          "name": "Ukraine"
+        },
+        {
+          "@type": "Country",
+          "name": "Norway"
+        },
+        {
+          "@type": "Country",
+          "name": "Netherlands"
+        },
+        {
+          "@type": "Country",
+          "name": "Italy"
+        },
+        {
+          "@type": "Country",
+          "name": "Hungary"
+        },
+        {
+          "@type": "Country",
+          "name": "Serbia"
+        },
+        {
+          "@type": "Country",
+          "name": "Bulgaria"
+        },
+        {
+          "@type": "Country",
+          "name": "Greece"
+        },
+        {
+          "@type": "Country",
+          "name": "Malta"
+        },
+        {
+          "@type": "Country",
+          "name": "Finland"
+        },
+        {
+          "@type": "Country",
+          "name": "Portugal"
+        },
+        {
+          "@type": "Country",
+          "name": "Croatia"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        },
+        {
+          "@type": "Country",
+          "name": "Belarus"
+        },
+        {
+          "@type": "Country",
+          "name": "Armenia"
+        },
+        {
+          "@type": "Country",
+          "name": "Slovenia"
+        },
+        {
+          "@type": "Country",
+          "name": "Latvia"
+        },
+        {
+          "@type": "Country",
+          "name": "Cyprus"
+        },
+        {
+          "@type": "Country",
+          "name": "Monaco"
+        },
+        {
+          "@type": "Country",
+          "name": "Slovakia"
+        },
+        {
+          "@type": "Country",
+          "name": "Georgia"
+        },
+        {
+          "@type": "Country",
+          "name": "Bosnia and Herzegovina"
+        },
+        {
+          "@type": "Country",
+          "name": "Macedonia (FYROM)"
+        },
+        {
+          "@type": "Country",
+          "name": "Moldova"
+        },
+        {
+          "@type": "Country",
+          "name": "Liechtenstein"
+        },
+        {
+          "@type": "Country",
+          "name": "Albania"
+        },
+        {
+          "@type": "Country",
+          "name": "Azerbaijan"
+        },
+        {
+          "@type": "Country",
+          "name": "Jersey"
+        },
+        {
+          "@type": "Country",
+          "name": "Andorra"
+        },
+        {
+          "@type": "Country",
+          "name": "Montenegro"
+        },
+        {
+          "@type": "Country",
+          "name": "Gibraltar"
+        },
+        {
+          "@type": "Country",
+          "name": "Kosovo"
+        },
+        {
+          "@type": "Country",
+          "name": "San Marino"
+        },
+        {
+          "@type": "Country",
+          "name": "Åland Islands"
+        },
+        {
+          "@type": "Country",
+          "name": "Guernsey"
+        },
+        {
+          "@type": "Country",
+          "name": "Isle of Man"
+        },
+        {
+          "@type": "Country",
+          "name": "Faroe Islands"
+        },
+        {
+          "@type": "Country",
+          "name": "Vatican City"
+        },
+        {
+          "@type": "Country",
+          "name": "Svalbard and Jan Mayen"
+        },
+        {
+          "@type": "Country",
+          "name": "Czechia"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE_OR_REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 30000.0,
+          "maxValue": 50000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "d8f9c84f47d37876353b392cf3e2f5f6c0936a903dbe35ffbc41b1111a55e8a6",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "scopex-3203566",
+      "source_url": "https://wellfound.com/jobs/3203566-senior-qa-automation-engineer",
+      "application_url": "https://wellfound.com/jobs/3203566-senior-qa-automation-engineer",
+      "source_api": "https://wellfound.com/jobs/3203566-senior-qa-automation-engineer",
+      "checked_at": "2026-11-16T19:00:29.908591+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T10:08:28Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3203566",
+      "source_location": [
+        "India",
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE_OR_REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1500000.0,
+          "maxValue": 2000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "408070b451cee381ea14cb0d0f2b4c696d371c8dbe257d45313cd7edb611e087",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "cloudcrane-5027354",
+      "source_url": "https://wellfound.com/jobs/5027354-senior-software-engineer",
+      "application_url": "https://wellfound.com/jobs/5027354-senior-software-engineer",
+      "source_api": "https://wellfound.com/jobs/5027354-senior-software-engineer",
+      "checked_at": "2026-11-16T19:00:30.288560+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-09T15:51:22Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5027354",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "ba403838fc4dabd7e48e3a461d8dbe1294a3fd448bd68a91a3d7e3c3d9c1eac8",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "vested-finance-4981464",
+      "source_url": "https://wellfound.com/jobs/4981464-software-engineer",
+      "application_url": "https://wellfound.com/jobs/4981464-software-engineer",
+      "source_api": "https://wellfound.com/jobs/4981464-software-engineer",
+      "checked_at": "2026-11-16T19:00:30.452071+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T09:47:28Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4981464",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "33e62fd05de573d5cee3c4d4e040230d7048e0f6b73a13cbf5e9f7fff82d4a66",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "vested-finance-4875063",
+      "source_url": "https://wellfound.com/jobs/4875063-junior-qa-engineer",
+      "application_url": "https://wellfound.com/jobs/4875063-junior-qa-engineer",
+      "source_api": "https://wellfound.com/jobs/4875063-junior-qa-engineer",
+      "checked_at": "2026-11-16T19:00:30.459950+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-21T14:03:31Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4875063",
+      "source_location": [
+        "India",
+        "Berkeley",
+        "Ahmedabad",
+        "Mumbai",
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "f517f5c2db06b01aa89ff0dfd67ddc812a8a7445b0b949ab6f6541694873447b",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "alchemyst-ai-4430599",
+      "source_url": "https://wellfound.com/jobs/4430599-junior-devops-engineer-intern-clone",
+      "application_url": "https://wellfound.com/jobs/4430599-junior-devops-engineer-intern-clone",
+      "source_api": "https://wellfound.com/jobs/4430599-junior-devops-engineer-intern-clone",
+      "checked_at": "2026-11-16T19:00:31.594742+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-19T16:30:36Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4430599",
+      "source_location": [
+        "Singapore",
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 180000.0,
+          "maxValue": 300000.0
+        }
+      },
+      "salary_exclusion_note": "Low annual range may reflect stale internship compensation after title change; omitted pending confirmation.",
+      "content_sha256": "d53c0149aad54c52607aeea4313466c57d526cf04768e38e7fef0eb01c876808",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "learntube-ai-3301948",
+      "source_url": "https://wellfound.com/jobs/3301948-senior-backend-engineer-fastapi",
+      "application_url": "https://wellfound.com/jobs/3301948-senior-backend-engineer-fastapi",
+      "source_api": "https://wellfound.com/jobs/3301948-senior-backend-engineer-fastapi",
+      "checked_at": "2026-11-16T19:00:31.771147+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-23T08:11:09Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3301948",
+      "source_location": [
+        "Mumbai"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE_OR_REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2000000.0,
+          "maxValue": 3200000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "d94ce38cc0c0f83a5f0101a1990211c06196e5548f3c1b4d33bd36b410d8cf76",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "agentic-universe-4901518",
+      "source_url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
+      "source_api": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
+      "checked_at": "2026-11-16T19:00:32.244901+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T17:01:15Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4901518",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2500000.0,
+          "maxValue": 3500000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "9c9d12fa1003f2a31f31a4820c490ec665b97affdd1d418c12d6c5ed3ce74ecc",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "agentic-universe-4985505",
+      "source_url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "application_url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "source_api": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "checked_at": "2026-11-16T19:00:32.262160+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T12:25:47Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4985505",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 300000.0,
+          "maxValue": 360000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "c2c6c1713ac75fe543c6874d3357b41a0d316973487a6ebdb6c3b72cc3f59d58",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "auxoai-4867067",
+      "source_url": "https://wellfound.com/jobs/4867067-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4867067-ai-engineer",
+      "source_api": "https://wellfound.com/jobs/4867067-ai-engineer",
+      "checked_at": "2026-11-16T19:00:32.520475+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-19T15:25:30Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4867067",
+      "source_location": [
+        "Hyderabad",
+        "Mumbai",
+        "Bangalore Urban",
+        "Gurugram"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2000000.0,
+          "maxValue": 4500000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "505db58ec197b9c0b8500b8be65c6f26cf8b1acf6ebd46fe51ab52b76572848f",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "foxo-4901331",
+      "source_url": "https://wellfound.com/jobs/4901331-ai-engineer-ii",
+      "application_url": "https://wellfound.com/jobs/4901331-ai-engineer-ii",
+      "source_api": "https://wellfound.com/jobs/4901331-ai-engineer-ii",
+      "checked_at": "2026-11-16T19:00:32.600633+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-28T04:04:53Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4901331",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "0db87f51ebfc0f1dd08d2f27a8326a26a95d4032bd809a49b3ea68108f1c7477",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "loopr-ai-4967239",
+      "source_url": "https://wellfound.com/jobs/4967239-software-engineer-iii-fullstack",
+      "application_url": "https://wellfound.com/jobs/4967239-software-engineer-iii-fullstack",
+      "source_api": "https://wellfound.com/jobs/4967239-software-engineer-iii-fullstack",
+      "checked_at": "2026-11-16T19:00:32.609892+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-03T06:39:04Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4967239",
+      "source_location": [
+        "Pune"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2500000.0,
+          "maxValue": 3000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "fb3a8048cc48c8c184ba40204f3ce54b368f42c82b72b5d8d0751883f87f4845",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "decentro-3265562",
+      "source_url": "https://wellfound.com/jobs/3265562-front-end-developer",
+      "application_url": "https://wellfound.com/jobs/3265562-front-end-developer",
+      "source_api": "https://wellfound.com/jobs/3265562-front-end-developer",
+      "checked_at": "2026-11-16T19:00:32.771038+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-12T10:30:09Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "3265562",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1000000.0,
+          "maxValue": 1500000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "1f8bf7c1a9657f2d57649842a67b9eafee967fe4c55fc6d3a1601ef0b6c635e1",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "decentro-4980132",
+      "source_url": "https://wellfound.com/jobs/4980132-junior-security-engineer",
+      "application_url": "https://wellfound.com/jobs/4980132-junior-security-engineer",
+      "source_api": "https://wellfound.com/jobs/4980132-junior-security-engineer",
+      "checked_at": "2026-11-16T19:00:32.859583+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T07:00:57Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4980132",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1200000.0,
+          "maxValue": 2000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "558a6f33466ffc4e61cc9b9d731cbcc6245dccf90a6056bd12faac4e2d431360",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "cypherock-wallet-2351282",
+      "source_url": "https://wellfound.com/jobs/2351282-software-engineer",
+      "application_url": "https://wellfound.com/jobs/2351282-software-engineer",
+      "source_api": "https://wellfound.com/jobs/2351282-software-engineer",
+      "checked_at": "2026-11-16T19:00:33.265613+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-12T14:43:53Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "2351282",
+      "source_location": [
+        "Gurgaon",
+        "Gurugram"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 800000.0,
+          "maxValue": 1500000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "a337becca1dc4799ae363f3ab15bbe29fd91536c32ee231b15b7fe85e4299cec",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "cypherock-wallet-644641",
+      "source_url": "https://wellfound.com/jobs/644641-c-c-programmer",
+      "application_url": "https://wellfound.com/jobs/644641-c-c-programmer",
+      "source_api": "https://wellfound.com/jobs/644641-c-c-programmer",
+      "checked_at": "2026-11-16T19:00:33.434541+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-12T14:41:20Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "644641",
+      "source_location": [
+        "Gurgaon",
+        "New Delhi",
+        "Gurugram"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 800000.0,
+          "maxValue": 2000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "09e80cbf5437d7bad3348f0485c26c7f894dd3b3db87bf1e42ed7d3a9e7ecb8b",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "learntube-ai-5034675",
+      "source_url": "https://wellfound.com/jobs/5034675-senior-golang-developer-go-remote",
+      "application_url": "https://wellfound.com/jobs/5034675-senior-golang-developer-go-remote",
+      "source_api": "https://wellfound.com/jobs/5034675-senior-golang-developer-go-remote",
+      "checked_at": "2026-11-16T19:00:33.533222+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-10T13:37:43Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5034675",
+      "source_location": [
+        "Bengaluru",
+        "Hyderabad",
+        "Mumbai",
+        "Delhi"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE_OR_REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1500000.0,
+          "maxValue": 4500000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "4901ec9c9b908ac567495d7031586b2b3c1601c4405dbbef47d4c2c3451c8257",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "branch-5034661",
+      "source_url": "https://wellfound.com/jobs/5034661-platform-security-engineer",
+      "application_url": "https://wellfound.com/jobs/5034661-platform-security-engineer",
+      "source_api": "https://wellfound.com/jobs/5034661-platform-security-engineer",
+      "checked_at": "2026-11-16T19:00:33.583648+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-10T12:41:07Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5034661",
+      "source_location": [
+        "Bengaluru"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "REMOTE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2500000.0,
+          "maxValue": 4000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "87cf4499bb7c1e23b8f6a5e9bbd4c3a7ba56f8a013416f28c02ed86d01bea788",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "get-my-parking-4897468",
+      "source_url": "https://wellfound.com/jobs/4897468-senior-ai-engineer-sde-ii-backend",
+      "application_url": "https://wellfound.com/jobs/4897468-senior-ai-engineer-sde-ii-backend",
+      "source_api": "https://wellfound.com/jobs/4897468-senior-ai-engineer-sde-ii-backend",
+      "checked_at": "2026-11-16T19:00:34.043635+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T08:06:30Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4897468",
+      "source_location": [
+        "Bangalore Urban"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": false
+      },
+      "source_commitment": "full-time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2000000.0,
+          "maxValue": 2500000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "f62db78f887c04cf699758fc8ae1581a328c4a1ab71bde89ae85363b73bb73d6",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "auxoai-4897560",
+      "source_url": "https://wellfound.com/jobs/4897560-ai-and-data-engineering-technical-delivery-lead",
+      "application_url": "https://wellfound.com/jobs/4897560-ai-and-data-engineering-technical-delivery-lead",
+      "source_api": "https://wellfound.com/jobs/4897560-ai-and-data-engineering-technical-delivery-lead",
+      "checked_at": "2026-11-16T19:08:33.354599+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-10-27T12:08:59Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "4897560",
+      "source_location": [
+        "Hyderabad",
+        "Mumbai",
+        "Bangalore Urban",
+        "Gurugram"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "id": "1588795",
+        "kind": "ONSITE"
+      },
+      "source_commitment": "full_time",
+      "employer_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2800000.0,
+          "maxValue": 5000000.0
+        }
+      },
+      "salary_exclusion_note": "",
+      "content_sha256": "d5a32d2d187f0da126fb2b2fdca3970969c8736746cb4b6d01dffc9c1f824e57",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "innovaccer-d0bc6865f3",
+      "source_url": "https://apply.workable.com/innovaccer-analytics/j/D0BC6865F3/",
+      "application_url": "https://apply.workable.com/innovaccer-analytics/j/D0BC6865F3/",
+      "source_api": "https://apply.workable.com/api/v2/accounts/innovaccer-analytics/jobs/D0BC6865F3",
+      "checked_at": "2026-11-16T19:11:56.929030+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-04T00:00:00.000Z",
+      "publication_date_field": "published",
+      "source_requisition_id": "D0BC6865F3",
+      "source_location": {
+        "city": "Noida",
+        "country": "India",
+        "countryCode": "IN",
+        "region": null
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "bf5929a669990d66757ed21a772a8ccc2200730e43aa4a89a4f4463c82aaf02d",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "innovaccer-217f6ed816",
+      "source_url": "https://apply.workable.com/innovaccer-analytics/j/217F6ED816/",
+      "application_url": "https://apply.workable.com/innovaccer-analytics/j/217F6ED816/",
+      "source_api": "https://apply.workable.com/api/v2/accounts/innovaccer-analytics/jobs/217F6ED816",
+      "checked_at": "2026-11-16T19:11:56.929581+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-03T00:00:00.000Z",
+      "publication_date_field": "published",
+      "source_requisition_id": "217F6ED816",
+      "source_location": {
+        "city": "Noida",
+        "country": "India",
+        "countryCode": "IN",
+        "region": "Uttar Pradesh"
+      },
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": null,
+      "source_commitment": null,
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "03c7ca18d8cb8a108a9cea07a67ff68d79ebc1b614821d459234f3f65b550d6d",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "edmo-5008559",
+      "source_url": "https://wellfound.com/jobs/5008559-agentic-ai-architect",
+      "application_url": "https://wellfound.com/jobs/5008559-agentic-ai-architect",
+      "source_api": "https://wellfound.com/jobs/5008559-agentic-ai-architect",
+      "checked_at": "2026-11-16T19:00:22.733719+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-06T10:54:11Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5008559",
+      "source_location": [
+        "Pune"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "824018bc1bb640b02aa6809796959d996d45ac14c142c099aeec590350d12303",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "edmo-5008558",
+      "source_url": "https://wellfound.com/jobs/5008558-solution-architect",
+      "application_url": "https://wellfound.com/jobs/5008558-solution-architect",
+      "source_api": "https://wellfound.com/jobs/5008558-solution-architect",
+      "checked_at": "2026-11-16T19:00:22.733873+00:00",
+      "http_status": 200,
+      "source_publication_timestamp": "2026-11-06T10:51:49Z",
+      "publication_date_field": "datePosted",
+      "source_requisition_id": "5008558",
+      "source_location": [
+        "Pune"
+      ],
+      "source_secondary_locations": [],
+      "source_applicant_locations": null,
+      "source_workplace_type": {
+        "__typename": "JobListingRemoteConfig",
+        "kind": "ONSITE",
+        "wfhFlexible": true
+      },
+      "source_commitment": "full-time",
+      "employer_salary": null,
+      "salary_exclusion_note": "",
+      "content_sha256": "5513862250d300bc530dc312c92af9f3c45d91403d04b95ab367d4ce7c26e76a",
+      "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
     }
   ],
   "checked_at": "2026-11-16",

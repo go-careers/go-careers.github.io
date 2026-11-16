@@ -1,5 +1,5 @@
 {
-  "policy": "Only independent, privately held startups through Series C inclusive. Exclude publicly traded companies, acquired subsidiaries, Series D or later, and unknown ownership/stages. Minority investments by public companies do not make a startup public. Funding and ownership are separately researched; recheck both before adding or updating listings.",
+  "policy": "Independent private startups at any funding stage. Public, acquired and unverified-ownership employers are excluded. A named financing round is background evidence, not a maximum stage. Undisclosed means no current named round established in the reviewed evidence.",
   "checked_at": "2026-11-16",
   "companies": [
     {
@@ -785,6 +785,1062 @@
           "https://in.linkedin.com/company/prodigaltech"
         ],
         "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
+      }
+    },
+    {
+      "company": "Agentic Universe",
+      "stage": "Pre-seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.crunchbase.com/organization/formi",
+      "additional_sources": [
+        "https://www.crunchbase.com/organization/formi"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Matched Formi / Qultured Media Pvt Ltd at formi.co.in and LinkedIn formi-co-in. The similarly named theagenticuniverse.com company is unrelated and was excluded from evidence.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/formi-co-in",
+          "https://www.crunchbase.com/organization/formi"
+        ],
+        "note": "Matched Formi / Qultured Media Pvt Ltd at formi.co.in and LinkedIn formi-co-in. The similarly named theagenticuniverse.com company is unrelated and was excluded from evidence."
+      }
+    },
+    {
+      "company": "AiPrise",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.ycombinator.com/companies/aiprise/jobs/JdEk95s-enterprise-account-manager-us",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/aiprise"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Alchemyst AI",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/alchemystai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/alchemystai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Allminds",
+      "stage": "Bootstrapped",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+      "additional_sources": [
+        "https://getallminds.com/terms.html"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Employer describes itself as largely bootstrapped and profitable; company terms connect allminds.io with getallminds.com.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/allmindstherapy",
+          "https://getallminds.com/terms.html"
+        ],
+        "note": "Employer describes itself as largely bootstrapped and profitable; company terms connect allminds.io with getallminds.com."
+      }
+    },
+    {
+      "company": "AuxoAI",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "2026-10-20",
+      "source_url": "https://auxoai.com/newsroom/series-a-announcement",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/auxoai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Azodha",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/azodha",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/azodha"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Bitwarden",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/bitwarden1",
+      "additional_sources": [
+        "https://bitwarden.com/en-gb/blog/accelerating-value-for-bitwarden-users-bitwarden-raises-usd100-million/"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Company announced a $100M minority growth investment in September 2022; no Series letter inferred.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/bitwarden1",
+          "https://bitwarden.com/en-gb/blog/accelerating-value-for-bitwarden-users-bitwarden-raises-usd100-million/"
+        ],
+        "note": "Company announced a $100M minority growth investment in September 2022; no Series letter inferred."
+      }
+    },
+    {
+      "company": "Blitzy",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/blitzyai",
+      "additional_sources": [
+        "https://blitzy.com/blog/taking-the-long-and-less-traveled-road-is-the-only-path-to-autonomy"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Company announced a $200M growth round in May 2026; no Series letter inferred. Identity is blitzy.com / blitzyai, not the Australian consultancy.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/blitzyai",
+          "https://blitzy.com/blog/taking-the-long-and-less-traveled-road-is-the-only-path-to-autonomy"
+        ],
+        "note": "Company announced a $200M growth round in May 2026; no Series letter inferred. Identity is blitzy.com / blitzyai, not the Australian consultancy."
+      }
+    },
+    {
+      "company": "Branch",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/branch-co",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/branch-co"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Certa",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.certa.ai/careers",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/getcerta"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "CloudCrane",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/cloudcrane-ai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/cloudcrane-ai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Cube",
+      "stage": "Pre-seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.crunchbase.com/organization/cube-6c22",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/cubehqai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Cyberhaven",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "2025-04-02",
+      "source_url": "https://www.cyberhaven.com/press-releases/cyberhaven-raises-100-million-series-d-at-1-billion-valuation",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/cyberhaven"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Cypherock Wallet",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/cypherockwallet",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/cypherockwallet"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Databricks",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/databricks",
+      "additional_sources": [
+        "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-strategic-round-funding-188-billion-valuation"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "A later strategic financing was announced in 2026; no maximum funding round applies. The latest financing is not represented as an invented Series letter.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/databricks",
+          "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-strategic-round-funding-188-billion-valuation"
+        ],
+        "note": "A later strategic financing was announced in 2026; no maximum funding round applies. The latest financing is not represented as an invented Series letter."
+      }
+    },
+    {
+      "company": "Decentro",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "2025-06-06",
+      "source_url": "https://www.cbinsights.com/company/decentro/financials",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/decentro"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Druva",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/druva",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/druva"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Edmo",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/edmo-ai",
+      "additional_sources": [
+        "https://goedmo.com/about-us/",
+        "https://www.crunchbase.com/organization/EDMO",
+        "https://www.caplight.com/company/goedmo"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "EDMO is iSchoolConnect Inc. The company describes an acquisition of its proctoring IP, not an acquisition of the whole employer. LinkedIn labels the organization Educational; private status is corroborated by the company identity and private-company profiles. Funding profiles conflict, so no round is asserted.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/edmo-ai",
+          "https://goedmo.com/about-us/",
+          "https://www.crunchbase.com/organization/EDMO",
+          "https://www.caplight.com/company/goedmo"
+        ],
+        "note": "EDMO is iSchoolConnect Inc. The company describes an acquisition of its proctoring IP, not an acquisition of the whole employer. LinkedIn labels the organization Educational; private status is corroborated by the company identity and private-company profiles. Funding profiles conflict, so no round is asserted."
+      }
+    },
+    {
+      "company": "FOXO",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/foxoclub",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/foxoclub"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "FilterPixel",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/filterpixel",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/filterpixel"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Fivetran",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/fivetran",
+      "additional_sources": [
+        "https://www.fivetran.com/press/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents",
+        "https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Fivetran and dbt Labs completed their merger in June 2026. Fivetran is the continuing private combined operating company, not an acquired subsidiary of a public employer. The old round is not represented as the latest combined-company financing.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/fivetran",
+          "https://www.fivetran.com/press/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents",
+          "https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means"
+        ],
+        "note": "Fivetran and dbt Labs completed their merger in June 2026. Fivetran is the continuing private combined operating company, not an acquired subsidiary of a public employer. The old round is not represented as the latest combined-company financing."
+      }
+    },
+    {
+      "company": "FloMobility",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/flomobility",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/flomobility"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Fuze",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/fuzehq",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/fuzehq"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Get My Parking",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/getmyparking",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/getmyparking"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Glean",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "2025-06-10",
+      "source_url": "https://www.glean.com/blog/glean-series-f-announcement",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/gleanwork"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Gyrus.AI",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://gyrus.ai/markets/Neural-Network-Accelerator/About.html",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/gyrusai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "H2O.ai",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "2021-11-08",
+      "source_url": "https://h2o.ai/company/press-media/2021/h2o-ai-closes-100-million-in-funding-led-by-customer-commonwealth-bank-of-australia/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/h2oai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Harness",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "2025-12-11",
+      "source_url": "https://www.harness.io/press-and-news/harness-announces-240m-financing-round-led-by-goldman-sachs",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/harnessinc"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Innovaccer",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "2025-01-09",
+      "source_url": "https://innovaccer.com/news/innovaccer-acquires-humbi-ai-launch-actuarial-contracting-copilot-capabilities-payers-providers-life-sciences-companies",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/innovaccer/"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Javis",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/okjavis",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/okjavis"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Juniper Square",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "2025-06-16",
+      "source_url": "https://www.junipersquare.com/news/series-d-junie-ai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/juniper-square"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Kong",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "2024-11-19",
+      "source_url": "https://konghq.com/company/press-room/press-release/kong-secures-175-million-new-financing",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/konghq"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "LearnTube.ai",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/careerninja",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/careerninja"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Loopr AI",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/loopr-ai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/loopr-ai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Marmeto",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/marmeto",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "ReturnPrime, one Marmeto product, was acquired by GoKwik; reviewed roles concern Marmeto logistics/payout products and Recurpay, not the acquired ReturnPrime business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/marmeto"
+        ],
+        "note": "ReturnPrime, one Marmeto product, was acquired by GoKwik; reviewed roles concern Marmeto logistics/payout products and Recurpay, not the acquired ReturnPrime business."
+      }
+    },
+    {
+      "company": "Marvedge",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/marvedge",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/marvedge"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Metaforms",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "2025-07-31",
+      "source_url": "https://www.metaforms.ai/blog/metaforms-raises-9m-to-give-market-research-agencies-their-own-ai-workflows",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/metaformsai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Mira Labs Ai",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/miralabs-ai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Company-owned profile identifies this mortgage AI startup as Self-Owned. Matched miralabs.ai; excluded unrelated Mira AR and trading businesses.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/miralabs-ai"
+        ],
+        "note": "Company-owned profile identifies this mortgage AI startup as Self-Owned. Matched miralabs.ai; excluded unrelated Mira AR and trading businesses."
+      }
+    },
+    {
+      "company": "NEVONAI",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/nevon-ai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/nevon-ai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Netradyne",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "2025-01-16",
+      "source_url": "https://www.netradyne.com/cz/news/netradyne-r-raises-90-million-in-series-d-funding-led-by-point72-private-investments",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/netradyne"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Procureyard Technologies",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/procureyard",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/procureyard"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "RentOk",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/rentokofficial",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/rentokofficial"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Right-Hand Cybersecurity",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/righthandai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/righthandai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "SciSpace",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/scispace",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/scispace"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Sciative - We Price Right",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/sciative-solutions-private-limited",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/sciative-solutions-private-limited"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Scopex",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/scopexmoney",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/scopexmoney"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Sei AI",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/sei-ai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/sei-ai"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Spenza",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/spenza",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/spenza"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Suki",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "2026-10-13",
+      "source_url": "https://www.suki.ai/press-releases/suki-secures-90-million-to-build-and-scale-ai-agents-for-health-systems-and-health-tech-companies/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/sukihq"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Swift",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/go-swift/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/go-swift/"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Sycamore",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "2026-03-30",
+      "source_url": "https://sycamore.so/press-releases/sycamore-raises-65m-seed/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/sycamore-labs"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Tekion",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/tekion",
+      "additional_sources": [
+        "https://www.tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Company announced $200M growth equity in July 2024; no Series letter assigned to this unlabelled later financing.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/tekion",
+          "https://www.tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group"
+        ],
+        "note": "Company announced $200M growth equity in July 2024; no Series letter assigned to this unlabelled later financing."
+      }
+    },
+    {
+      "company": "Turing",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.turing.com/press/turing-111-million-series-e",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/turingcom"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
+      }
+    },
+    {
+      "company": "Vested Finance",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/vestedfinance",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/vestedfinance"
+        ],
+        "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
       }
     }
   ]

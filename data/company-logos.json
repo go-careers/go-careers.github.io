@@ -235,6 +235,438 @@
       "file": "prodigal.png",
       "page": "https://www.prodigaltech.com",
       "url": "https://cdn.prod.website-files.com/5fcb3bbf6fdac54bdd345a59/5fcb3bbf6fdac5c37c345bfa_logo-orange.png"
+    },
+    {
+      "company": "FilterPixel",
+      "url": "https://photos.wellfound.com/startups/i/7675427-f26a1a8c4652b489fb4447a5fcff3037-medium_jpg.jpg?buster=1599065852",
+      "page": "https://wellfound.com/jobs/5027294-senior-software-engineer-backend-infrastructure",
+      "file": "filterpixel.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "8fbbb0e8d3b2a5c45e65165603bd568bcf2833c66955ec3c1433f0aff29d0a70"
+    },
+    {
+      "company": "Edmo",
+      "url": "https://photos.wellfound.com/startups/i/10712827-6908f273c1d50734c40f123f63d0103c-medium_jpg.jpg?buster=1759242536",
+      "page": "https://wellfound.com/jobs/5008558-solution-architect",
+      "file": "edmo.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "c38b80dbd1abde7dea18bf6a5dee464f37623adb2e6e351876e043f4e04eb5bd"
+    },
+    {
+      "company": "Marvedge",
+      "url": "https://photos.wellfound.com/startups/i/11174977-055adf0261d3e73d0f90da5599515cc5-medium_jpg.jpg?buster=1787049202",
+      "page": "https://wellfound.com/jobs/4995303-full-stack-developer-intern",
+      "file": "marvedge.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "f8e9e8a6d210f7f8e7e4b7f092ff6b454d9f8461a834c7b17d893be82e158849"
+    },
+    {
+      "company": "Spenza",
+      "url": "https://photos.wellfound.com/startups/i/7467532-5a83d3468fcaecc3ee5384ef5faaa528-medium_jpg.jpg?buster=1716980890",
+      "page": "https://wellfound.com/jobs/4491416-ai-native-tech-lead",
+      "file": "spenza.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "c73c68109e185537a2dc7cae9608b651e1997452d9368a90147d846843483d1f"
+    },
+    {
+      "company": "Marmeto",
+      "url": "https://photos.wellfound.com/startups/i/4639223-032c9d581662e9d7c2df7100d44ffd3c-medium_jpg.jpg?buster=1505239192",
+      "page": "https://wellfound.com/jobs/4372239-frontend-developer-recurpay",
+      "file": "marmeto.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "f85f654fdc3945cb69505517f93be6e74ca1a78096118ec7cbfdd1dead1be88e"
+    },
+    {
+      "company": "Cyberhaven",
+      "url": "https://photos.wellfound.com/startups/i/1180928-370d63eda08fed0c6a80533777b12ef8-medium_jpg.jpg?buster=1681828745",
+      "page": "https://wellfound.com/jobs/3718860-senior-staff-cloud-infrastructure-engineer",
+      "file": "cyberhaven.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "b3432a9a94b541a99c51fb6d6d646419c26240b700ad6f7472884ed1747d85fe"
+    },
+    {
+      "company": "Sei AI",
+      "url": "https://photos.wellfound.com/startups/i/8711516-65e4a36b1dac051080e8b6ac8421674f-medium_jpg.jpg?buster=1644897593",
+      "page": "https://wellfound.com/jobs/3162567-llm-engineer",
+      "file": "sei-ai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "c4efee237c6b2188bac5ef88c112484edd0454e6a08d56f43adc7f775d3d13f0"
+    },
+    {
+      "company": "Juniper Square",
+      "url": "https://photos.wellfound.com/startups/i/841840-a162ea072d655417e0e1b7d16bbc2318-medium_jpg.jpg?buster=1485997370",
+      "page": "https://wellfound.com/jobs/3569085-senior-technical-lead-india",
+      "file": "juniper-square.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "60c356f6cebd28a12272f54c902f4d61a4ce4bb0c5f91ce0b3068b863752f2d6"
+    },
+    {
+      "company": "Allminds",
+      "url": "https://photos.wellfound.com/startups/i/10194762-7b374b9ac3a852cbc81e056b3fa3884e-medium_jpg.jpg?buster=1722302682",
+      "page": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+      "file": "allminds.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "a5f5355d279cfb9e0a9f35dd29cf1753a5fc764aa2be17e980236e53be1ef8af"
+    },
+    {
+      "company": "Azodha",
+      "url": "https://photos.wellfound.com/startups/i/9773963-7404f401b915d8387bb56f25684bf696-medium_jpg.jpg?buster=1695040001",
+      "page": "https://wellfound.com/jobs/5061227-product-engineer-backend-node-js-typescript",
+      "file": "azodha.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "2c68096f01383d10c12424703793e53a7a32e2379d885840cc98c67200d699d2"
+    },
+    {
+      "company": "Javis",
+      "url": "https://photos.wellfound.com/startups/i/7331007-76768b55a0235fe7820626513510ac87-medium_jpg.jpg?buster=1592322447",
+      "page": "https://wellfound.com/jobs/3355468-software-development-engineer-ii-backend-java",
+      "file": "javis.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "8c3df12142293efd12798ecc3e71af0dc11b16e5dc88a700c04748ebf6dcc376"
+    },
+    {
+      "company": "Gyrus.AI",
+      "url": "https://photos.wellfound.com/startups/i/6334544-36fd2e2aa91327a7a0929db47f35395a-medium_jpg.jpg?buster=1599727595",
+      "page": "https://wellfound.com/jobs/2360186-computer-vision-engineer",
+      "file": "gyrus-ai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "2e449fadd7049f2cf0245a9303ecffacc78965b32079fe4101a978bc4761b7fc"
+    },
+    {
+      "company": "Swift",
+      "url": "https://photos.wellfound.com/startups/i/6680697-cee1e1026dbb027332e7896fb3c2294b-medium_jpg.jpg?buster=1662559292",
+      "page": "https://wellfound.com/jobs/3020063-frontend-developer-intern",
+      "file": "swift.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "5e240961ae118789f5c137412dfeeee0929ddabc9d4ebbc5f62c8b96e96aa6fd"
+    },
+    {
+      "company": "Sciative - We Price Right",
+      "url": "https://photos.wellfound.com/startups/i/4954081-e35291d66cc36f1191f11d22a4b603cd-medium_jpg.jpg?buster=1648791157",
+      "page": "https://wellfound.com/jobs/4064959-devops-engineer",
+      "file": "sciative-we-price-right.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "a8bfdaaa19b4e567a6a85eec832dd1bf8d24fd99d7a77d51580b5e5dcf06bf39"
+    },
+    {
+      "company": "Certa",
+      "url": "https://photos.wellfound.com/startups/i/139808-4d6c2da5e746aef0ee6bfa8a4b83946e-medium_jpg.jpg?buster=1770708364",
+      "page": "https://wellfound.com/jobs/4670325-frontend-engineer-internship",
+      "file": "certa.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "bc1d946a1d45d17c299d573daf25a6bb5b5ffb7927e918c19f2292f4adcc5732"
+    },
+    {
+      "company": "Mira Labs Ai",
+      "url": "https://photos.wellfound.com/startups/i/10546202-14ca635c8821d3e40380a0dd135dbd5f-medium_jpg.jpg?buster=1748460848",
+      "page": "https://wellfound.com/jobs/4897561-senior-product-security-devsecops-engineer",
+      "file": "mira-labs-ai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "6633f38a95eafb649c7e89c81f1480c97236b801ed4ba0d4c3ee9d262fa047a3"
+    },
+    {
+      "company": "Procureyard Technologies",
+      "url": "https://photos.wellfound.com/startups/i/10690568-2d39f1bb218b1ee63720b17bac445c9d-medium_jpg.jpg?buster=1757951939",
+      "page": "https://wellfound.com/jobs/4793779-ml-ai-engineer-intern-procureyard",
+      "file": "procureyard-technologies.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "3e0a59da8e3170e52ea909ff02f912ad07dc41734f77b4dc290492a7f8daf67d"
+    },
+    {
+      "company": "Right-Hand Cybersecurity",
+      "url": "https://photos.wellfound.com/startups/i/6934130-6073765159cf3d37d2988e4a213b9ed3-medium_jpg.jpg?buster=1610267343",
+      "page": "https://wellfound.com/jobs/4897506-senior-product-engineer-ai-native",
+      "file": "right-hand-cybersecurity.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "63556f4c20a20ae154bb4672b73b4655800f39d9de2a019611c0ae0be66c22f1"
+    },
+    {
+      "company": "SciSpace",
+      "url": "https://photos.wellfound.com/startups/i/517943-03ae92ca8a409131651b57a1da8f48c6-medium_jpg.jpg?buster=1764932437",
+      "page": "https://wellfound.com/jobs/3534689-senior-agentic-ai-engineer",
+      "file": "scispace.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "4608079729cb866cd24c01d8dc4eb2c1296e92b010665eb40da0fa783d6107ae"
+    },
+    {
+      "company": "Cube",
+      "url": "https://photos.wellfound.com/startups/i/8947779-f6d846a11cb574e8abf1c019a972e185-medium_jpg.jpg?buster=1684317727",
+      "page": "https://wellfound.com/jobs/4157977-full-stack-ai-engineer",
+      "file": "cube.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "b01d29fc7af1bc7e89e3d85c912410eb6971db1eb45335b8b0a69db07ed20041"
+    },
+    {
+      "company": "NEVONAI",
+      "url": "https://photos.wellfound.com/startups/i/11393414-af4453a7c5e572bba15129b2b225ec3d-medium_jpg.jpg?buster=1794295099",
+      "page": "https://wellfound.com/jobs/5031257-computer-vision-ai-engineer",
+      "file": "nevonai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "2a44fd40eae801f08414c5604f694f2c7f6153105e53270472ef91d27d45d354"
+    },
+    {
+      "company": "Metaforms",
+      "url": "https://photos.wellfound.com/startups/i/10333616-f4b9ce190ab31146f1e00ac07cb74db5-medium_jpg.jpg?buster=1753191657",
+      "page": "https://wellfound.com/jobs/4162974-product-engineer",
+      "file": "metaforms.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "e3f051b2bac4234eff7100898409a5ca815091e1cf32701525634f34d9331a90"
+    },
+    {
+      "company": "Bitwarden",
+      "url": "https://photos.wellfound.com/startups/i/8055690-c47711426e5870aa2a4fab330fc85653-medium_jpg.jpg?buster=1604589697",
+      "page": "https://wellfound.com/jobs/4764734-lead-software-engineer-web-platform",
+      "file": "bitwarden.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "6433ffc83b66cdcbffaaad37e3e80cc7e1c610371c1f9359a8533c627ba5625e"
+    },
+    {
+      "company": "FloMobility",
+      "url": "https://photos.wellfound.com/startups/i/8579460-60312d16dc9bf8f0d9daa1369e0d4e8d-medium_jpg.jpg?buster=1794633773",
+      "page": "https://wellfound.com/jobs/4985524-firmware-engineer",
+      "file": "flomobility.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "e7d3621a0918f9b048d2b4d0f3d4e3faeeba801b1427f0927cf7057f5284452d"
+    },
+    {
+      "company": "RentOk",
+      "url": "https://photos.wellfound.com/startups/i/6861311-69f0d7f67b2f5c4b7f3579417728c932-medium_jpg.jpg?buster=1675692763",
+      "page": "https://wellfound.com/jobs/5067313-fullstack-engineer",
+      "file": "rentok.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "c205bc39b7e60f2d3b8366350be72756d08feebae723fd82a2a60174b7b4a785"
+    },
+    {
+      "company": "Fuze",
+      "url": "https://photos.wellfound.com/startups/i/9160805-b35e20ac085e435f8e3b52d0636fe91f-medium_jpg.jpg?buster=1669094386",
+      "page": "https://wellfound.com/jobs/2448180-software-engineer",
+      "file": "fuze.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "687b84e63356b9f839b9eb013b5584598b42a1f47110cc24957ae0fa614d17a0"
+    },
+    {
+      "company": "Scopex",
+      "url": "https://photos.wellfound.com/startups/i/9867496-fe365d4cb90b5db42645ba7660240959-medium_jpg.jpg?buster=1767627922",
+      "page": "https://wellfound.com/jobs/3203566-senior-qa-automation-engineer",
+      "file": "scopex.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "bdb2c689571a217e027ce05d333ccbf68bb6736ae05ef69c25abd452e765fb5c"
+    },
+    {
+      "company": "CloudCrane",
+      "url": "https://photos.wellfound.com/startups/i/11389547-5cb976988e1d69e6411103b8bafe1f73-medium_jpg.jpg?buster=1794237521",
+      "page": "https://wellfound.com/jobs/5027354-senior-software-engineer",
+      "file": "cloudcrane.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "5781ac2e3f13235935e8e81b54ebaa3a02fe8943dab367b6b3f405a432813750"
+    },
+    {
+      "company": "Vested Finance",
+      "url": "https://photos.wellfound.com/startups/i/6727227-42932210f4d3845600430e317ffcf8f7-medium_jpg.jpg?buster=1612872121",
+      "page": "https://wellfound.com/jobs/4875063-junior-qa-engineer",
+      "file": "vested-finance.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "aff38a6d774f338e2a57262b8a04599f7045c05a55e9e06ca6297ee91578d2ee"
+    },
+    {
+      "company": "Alchemyst AI",
+      "url": "https://photos.wellfound.com/startups/i/10466023-34e283a2af3556ec3e1e7ca928279ad2-medium_jpg.jpg?buster=1771100094",
+      "page": "https://wellfound.com/jobs/4430599-junior-devops-engineer-intern-clone",
+      "file": "alchemyst-ai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "a7154567bd6e8749717b957d56c6a22bcbd747f7ff5307aed35a94c502a820f6"
+    },
+    {
+      "company": "LearnTube.ai",
+      "url": "https://photos.wellfound.com/startups/i/3829952-8b38a3c641fbb94bdab33598989ac761-medium_jpg.jpg?buster=1722497143",
+      "page": "https://wellfound.com/jobs/5034675-senior-golang-developer-go-remote",
+      "file": "learntube-ai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "544d0cfa9b031c32905c67f282f06526a92490abc556392a8cc31cd0906e4839"
+    },
+    {
+      "company": "Agentic Universe",
+      "url": "https://photos.wellfound.com/startups/i/9255142-82400d587f9ff70f85fb4936424fd2f1-medium_jpg.jpg?buster=1793714195",
+      "page": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "file": "agentic-universe.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "dfbc8ab677753ed7050d81ad8657ef84ea6113489516552bbd5e43cf81e64de7"
+    },
+    {
+      "company": "AuxoAI",
+      "url": "https://photos.wellfound.com/startups/i/10275808-306043d615238ad59192eba17c304363-medium_jpg.jpg?buster=1728393194",
+      "page": "https://wellfound.com/jobs/4867067-ai-engineer",
+      "file": "auxoai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "aab9233d244bf61f856c5e99504bd265be6d5c3532cd72555d30f96645477042"
+    },
+    {
+      "company": "FOXO",
+      "url": "https://photos.wellfound.com/startups/i/10689394-e6e05f1933f1cf69d6e34007c7a5f267-medium_jpg.jpg?buster=1758095027",
+      "page": "https://wellfound.com/jobs/4901331-ai-engineer-ii",
+      "file": "foxo.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "dc0fdbfe6b85e68fa928f81553da0266c5f4ce718210a0f55b9c9d9542f151cb"
+    },
+    {
+      "company": "Loopr AI",
+      "url": "https://photos.wellfound.com/startups/i/9010607-9cc51b957da707d944f9fbb1803ca111-medium_jpg.jpg?buster=1658905886",
+      "page": "https://wellfound.com/jobs/4897494-software-engineer-ii-frontend-clone",
+      "file": "loopr-ai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "b2a526397b0805a9e06fe705ee507a60ce33b065a1831b7f6a4bd86c67ced03e"
+    },
+    {
+      "company": "Decentro",
+      "url": "https://photos.wellfound.com/startups/i/7501016-0c17e0c0e8e935887f73dd63ff83a230-medium_jpg.jpg?buster=1589613604",
+      "page": "https://wellfound.com/jobs/4980132-junior-security-engineer",
+      "file": "decentro.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "2966d77a3a819ce22e0aa5b9eb59a0af45d48060ce5978fe0c61b9918ef950fb"
+    },
+    {
+      "company": "Cypherock Wallet",
+      "url": "https://photos.wellfound.com/startups/i/5435317-55347d29bd77bfb6bc57fe1ab77fa600-medium_jpg.jpg?buster=1606817912",
+      "page": "https://wellfound.com/jobs/644641-c-c-programmer",
+      "file": "cypherock-wallet.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "1be5c58a98d8709d545c05e3c0861453f548b5e7960bf39a098c8a5ce303ccae"
+    },
+    {
+      "company": "Branch",
+      "url": "https://photos.wellfound.com/startups/i/655428-0c93d7b1b0972fdc10073c42049ec0d3-medium_jpg.jpg?buster=1545329987",
+      "page": "https://wellfound.com/jobs/5034661-platform-security-engineer",
+      "file": "branch.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "587bf8747c312d1797eba627b499e3d19498af466b3b2a01f9c56aa71ec2307c"
+    },
+    {
+      "company": "Get My Parking",
+      "url": "https://photos.wellfound.com/startups/i/697677-b3267cd8bbac4506b904b65aac84f7e4-medium_jpg.jpg?buster=1460585710",
+      "page": "https://wellfound.com/jobs/4897468-senior-ai-engineer-sde-ii-backend",
+      "file": "get-my-parking.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "2444592f3ee2a2b18fae143dbe84e8080070b50d67aeb81a0bd9707f847c74a9"
+    },
+    {
+      "company": "AiPrise",
+      "url": "https://cdn.prod.website-files.com/6ab386c843dcffcda20271c0/6ae463671a7357dcbd9da9f0_Webclip.png",
+      "page": "https://aiprise.com",
+      "file": "aiprise.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "57f1521f606e69ef8d07c0741be9880a0daed9025cac0aabc7ae1f0d5d481da0"
+    },
+    {
+      "company": "Databricks",
+      "url": "https://www.databricks.com/en-website-assets/icons/icon-48x48.png?v=c9b9916c3b27dc51866c46b79a6e9b88",
+      "page": "https://databricks.com",
+      "file": "databricks.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "3cab979e24ea08691f383fe4d7e6a890ae47c4fd8cd060c98db2e57e5c8f4ff7"
+    },
+    {
+      "company": "Druva",
+      "url": "https://www.druva.com/etc.clientlibs/druvaincprogram/clientlibs/clientlib-site/resources/images/cropped-site-icon-180x180.png",
+      "page": "https://www.druva.com",
+      "file": "druva.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "f0fbb4c71eaaa992960d09655b9f1b59176dd83d8fa7db823532f24a6a1c1a92"
+    },
+    {
+      "company": "Fivetran",
+      "url": "https://cdn.prod.website-files.com/6130fa1501794ed4d11867ba/6a10657efae8d58934eddd4b_Webclip%20%5BLight%5D.png",
+      "page": "https://5tran.co/3lbOdzE",
+      "file": "fivetran.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "5d62e1bed99709a47456aaa1b3954b498c9b5662445a2d120fbb4d0b162beaff"
+    },
+    {
+      "company": "Glean",
+      "url": "https://cdn.prod.website-files.com/6127a84dfe068e153ef20572/67189bfac8da27b3a70ddd93_256%20x%20256%20Glean%20Favicon.png",
+      "page": "https://www.glean.com",
+      "file": "glean.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "855e6a99c57f2b73dacb37be9680d1c38df2be5246b64902d8e1e5a96ae9c407"
+    },
+    {
+      "company": "H2O.ai",
+      "url": "https://h2o.ai/apple-icon.png?apple-icon.2le716yi6om7i.png",
+      "page": "https://www.h2o.ai",
+      "file": "h2o-ai.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "2d846b0a7ddcbf6da62f7714a093e1a97b1b52a611656c2d6675d5edda401e08"
+    },
+    {
+      "company": "Harness",
+      "url": "https://cdn.prod.website-files.com/6222ca42ea87e1bd1aa1d10c/62245acc1b2f1040941f0d8f_webclip.png",
+      "page": "https://www.harness.io",
+      "file": "harness.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "c161d037a1bbbf3641b4b53b214df60a3017868ed8ee36c06319e68a68b0dc30"
+    },
+    {
+      "company": "Innovaccer",
+      "url": "https://cdn.prod.website-files.com/670e4ade75003c7364a3944d/67150551bcb5aebdb15770f6_webclip.png",
+      "page": "https://www.innovaccer.com",
+      "file": "innovaccer.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "9370fb913be699d27d5be067ea61539ea54d55456bc126672c292e9edabf8bf3"
+    },
+    {
+      "company": "Kong",
+      "url": "https://konghq.com/favicon-180.png",
+      "page": "https://kong.ai",
+      "file": "kong.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "b8f86c1def166397c69ed4b25dfa0cf346eb2477942af0056a04a6b245afaf48"
+    },
+    {
+      "company": "Netradyne",
+      "url": "https://cdn.prod.website-files.com/691f9a539f7f4834f9f9995c/6ada443f74d60d79727ba696_Netradyne%20Logo%20Green%20Favicon.png",
+      "page": "https://www.netradyne.com",
+      "file": "netradyne.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "a0937bd49dfcbfbedea0e56c193274dbbc704811ce1f6736a91526b0de33021d"
+    },
+    {
+      "company": "Suki",
+      "url": "https://www.suki.ai/apple-touch-icon.png?suki=ai",
+      "page": "https://www.suki.ai",
+      "file": "suki.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "ad12d2da05607c561b2133409ff7622a79f7799ebf1c8a3e30df8720daac9f76"
+    },
+    {
+      "company": "Sycamore",
+      "url": "https://sycamore.so/apple-touch-icon.png",
+      "page": "https://sycamore.so",
+      "file": "sycamore.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "6a80f979ba4d6eedf5b6d20c60f42814dd0095803d2bb446da614a576cd6ae29"
+    },
+    {
+      "company": "Tekion",
+      "url": "https://cdn.prod.website-files.com/685291c1265e608fdfed1a69/69dcbd137371a69578608acf_favicon_256.png",
+      "page": "https://www.tekion.com/",
+      "file": "tekion.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "1eb3cc4d7affb1e9fd91f9931daea88c788ff9cbe6e2895b1f372db8c6efdda5"
+    },
+    {
+      "company": "Blitzy",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-logo/1ebba6f9-96f0-476b-989a-9d39877d8b2b/2279a9e9-32f6-4f00-be03-3cafa9fcb61a/9bf78ea8-2ff5-4b91-a99c-b181d532cfb1.png",
+      "page": "https://jobs.ashbyhq.com/blitzy",
+      "file": "blitzy.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "9fb7bb2297438dbba4e9cd2134743c15d4ace97c7b00da2ca78042eb2d84b9df"
+    },
+    {
+      "company": "Turing",
+      "url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/545/000/original/Turing_Logo_Full_Black.png?1783554452",
+      "page": "https://job-boards.greenhouse.io/turing/jobs/6235517004",
+      "file": "turing.png",
+      "checked_at": "2026-11-17",
+      "original_sha256": "8da327111387974e444e6e4da067c9c1017e364f3f9fe43b2d91809e5e07b130"
     }
   ]
 }

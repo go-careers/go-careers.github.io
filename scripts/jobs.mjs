@@ -21,7 +21,7 @@ export const columns = [
   "funding_checked_at",
 ];
 
-export const eligibleFundingStages = ["Bootstrapped", "Pre-seed", "Seed", "Series A", "Series B", "Series C"];
+export const eligibleFundingStages = ["Bootstrapped", "Pre-seed", "Seed", "Undisclosed", ...Array.from("ABCDEFGHIJKLMNOPQRSTUVWXYZ", letter => `Series ${letter}`)];
 
 // Ownership is separately researched: an old qualifying round does not prove
 // that a company is still private or independent today.
@@ -141,7 +141,7 @@ export function readJobs(csv) {
       fail("verified_date must be a real YYYY-MM-DD date.");
     if (job.is_demo !== "true" || job.funding_stage) {
       if (!eligibleFundingStages.includes(job.funding_stage))
-        fail("funding_stage must be Bootstrapped, Pre-seed, Seed, Series A, Series B, or Series C; later or unknown stages are excluded.");
+        fail("funding_stage must be Bootstrapped, Pre-seed, Seed, a named Series round, or Undisclosed. Private ownership must be verified separately.");
       if (!validDate(job.funding_checked_at))
         fail("funding_checked_at must be a real YYYY-MM-DD date.");
       try {

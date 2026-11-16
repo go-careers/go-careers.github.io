@@ -1,0 +1,1420 @@
+{
+  "started_at": "2026-11-16T18:53:21.928Z",
+  "run_date": "2026-11-17",
+  "status": "complete",
+  "target": 100,
+  "target_met": true,
+  "search_window": {
+    "initial_start": "2026-11-10",
+    "end": "2026-11-17",
+    "expanded_start": "2026-10-17",
+    "prior_completed_run": null
+  },
+  "added_ids": [
+    "druva-8814695002",
+    "tekion-f9e2b20f-90d7-4f02-afbf-df120601e825",
+    "tekion-1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+    "tekion-f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+    "tekion-cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+    "metaforms-0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+    "metaforms-fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+    "glean-4746981005",
+    "sycamore-485cebea-8422-4a2d-b9b0-c03e309de058",
+    "sycamore-3c611cca-d5ea-4db7-9da9-50b045753974",
+    "sycamore-ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+    "sycamore-faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+    "harness-5252771007",
+    "harness-5270901007",
+    "harness-5258603007",
+    "harness-5266286007",
+    "harness-5284038007",
+    "harness-5278974007",
+    "databricks-8876680002",
+    "databricks-7647294002",
+    "databricks-8924868002",
+    "databricks-8944097002",
+    "databricks-8926498002",
+    "databricks-8788176002",
+    "drivetrain-c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+    "cyberhaven-edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+    "cyberhaven-020d895a-a68e-400d-8b19-71634a331915",
+    "turing-6235517004",
+    "kong-1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+    "kong-2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+    "kong-18c59e96-348f-4dda-adfc-974416d624ca",
+    "fivetran-8044038003",
+    "fivetran-8046982003",
+    "fivetran-8201478003",
+    "netradyne-4747924005",
+    "netradyne-4748413005",
+    "netradyne-4748411005",
+    "juniper-square-0baacd60-460d-4379-8361-c6851c2a3ffc",
+    "juniper-square-229d03c3-9bb7-4754-947b-fdc37d37e687",
+    "bitwarden-7896607003",
+    "bitwarden-8005304003",
+    "bitwarden-8196573003",
+    "bitwarden-8015111003",
+    "bitwarden-8076045003",
+    "suki-8026661003",
+    "suki-8188901003",
+    "suki-8174866003",
+    "blitzy-fed53b6a-c54b-4da0-804d-d621e048a8bb",
+    "certa-9f7caf0b-46ff-49ab-ae78-62deadec106e",
+    "certa-2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+    "aiprise-5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+    "aiprise-4994f7fc-b974-420f-9823-32d6c493f5c2",
+    "aiprise-41af4efa-a550-484e-afde-a9f5f3807eca",
+    "h2o-ai-y4xkgbiojt",
+    "filterpixel-5027294",
+    "marvedge-4995303",
+    "spenza-4491416",
+    "marmeto-4901481",
+    "marmeto-4372239",
+    "sei-ai-3162567",
+    "allminds-3143348",
+    "azodha-5086001",
+    "javis-3355468",
+    "gyrus-ai-2360186",
+    "swift-3020063",
+    "sciative-we-price-right-4064959",
+    "mira-labs-ai-4897561",
+    "procureyard-technologies-4793779",
+    "right-hand-cybersecurity-4897506",
+    "scispace-3534689",
+    "cube-4157977",
+    "nevonai-5031257",
+    "flomobility-5062846",
+    "flomobility-4985524",
+    "rentok-5067313",
+    "fuze-2448180",
+    "scopex-4970149",
+    "scopex-3203566",
+    "cloudcrane-5027354",
+    "vested-finance-4981464",
+    "vested-finance-4875063",
+    "alchemyst-ai-4430599",
+    "learntube-ai-3301948",
+    "agentic-universe-4901518",
+    "agentic-universe-4985505",
+    "auxoai-4867067",
+    "foxo-4901331",
+    "loopr-ai-4967239",
+    "decentro-3265562",
+    "decentro-4980132",
+    "cypherock-wallet-2351282",
+    "cypherock-wallet-644641",
+    "learntube-ai-5034675",
+    "branch-5034661",
+    "get-my-parking-4897468",
+    "auxoai-4897560",
+    "innovaccer-d0bc6865f3",
+    "innovaccer-217f6ed816",
+    "edmo-5008559",
+    "edmo-5008558"
+  ],
+  "updated_ids": [],
+  "new_companies": [
+    "Agentic Universe",
+    "AiPrise",
+    "Alchemyst AI",
+    "Allminds",
+    "AuxoAI",
+    "Azodha",
+    "Bitwarden",
+    "Blitzy",
+    "Branch",
+    "Certa",
+    "CloudCrane",
+    "Cube",
+    "Cyberhaven",
+    "Cypherock Wallet",
+    "Databricks",
+    "Decentro",
+    "Druva",
+    "Edmo",
+    "FOXO",
+    "FilterPixel",
+    "Fivetran",
+    "FloMobility",
+    "Fuze",
+    "Get My Parking",
+    "Glean",
+    "Gyrus.AI",
+    "H2O.ai",
+    "Harness",
+    "Innovaccer",
+    "Javis",
+    "Juniper Square",
+    "Kong",
+    "LearnTube.ai",
+    "Loopr AI",
+    "Marmeto",
+    "Marvedge",
+    "Metaforms",
+    "Mira Labs Ai",
+    "NEVONAI",
+    "Netradyne",
+    "Procureyard Technologies",
+    "RentOk",
+    "Right-Hand Cybersecurity",
+    "SciSpace",
+    "Sciative - We Price Right",
+    "Scopex",
+    "Sei AI",
+    "Spenza",
+    "Suki",
+    "Swift",
+    "Sycamore",
+    "Tekion",
+    "Turing",
+    "Vested Finance"
+  ],
+  "dated_recent_ids": [
+    "druva-8814695002",
+    "tekion-f9e2b20f-90d7-4f02-afbf-df120601e825",
+    "tekion-1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+    "tekion-f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+    "tekion-cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+    "metaforms-0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+    "metaforms-fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+    "glean-4746981005",
+    "sycamore-485cebea-8422-4a2d-b9b0-c03e309de058",
+    "sycamore-3c611cca-d5ea-4db7-9da9-50b045753974",
+    "sycamore-ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+    "sycamore-faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+    "harness-5252771007",
+    "harness-5270901007",
+    "harness-5258603007",
+    "harness-5266286007",
+    "harness-5284038007",
+    "harness-5278974007",
+    "databricks-8876680002",
+    "databricks-7647294002",
+    "databricks-8924868002",
+    "databricks-8944097002",
+    "databricks-8926498002",
+    "databricks-8788176002",
+    "drivetrain-c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+    "cyberhaven-edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+    "cyberhaven-020d895a-a68e-400d-8b19-71634a331915",
+    "turing-6235517004",
+    "kong-1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+    "kong-2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+    "kong-18c59e96-348f-4dda-adfc-974416d624ca",
+    "fivetran-8044038003",
+    "fivetran-8046982003",
+    "fivetran-8201478003",
+    "netradyne-4747924005",
+    "netradyne-4748413005",
+    "netradyne-4748411005",
+    "juniper-square-0baacd60-460d-4379-8361-c6851c2a3ffc",
+    "juniper-square-229d03c3-9bb7-4754-947b-fdc37d37e687",
+    "bitwarden-7896607003",
+    "bitwarden-8005304003",
+    "bitwarden-8196573003",
+    "bitwarden-8015111003",
+    "bitwarden-8076045003",
+    "suki-8026661003",
+    "suki-8188901003",
+    "suki-8174866003",
+    "blitzy-fed53b6a-c54b-4da0-804d-d621e048a8bb",
+    "certa-9f7caf0b-46ff-49ab-ae78-62deadec106e",
+    "certa-2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+    "aiprise-5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+    "aiprise-4994f7fc-b974-420f-9823-32d6c493f5c2",
+    "aiprise-41af4efa-a550-484e-afde-a9f5f3807eca",
+    "h2o-ai-y4xkgbiojt",
+    "filterpixel-5027294",
+    "marvedge-4995303",
+    "spenza-4491416",
+    "marmeto-4901481",
+    "marmeto-4372239",
+    "sei-ai-3162567",
+    "allminds-3143348",
+    "azodha-5086001",
+    "javis-3355468",
+    "gyrus-ai-2360186",
+    "swift-3020063",
+    "sciative-we-price-right-4064959",
+    "mira-labs-ai-4897561",
+    "procureyard-technologies-4793779",
+    "right-hand-cybersecurity-4897506",
+    "scispace-3534689",
+    "cube-4157977",
+    "nevonai-5031257",
+    "flomobility-5062846",
+    "flomobility-4985524",
+    "rentok-5067313",
+    "fuze-2448180",
+    "scopex-4970149",
+    "scopex-3203566",
+    "cloudcrane-5027354",
+    "vested-finance-4981464",
+    "vested-finance-4875063",
+    "alchemyst-ai-4430599",
+    "learntube-ai-3301948",
+    "agentic-universe-4901518",
+    "agentic-universe-4985505",
+    "auxoai-4867067",
+    "foxo-4901331",
+    "loopr-ai-4967239",
+    "decentro-3265562",
+    "decentro-4980132",
+    "cypherock-wallet-2351282",
+    "cypherock-wallet-644641",
+    "learntube-ai-5034675",
+    "branch-5034661",
+    "get-my-parking-4897468",
+    "auxoai-4897560",
+    "innovaccer-d0bc6865f3",
+    "innovaccer-217f6ed816",
+    "edmo-5008559",
+    "edmo-5008558"
+  ],
+  "undated_discovery_ids": [],
+  "retention": {
+    "initial_preview": {
+      "run_date": "2026-11-17",
+      "cutoff": "2026-10-17",
+      "before": 30,
+      "remaining": 30,
+      "removed": [],
+      "dry_run": true
+    },
+    "initial": {
+      "run_date": "2026-11-17",
+      "cutoff": "2026-10-17",
+      "before": 30,
+      "remaining": 30,
+      "removed": [],
+      "dry_run": false
+    },
+    "final_preview": {
+      "run_date": "2026-11-17",
+      "cutoff": "2026-10-17",
+      "before": 130,
+      "remaining": 130,
+      "removed": [],
+      "dry_run": true
+    },
+    "final": {
+      "run_date": "2026-11-17",
+      "cutoff": "2026-10-17",
+      "before": 130,
+      "remaining": 130,
+      "removed": [],
+      "dry_run": false
+    }
+  },
+  "sources": [
+    {
+      "id": "druva-8814695002",
+      "url": "https://boards-api.greenhouse.io/v1/boards/druva/jobs?content=true",
+      "application_url": "https://www.druva.com/why-druva/explore/careers/jobs/8814695002/?gh_jid=8814695002",
+      "checked_at": "2026-11-16T19:15:45.685059+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-16T01:05:12-05:00"
+    },
+    {
+      "id": "tekion-f9e2b20f-90d7-4f02-afbf-df120601e825",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/f9e2b20f-90d7-4f02-afbf-df120601e825",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-02T07:30:58.206+00:00"
+    },
+    {
+      "id": "tekion-1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/1dd9e4b3-c683-4c9a-9b02-0fc05b32cc37",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-11T09:14:52.177+00:00"
+    },
+    {
+      "id": "tekion-f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/f0fd8cec-5fc4-4e0a-8b82-46fda8b76561",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-02T09:42:47.253+00:00"
+    },
+    {
+      "id": "tekion-cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+      "application_url": "https://jobs.ashbyhq.com/Tekion/cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+      "checked_at": "2026-11-16T19:09:41.948715+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-23T07:11:02.943+00:00"
+    },
+    {
+      "id": "metaforms-0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/metaforms?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/metaforms/0059a5d1-ee6f-4dc9-8114-e8995c1e664a",
+      "checked_at": "2026-11-16T19:00:26.249704+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-16T06:35:43.747+00:00"
+    },
+    {
+      "id": "metaforms-fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/metaforms?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/metaforms/fbaa4289-1ec2-4e48-a83f-ddd090715cd6",
+      "checked_at": "2026-11-16T19:00:26.249704+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-27T03:35:04.647+00:00"
+    },
+    {
+      "id": "glean-4746981005",
+      "url": "https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs?content=true",
+      "application_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746981005",
+      "checked_at": "2026-11-16T18:55:38.500806+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-04T03:31:57-05:00"
+    },
+    {
+      "id": "sycamore-485cebea-8422-4a2d-b9b0-c03e309de058",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/485cebea-8422-4a2d-b9b0-c03e309de058",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-22T00:54:03.550+00:00"
+    },
+    {
+      "id": "sycamore-3c611cca-d5ea-4db7-9da9-50b045753974",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/3c611cca-d5ea-4db7-9da9-50b045753974",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-22T00:58:16.901+00:00"
+    },
+    {
+      "id": "sycamore-ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/ee3b4ce9-930d-4122-bfb7-3f19d49c4bd8",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-22T01:05:23.762+00:00"
+    },
+    {
+      "id": "sycamore-faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/sycamore/faf4b14c-c3ae-46c9-a178-53b8e7900fa4",
+      "checked_at": "2026-11-16T18:54:12.578082+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-22T01:03:01.946+00:00"
+    },
+    {
+      "id": "harness-5252771007",
+      "url": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5252771007",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-23T04:08:15-04:00"
+    },
+    {
+      "id": "harness-5270901007",
+      "url": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5270901007",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-23T01:42:00-04:00"
+    },
+    {
+      "id": "harness-5258603007",
+      "url": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5258603007",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-21T12:34:29-04:00"
+    },
+    {
+      "id": "harness-5266286007",
+      "url": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5266286007",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-28T02:27:03-04:00"
+    },
+    {
+      "id": "harness-5284038007",
+      "url": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5284038007",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-05T00:32:45-05:00"
+    },
+    {
+      "id": "harness-5278974007",
+      "url": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+      "application_url": "https://www.harness.io/company/jobs/apply?gh_jid=5278974007",
+      "checked_at": "2026-11-16T18:57:03.199893+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-30T01:30:30-04:00"
+    },
+    {
+      "id": "databricks-8876680002",
+      "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876680002",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-19T00:40:24-04:00"
+    },
+    {
+      "id": "databricks-7647294002",
+      "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647294002",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-07T03:50:11-05:00"
+    },
+    {
+      "id": "databricks-8924868002",
+      "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8924868002",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-02T00:01:00-05:00"
+    },
+    {
+      "id": "databricks-8944097002",
+      "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8944097002",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-14T23:36:01-05:00"
+    },
+    {
+      "id": "databricks-8926498002",
+      "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8926498002",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-02T00:02:35-05:00"
+    },
+    {
+      "id": "databricks-8788176002",
+      "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+      "application_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8788176002",
+      "checked_at": "2026-11-16T18:58:30.889443+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-28T12:00:07-04:00"
+    },
+    {
+      "id": "drivetrain-c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+      "url": "https://api.lever.co/v0/postings/drivetrain?mode=json",
+      "application_url": "https://jobs.lever.co/drivetrain/c34d9b57-56ac-41e0-986c-ccdb88ea6a85",
+      "checked_at": "2026-11-16T18:53:25.085721+00:00",
+      "http_status": 200,
+      "publication_field": "createdAt",
+      "publication_timestamp": 1794475935527
+    },
+    {
+      "id": "cyberhaven-edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/cyberhaven?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/Cyberhaven/edbe73bf-8eb4-4f1b-b9d5-e13353038de5",
+      "checked_at": "2026-11-16T19:00:26.248900+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-06T17:39:14.630+00:00"
+    },
+    {
+      "id": "cyberhaven-020d895a-a68e-400d-8b19-71634a331915",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/cyberhaven?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/Cyberhaven/020d895a-a68e-400d-8b19-71634a331915",
+      "checked_at": "2026-11-16T19:00:26.248900+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-27T15:12:22.116+00:00"
+    },
+    {
+      "id": "turing-6235517004",
+      "url": "https://boards-api.greenhouse.io/v1/boards/turing/jobs?content=true",
+      "application_url": "https://job-boards.greenhouse.io/turing/jobs/6235517004",
+      "checked_at": "2026-11-16T18:54:14.456386+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-26T20:55:19-04:00"
+    },
+    {
+      "id": "kong-1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/kong",
+      "application_url": "https://jobs.ashbyhq.com/kong/1b9c52d7-d90a-44a1-b61e-52a9ec88e197",
+      "checked_at": "2026-11-16T19:14:00.829135+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-28T10:41:33.243+00:00"
+    },
+    {
+      "id": "kong-2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/kong",
+      "application_url": "https://jobs.ashbyhq.com/kong/2f6e0958-59f5-4a4a-80a9-85aeb52d70fd",
+      "checked_at": "2026-11-16T19:14:00.829135+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-02T11:51:51.286+00:00"
+    },
+    {
+      "id": "kong-18c59e96-348f-4dda-adfc-974416d624ca",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/kong",
+      "application_url": "https://jobs.ashbyhq.com/kong/18c59e96-348f-4dda-adfc-974416d624ca",
+      "checked_at": "2026-11-16T19:14:00.829135+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-27T05:51:56.577+00:00"
+    },
+    {
+      "id": "fivetran-8044038003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+      "application_url": "https://www.fivetran.com/careers/job?gh_jid=8044038003",
+      "checked_at": "2026-11-16T19:14:01.130047+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-27T02:32:46-04:00"
+    },
+    {
+      "id": "fivetran-8046982003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+      "application_url": "https://www.fivetran.com/careers/job?gh_jid=8046982003",
+      "checked_at": "2026-11-16T19:14:01.130047+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-06T01:38:14-05:00"
+    },
+    {
+      "id": "fivetran-8201478003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+      "application_url": "https://www.fivetran.com/careers/job?gh_jid=8201478003",
+      "checked_at": "2026-11-16T19:14:01.130047+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-12T03:13:12-05:00"
+    },
+    {
+      "id": "netradyne-4747924005",
+      "url": "https://boards-api.greenhouse.io/v1/boards/netradyne/jobs?content=true",
+      "application_url": "https://www.netradyne.com/company/careers?gh_jid=4747924005",
+      "checked_at": "2026-11-16T19:15:45.652665+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-27T03:09:37-04:00"
+    },
+    {
+      "id": "netradyne-4748413005",
+      "url": "https://boards-api.greenhouse.io/v1/boards/netradyne/jobs?content=true",
+      "application_url": "https://www.netradyne.com/company/careers?gh_jid=4748413005",
+      "checked_at": "2026-11-16T19:15:45.652665+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-29T05:13:15-04:00"
+    },
+    {
+      "id": "netradyne-4748411005",
+      "url": "https://boards-api.greenhouse.io/v1/boards/netradyne/jobs?content=true",
+      "application_url": "https://www.netradyne.com/company/careers?gh_jid=4748411005",
+      "checked_at": "2026-11-16T19:15:45.652665+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-29T04:59:13-04:00"
+    },
+    {
+      "id": "juniper-square-0baacd60-460d-4379-8361-c6851c2a3ffc",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/junipersquare/0baacd60-460d-4379-8361-c6851c2a3ffc",
+      "checked_at": "2026-11-16T19:00:26.249388+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-27T08:01:29.914+00:00"
+    },
+    {
+      "id": "juniper-square-229d03c3-9bb7-4754-947b-fdc37d37e687",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/junipersquare/229d03c3-9bb7-4754-947b-fdc37d37e687",
+      "checked_at": "2026-11-16T19:00:26.249388+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-11T09:18:21.377+00:00"
+    },
+    {
+      "id": "bitwarden-7896607003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "application_url": "https://bitwarden.com/careers/7896607003/?gh_jid=7896607003",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-28T10:34:01-04:00"
+    },
+    {
+      "id": "bitwarden-8005304003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "application_url": "https://bitwarden.com/careers/8005304003/?gh_jid=8005304003",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-13T04:53:32-05:00"
+    },
+    {
+      "id": "bitwarden-8196573003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "application_url": "https://bitwarden.com/careers/8196573003/?gh_jid=8196573003",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-11T00:09:04-05:00"
+    },
+    {
+      "id": "bitwarden-8015111003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "application_url": "https://bitwarden.com/careers/8015111003/?gh_jid=8015111003",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-10-22T07:51:56-04:00"
+    },
+    {
+      "id": "bitwarden-8076045003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+      "application_url": "https://bitwarden.com/careers/8076045003/?gh_jid=8076045003",
+      "checked_at": "2026-11-16T19:00:26.721161+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-05T09:33:12-05:00"
+    },
+    {
+      "id": "suki-8026661003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/suki/jobs?content=true",
+      "application_url": "https://www.suki.ai/open-positions?gh_jid=8026661003",
+      "checked_at": "2026-11-16T19:15:45.199995+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-12T01:36:30-05:00"
+    },
+    {
+      "id": "suki-8188901003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/suki/jobs?content=true",
+      "application_url": "https://www.suki.ai/open-positions?gh_jid=8188901003",
+      "checked_at": "2026-11-16T19:15:45.199995+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-04T03:29:44-05:00"
+    },
+    {
+      "id": "suki-8174866003",
+      "url": "https://boards-api.greenhouse.io/v1/boards/suki/jobs?content=true",
+      "application_url": "https://www.suki.ai/open-positions?gh_jid=8174866003",
+      "checked_at": "2026-11-16T19:15:45.199995+00:00",
+      "http_status": 200,
+      "publication_field": "first_published",
+      "publication_timestamp": "2026-11-03T10:27:56-05:00"
+    },
+    {
+      "id": "blitzy-fed53b6a-c54b-4da0-804d-d621e048a8bb",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/blitzy",
+      "application_url": "https://jobs.ashbyhq.com/blitzy/fed53b6a-c54b-4da0-804d-d621e048a8bb",
+      "checked_at": "2026-11-16T19:15:44.221928+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-23T14:11:16.801+00:00"
+    },
+    {
+      "id": "certa-9f7caf0b-46ff-49ab-ae78-62deadec106e",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/certa?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/certa/9f7caf0b-46ff-49ab-ae78-62deadec106e",
+      "checked_at": "2026-11-16T19:00:26.249556+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-28T06:03:09.175+00:00"
+    },
+    {
+      "id": "certa-2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/certa?includeCompensation=true",
+      "application_url": "https://jobs.ashbyhq.com/certa/2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+      "checked_at": "2026-11-16T19:00:26.249556+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-15T15:35:47.159+00:00"
+    },
+    {
+      "id": "aiprise-5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+      "application_url": "https://jobs.ashbyhq.com/aiprise/5c1cef9d-60ab-4655-a348-352a7f9da3c7",
+      "checked_at": "2026-11-16T19:12:32.292885+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-10-30T07:14:11.874+00:00"
+    },
+    {
+      "id": "aiprise-4994f7fc-b974-420f-9823-32d6c493f5c2",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+      "application_url": "https://jobs.ashbyhq.com/aiprise/4994f7fc-b974-420f-9823-32d6c493f5c2",
+      "checked_at": "2026-11-16T19:12:32.292885+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-11T06:28:29.997+00:00"
+    },
+    {
+      "id": "aiprise-41af4efa-a550-484e-afde-a9f5f3807eca",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+      "application_url": "https://jobs.ashbyhq.com/aiprise/41af4efa-a550-484e-afde-a9f5f3807eca",
+      "checked_at": "2026-11-16T19:12:32.292885+00:00",
+      "http_status": 200,
+      "publication_field": "publishedAt",
+      "publication_timestamp": "2026-11-11T06:30:03.514+00:00"
+    },
+    {
+      "id": "h2o-ai-y4xkgbiojt",
+      "url": "https://h2oai.applytojob.com/apply/Y4XkgBiojT",
+      "application_url": "https://h2oai.applytojob.com/apply/Y4XkgBiojT",
+      "checked_at": "2026-11-16T18:57:03.636930+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-03"
+    },
+    {
+      "id": "filterpixel-5027294",
+      "url": "https://wellfound.com/jobs/5027294-senior-software-engineer-backend-infrastructure",
+      "application_url": "https://wellfound.com/jobs/5027294-senior-software-engineer-backend-infrastructure",
+      "checked_at": "2026-11-16T19:00:22.733268+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-09T10:31:38Z"
+    },
+    {
+      "id": "marvedge-4995303",
+      "url": "https://wellfound.com/jobs/4995303-full-stack-developer-intern",
+      "application_url": "https://wellfound.com/jobs/4995303-full-stack-developer-intern",
+      "checked_at": "2026-11-16T19:00:22.734016+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-05T19:31:28Z"
+    },
+    {
+      "id": "spenza-4491416",
+      "url": "https://wellfound.com/jobs/4491416-ai-native-tech-lead",
+      "application_url": "https://wellfound.com/jobs/4491416-ai-native-tech-lead",
+      "checked_at": "2026-11-16T19:00:23.554591+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-29T17:31:11Z"
+    },
+    {
+      "id": "marmeto-4901481",
+      "url": "https://wellfound.com/jobs/4901481-backend-developer-integrations-automation",
+      "application_url": "https://wellfound.com/jobs/4901481-backend-developer-integrations-automation",
+      "checked_at": "2026-11-16T19:00:23.899894+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-28T14:48:06Z"
+    },
+    {
+      "id": "marmeto-4372239",
+      "url": "https://wellfound.com/jobs/4372239-frontend-developer-recurpay",
+      "application_url": "https://wellfound.com/jobs/4372239-frontend-developer-recurpay",
+      "checked_at": "2026-11-16T19:00:23.944855+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-26T06:30:07Z"
+    },
+    {
+      "id": "sei-ai-3162567",
+      "url": "https://wellfound.com/jobs/3162567-llm-engineer",
+      "application_url": "https://wellfound.com/jobs/3162567-llm-engineer",
+      "checked_at": "2026-11-16T19:00:24.589444+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-26T08:52:18Z"
+    },
+    {
+      "id": "allminds-3143348",
+      "url": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+      "application_url": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+      "checked_at": "2026-11-16T19:00:25.378631+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-17T07:23:16Z"
+    },
+    {
+      "id": "azodha-5086001",
+      "url": "https://wellfound.com/jobs/5086001-automation-testing",
+      "application_url": "https://wellfound.com/jobs/5086001-automation-testing",
+      "checked_at": "2026-11-16T19:00:25.473696+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-16T09:50:52Z"
+    },
+    {
+      "id": "javis-3355468",
+      "url": "https://wellfound.com/jobs/3355468-software-development-engineer-ii-backend-java",
+      "application_url": "https://wellfound.com/jobs/3355468-software-development-engineer-ii-backend-java",
+      "checked_at": "2026-11-16T19:00:25.668638+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-09T17:30:27Z"
+    },
+    {
+      "id": "gyrus-ai-2360186",
+      "url": "https://wellfound.com/jobs/2360186-computer-vision-engineer",
+      "application_url": "https://wellfound.com/jobs/2360186-computer-vision-engineer",
+      "checked_at": "2026-11-16T19:00:25.867759+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-26T17:30:55Z"
+    },
+    {
+      "id": "swift-3020063",
+      "url": "https://wellfound.com/jobs/3020063-frontend-developer-intern",
+      "application_url": "https://wellfound.com/jobs/3020063-frontend-developer-intern",
+      "checked_at": "2026-11-16T19:00:25.983779+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-13T08:57:41Z"
+    },
+    {
+      "id": "sciative-we-price-right-4064959",
+      "url": "https://wellfound.com/jobs/4064959-devops-engineer",
+      "application_url": "https://wellfound.com/jobs/4064959-devops-engineer",
+      "checked_at": "2026-11-16T19:00:26.129281+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-04T17:30:29Z"
+    },
+    {
+      "id": "mira-labs-ai-4897561",
+      "url": "https://wellfound.com/jobs/4897561-senior-product-security-devsecops-engineer",
+      "application_url": "https://wellfound.com/jobs/4897561-senior-product-security-devsecops-engineer",
+      "checked_at": "2026-11-16T19:00:27.139191+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-27T12:10:02Z"
+    },
+    {
+      "id": "procureyard-technologies-4793779",
+      "url": "https://wellfound.com/jobs/4793779-ml-ai-engineer-intern-procureyard",
+      "application_url": "https://wellfound.com/jobs/4793779-ml-ai-engineer-intern-procureyard",
+      "checked_at": "2026-11-16T19:00:27.451206+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-28T12:07:50Z"
+    },
+    {
+      "id": "right-hand-cybersecurity-4897506",
+      "url": "https://wellfound.com/jobs/4897506-senior-product-engineer-ai-native",
+      "application_url": "https://wellfound.com/jobs/4897506-senior-product-engineer-ai-native",
+      "checked_at": "2026-11-16T19:00:27.994820+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-27T10:29:10Z"
+    },
+    {
+      "id": "scispace-3534689",
+      "url": "https://wellfound.com/jobs/3534689-senior-agentic-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/3534689-senior-agentic-ai-engineer",
+      "checked_at": "2026-11-16T19:00:28.039644+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-17T07:06:37Z"
+    },
+    {
+      "id": "cube-4157977",
+      "url": "https://wellfound.com/jobs/4157977-full-stack-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4157977-full-stack-ai-engineer",
+      "checked_at": "2026-11-16T19:00:28.300679+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-03T10:12:18Z"
+    },
+    {
+      "id": "nevonai-5031257",
+      "url": "https://wellfound.com/jobs/5031257-computer-vision-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/5031257-computer-vision-ai-engineer",
+      "checked_at": "2026-11-16T19:00:28.315277+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-10T07:50:34Z"
+    },
+    {
+      "id": "flomobility-5062846",
+      "url": "https://wellfound.com/jobs/5062846-robotics-engineer",
+      "application_url": "https://wellfound.com/jobs/5062846-robotics-engineer",
+      "checked_at": "2026-11-16T19:00:29.091930+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-14T05:25:18Z"
+    },
+    {
+      "id": "flomobility-4985524",
+      "url": "https://wellfound.com/jobs/4985524-firmware-engineer",
+      "application_url": "https://wellfound.com/jobs/4985524-firmware-engineer",
+      "checked_at": "2026-11-16T19:00:29.324552+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-14T05:24:57Z"
+    },
+    {
+      "id": "rentok-5067313",
+      "url": "https://wellfound.com/jobs/5067313-fullstack-engineer",
+      "application_url": "https://wellfound.com/jobs/5067313-fullstack-engineer",
+      "checked_at": "2026-11-16T19:00:29.641932+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-13T11:59:28Z"
+    },
+    {
+      "id": "fuze-2448180",
+      "url": "https://wellfound.com/jobs/2448180-software-engineer",
+      "application_url": "https://wellfound.com/jobs/2448180-software-engineer",
+      "checked_at": "2026-11-16T19:00:29.789868+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-28T06:42:44Z"
+    },
+    {
+      "id": "scopex-4970149",
+      "url": "https://wellfound.com/jobs/4970149-senior-react-native-engineer",
+      "application_url": "https://wellfound.com/jobs/4970149-senior-react-native-engineer",
+      "checked_at": "2026-11-16T19:00:29.840668+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-04T09:10:38Z"
+    },
+    {
+      "id": "scopex-3203566",
+      "url": "https://wellfound.com/jobs/3203566-senior-qa-automation-engineer",
+      "application_url": "https://wellfound.com/jobs/3203566-senior-qa-automation-engineer",
+      "checked_at": "2026-11-16T19:00:29.908591+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-04T10:08:28Z"
+    },
+    {
+      "id": "cloudcrane-5027354",
+      "url": "https://wellfound.com/jobs/5027354-senior-software-engineer",
+      "application_url": "https://wellfound.com/jobs/5027354-senior-software-engineer",
+      "checked_at": "2026-11-16T19:00:30.288560+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-09T15:51:22Z"
+    },
+    {
+      "id": "vested-finance-4981464",
+      "url": "https://wellfound.com/jobs/4981464-software-engineer",
+      "application_url": "https://wellfound.com/jobs/4981464-software-engineer",
+      "checked_at": "2026-11-16T19:00:30.452071+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-04T09:47:28Z"
+    },
+    {
+      "id": "vested-finance-4875063",
+      "url": "https://wellfound.com/jobs/4875063-junior-qa-engineer",
+      "application_url": "https://wellfound.com/jobs/4875063-junior-qa-engineer",
+      "checked_at": "2026-11-16T19:00:30.459950+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-21T14:03:31Z"
+    },
+    {
+      "id": "alchemyst-ai-4430599",
+      "url": "https://wellfound.com/jobs/4430599-junior-devops-engineer-intern-clone",
+      "application_url": "https://wellfound.com/jobs/4430599-junior-devops-engineer-intern-clone",
+      "checked_at": "2026-11-16T19:00:31.594742+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-19T16:30:36Z"
+    },
+    {
+      "id": "learntube-ai-3301948",
+      "url": "https://wellfound.com/jobs/3301948-senior-backend-engineer-fastapi",
+      "application_url": "https://wellfound.com/jobs/3301948-senior-backend-engineer-fastapi",
+      "checked_at": "2026-11-16T19:00:31.771147+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-23T08:11:09Z"
+    },
+    {
+      "id": "agentic-universe-4901518",
+      "url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4901518-systems-ai-engineer",
+      "checked_at": "2026-11-16T19:00:32.244901+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-28T17:01:15Z"
+    },
+    {
+      "id": "agentic-universe-4985505",
+      "url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "application_url": "https://wellfound.com/jobs/4985505-software-development-engineer-interns",
+      "checked_at": "2026-11-16T19:00:32.262160+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-04T12:25:47Z"
+    },
+    {
+      "id": "auxoai-4867067",
+      "url": "https://wellfound.com/jobs/4867067-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4867067-ai-engineer",
+      "checked_at": "2026-11-16T19:00:32.520475+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-19T15:25:30Z"
+    },
+    {
+      "id": "foxo-4901331",
+      "url": "https://wellfound.com/jobs/4901331-ai-engineer-ii",
+      "application_url": "https://wellfound.com/jobs/4901331-ai-engineer-ii",
+      "checked_at": "2026-11-16T19:00:32.600633+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-28T04:04:53Z"
+    },
+    {
+      "id": "loopr-ai-4967239",
+      "url": "https://wellfound.com/jobs/4967239-software-engineer-iii-fullstack",
+      "application_url": "https://wellfound.com/jobs/4967239-software-engineer-iii-fullstack",
+      "checked_at": "2026-11-16T19:00:32.609892+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-03T06:39:04Z"
+    },
+    {
+      "id": "decentro-3265562",
+      "url": "https://wellfound.com/jobs/3265562-front-end-developer",
+      "application_url": "https://wellfound.com/jobs/3265562-front-end-developer",
+      "checked_at": "2026-11-16T19:00:32.771038+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-12T10:30:09Z"
+    },
+    {
+      "id": "decentro-4980132",
+      "url": "https://wellfound.com/jobs/4980132-junior-security-engineer",
+      "application_url": "https://wellfound.com/jobs/4980132-junior-security-engineer",
+      "checked_at": "2026-11-16T19:00:32.859583+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-04T07:00:57Z"
+    },
+    {
+      "id": "cypherock-wallet-2351282",
+      "url": "https://wellfound.com/jobs/2351282-software-engineer",
+      "application_url": "https://wellfound.com/jobs/2351282-software-engineer",
+      "checked_at": "2026-11-16T19:00:33.265613+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-12T14:43:53Z"
+    },
+    {
+      "id": "cypherock-wallet-644641",
+      "url": "https://wellfound.com/jobs/644641-c-c-programmer",
+      "application_url": "https://wellfound.com/jobs/644641-c-c-programmer",
+      "checked_at": "2026-11-16T19:00:33.434541+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-12T14:41:20Z"
+    },
+    {
+      "id": "learntube-ai-5034675",
+      "url": "https://wellfound.com/jobs/5034675-senior-golang-developer-go-remote",
+      "application_url": "https://wellfound.com/jobs/5034675-senior-golang-developer-go-remote",
+      "checked_at": "2026-11-16T19:00:33.533222+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-10T13:37:43Z"
+    },
+    {
+      "id": "branch-5034661",
+      "url": "https://wellfound.com/jobs/5034661-platform-security-engineer",
+      "application_url": "https://wellfound.com/jobs/5034661-platform-security-engineer",
+      "checked_at": "2026-11-16T19:00:33.583648+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-10T12:41:07Z"
+    },
+    {
+      "id": "get-my-parking-4897468",
+      "url": "https://wellfound.com/jobs/4897468-senior-ai-engineer-sde-ii-backend",
+      "application_url": "https://wellfound.com/jobs/4897468-senior-ai-engineer-sde-ii-backend",
+      "checked_at": "2026-11-16T19:00:34.043635+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-27T08:06:30Z"
+    },
+    {
+      "id": "auxoai-4897560",
+      "url": "https://wellfound.com/jobs/4897560-ai-and-data-engineering-technical-delivery-lead",
+      "application_url": "https://wellfound.com/jobs/4897560-ai-and-data-engineering-technical-delivery-lead",
+      "checked_at": "2026-11-16T19:08:33.354599+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-10-27T12:08:59Z"
+    },
+    {
+      "id": "innovaccer-d0bc6865f3",
+      "url": "https://apply.workable.com/api/v2/accounts/innovaccer-analytics/jobs/D0BC6865F3",
+      "application_url": "https://apply.workable.com/innovaccer-analytics/j/D0BC6865F3/",
+      "checked_at": "2026-11-16T19:11:56.929030+00:00",
+      "http_status": 200,
+      "publication_field": "published",
+      "publication_timestamp": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "id": "innovaccer-217f6ed816",
+      "url": "https://apply.workable.com/api/v2/accounts/innovaccer-analytics/jobs/217F6ED816",
+      "application_url": "https://apply.workable.com/innovaccer-analytics/j/217F6ED816/",
+      "checked_at": "2026-11-16T19:11:56.929581+00:00",
+      "http_status": 200,
+      "publication_field": "published",
+      "publication_timestamp": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "id": "edmo-5008559",
+      "url": "https://wellfound.com/jobs/5008559-agentic-ai-architect",
+      "application_url": "https://wellfound.com/jobs/5008559-agentic-ai-architect",
+      "checked_at": "2026-11-16T19:00:22.733719+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-06T10:54:11Z"
+    },
+    {
+      "id": "edmo-5008558",
+      "url": "https://wellfound.com/jobs/5008558-solution-architect",
+      "application_url": "https://wellfound.com/jobs/5008558-solution-architect",
+      "checked_at": "2026-11-16T19:00:22.733873+00:00",
+      "http_status": 200,
+      "publication_field": "datePosted",
+      "publication_timestamp": "2026-11-06T10:51:49Z"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Cursor India roles",
+      "reason": "Acquired by SpaceX; independent private startup restriction. Employer announcement: https://prod.cursor.com/blog/joining-spacex"
+    },
+    {
+      "candidate": "Superclaims 4995496",
+      "reason": "Acquisition by ekincare found in ownership review; excluded."
+    },
+    {
+      "candidate": "Neysa careers",
+      "reason": "Majority acquisition evidence and original July/August postings outside retention window."
+    },
+    {
+      "candidate": "Kaamfu 5063461",
+      "reason": "JD employer is Prospus, an acquired subsidiary, not an independent private startup."
+    },
+    {
+      "candidate": "BotFriday 5026961",
+      "reason": "Recruitment platform; underlying employer could not be established."
+    },
+    {
+      "candidate": "Azodha 5061227",
+      "reason": "Body explicitly restricts applicants to the US; misleading location metadata is not India eligibility."
+    },
+    {
+      "candidate": "Kong 98f658df-36b4-4581-a757-1744605fe5ef",
+      "reason": "Duplicate of retained managed gateways engineering manager requisition 18c59e96-348f-4dda-adfc-974416d624ca."
+    },
+    {
+      "candidate": "Databricks 8878946002",
+      "reason": "Evergreen talent pool rather than a specific live vacancy."
+    },
+    {
+      "candidate": "Glean 4747460005 / DevRev 6166569004",
+      "reason": "Presales roles do not meet requested engineering scope."
+    },
+    {
+      "candidate": "Plotline GTM Engineer",
+      "reason": "Revenue operations and lead generation scope, not an engineering vacancy."
+    },
+    {
+      "candidate": "Netradyne hardware / mechanical / RF / PCB roles",
+      "reason": "Outside software, ML and AI technical job scope."
+    },
+    {
+      "candidate": "Bitwarden, Certa, Metaforms, Cyberhaven, Juniper Square mirrors",
+      "reason": "Wellfound mirrors deduplicated against canonical employer requisitions; original employer publication dates take precedence."
+    },
+    {
+      "candidate": "Hevo 2599262",
+      "reason": "Fresh mirror refers to older canonical requisition; not a new opening."
+    },
+    {
+      "candidate": "Fibr 5061244 / Zenskar 5061367",
+      "reason": "Already in current feed."
+    },
+    {
+      "candidate": "Swift 5077918 / Loopr 4897494 / StackGuard 5027299",
+      "reason": "Page identifiers conflict with embedded JobPosting identifiers or duplicate another job; rejected."
+    },
+    {
+      "candidate": "Other old, undated, inaccessible or unverified-ownership leads",
+      "reason": "Excluded rather than assigning discovery dates as posting dates or assuming independent private status."
+    }
+  ],
+  "flagged_existing_ids": [],
+  "validation": [
+    {
+      "check": "Initial and final retention preview/apply; zero removals",
+      "result": "passed"
+    },
+    {
+      "check": "npm run check: 25 tests, CSV validation and production build",
+      "result": "passed"
+    },
+    {
+      "check": "Browser QA: all 130 details, application URLs, logos, experience/location filters, pagination, desktop/mobile, accessibility and retention behavior",
+      "result": "passed"
+    },
+    {
+      "check": "Visual inspection of current desktop.png and mobile.png",
+      "result": "passed"
+    },
+    {
+      "check": "Existing 30 CSV rows unchanged; exactly 100 unique additions with in-window publication dates",
+      "result": "passed"
+    },
+    {
+      "check": "All active company funding, LinkedIn and logo audits present",
+      "result": "passed"
+    },
+    {
+      "check": "Daily skill validation",
+      "result": "passed"
+    },
+    {
+      "check": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "publication_status": "authorized_pending_push",
+  "completed_at": "2026-11-16T19:34:24.116184+00:00",
+  "counts": {
+    "added": 100,
+    "active_before": 30,
+    "active_after": 130,
+    "active_companies": 71,
+    "employers_in_batch": 55,
+    "new_company_audits": 54,
+    "new_local_logos": 54,
+    "new_employer_published_pay": 27,
+    "new_estimated_pay": 33,
+    "new_undisclosed_pay": 40
+  },
+  "source_coverage": [
+    {
+      "family": "Employer ATS / career sites",
+      "result": "56 additions: 53 Greenhouse/Ashby/Lever, two Workable and one employer JobPosting page. Original publication fields, India eligibility and technical responsibilities reviewed."
+    },
+    {
+      "family": "Wellfound",
+      "result": "44 employer-authored live JobPosting additions. Canonical employer mirrors, existing requisitions and mismatched JobPosting identifiers excluded."
+    },
+    {
+      "family": "LinkedIn",
+      "result": "Discovery and company identity verification. Public company employee links supplied numeric company IDs. Direct profile requests returned 403/429; accessible public web results used. No login bypass or connection/member data collected."
+    },
+    {
+      "family": "Instahyre",
+      "result": "Job discovery searched; no qualifying new job added from this source. Public India role/experience salary reports support documented benchmarks."
+    },
+    {
+      "family": "Naukri",
+      "result": "Search discovery attempted; direct access/robots restrictions prevented sufficient live verification. No additions from restricted pages."
+    },
+    {
+      "family": "Cutshort",
+      "result": "Discovery searched; no additional eligible, dated role established."
+    },
+    {
+      "family": "Himalayas",
+      "result": "Remote discovery searched; no additional eligible, dated India role established."
+    },
+    {
+      "family": "Remotive",
+      "result": "Remote discovery searched; no additional eligible, dated India role established."
+    },
+    {
+      "family": "Remote OK",
+      "result": "Remote discovery searched; no additional eligible, dated India role established."
+    },
+    {
+      "family": "YC Work at a Startup",
+      "result": "Discovery searched and company background reviewed; no additional eligible, dated vacancy added from this source."
+    }
+  ],
+  "queries": [
+    "Glean careers jobs greenhouse Bangalore",
+    "Harness careers greenhouse India jobs",
+    "Cresta careers jobs engineering India",
+    "Mindtickle careers engineering India",
+    "site:wellfound.com/jobs AI engineer India",
+    "site:naukri.com AI startup engineer Bengaluru",
+    "site:cutshort.io AI startups engineer India",
+    "site:himalayas.app/jobs AI engineer India",
+    "Databricks India careers greenhouse 2026",
+    "Harness site:job-boards.greenhouse.io/harness",
+    "Dataiku India careers greenhouse",
+    "Postman India careers greenhouse",
+    "Innovaccer careers India greenhouse",
+    "H2O.ai India careers engineer",
+    "site:jobs.ashbyhq.com India \"AI\" -site:jobs.ashbyhq.com/openai -site:jobs.ashbyhq.com/elevenlabs",
+    "site:remotive.com India AI engineer",
+    "site:remoteok.com India AI engineer",
+    "BrowserStack jobs greenhouse India",
+    "Chargebee careers India greenhouse",
+    "MoEngage careers engineering greenhouse",
+    "ClickHouse jobs India greenhouse",
+    "Airbyte careers India ashby",
+    "Gushwork careers India ashby",
+    "Murf AI careers engineer India",
+    "Neysa careers engineer India",
+    "Portkey careers India engineer",
+    "site:ats.rippling.com/rippling \"Software\" \"India\"",
+    "site:job-boards.greenhouse.io/databricks \"India\"",
+    "site:jobs.ashbyhq.com \"Bengaluru\" \"engineer\" startup",
+    "site:jobs.lever.co \"India\" \"engineer\" \"AI\" startup",
+    "site:instahyre.com \"machine learning\" startup jobs",
+    "site:workatastartup.com/jobs India AI engineer"
+  ],
+  "retained_near_matches": [
+    "Harness CD managers have distinct cloud execution versus CD product responsibilities.",
+    "Netradyne staff versus senior staff BSP roles have different experience requirements.",
+    "Databricks senior versus staff AI engineering roles have different seniority and experience.",
+    "Bitwarden Rust/TypeScript versus desktop TypeScript/Electron roles have different technical responsibilities.",
+    "AiPrise frontend SDK versus full-stack backend API roles have different scope."
+  ],
+  "salary_notes": "27 employer-published, 33 documented India market estimates, 40 undisclosed. Ambiguous or suspect employer amounts for FilterPixel 5027294, Azodha 5086001, Sciative 4064959 and Alchemyst 4430599 excluded; raw evidence and decisions retained. No currency conversion or invented pay period.",
+  "ownership_notes": "Any funding round is eligible if independent and privately held. Fivetran/dbt merged private company retained. Company identity namesakes resolved before assigning logos or LinkedIn IDs. Undisclosed stage is not a claim of no funding. Historical audits retain their original check dates.",
+  "publication": {
+    "site_url": "https://go-careers.github.io/",
+    "repository": "go-careers/go-careers.github.io",
+    "branches": [
+      "feat/csv-job-board",
+      "development-2"
+    ],
+    "authorization": "Existing user instructions to push and publish website updates."
+  }
+}

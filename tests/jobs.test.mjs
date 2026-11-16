@@ -229,10 +229,10 @@ test('unspecified and open-ended experience is preserved without invented limits
   } finally { await rm(output, { recursive: true, force: true }); }
 });
 
-test('startup eligibility excludes later and unknown funding stages and requires evidence', () => {
-  for (const funding_stage of ['Series D', 'Series E', 'Series F', 'Unknown', ''])
+test('private startup funding accepts later rounds and still requires evidence', () => {
+  for (const funding_stage of ['Public', 'Acquired', 'Unknown', ''])
     assert.throws(() => readJobs(csv({ ...row, funding_stage })), /funding_stage/);
-  for (const funding_stage of ['Bootstrapped', 'Pre-seed', 'Seed', 'Series A', 'Series B', 'Series C'])
+  for (const funding_stage of ['Bootstrapped', 'Pre-seed', 'Seed', 'Series A', 'Series B', 'Series C', 'Series D', 'Series F', 'Series L', 'Undisclosed'])
     assert.equal(readJobs(csv({ ...row, funding_stage }))[0].funding_stage, funding_stage);
   for (const funding_source_url of ['', 'javascript:alert(1)', 'https://user:pass@example.com'])
     assert.throws(() => readJobs(csv({ ...row, funding_source_url })), /funding_source_url/);
