@@ -196,10 +196,9 @@ try {
     assert.equal(await page.locator('.funding-tag, .funding-checked').count(), 0);
     assert.equal(await page.locator('.funding-source').count(), 0);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth), true, `Salary detail fits mobile: ${job.id}`);
-    if (job.salary_benchmark) {
-      assert.ok((await page.locator('.expected-compensation').textContent()).includes(job.salary_benchmark));
-      assert.ok((await page.locator('.compensation-estimate').textContent()).includes('Estimate'));
-    } else assert.equal(await page.locator('.compensation-estimate').count(), 0);
+    assert.equal(await page.locator('#compensation').textContent(), 'Expected salary');
+    assert.equal(await page.locator('.expected-compensation').textContent(), (job.salary || job.salary_benchmark || 'Not disclosed').replace(/ LPA \/ year$/, ' LPA'));
+    assert.equal(await page.locator('.compensation-estimate').count(), 0);
     assert.equal(await page.locator('.salary-source, .salary-reviewed, .benchmark-label').count(), 0);
     assert.equal(await page.getByRole('heading', {name:'Key skills',exact:true}).count(), job.skills.length ? 1 : 0);
     assert.equal(await page.locator('dt').filter({hasText:/^Posted$/}).count(), job.posted_date ? 1 : 0);

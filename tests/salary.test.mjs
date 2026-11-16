@@ -19,19 +19,23 @@ test('benchmarks require evidence, pay basis and a valid research date',()=>{
   assert.throws(()=>readJobs(csv({...fixture,salary_checked_at:'2026-02-30'})),/real YYYY-MM-DD/);
   assert.throws(()=>readJobs(csv({...fixture,salary_benchmark:''})),/require salary_benchmark/);
 });
-test('expected compensation stays concise and identifies estimates without displaying research',async()=>{
+test('expected salary shows only the amount without displaying research',async()=>{
   const output=await mkdtemp(join(tmpdir(),'gocareers-salary-'));
   try {
     await build({output,csv:csv(fixture),today:'2026-11-16'});
     const detail=await readFile(join(output,'jobs/salary-test/index.html'),'utf8');
     const index=await readFile(join(output,'index.html'),'utf8');
-    assert.match(detail,/Expected compensation/);
+    assert.match(detail,/Expected salary/);
     assert.match(detail,/₹20–30 LPA/);
-    assert.match(detail,/Estimate · total pay/);
+    assert.doesNotMatch(detail,/Estimate ·|compensation-estimate/);
     assert.doesNotMatch(detail,/small sample|example.com\/salaries|Research checked|Not an employer offer/);
-    assert.ok(detail.indexOf('Job brief') < detail.indexOf('Expected compensation'));
-    assert.match(index,/Estimate · total pay/);
-    assert.match(index,/salary-test\/#compensation/);
+    assert.ok(detail.indexOf('Job brief') < detail.indexOf('Expected salary'));
+    assert.match(index,/salary-label">Expected salary/);
+    assert.doesNotMatch(index,/Estimate ·|Employer-listed|salary-kind/);
+    await build({output,csv:csv({...fixture,salary:'₹40–60 LPA / year'}),today:'2026-11-16'});
+    const employer=await readFile(join(output,'jobs/salary-test/index.html'),'utf8');
+    assert.match(employer,/expected-compensation">₹40–60 LPA<\/dd>/);
+    assert.doesNotMatch(employer,/₹20–30 LPA|LPA \/ year/);
     const unavailable={...fixture,...Object.fromEntries(salaryColumns.map(key=>[key,''])),salary_note:'No comparable evidence found.',salary_checked_at:'2026-11-16'};
     await build({output,csv:csv(unavailable),today:'2026-11-16'});
     const unknown=await readFile(join(output,'jobs/salary-test/index.html'),'utf8');

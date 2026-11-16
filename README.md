@@ -63,15 +63,17 @@ Official logos are stored locally and documented in `data/company-logos.json`, i
 
 ### Salary research
 
-Checked 16 November 2026: five existing listings retain third-party salary benchmarks, ten listings have employer-published ranges, and 198 remain undisclosed. Zero-value ATS placeholders and amounts without a confirmed period are not published as compensation. Cyble's employer-authored YC postings supply seven ranges; Wellfound JobPosting data supplies three more, explicitly denominated in INR per year. Raw values remain in `data/job-sources.json`. INR millions are expressed as LPA without currency conversion; USD ranges stay in USD. No new third-party benchmark research is claimed for these imports.
+Checked 16 November 2026: **209 of 213 listings now show an amount**: 10 employer-published salaries and 199 researched estimates. This refresh added 194 missing ranges and replaced the broad Hevo lead-engineer median with an experience-based market range. Four Skild AI listings remain undisclosed: their level is unspecified and no sufficiently comparable India compensation was established. US compensation was not converted into India pay.
 
-Benchmarks are related-role context, not verified pay for the advertised vacancy. Detail pages prioritize the job brief and key skills, with one expected-compensation entry in the sidebar. Third-party values carry a short estimate/pay-basis label; source links, research notes and dates remain in the CSV and audit file rather than the rendered page. Onehouse has only one relevant software engineer report; specialty and precise level are not established. Drivetrain’s frontend benchmark is a single related-role report from November 2025. Hevo’s lead engineer benchmark is a company-wide median across levels, not lead-specific pay. LPA means lakh rupees per year. No take-home or currency conversion is calculated.
+Estimates use relevant company employee reports where available, then documented India role/experience benchmarks from Instahyre, Naukri, Glassdoor and Michael Page. Market estimates are **not company-confirmed salary bands**. Finite experience ranges use the envelope of overlapping published bands; open-ended experience uses the minimum band. Title-only comparisons, mismatched sectors, small samples and aging reports are documented per job. Some ranges include equity and variable pay; base-pay sources remain marked separately in the CSV. These are not take-home amounts. Internship estimates retain their monthly period. No arbitrary startup premium or currency conversion is added.
+
+Cards and job details show only **Expected salary** and the amount. The job brief and key skills remain prominent. Sources, pay basis, methodology and confidence limitations stay in `data/salary-research.json` and the CSV, with no research links, notes or dates in the UI. LPA means lakh rupees per year. Cyble's employer-authored YC ranges and the existing Wellfound employer ranges are preserved; raw employer amounts remain in `data/job-sources.json`.
 
 These additional CSV columns are optional for older feeds. When `salary_benchmark` is populated, all six are required:
 
 | Column | Format |
 | --- | --- |
-| `salary_benchmark` | Sourced display amount, currency and annual period; explicitly mark a median when used |
+| `salary_benchmark` | Sourced display amount, currency and explicit period (LPA for annual pay, /month for stipends); explicitly mark a median when used |
 | `salary_basis` | `Total pay`, `Fixed pay`, or `Base pay`; never mix these |
 | `salary_source_url` | Direct HTTPS evidence URL without credentials |
 | `salary_source_name` | Publisher, e.g. Glassdoor, Levels.fyi or Weekday |
