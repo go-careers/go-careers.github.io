@@ -88,6 +88,24 @@ These additional CSV columns are optional for older feeds. When `salary_benchmar
 
 The CSV is public repository content. Keep only information intended for job seekers in it. The site never sends applications or collects candidate data; Apply opens the supplied URL.
 
+## Analytics
+
+Production pages use the owner's Umami Cloud website `e6cb80e5-9b47-4a06-823e-7d76c5c0e762`, restricted to `go-careers.github.io`. Local/preview builds omit tracking. The website ID is public configuration, not a secret.
+
+The Hobby-plan configuration records only:
+
+- **Pageviews**: one per document load, supporting visitors, traffic sources and popular job pages. Job detail views do not generate a duplicate custom event.
+- **`apply_click`**: one per Apply click, with no custom properties; its page URL identifies the job. This measures an outbound click, not a completed application.
+- **`job_saved`**: one per save action, with only `job_id` to distinguish jobs saved from the board. Unsave actions are not recorded. This counts actions, not a synchronized database of saved jobs.
+
+Search, filtering, pagination, LinkedIn links and copying links generate no extra events. Automatic history-based pageviews, performance tracking and error tracking are not enabled. Umami counts pageviews, custom events and stored event properties toward usage, so the extra properties are deliberately limited to one on saves. See [current Umami pricing](https://umami.is/pricing).
+
+The sender removes search/filter/return parameters and URL fragments from analytics URLs, preserving only standard UTM campaign parameters. Referrer query strings are removed. Normal navigation remains unchanged. Tracking is asynchronous, queues at most 50 early actions in memory, and does not interrupt the site if blocked. There is no session replay, custom visitor identity or free-form search-text collection.
+
+In [Umami Cloud](https://cloud.umami.is/), open this website to see Visitors, Views, Referrers and Pages. Under Events, use `apply_click` and `job_saved`; the latter's `job_id` property distinguishes saved roles. Traffic starts after installation; historical visits cannot be reconstructed.
+
+`tests/analytics-browser.mjs` exercises the real public tracker using a locally downloaded script supplied via `UMAMI_SCRIPT_PATH`. It intercepts every request (including collection and outbound destinations), checks the payloads and verifies preview, blocked-tracker and delayed-tracker behavior without sending test data to Umami. It uses the same `PLAYWRIGHT_MODULE` / `CHROMIUM_EXECUTABLE` environment variables as the main browser QA.
+
 ## GitHub Pages deployment
 
 The live job board is published at **https://go-careers.github.io/** through `.github/workflows/csv-site.yml`. The workflow runs validation on pushes and pull requests, then publishes successful default-branch builds when the Actions repository variable `ENABLE_CSV_SITE` is `true`. GitHub Pages uses **GitHub Actions** as its source, and the `github-pages` environment permits the default branch, `development-2`, to deploy.

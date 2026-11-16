@@ -1,5 +1,6 @@
 (() => {
   const byId = (id) => document.getElementById(id);
+  const track = (name, data) => window.goCareersAnalytics?.track(name, data);
   const today = () => new Date().toISOString().slice(0, 10);
   const savedKey = 'go-careers:saved:v1';
   const decodeSaved = value => {
@@ -31,6 +32,7 @@
     catch { storageAvailable = false; }
     syncSavedButtons();
     onSavedChange();
+    if (!removing) track('job_saved', { job_id: id });
     const card = button.closest('.job-card');
     if (card) {
       const nextFocus = card.hidden ? document.querySelector('.job-card:not([hidden]) [data-save-id]') || byId('saved-view') : button;
@@ -86,6 +88,7 @@
     }
   };
   checkDetail();
+  byId('apply-link')?.addEventListener('click', () => track('apply_click'));
   const list = byId("job-list");
   if (!list) {
     if (detail) setInterval(checkDetail, 60000);
