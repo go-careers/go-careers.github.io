@@ -147,7 +147,7 @@ test("real builds create static detail pages, canonical URLs and sitemap while e
     );
     assert.ok(html.includes("&lt;img src=x onerror=alert(1)&gt;"));
     assert.ok(!html.includes("<img src=x"));
-    assert.ok(html.includes('href="../../assets/styles.css"'));
+    assert.match(html, /href="\.\.\/\.\.\/assets\/styles\.css\?v=[a-f0-9]{12}"/);
     assert.ok(html.includes("https://example.com/jobs-board/jobs/frontend-1/"));
     assert.ok(html.includes('id="apply-link"'));
     assert.ok(!html.includes("noindex"));
