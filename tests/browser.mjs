@@ -84,6 +84,44 @@ try {
   await page.locator('#clear-search').click();
   assert.equal(await count(), 20);
   assert.equal(await page.locator('#search').inputValue(), '');
+  // City matching includes each city on a multi-location listing.
+  const cityCases = [
+    ['chennai', jobs.filter(job => /Chennai/.test(job.location))],
+    ['delhi-ncr', jobs.filter(job => /Delhi|Noida|Gurgaon|Gurugram/.test(job.location))],
+    ['remote', jobs.filter(job => job.work_mode === 'Remote')],
+    ['city-unspecified', jobs.filter(job => job.location === 'India')],
+  ];
+  for (const [city, matching] of cityCases) {
+    await page.locator('#location').selectOption(city);
+    assert.match(await page.locator('#result-count').textContent(), new RegExp(`of ${matching.length} opportunities`));
+    if (matching.length <= 20) assert.deepEqual((await page.locator('.job-card:visible').evaluateAll(cards => cards.map(card => card.dataset.id))).sort(), matching.map(job => job.id).sort());
+    assert.equal(new URL(page.url()).searchParams.get('location'), city);
+    await page.reload();
+    assert.equal(await page.locator('#location').inputValue(), city);
+  }
+  await page.locator('#reset').click();
+  await page.locator('#company').selectOption('Neuron7');
+  assert.equal(await page.locator('#location option[value="bengaluru"]').textContent(), `Bengaluru (${jobs.filter(job => job.company === 'Neuron7').length})`);
+  assert.equal(await page.locator('#location option[value="chennai"]').isDisabled(), true);
+  await page.locator('#reset').click();
+  await page.locator('#location').selectOption('chennai');
+  await page.locator('#company').selectOption('Neuron7');
+  assert.equal(await count(), 0);
+  assert.equal(await page.getByRole('button', {name:'Remove Chennai filter',exact:true}).count(), 1);
+  await page.getByRole('button', {name:'Remove Chennai filter',exact:true}).click();
+  assert.equal(await count(), jobs.filter(job => job.company === 'Neuron7').length);
+  await page.goto(base + '?location=Bangalore%2C%20India');
+  assert.equal(await page.locator('#location').inputValue(), 'bengaluru');
+  await page.goto(base + '?location=Bengaluru%20%2F%20Chennai%2C%20India');
+  assert.equal(await count(), jobs.filter(job => job.location === 'Bengaluru / Chennai, India').length, 'Old multi-city shared URLs keep their exact selection');
+  await page.goto(base + '?location=India');
+  assert.equal(await page.locator('#location').inputValue(), 'city-unspecified');
+  await page.locator('#reset').click();
+  await page.locator('#search').fill('Bangalore');
+  const aliasCount = await page.locator('#result-count').textContent();
+  await page.locator('#search').fill('Bengaluru');
+  assert.equal(await page.locator('#result-count').textContent(), aliasCount);
+  await page.locator('#reset').click();
   const query = `${target.company} ${target.title}`;
   const searchMatches = jobs.filter(job => query.toLowerCase().split(/\s+/).every(token => [job.title,job.company,job.location,...job.skills].join(' ').toLowerCase().includes(token)));
   await page.locator('#search').fill(query);

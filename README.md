@@ -61,6 +61,10 @@ Optional `company_logo` and `verified_date` columns supplement the required sche
 
 Official logos are stored locally and documented in `data/company-logos.json`, including source page and asset URLs. Company trademarks belong to their owners. The site makes no external logo requests. The Drivetrain recruiting wordmark is displayed through a square CSS viewport showing its emblem.
 
+### Location filters
+
+City filters include every city on multi-location roles, normalize Bangalore/Bengaluru, and group Delhi, Noida and Gurugram under Delhi NCR. Counts update against the other active filters, including saved jobs. Empty choices are disabled while the current selection remains removable. Explicit remote jobs have a separate choice; a country-only India listing is shown as city unspecified and is never assumed remote. The card retains the employer's original location. City aliases also work in search, and previously shared location URLs still resolve.
+
 ### Salary research
 
 Checked 16 November 2026: **209 of 213 listings now show an amount**: 10 employer-published salaries and 199 researched estimates. This refresh added 194 missing ranges and replaced the broad Hevo lead-engineer median with an experience-based market range. Four Skild AI listings remain undisclosed: their level is unspecified and no sufficiently comparable India compensation was established. US compensation was not converted into India pay.

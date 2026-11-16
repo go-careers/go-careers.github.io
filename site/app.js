@@ -92,6 +92,8 @@
     return;
   }
   const cards = [...list.querySelectorAll(".job-card")];
+  const cardPlaces = new Map(cards.map(card => [card, JSON.parse(card.dataset.locations)]));
+  const matchesLocation = (card, value) => !value || cardPlaces.get(card).includes(value) || card.dataset.location === value;
   const controls = {
     q: byId("search"),
     company: byId("company"),
@@ -128,7 +130,19 @@
     const params = new URLSearchParams(location.search);
     savedOnly = params.get('saved') === '1';
     for (const [key, input] of Object.entries(controls)) {
-      const value = params.get(key) || (key === "sort" ? "newest" : "");
+      let value = params.get(key) || (key === "sort" ? "newest" : "");
+      if (key === 'location' && value && ![...input.options].some(option => option.value === value)) {
+        // Keep old shared URLs working, including exact multi-city selections.
+        const alias = value.toLowerCase().replace(/,\s*india$/i, '').trim();
+        const canonical = [...input.options].find(option => JSON.parse(option.dataset.aliases || '[]').includes(alias));
+        if (canonical) value = canonical.value;
+        else if (cards.some(card => card.dataset.location === value)) {
+          const legacy = new Option(value, value);
+          legacy.dataset.label = value;
+          legacy.hidden = true;
+          input.append(legacy);
+        }
+      }
       input.value =
         input.tagName === "SELECT" &&
         ![...input.options].some((option) => option.value === value)
@@ -163,7 +177,7 @@
     const range = controls.experience.value
       ? controls.experience.value.split("-").map(Number)
       : null;
-    const filtered = cards
+    const candidates = cards
       .filter((card) => {
         const d = card.dataset;
         return (
@@ -171,8 +185,6 @@
           (!savedOnly || saved.has(d.id)) &&
           tokens.every((token) => d.search.includes(token)) &&
           (!controls.company.value || controls.company.value === d.company) &&
-          (!controls.location.value ||
-            controls.location.value === d.location) &&
           (!controls.mode.value || controls.mode.value === d.mode) &&
           (!controls.type.value || controls.type.value === d.type) &&
           (!range ||
@@ -180,7 +192,14 @@
               (d.min === "" ? 0 : Number(d.min)) <= (range[1] ?? range[0]) &&
               (d.max === "" ? Infinity : Number(d.max)) >= range[0]))
         );
-      })
+      });
+    // Count locations within the other selected filters, not just the current city.
+    for (const option of controls.location.options) {
+      const count = candidates.filter(card => matchesLocation(card, option.value)).length;
+      option.textContent = `${option.dataset.label} (${count})`;
+      option.disabled = !!option.value && count === 0 && option.value !== controls.location.value;
+    }
+    const filtered = candidates.filter(card => matchesLocation(card, controls.location.value))
       .sort(
         (a, b) =>
           Number(!a.dataset.posted) - Number(!b.dataset.posted) ||
@@ -242,7 +261,7 @@
         const button = document.createElement("button");
         button.type = "button";
         button.className = "filter-chip";
-        const label = key === "q" ? `Search: ${input.value.trim()}` : input.selectedOptions[0].textContent;
+        const label = key === "q" ? `Search: ${input.value.trim()}` : input.selectedOptions[0].dataset.label || input.selectedOptions[0].textContent;
         button.textContent = `${label} ×`;
         button.setAttribute("aria-label", `Remove ${label} filter`);
         button.addEventListener("click", () => {
