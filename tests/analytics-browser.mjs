@@ -6,6 +6,9 @@ import { tmpdir } from 'node:os';
 import { join, extname, resolve, sep } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { build } from '../scripts/build.mjs';
+import { readJobs, activeJobs } from '../scripts/jobs.mjs';
+import { locationOptions } from '../scripts/locations.mjs';
+const sampleLocation = locationOptions(activeJobs(readJobs(await readFile(new URL('../data/jobs.csv', import.meta.url), 'utf8'))))[0];
 const { chromium } = await import(process.env.PLAYWRIGHT_MODULE ? pathToFileURL(process.env.PLAYWRIGHT_MODULE).href : 'playwright');
 const tracker = await readFile(process.env.UMAMI_SCRIPT_PATH, 'utf8');
 const output = await mkdtemp(join(tmpdir(), 'gocareers-tracking-'));
@@ -61,7 +64,7 @@ try {
   await page.locator('#search').fill('no-results-check');
   await page.locator('#search-form').evaluate(form=>form.requestSubmit());
   await page.locator('#reset').click();
-  await page.locator('#location').selectOption('chennai');
+  await page.locator('#location').selectOption(sampleLocation.id);
   await page.locator('#reset').click();
   await page.locator('#next').click();
   await settle(page);
@@ -95,8 +98,8 @@ try {
 
   const blocked = await contextFor('blocked');
   const blockedPage = await blocked.newPage(); await blockedPage.goto(base);
-  await blockedPage.locator('#location').selectOption('chennai');
-  assert.equal(await blockedPage.locator('.job-card:visible').count(),5);
+  await blockedPage.locator('#location').selectOption(sampleLocation.id);
+  assert.equal(await blockedPage.locator('.job-card:visible').count(),Math.min(20,sampleLocation.count));
   await blockedPage.locator('.job-card:visible [data-save-id]').first().click();
   await settle(blockedPage); assert.equal(events.length,initialCount);
   await blocked.close();

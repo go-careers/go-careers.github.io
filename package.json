@@ -9,6 +9,7 @@
     "preview": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "validate": "node scripts/build.mjs --validate",
+    "jobs:prune": "node scripts/prune-jobs.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "npm run test && npm run validate && npm run build"
   }

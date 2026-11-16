@@ -93,7 +93,7 @@ test("unsafe URLs, path IDs, dates and reversed experience ranges are rejected",
     /number/,
   );
 });
-test("expiry is inclusive through its UTC date; future listings remain hidden", () => {
+test("expiry is inclusive through its India date; future listings remain hidden", () => {
   const jobs = readJobs(
     csv(
       row,
@@ -107,22 +107,19 @@ test("expiry is inclusive through its UTC date; future listings remain hidden", 
     ["frontend-1", "today"],
   );
 });
-test("unknown posting date requires verification and stays undated in the rendered listing", async () => {
+test("undated jobs retain their evidence but are excluded from the recent feed", async () => {
   const unknown = {...row,posted_date:'',work_mode:'Not specified'};
   assert.throws(() => readJobs(csv(unknown)), /requires verified_date/);
   const [header,line] = csv(unknown).split('\r\n');
   const source = `${header},verified_date\r\n${line},2026-11-16`;
   const jobs = readJobs(source);
-  assert.equal(activeJobs(jobs,'2026-11-16').length,1);
+  assert.equal(jobs[0].posted_date, '');
+  assert.equal(activeJobs(jobs,'2026-11-16').length,0);
   const output = await mkdtemp(join(tmpdir(),'gocareers-undated-'));
   try {
     await build({output,csv:source,today:'2026-11-16'});
-    const detail = await readFile(join(output,'jobs/frontend-1/index.html'),'utf8');
-    assert.ok(!detail.includes('<dt>Posted</dt>'));
-    assert.ok(!detail.includes('<dt>Listing checked</dt>'));
-    const index = await readFile(join(output,'index.html'),'utf8');
-    const card = index.match(/<article class="job-card"[\s\S]*?<\/article>/)[0];
-    assert.ok(!card.includes('<span>Not specified</span>'));
+    await assert.rejects(readFile(join(output,'jobs/frontend-1/index.html'),'utf8'), {code:'ENOENT'});
+    assert.doesNotMatch(await readFile(join(output,'index.html'),'utf8'), /class="job-card"/);
   } finally { await rm(output,{recursive:true,force:true}); }
 });
 test("real builds create static detail pages, canonical URLs and sitemap while escaping CSV content", async () => {
@@ -183,6 +180,20 @@ test("demo builds disable application links and indexing; production refuses sam
     await rm(output, { recursive: true, force: true });
   }
 });
+test("rebuilding removes aged-out pages and sitemap entries even without employer expiry", async () => {
+  const output = await mkdtemp(join(tmpdir(), "gocareers-window-build-"));
+  const options = {output, csv:csv({...row, posted_date:'2026-10-16', expiry_date:''}), siteURL:'https://example.com/'};
+  try {
+    await build({...options, today:'2026-11-16'});
+    const detail = await readFile(join(output,'jobs/frontend-1/index.html'),'utf8');
+    assert.match(detail, /data-window-end="2026-11-16"/);
+    await build({...options, today:'2026-11-17'});
+    await assert.rejects(access(join(output,'jobs/frontend-1/index.html')));
+    assert.doesNotMatch(await readFile(join(output,'sitemap.xml'),'utf8'), /frontend-1/);
+    assert.doesNotMatch(await readFile(join(output,'index.html'),'utf8'), /class="job-card"/);
+  } finally { await rm(output,{recursive:true,force:true}); }
+});
+
 test("empty feeds render gracefully; rebuilding removes expired pages", async () => {
   const output = await mkdtemp(join(tmpdir(), "gocareers-test-"));
   try {

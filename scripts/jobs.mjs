@@ -1,3 +1,5 @@
+import { indiaDate, removalReason } from './job-window.mjs';
+
 export const columns = [
   "id",
   "title",
@@ -232,13 +234,13 @@ export function readJobs(csv) {
 
 export function activeJobs(
   jobs,
-  today = new Date().toISOString().slice(0, 10),
+  today = indiaDate(),
 ) {
   return jobs
     .filter(
       (job) =>
         job.posted_date <= today &&
-        (!job.expiry_date || job.expiry_date >= today),
+        !removalReason(job, today),
     )
     .sort(
       (a, b) =>

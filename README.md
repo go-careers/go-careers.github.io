@@ -27,13 +27,13 @@ Ownership is a separate build requirement. Every real employer must have an elig
 
 This board is focused on software development, machine learning, AI, and related engineering roles (platform/SRE, data engineering, and security automation). Keep sales, marketing, design, product management, customer support, and general IT operations out of the feed.
 
-The feed contains **213 technical India openings across 39 startups**, checked on 16 November 2026. The first expansion added 188 roles to the existing 12; a subsequent cross-source pass added 13 more. The selection prioritizes AI products and infrastructure: foundation models, voice agents, robotics, AI development tools, healthcare AI, security and enterprise agents. Examples include Sarvam AI, CodeRabbit, Skild AI, Enterpret, Composio and Ema. It includes software, ML, data, platform, security, technical implementation and engineering leadership roles, plus internships. Company stage is based on the latest publicly named round found; unlabelled later financing is noted in the company audit where applicable.
+After applying the one-month window on 16 November 2026, the feed contains **30 technical India openings across 16 startups**. The previous 213-row feed was checked on 16 November 2026; 168 older postings and 15 undated postings are now archived. This retention update did not reverify employer availability. The first expansion added 188 roles to the existing 12; a subsequent cross-source pass added 13 more. The selection prioritizes AI products and infrastructure: foundation models, voice agents, robotics, AI development tools, healthcare AI, security and enterprise agents. Examples include Sarvam AI, CodeRabbit, Skild AI, Enterpret, Composio and Ema. It includes software, ML, data, platform, security, technical implementation and engineering leadership roles, plus internships. Company stage is based on the latest publicly named round found; unlabelled later financing is noted in the company audit where applicable.
 
 The cross-source pass searched LinkedIn, Wellfound, Instahyre, Naukri, Himalayas, Remotive, Remote OK and Cutshort. It added five employer-authored Wellfound roles (Simplismart, Fibr AI, Zenskar), three India-remote OrbitShift roles confirmed through its official Zoho careers feed after discovery on LinkedIn/Himalayas, and five Prodigal roles from its current Greenhouse feed. Naukri denied automated retrieval; Instahyre returned errors/challenge content, so no listings available only on those platforms were claimed as verified. Stale and duplicate leads were excluded. `data/source-search.json` records coverage, access limits and rejected leads; new job audit entries contain `discovered_on` links. Board mirrors do not create extra opportunities.
 
 Sources are employer ATS feeds (Ashby, Greenhouse, Lever, Keka and Teamtailor), official career pages, and employer-authored YC listings. India eligibility comes from advertised locations, including India-specific remote roles. Duplicate application URLs and company/title/location combinations were checked; near-identical Ema infrastructure postings were consolidated. Lyzr's Staff DevOps and DevOps roles remain separate because their minimum experience differs. Sales-led roles were excluded. Funding evidence is in `data/company-funding.json`; per-job sources and verification records are in `data/job-sources.json`. Descriptions are short editorial paraphrases, and skill chips reflect technologies mentioned in the JD, including preferred tools. Application links lead to the original listing or application form. Availability can change after verification.
 
-`posted_date` uses the source's published or creation timestamp. Relative ages or unavailable dates remain blank and require `verified_date`; undated roles sort after dated roles in either direction. Verification is never presented as a new posting date. Unknown work styles use `Not specified`, rather than assuming on-site from a city. No salary or closing date is invented. The production build rejects rows marked `is_demo=true`.
+`posted_date` uses the source's published or creation timestamp. Relative ages or unavailable dates remain blank and require `verified_date`; undated roles remain in historical evidence but are excluded from the recent feed. Verification is never presented as a new posting date. Unknown work styles use `Not specified`, rather than assuming on-site from a city. No salary or closing date is invented. The production build rejects rows marked `is_demo=true`.
 
 Edit `data/jobs.csv` in GitHub or a spreadsheet, preserving the column names. Export as UTF-8 CSV. Every row is a job. Keep IDs stable so existing links continue to work.
 
@@ -51,7 +51,7 @@ Edit `data/jobs.csv` in GitHub or a spreadsheet, preserving the column names. Ex
 | `salary` | Employer-disclosed salary only; blank when undisclosed. Include currency, period and pay basis |
 | `apply_url` | Required HTTPS application URL for real jobs; no credentials in URLs |
 | `posted_date` | Source date, `YYYY-MM-DD`; blank only with `verified_date`. Future listings stay hidden |
-| `expiry_date` | Optional `YYYY-MM-DD`; visible through that date in UTC, hidden afterward |
+| `expiry_date` | Optional `YYYY-MM-DD`; visible through that date in Asia/Kolkata, hidden afterward |
 | `description` | Required plain text; blank lines create paragraphs; HTML is displayed as text |
 | `is_demo` | Required `false` for a real job, `true` for a fictional sample |
 
@@ -67,7 +67,7 @@ City filters include every city on multi-location roles, normalize Bangalore/Ben
 
 ### Salary research
 
-Checked 16 November 2026: **209 of 213 listings now show an amount**: 10 employer-published salaries and 199 researched estimates. This refresh added 194 missing ranges and replaced the broad Hevo lead-engineer median with an experience-based market range. Four Skild AI listings remain undisclosed: their level is unspecified and no sufficiently comparable India compensation was established. US compensation was not converted into India pay.
+Current retained feed: **30 of 30 listings show expected compensation** (2 employer-published, 28 researched estimates). The historical research pass on 16 November 2026 covered **209 of the previous 213 listings**: 10 employer-published salaries and 199 researched estimates. This refresh added 194 missing ranges and replaced the broad Hevo lead-engineer median with an experience-based market range. Four Skild AI listings remain undisclosed: their level is unspecified and no sufficiently comparable India compensation was established. US compensation was not converted into India pay.
 
 Estimates use relevant company employee reports where available, then documented India role/experience benchmarks from Instahyre, Naukri, Glassdoor and Michael Page. Market estimates are **not company-confirmed salary bands**. Finite experience ranges use the envelope of overlapping published bands; open-ended experience uses the minimum band. Title-only comparisons, mismatched sectors, small samples and aging reports are documented per job. Some ranges include equity and variable pay; base-pay sources remain marked separately in the CSV. These are not take-home amounts. Internship estimates retain their monthly period. No arbitrary startup premium or currency conversion is added.
 
@@ -87,6 +87,21 @@ These additional CSV columns are optional for older feeds. When `salary_benchmar
 `data/salary-research.json` records the research decisions; the CSV supplies the displayed content. Update both when researching again. Keep employer salary separate from benchmarks, and leave unsupported figures blank. Review aging sources when refreshing job listings.
 
 The CSV is public repository content. Keep only information intended for job seekers in it. The site never sends applications or collects candidate data; Apply opens the supplied URL.
+
+## Rolling one-month feed
+
+Only postings from one calendar month ago through today (inclusive, Asia/Kolkata) appear. For example, 16 November keeps 16 October onward. Month ends clamp to the previous month's last day; this is not a fixed 30-day window. Original publication dates determine age. Verification, collection and modification timestamps never extend it. Undated postings are excluded until a reliable in-window publication date is established. Employer closing dates can expire a role earlier; future postings stay hidden until their publication day.
+
+The daily-jobs skill runs these commands before sourcing and again before final validation:
+
+```sh
+npm run jobs:prune -- --dry-run  # Preview IDs and reasons
+npm run jobs:prune              # Archive and remove ineligible rows
+```
+
+The command archives complete removed CSV rows in `data/job-archive/` before replacing `data/jobs.csv`. It is safe to rerun: no changes or duplicate archive are created when nothing needs removal. Archive reasons distinguish old postings, unknown posting dates and employer expiry. Source, salary and company audits remain historical supersets, preserving evidence and duplicate detection. Removal for age does not mean the employer closed the vacancy. Read archived IDs and application URLs when sourcing to avoid reintroducing the same old requisition.
+
+Builds enforce the same window without modifying the CSV, including scheduled daily deployments. Browser tabs recheck the generated retention deadline every minute, remove stale cards and disable Apply on aged-out detail pages. Generated pages and sitemap entries disappear on the next build. No new analytics events are added.
 
 ## Analytics
 
@@ -112,7 +127,7 @@ The live job board is published at **https://go-careers.github.io/** through `.g
 
 The existing `gocareers.in` domain points to a separate Vercel site. Its DNS and deployment are unchanged. The stale custom-domain mapping was removed from GitHub Pages so this board is accessible at its own HTTPS address. Moving the custom domain to this board requires access to the domain's DNS or the existing Vercel project. The root `CNAME` file belongs to the older app and is not included in this build.
 
-To release changes, review the verified listings and application links, then merge or push to `development-2`. Real jobs must have `is_demo=false`; keep only the CSV header for an empty board. The **CSV job board** workflow can also be run manually on the default branch. Its daily schedule removes expired jobs and releases future-dated jobs; it does not source new listings. Set `ENABLE_CSV_SITE` to `false` to pause future publishing without taking the existing deployment offline.
+To release changes, review the verified listings and application links, then merge or push to `development-2`. Real jobs must have `is_demo=false`; keep only the CSV header for an empty board. The **CSV job board** workflow can also be run manually on the default branch. Its daily schedule hides jobs outside the one-month window or past employer expiry and releases eligible future-dated jobs; it does not source new listings. Set `ENABLE_CSV_SITE` to `false` to pause future publishing without taking the existing deployment offline.
 
 The deployment passes the Pages base URL into the generator for canonical links and a sitemap, including project-site subpaths. Root and job assets use relative paths. Custom domains are managed in Pages settings; the old root `CNAME` is not copied automatically.
 

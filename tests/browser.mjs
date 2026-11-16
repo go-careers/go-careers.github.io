@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import { mkdir, readFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import { readJobs, activeJobs } from '../scripts/jobs.mjs';
+import { windowEnd } from '../scripts/job-window.mjs';
+import { jobLocations, locationOptions } from '../scripts/locations.mjs';
 const jobs = activeJobs(readJobs(await readFile(new URL('../data/jobs.csv', import.meta.url), 'utf8')));
 const linkedin = JSON.parse(await readFile(new URL('../data/company-linkedin.json', import.meta.url), 'utf8'));
 assert.ok(jobs.length > 0, 'This browser scenario needs an active listing.');
@@ -85,35 +87,39 @@ try {
   assert.equal(await count(), 20);
   assert.equal(await page.locator('#search').inputValue(), '');
   // City matching includes each city on a multi-location listing.
-  const cityCases = [
-    ['chennai', jobs.filter(job => /Chennai/.test(job.location))],
-    ['delhi-ncr', jobs.filter(job => /Delhi|Noida|Gurgaon|Gurugram/.test(job.location))],
-    ['remote', jobs.filter(job => job.work_mode === 'Remote')],
-    ['city-unspecified', jobs.filter(job => job.location === 'India')],
-  ];
-  for (const [city, matching] of cityCases) {
-    await page.locator('#location').selectOption(city);
+  const places = locationOptions(jobs);
+  const matchesPlace = (job, place) => jobLocations(job.location, job.work_mode).some(entry => entry.id === place.id);
+  for (const place of places) {
+    const matching = jobs.filter(job => matchesPlace(job, place));
+    await page.locator('#location').selectOption(place.id);
     assert.match(await page.locator('#result-count').textContent(), new RegExp(`of ${matching.length} opportunities`));
     if (matching.length <= 20) assert.deepEqual((await page.locator('.job-card:visible').evaluateAll(cards => cards.map(card => card.dataset.id))).sort(), matching.map(job => job.id).sort());
-    assert.equal(new URL(page.url()).searchParams.get('location'), city);
+    assert.equal(new URL(page.url()).searchParams.get('location'), place.id);
     await page.reload();
-    assert.equal(await page.locator('#location').inputValue(), city);
+    assert.equal(await page.locator('#location').inputValue(), place.id);
   }
   await page.locator('#reset').click();
-  await page.locator('#company').selectOption('Neuron7');
-  assert.equal(await page.locator('#location option[value="bengaluru"]').textContent(), `Bengaluru (${jobs.filter(job => job.company === 'Neuron7').length})`);
-  assert.equal(await page.locator('#location option[value="chennai"]').isDisabled(), true);
-  await page.locator('#reset').click();
-  await page.locator('#location').selectOption('chennai');
-  await page.locator('#company').selectOption('Neuron7');
-  assert.equal(await count(), 0);
-  assert.equal(await page.getByRole('button', {name:'Remove Chennai filter',exact:true}).count(), 1);
-  await page.getByRole('button', {name:'Remove Chennai filter',exact:true}).click();
-  assert.equal(await count(), jobs.filter(job => job.company === 'Neuron7').length);
+  const incompatible = places.flatMap(place => [...new Set(jobs.map(job => job.company))]
+    .filter(company => !jobs.some(job => job.company === company && matchesPlace(job, place)))
+    .map(company => ({place, company})))[0];
+  if (incompatible) {
+    const {place, company} = incompatible;
+    await page.locator('#company').selectOption(company);
+    assert.equal(await page.locator(`#location option[value="${place.id}"]`).isDisabled(), true);
+    await page.locator('#reset').click();
+    await page.locator('#location').selectOption(place.id);
+    await page.locator('#company').selectOption(company);
+    assert.equal(await count(), 0);
+    await page.getByRole('button', {name:`Remove ${place.label} filter`,exact:true}).click();
+    assert.equal(await count(), Math.min(20, jobs.filter(job => job.company === company).length));
+  }
   await page.goto(base + '?location=Bangalore%2C%20India');
   assert.equal(await page.locator('#location').inputValue(), 'bengaluru');
-  await page.goto(base + '?location=Bengaluru%20%2F%20Chennai%2C%20India');
-  assert.equal(await count(), jobs.filter(job => job.location === 'Bengaluru / Chennai, India').length, 'Old multi-city shared URLs keep their exact selection');
+  const multi = jobs.find(job => jobLocations(job.location, job.work_mode).filter(place => !['remote','city-unspecified'].includes(place.id)).length > 1);
+  if (multi) {
+    await page.goto(base + '?location=' + encodeURIComponent(multi.location));
+    assert.equal(await count(), Math.min(20, jobs.filter(job => job.location === multi.location).length), 'Old multi-city shared URLs keep their exact selection');
+  }
   await page.goto(base + '?location=India');
   assert.equal(await page.locator('#location').inputValue(), 'city-unspecified');
   await page.locator('#reset').click();
@@ -249,6 +255,24 @@ try {
   assert.ok(await noJS.locator('.description').count()>0);
   await noJS.close();
   assert.equal((await page.goto(base+'/missing-page')).status(),404);
+  // A cached board/detail must age out at midnight in India without a rebuild.
+  const agingJob = jobs.find(job => !job.expiry_date);
+  if (agingJob) {
+    const deadline = windowEnd(agingJob.posted_date);
+    const expiryBoard = await context.newPage();
+    const expiryDetail = await context.newPage();
+    for (const tab of [expiryBoard, expiryDetail]) await tab.clock.install({time: new Date(`${deadline}T18:29:00Z`)});
+    await expiryBoard.goto(base + '?q=' + encodeURIComponent(agingJob.company + ' ' + agingJob.title));
+    await expiryDetail.goto(`${base}/jobs/${agingJob.id}/`);
+    const agingCard = expiryBoard.locator(`.job-card[data-id="${agingJob.id}"]`);
+    assert.equal(await agingCard.isVisible(), true);
+    assert.equal(await expiryDetail.locator('#apply-link').count(), 1);
+    for (const tab of [expiryBoard, expiryDetail]) await tab.clock.fastForward(60001);
+    assert.equal(await agingCard.isVisible(), false);
+    assert.equal(await expiryDetail.locator('#apply-link').count(), 0);
+    assert.equal(await expiryDetail.locator('#closed-notice').isVisible(), true);
+    await expiryBoard.close(); await expiryDetail.close();
+  }
   assert.deepEqual(errors,[]);
   console.log(`Browser QA passed for ${jobs.length} current listings, including real application links, experience filters, desktop/mobile and accessibility.`);
 } finally { await browser.close(); }

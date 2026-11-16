@@ -1,7 +1,8 @@
 (() => {
   const byId = (id) => document.getElementById(id);
   const track = (name, data) => window.goCareersAnalytics?.track(name, data);
-  const today = () => new Date().toISOString().slice(0, 10);
+  const calendar = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'});
+  const today = () => calendar.format(new Date());
   const savedKey = 'go-careers:saved:v1';
   const decodeSaved = value => {
     try {
@@ -82,7 +83,7 @@
     }
   }
   const checkDetail = () => {
-    if (detail?.dataset.expiry && detail.dataset.expiry < today()) {
+    if (detail && ((detail.dataset.expiry && detail.dataset.expiry < today()) || detail.dataset.windowEnd < today())) {
       byId("closed-notice").hidden = false;
       byId("apply-link")?.remove();
     }
@@ -127,7 +128,7 @@
     byId('view-bar').scrollIntoView({block: 'start'});
   });
   const active = (card) =>
-    card.dataset.posted <= today() &&
+    card.dataset.posted <= today() && card.dataset.windowEnd >= today() &&
     (!card.dataset.expiry || card.dataset.expiry >= today());
   function readURL() {
     const params = new URLSearchParams(location.search);
