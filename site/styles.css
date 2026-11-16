@@ -40,7 +40,10 @@ button:disabled { opacity: .45; cursor: default; }
 .hero { padding-top: 32px; }
 .intro { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
 .intro h1 { font-size: clamp(26px, 3vw, 36px); letter-spacing: -1.2px; line-height: 1.2; margin: 0 0 10px; font-weight: 650; }
-.intro p { margin: 0; color: var(--muted); font-size: 14px; }
+.intro p { max-width: 76ch; margin: 0; color: var(--muted); font-size: 14px; line-height: 1.65; }
+.intro-highlights { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 12px 0 0; padding: 0; list-style: none; color: var(--muted); font-size: 12px; }
+.intro-highlights li { display: flex; align-items: center; gap: 7px; }
+.intro-highlights li::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: currentColor; flex: none; }
 .name-dot { color: var(--accent); }
 .search-bar { display: flex; align-items: center; border: 1px solid #bfc2c9; border-radius: 9px; padding: 5px 5px 5px 16px; gap: 10px; background: #fff; box-shadow: 0 2px 5px #22222205; }
 .search-bar:focus-within { border-color: var(--ink); box-shadow: 0 0 0 3px #ffdd5840; }
@@ -209,7 +212,7 @@ button:disabled { opacity: .45; cursor: default; }
   .hero { padding-top: 24px; }
   .intro { margin-bottom: 20px; }
   .intro h1 { max-width: 420px; letter-spacing: -.7px; }
-  .intro p { font-size: 13px; }
+  .intro p { font-size: 14px; }
   .search-bar { padding-left: 10px; gap: 5px; }
   .search-bar .button { font-size: 12px; padding-inline: 12px; }
   .quick-searches { gap: 4px 7px; padding-top: 8px; }
