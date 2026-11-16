@@ -84,7 +84,9 @@ The CSV is public repository content. Keep only information intended for job see
 
 ## GitHub Pages deployment
 
-The live site is published at **https://gocareers.in/** through `.github/workflows/csv-site.yml`. The workflow runs validation on pushes and pull requests, then publishes successful default-branch builds when the Actions repository variable `ENABLE_CSV_SITE` is `true`. GitHub Pages uses **GitHub Actions** as its source, and the `github-pages` environment permits the default branch, `development-2`, to deploy.
+The live job board is published at **https://go-careers.github.io/** through `.github/workflows/csv-site.yml`. The workflow runs validation on pushes and pull requests, then publishes successful default-branch builds when the Actions repository variable `ENABLE_CSV_SITE` is `true`. GitHub Pages uses **GitHub Actions** as its source, and the `github-pages` environment permits the default branch, `development-2`, to deploy.
+
+The existing `gocareers.in` domain points to a separate Vercel site. Its DNS and deployment are unchanged. The stale custom-domain mapping was removed from GitHub Pages so this board is accessible at its own HTTPS address. Moving the custom domain to this board requires access to the domain's DNS or the existing Vercel project. The root `CNAME` file belongs to the older app and is not included in this build.
 
 To release changes, review the verified listings and application links, then merge or push to `development-2`. Real jobs must have `is_demo=false`; keep only the CSV header for an empty board. The **CSV job board** workflow can also be run manually on the default branch. Its daily schedule removes expired jobs and releases future-dated jobs; it does not source new listings. Set `ENABLE_CSV_SITE` to `false` to pause future publishing without taking the existing deployment offline.
 
