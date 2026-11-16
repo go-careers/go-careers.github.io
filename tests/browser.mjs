@@ -51,9 +51,16 @@ try {
   assert.equal(await count(), Math.min(20, jobs.filter(job => job.company === target.company).length));
   await page.locator('#reset').click();
   await page.locator('#saved-view').click();
+  assert.equal(await page.locator('.nav-current').getAttribute('data-nav-view'), 'saved');
+  assert.equal(await page.locator('.saved-nav').getAttribute('aria-current'), 'page');
   assert.equal(await count(), 0);
   assert.equal(await page.locator('#empty-title').textContent(), 'Your shortlist starts here');
   await page.locator('#empty-browse').click();
+  assert.equal(await page.locator('.nav-current').getAttribute('data-nav-view'), 'all');
+  const focusedLink = page.locator('.job-card:visible h3 a').first();
+  await focusedLink.focus();
+  await page.evaluate(() => dispatchEvent(new StorageEvent('storage', {key:'go-careers:saved:v1',newValue:'[]'})));
+  assert.equal(await focusedLink.evaluate(link => link === document.activeElement), true, 'Background updates preserve focused job links');
   const firstSave = page.locator('.job-card:visible [data-save-id]').first();
   const savedId = await firstSave.getAttribute('data-save-id');
   await firstSave.click();
@@ -122,13 +129,22 @@ try {
   await page.locator('#share').click();
   await page.waitForFunction(()=>document.getElementById('share-status').textContent.length > 0);
   await page.screenshot({path:'.artifacts/job-detail.png',fullPage:true});
-  for(const width of [375,320]) {
+  for(const width of [900,768,375,320]) {
     await page.setViewportSize({width,height:812});
     await page.goto(base);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,`No overflow at ${width}px`);
     assert.equal(await page.locator('#filters').isVisible(), false, 'Mobile filters start collapsed');
     await page.locator('#filter-toggle').click();
     assert.equal(await page.locator('#filter-toggle').getAttribute('aria-expanded'), 'true');
+    const clipped = await page.locator('#filters select').evaluateAll(selects => selects.filter(select => {
+      const style = getComputedStyle(select);
+      const canvas = document.createElement('canvas').getContext('2d');
+      canvas.font = style.font;
+      return canvas.measureText(select.selectedOptions[0].textContent).width > select.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+    }).map(select => select.id));
+    assert.deepEqual(clipped, [], `Default filter labels fit at ${width}px`);
+    if (width >= 768) assert.ok((await page.locator('.job-card:visible .job-heading').first().boundingBox()).width > 300, 'Tablet titles have room to read');
+    for (const label of await page.locator('.nav nav a > span').all()) assert.ok((await label.boundingBox()).height < 25, 'Header links stay on one line');
     await page.locator('#mode').selectOption(mode);
     assert.equal(await count(),Math.min(20,jobs.filter(j=>j.work_mode===mode).length));
     await page.locator('#reset').click();

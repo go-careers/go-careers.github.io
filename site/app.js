@@ -104,7 +104,7 @@
   const pageSize = 20;
   let page = 1;
   let savedOnly = false;
-  const narrow = matchMedia("(max-width: 760px)");
+  const narrow = matchMedia("(max-width: 900px)");
   const filterToggle = byId("filter-toggle");
   function syncFilterPanel() {
     byId("filters").hidden = narrow.matches && filterToggle.getAttribute("aria-expanded") !== "true";
@@ -154,6 +154,7 @@
     history.replaceState(null, "", url);
   }
   function render(updateURL = true) {
+    const focusedCardControl = list.contains(document.activeElement) ? document.activeElement : null;
     const tokens = controls.q.value
       .trim()
       .toLowerCase()
@@ -196,6 +197,7 @@
       list.append(card);
       card.hidden = index < (page - 1) * pageSize || index >= page * pageSize;
     });
+    if (focusedCardControl && !focusedCardControl.closest('.job-card').hidden) focusedCardControl.focus({preventScroll: true});
     const start = filtered.length ? (page - 1) * pageSize + 1 : 0;
     byId("result-count").textContent = filtered.length
       ? `Showing ${start}–${Math.min(page * pageSize, filtered.length)} of ${filtered.length} opportunities`
@@ -204,6 +206,12 @@
     byId('saved-count').textContent = savedCount;
     byId('saved-view').setAttribute('aria-pressed', String(savedOnly));
     byId('all-view').setAttribute('aria-pressed', String(!savedOnly));
+    for (const link of document.querySelectorAll('[data-nav-view]')) {
+      const current = (link.dataset.navView === 'saved') === savedOnly;
+      link.classList.toggle('nav-current', current);
+      if (current) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    }
     byId('saved-hint').hidden = !savedOnly;
     byId('clear-search').hidden = !controls.q.value;
     byId('filters-done').textContent = `Show ${filtered.length} ${filtered.length === 1 ? 'result' : 'results'}`;
