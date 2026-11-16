@@ -1309,7 +1309,7 @@
       "result": "passed"
     }
   ],
-  "publication_status": "authorized_pending_push",
+  "publication_status": "published",
   "completed_at": "2026-11-16T19:34:24.116184+00:00",
   "counts": {
     "added": 100,
@@ -1415,6 +1415,20 @@
       "feat/csv-job-board",
       "development-2"
     ],
-    "authorization": "Existing user instructions to push and publish website updates."
+    "authorization": "Existing user instructions to push and publish website updates.",
+    "content_commit": "4fe18a518faaa991c7b033edabe04057e61dee15",
+    "workflow_run_id": 43940814633,
+    "workflow_url": "https://github.com/go-careers/go-careers.github.io/actions/runs/43940814633",
+    "verified_at": "2026-11-16T19:35:48.876425+00:00",
+    "live_http_status": 200,
+    "live_job_count": 130,
+    "live_sitemap_url_count": 131,
+    "all_added_ids_present": true,
+    "sample_detail_ids": [
+      "druva-8814695002",
+      "certa-2eee37a0-31f5-4302-bbaf-0e729b61c9e2",
+      "edmo-5008558"
+    ],
+    "logo_asset_verified": "assets/companies/blitzy.png"
   }
 }
