@@ -200,7 +200,6 @@
     byId("result-count").textContent = filtered.length
       ? `Showing ${start}–${Math.min(page * pageSize, filtered.length)} of ${filtered.length} opportunities`
       : "0 opportunities";
-    byId("total-count").textContent = cards.filter(active).length;
     const savedCount = cards.filter(card => active(card) && saved.has(card.dataset.id)).length;
     byId('saved-count').textContent = savedCount;
     byId('saved-view').setAttribute('aria-pressed', String(savedOnly));

@@ -177,7 +177,7 @@ try {
       await page.waitForFunction(() => [...document.querySelectorAll('.company-logo img')].every(img => img.complete && img.naturalWidth > 0));
       assert.equal(await page.locator('.company-logo img').getAttribute('src'), `../../assets/companies/${job.company_logo}`);
     }
-    assert.equal(await page.locator('.funding-tag').textContent(), job.funding_stage);
+    assert.equal(await page.locator('.funding-tag, .funding-checked').count(), 0);
     assert.equal(await page.locator('.funding-source').count(), 0);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth), true, `Salary detail fits mobile: ${job.id}`);
     if (job.salary_benchmark) {

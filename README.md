@@ -57,7 +57,7 @@ Edit `data/jobs.csv` in GitHub or a spreadsheet, preserving the column names. Ex
 
 Quote CSV cells containing commas, quotes, or line breaks. Double embedded quotes (`""`). Common spreadsheet exports handle this automatically. Blank records are ignored. Duplicate IDs, unknown or missing columns, invalid dates, malformed rows, and unsafe application URLs stop the build with an error.
 
-Optional `company_logo` and `verified_date` columns supplement the required schema. `company_logo` is a lowercase PNG filename from `site/companies/`; builds validate the local asset before replacing output. Without a logo, company initials remain as a fallback. `verified_date` records the actual listing check in `YYYY-MM-DD`; it appears on the detail page separately from `posted_date`, so older open jobs are not presented as newly posted today.
+Optional `company_logo` and `verified_date` columns supplement the required schema. `company_logo` is a lowercase PNG filename from `site/companies/`; builds validate the local asset before replacing output. Without a logo, company initials remain as a fallback. `verified_date` records the actual listing check in `YYYY-MM-DD`; it remains in the source data separately from `posted_date`, so older open jobs are not presented as newly posted today.
 
 Official logos are stored locally and documented in `data/company-logos.json`, including source page and asset URLs. Company trademarks belong to their owners. The site makes no external logo requests. The Drivetrain recruiting wordmark is displayed through a square CSS viewport showing its emblem.
 
@@ -126,7 +126,7 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs node tests/browser.mjs
 
 Set `CHROMIUM_EXECUTABLE` if the installed browser is outside Playwright's default cache. Optionally set `AXE_MODULE` to an installed `@axe-core/playwright/dist/index.js` for accessibility checks. Screenshots go into ignored `.artifacts/`.
 
-Job cards show the role, company logo/name, location, work style and known experience, plus available pay with a short benchmark label. Funding, skills and listing dates live on detail pages; salary research stays in the repository. Full-time and unknown-value placeholders are omitted from cards; internships remain identifiable in the title or metadata. Skill search and all filters still use the complete CSV data.
+Job cards show the role, company logo/name, location, work style and known experience, plus available pay with a short benchmark label. Skills and posting dates live on detail pages; funding evidence, verification dates and salary research stay in the repository. Full-time and unknown-value placeholders are omitted from cards; internships remain identifiable in the title or metadata. Skill search and all filters still use the complete CSV data.
 
 The interface uses the original yellow branding, readable job rows and larger controls. A sticky desktop sidebar includes company, location, work style, job type and experience filters. Quick searches combine with existing filters, and removable chips show the current selection. Filters collapse on mobile with a “Show results” action. Pagination shows 20 jobs per page with a page selector, and long pages offer a back-to-top button. Job links preserve search, filters, sort, saved view and page in a return query, so “Back to your results” restores the same view. Shared job links omit that return query. The application action appears at the top of the desktop details panel and stays within reach at the bottom of mobile screens.
 

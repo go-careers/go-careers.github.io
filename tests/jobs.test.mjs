@@ -119,7 +119,7 @@ test("unknown posting date requires verification and stays undated in the render
     await build({output,csv:source,today:'2026-11-16'});
     const detail = await readFile(join(output,'jobs/frontend-1/index.html'),'utf8');
     assert.ok(!detail.includes('<dt>Posted</dt>'));
-    assert.ok(detail.includes('<dt>Listing checked</dt>'));
+    assert.ok(!detail.includes('<dt>Listing checked</dt>'));
     const index = await readFile(join(output,'index.html'),'utf8');
     const card = index.match(/<article class="job-card"[\s\S]*?<\/article>/)[0];
     assert.ok(!card.includes('<span>Not specified</span>'));
