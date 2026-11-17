@@ -667,6 +667,213 @@
       "file": "turing.png",
       "checked_at": "2026-11-17",
       "original_sha256": "8da327111387974e444e6e4da067c9c1017e364f3f9fe43b2d91809e5e07b130"
+    },
+    {
+      "company": "Abstrabit Technologies",
+      "page": "https://wellfound.com/jobs/4985576-senior-software-engineer-sde-2",
+      "url": "https://photos.wellfound.com/startups/i/10466733-8e40b1cdf372005f9c57eee910daca0e-medium_jpg.jpg?buster=1757317055",
+      "file": "abstrabit-technologies.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.473194+00:00",
+      "original_sha256": "6709aae27981e5ff5cfd4a1263019fd42e210edb4cc0850fd8231510c2a06b7e"
+    },
+    {
+      "company": "Alpha Nodus",
+      "page": "https://wellfound.com/jobs/4881160-applied-data-scientist-analytics-ai-agents",
+      "url": "https://photos.wellfound.com/startups/i/1153788-d2cbe7b366cc6d0f32c0449326730cfd-medium_jpg.jpg?buster=1464295578",
+      "file": "alpha-nodus.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.664536+00:00",
+      "original_sha256": "b4128fda6333fbae92b5738cb05e3afcabeb480db3b4eeb779d93591ab75375a"
+    },
+    {
+      "company": "AtomicAds",
+      "page": "https://wellfound.com/jobs/4881119-member-of-technical-staff-backend-engineer",
+      "url": "https://photos.wellfound.com/startups/i/10605386-e1a4b3359d31c35cd9ddeefdd37db629-medium_jpg.jpg?buster=1752321568",
+      "file": "atomicads.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.059429+00:00",
+      "original_sha256": "730458746d97c822ce836a1d7c65a5d2b5028175a490ac2f7bdf7e60b7f08085"
+    },
+    {
+      "company": "Claysol Media Labs",
+      "page": "https://wellfound.com/jobs/5081929-embedded-linux-android-software-engineer-automotive",
+      "url": "https://photos.wellfound.com/startups/i/7507412-ee035f47175680d61ff4f2564da7d445-medium_jpg.jpg?buster=1582193845",
+      "file": "claysol-media-labs.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:00.736879+00:00",
+      "original_sha256": "1625c8bc7063726738f1ab562f7c035f69871e01919bfebaf772452fc0b2a337"
+    },
+    {
+      "company": "Finthos",
+      "page": "https://wellfound.com/jobs/5081922-full-stack-engineer-finthos-ai-native-fintech-startup",
+      "url": "https://photos.wellfound.com/startups/i/10650904-6773019cdfc6ff1cf0361881f73a93a9-medium_jpg.jpg?buster=1794760089",
+      "file": "finthos.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.263852+00:00",
+      "original_sha256": "37ded9643091b399fda4bd1d839f495801cc4739596be8901b7817e353ce7069"
+    },
+    {
+      "company": "FrameIQ",
+      "page": "https://wellfound.com/jobs/4995193-computer-vision-ai-engineer-pune-onsite-remote",
+      "url": "https://photos.wellfound.com/startups/i/11371296-e0a8883d77bce0e41e636204cf368275-medium_jpg.jpg?buster=1793870995",
+      "file": "frameiq.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:01.084648+00:00",
+      "original_sha256": "a44cac55c8771f64fd9f7c060414e92a6963abdc0c381891a54b6f52b9b64a78"
+    },
+    {
+      "company": "GreedyGame",
+      "page": "https://wellfound.com/jobs/4897418-fullstack-engineer",
+      "url": "https://photos.wellfound.com/startups/i/378895-4e02708eb98113f0e4b0b9990e912e8a-medium_jpg.jpg?buster=1621683563",
+      "file": "greedygame.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.507248+00:00",
+      "original_sha256": "0349a4aae07fd743e3c305c7299161d971b4a6880d59802ccc2e3b50f728c3ac"
+    },
+    {
+      "company": "JuiceLabs AI",
+      "page": "https://wellfound.com/jobs/4879023-software-engineer-ai-engineer",
+      "url": "https://photos.wellfound.com/startups/i/10750252-0f16f26aa485328d42a07442a41f884c-medium_jpg.jpg?buster=1762759579",
+      "file": "juicelabs-ai.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.096715+00:00",
+      "original_sha256": "f4031c3efc653985a50d343f5a65672c3409c4f021771db39d4453b28e5e8411"
+    },
+    {
+      "company": "Manthhan Software",
+      "page": "https://wellfound.com/jobs/4965415-senior-machine-learning-engineer",
+      "url": "https://photos.wellfound.com/startups/i/11348152-3fd4e7327ae8d3bb3c7bcded239d88f5-medium_jpg.jpg?buster=1793599119",
+      "file": "manthhan-software.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:01.345138+00:00",
+      "original_sha256": "ca24b0bcd0668680317ffa67f150311201b20eb9405d5bd2788da7d64077cc36"
+    },
+    {
+      "company": "Naveera Technology",
+      "page": "https://wellfound.com/jobs/5061581-sr-ai-forward-net-full-stack-engineer-reactjs-claude-code",
+      "url": "https://photos.wellfound.com/startups/i/10891352-41d093130ece07d66cebb59c857c5de5-medium_jpg.jpg?buster=1772873279",
+      "file": "naveera-technology.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:00.737709+00:00",
+      "original_sha256": "8180e94ac242e94cab9854647a96b816aa759ca6f6b3fc1ce85fe7fb4e602b86"
+    },
+    {
+      "company": "Neoware Technology Solutions",
+      "page": "https://wellfound.com/jobs/4938712-technical-lead-azure-data-engineer",
+      "url": "https://photos.wellfound.com/startups/i/8433114-6cb41c74a762893de0390a9db4879a43-medium_jpg.jpg?buster=1626797115",
+      "file": "neoware-technology-solutions.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:01.645920+00:00",
+      "original_sha256": "a5ed9fa1acf92da0d2c6f4f353b32020f6214d867ae12ee71a9af70635d91bc2"
+    },
+    {
+      "company": "OCTAVOLAB",
+      "page": "https://wellfound.com/jobs/5008587-frontend-engineer-octavolab",
+      "url": "https://photos.wellfound.com/startups/i/11256738-327e2e4d34682b36fbbf141a43fcee07-medium_jpg.jpg?buster=1793961999",
+      "file": "octavolab.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.300684+00:00",
+      "original_sha256": "b22fd00bcfc5b41f005fa132b7c4c9e1cefbdee70c21a4ea2455bf292cb1b68e"
+    },
+    {
+      "company": "PranaTree",
+      "page": "https://wellfound.com/jobs/4903412-applied-ai-engineer",
+      "url": "https://photos.wellfound.com/startups/i/10420383-575cffde049fe215465c92b137cd3df3-medium_jpg.jpg?buster=1739765553",
+      "file": "pranatree.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:01.755777+00:00",
+      "original_sha256": "08cd8ca89e37562f620cf140a7a752125a7b581c9ca857042287da21b384af9b"
+    },
+    {
+      "company": "Punditry",
+      "page": "https://wellfound.com/jobs/5035108-senior-full-stack-developer",
+      "url": "https://photos.wellfound.com/startups/i/11399649-9a3126ab737c16581e811b9a80cabf25-medium_jpg.jpg?buster=1794381781",
+      "file": "punditry.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:01.063939+00:00",
+      "original_sha256": "0442a982f33eb657734f3cee07def47cbfcd66038709b6bbc2a966dead3730d1"
+    },
+    {
+      "company": "Razonica",
+      "page": "https://wellfound.com/jobs/5067359-full-stack-engineer-backend-frontend-postgres-devops",
+      "url": "https://photos.wellfound.com/startups/i/10375595-0867974b29682eb64618a11045f07100-medium_jpg.jpg?buster=1761210688",
+      "file": "razonica.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:00.737552+00:00",
+      "original_sha256": "c4e2fea6a517dd16418d0e0aa39c8102af9a42ae9a3adbb146cf11d5ea920caa"
+    },
+    {
+      "company": "Razorpay",
+      "page": "https://razorpay.com/",
+      "url": "https://framerusercontent.com/images/CU1m0xFonUl76ZeaW0IdkQ0M.png",
+      "file": "razorpay.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:06:05.375959+00:00",
+      "original_sha256": "21bf23cd70af8a8d3733b8301c0d3af0271ecc66cc8802c846e09f0ae474e1ea"
+    },
+    {
+      "company": "Rippling",
+      "page": "https://www.rippling.com/",
+      "url": "https://rippling2.imgix.net/RipplingGoogleAvatar_250.png",
+      "file": "rippling.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.689444+00:00",
+      "original_sha256": "84bd395facc0ff10774991edb4f05c5724113c28bc7a9ca61d2f791f76ef6b3f"
+    },
+    {
+      "company": "UniSouk",
+      "page": "https://wellfound.com/jobs/4897424-full-stack-developer",
+      "url": "https://photos.wellfound.com/startups/i/10213956-727cb4f9ad8d9243addb170e2ed70b96-medium_jpg.jpg?buster=1773734096",
+      "file": "unisouk.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:01.890620+00:00",
+      "original_sha256": "125f8be3ded6e1462bfcb573ec205491a339aaf61ae0550d28c488ba01dfc521"
+    },
+    {
+      "company": "Unnat AI Solutions",
+      "page": "https://wellfound.com/jobs/5035446-founding-ai-systems-engineer",
+      "url": "https://photos.wellfound.com/startups/i/11406421-b0428b3954ddd78225c5251958ed193d-medium_jpg.jpg?buster=1794470654",
+      "file": "unnat-ai-solutions.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:00.737852+00:00",
+      "original_sha256": "1aae2cf51e468e011350b1b4d1419e1a3fe5d9757bbd4543ae01cf45ef5cef24"
+    },
+    {
+      "company": "WALT",
+      "page": "https://wellfound.com/jobs/4943162-senior-platform-engineer",
+      "url": "https://photos.wellfound.com/startups/i/11167307-48b164880447f5570cde313ac67d0bab-medium_jpg.jpg?buster=1786688736",
+      "file": "walt.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:01.685115+00:00",
+      "original_sha256": "5ef35e4ac738813ab687acf73320d35263af55c7018322735b2900475bffab9f"
+    },
+    {
+      "company": "Yugabyte",
+      "page": "https://job-boards.greenhouse.io/yugabyte/jobs/4727518006",
+      "url": "https://s6-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/049/500/original/YugabyteDB_Main_1200x628.png?1681308042",
+      "file": "yugabyte.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:04:16.376120+00:00",
+      "original_sha256": "128fde63ccae09e8997c577ea7491027190f5588279d93868c8f47afb88ce158"
+    },
+    {
+      "company": "ZenTrades",
+      "page": "https://wellfound.com/jobs/5044777-senior-software-engineer",
+      "url": "https://photos.wellfound.com/startups/i/9420307-b6868831828b6b21c77db6e80068edca-medium_jpg.jpg?buster=1679402277",
+      "file": "zentrades.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.278134+00:00",
+      "original_sha256": "2c946b828d23ca057a8ba35d843222a0dd1fcb49d0c3cf5c505ab875d67a7cee"
+    },
+    {
+      "company": "fxis.ai",
+      "page": "https://wellfound.com/jobs/4995245-devops-engineer",
+      "url": "https://photos.wellfound.com/startups/i/7083614-30aec985ab30459ef88f1e57ad187ff3-medium_jpg.jpg?buster=1716961203",
+      "file": "fxis-ai.png",
+      "checked_at": "2026-11-17",
+      "retrieved_at": "2026-11-17T12:02:02.373077+00:00",
+      "original_sha256": "c8b85f5bdcb28148d0ce8b70478bb77267cd4e764f6461f342b2e6a825ba8d2f"
     }
   ]
 }

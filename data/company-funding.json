@@ -1842,6 +1842,479 @@
         ],
         "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
       }
+    },
+    {
+      "company": "Abstrabit Technologies",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/abstrabit/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/abstrabit/"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Alpha Nodus",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/alphanodus",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/alphanodus"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "AtomicAds",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/atomicads",
+      "additional_sources": [
+        "https://atomicads.ai/terms"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/atomicads",
+          "https://atomicads.ai/terms"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Claysol Media Labs",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/claysolmedialabs",
+      "additional_sources": [
+        "https://lei.bloomberg.com/leis/view/6488PV1U0Y84QFB47533"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/claysolmedialabs",
+          "https://lei.bloomberg.com/leis/view/6488PV1U0Y84QFB47533"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Finthos",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/finthos",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/finthos"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "FrameIQ",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/cvframeiq",
+      "additional_sources": [
+        "https://cvframeiq.com/about"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/cvframeiq",
+          "https://cvframeiq.com/about"
+        ],
+        "note": "CVFrameIQ is FrameIQ Edutech LLP. Official About page identifies the LLP, consistent with its Partnership company profile; not a listed corporation."
+      }
+    },
+    {
+      "company": "GreedyGame",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/greedygame-media",
+      "additional_sources": [
+        "https://greedygame.com/company/about"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/greedygame-media",
+          "https://greedygame.com/company/about"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "JuiceLabs AI",
+      "stage": "Bootstrapped",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://inc42.com/company/juicelabs-ai/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/juicelabs-ai"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Manthhan Software",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/manthhan-software-private-limited",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/manthhan-software-private-limited"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Naveera Technology",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/naveera-technology-llc",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/naveera-technology-llc"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Neoware Technology Solutions",
+      "stage": "Bootstrapped",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://neoware.ai/rajaraman-srinivasan-our-founder-ceo-recognized-by-aim-as-one-of-the-next-15-ai-ceos-in-america-2026/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/neoware-technology-solutions"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "OCTAVOLAB",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/octavolab",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/octavolab"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "PranaTree",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/pranatreeai",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/pranatreeai"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Punditry",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/punditry-tech-labs",
+      "additional_sources": [
+        "https://punditryhq.com/about/"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/punditry-tech-labs",
+          "https://punditryhq.com/about/"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Razonica",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/razonica9",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/razonica9"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Razorpay",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "2021-12-20",
+      "source_url": "https://razorpay.com/newsroom/?p=4028",
+      "additional_sources": [
+        "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794567970546.pdf",
+        "https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-sebi-approval-for-rs-6000-cr-ipo-in-india/articleshow/135810458.cms"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/razorpay",
+          "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794567970546.pdf",
+          "https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-sebi-approval-for-rs-6000-cr-ipo-in-india/articleshow/135810458.cms"
+        ],
+        "note": "Still unlisted as of this check: SEBI IPO approval is not a stock-exchange listing. November reporting anticipates a January–March 2027 listing. Recheck before future additions."
+      }
+    },
+    {
+      "company": "Rippling",
+      "stage": "Series G",
+      "eligible": true,
+      "round_date": "2025-05-09",
+      "source_url": "https://www.rippling.com/blog/series-g-fundraising-tender-offer",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/rippling"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "UniSouk",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/unisouk",
+      "additional_sources": [
+        "https://www.unisouk.com/about",
+        "https://www.unisouk.com/refund-policy"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/unisouk",
+          "https://www.unisouk.com/about",
+          "https://www.unisouk.com/refund-policy"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Unnat AI Solutions",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/unnat-ai-solutions",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/unnat-ai-solutions"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "WALT",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/thewalt",
+      "additional_sources": [
+        "https://www.thewalt.ai/terms-conditions"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/thewalt",
+          "https://www.thewalt.ai/terms-conditions"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "Yugabyte",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "2021-10-28",
+      "source_url": "https://www.yugabyte.com/blog/yugabyte-raises-188-million-series-c-to-make-distributed-sql-ubiquitous/",
+      "additional_sources": [],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/yugabyte"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "ZenTrades",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/zentrades-ai",
+      "additional_sources": [
+        "https://pitchbook.com/profiles/company/528377-59",
+        "https://wellfound.com/company/zentrades-3/jobs"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Current employer-authored listing recruits for Clara AI under ZenTrades. Current private company profile and minority VC funding profile reviewed; no named Series round established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://www.linkedin.com/company/zentrades-ai",
+          "https://pitchbook.com/profiles/company/528377-59",
+          "https://wellfound.com/company/zentrades-3/jobs"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "fxis.ai",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://in.linkedin.com/company/fxisai",
+      "additional_sources": [
+        "https://fxis.ai/"
+      ],
+      "checked_at": "2026-11-17",
+      "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          "https://in.linkedin.com/company/fxisai",
+          "https://fxis.ai/"
+        ],
+        "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
     }
   ]
 }

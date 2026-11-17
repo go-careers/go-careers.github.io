@@ -639,6 +639,167 @@
       "source_url": "https://www.linkedin.com/company/vestedfinance",
       "checked_at": "2026-11-17",
       "method": "ID read from the public company profile employee-search destination; name/domain matched to employer."
+    },
+    {
+      "company": "Abstrabit Technologies",
+      "company_id": "74906188",
+      "source_url": "https://www.linkedin.com/company/abstrabit",
+      "retrieved_source_url": "https://www.linkedin.com/company/abstrabit/",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Alpha Nodus",
+      "company_id": "10617672",
+      "source_url": "https://www.linkedin.com/company/alphanodus",
+      "retrieved_source_url": "https://www.linkedin.com/company/alphanodus",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "AtomicAds",
+      "company_id": "105758162",
+      "source_url": "https://www.linkedin.com/company/atomicads",
+      "retrieved_source_url": "https://www.linkedin.com/company/atomicads",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Claysol Media Labs",
+      "company_id": "3686487",
+      "source_url": "https://www.linkedin.com/company/claysolmedialabs",
+      "retrieved_source_url": "https://www.linkedin.com/company/claysolmedialabs",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Finthos",
+      "company_id": "108308970",
+      "source_url": "https://www.linkedin.com/company/finthos",
+      "retrieved_source_url": "https://www.linkedin.com/company/finthos",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "FrameIQ",
+      "company_id": "107315591",
+      "source_url": "https://www.linkedin.com/company/cvframeiq",
+      "retrieved_source_url": "https://www.linkedin.com/company/cvframeiq",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "GreedyGame",
+      "company_id": "3289853",
+      "source_url": "https://www.linkedin.com/company/greedygame-media",
+      "retrieved_source_url": "https://in.linkedin.com/company/greedygame-media",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "JuiceLabs AI",
+      "company_id": "103276214",
+      "source_url": "https://www.linkedin.com/company/juicelabs-ai",
+      "retrieved_source_url": "https://www.linkedin.com/company/juicelabs-ai",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Manthhan Software",
+      "company_id": "107809178",
+      "source_url": "https://www.linkedin.com/company/manthhan-software-private-limited",
+      "retrieved_source_url": "https://www.linkedin.com/company/manthhan-software-private-limited",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Naveera Technology",
+      "company_id": "110208935",
+      "source_url": "https://www.linkedin.com/company/naveera-technology-llc",
+      "retrieved_source_url": "https://www.linkedin.com/company/naveera-technology-llc",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Neoware Technology Solutions",
+      "company_id": "53235199",
+      "source_url": "https://www.linkedin.com/company/neoware-technology-solutions",
+      "retrieved_source_url": "https://www.linkedin.com/company/neoware-technology-solutions",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "OCTAVOLAB",
+      "company_id": "139523937",
+      "source_url": "https://www.linkedin.com/company/octavolab",
+      "retrieved_source_url": "https://www.linkedin.com/company/octavolab",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "PranaTree",
+      "company_id": "105590294",
+      "source_url": "https://www.linkedin.com/company/pranatreeai",
+      "retrieved_source_url": "https://www.linkedin.com/company/pranatreeai",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Punditry",
+      "company_id": "99094543",
+      "source_url": "https://www.linkedin.com/company/punditry-tech-labs",
+      "retrieved_source_url": "https://www.linkedin.com/company/punditry-tech-labs",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Razonica",
+      "company_id": "106123842",
+      "source_url": "https://www.linkedin.com/company/razonica9",
+      "retrieved_source_url": "https://www.linkedin.com/company/razonica9",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Razorpay",
+      "company_id": "2770855",
+      "source_url": "https://www.linkedin.com/company/razorpay",
+      "retrieved_source_url": "https://www.linkedin.com/company/razorpay",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Rippling",
+      "company_id": "17988315",
+      "source_url": "https://www.linkedin.com/company/rippling",
+      "retrieved_source_url": "https://www.linkedin.com/company/rippling",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "UniSouk",
+      "company_id": "103900651",
+      "source_url": "https://www.linkedin.com/company/unisouk",
+      "retrieved_source_url": "https://in.linkedin.com/company/unisouk",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Unnat AI Solutions",
+      "company_id": "129494002",
+      "source_url": "https://www.linkedin.com/company/unnat-ai-solutions",
+      "retrieved_source_url": "https://in.linkedin.com/company/unnat-ai-solutions",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "WALT",
+      "company_id": "99139166",
+      "source_url": "https://www.linkedin.com/company/thewalt",
+      "retrieved_source_url": "https://www.linkedin.com/company/thewalt",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "Yugabyte",
+      "company_id": "10643910",
+      "source_url": "https://www.linkedin.com/company/yugabyte",
+      "retrieved_source_url": "https://www.linkedin.com/company/yugabyte",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "ZenTrades",
+      "company_id": "93235277",
+      "source_url": "https://www.linkedin.com/company/zentrades-ai",
+      "retrieved_source_url": "https://www.linkedin.com/company/zentrades-ai",
+      "checked_at": "2026-11-17"
+    },
+    {
+      "company": "fxis.ai",
+      "company_id": "40725085",
+      "source_url": "https://www.linkedin.com/company/fxisai",
+      "retrieved_source_url": "https://in.linkedin.com/company/fxisai",
+      "checked_at": "2026-11-17"
     }
   ]
 }

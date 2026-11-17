@@ -6924,6 +6924,1472 @@
       "salary_exclusion_note": "",
       "content_sha256": "5513862250d300bc530dc312c92af9f3c45d91403d04b95ab367d4ce7c26e76a",
       "verification_note": "Reviewed employer-controlled public ATS record or employer-authored live job page, India eligibility, technical responsibilities, original available publication field and historical duplicate evidence. Distinct levels retained only when experience or responsibilities differ."
+    },
+    {
+      "id": "claysol-media-labs-5081929",
+      "company": "Claysol Media Labs",
+      "title": "Embedded Linux / Android Software Engineer (Automotive)",
+      "source_url": "https://wellfound.com/jobs/5081929-embedded-linux-android-software-engineer-automotive",
+      "application_url": "https://wellfound.com/jobs/5081929-embedded-linux-android-software-engineer-automotive",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:09.234558+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-15T18:00:46Z",
+      "posted_date": "2026-11-15",
+      "source_sha256": "acf6ff89a3b648bd4bc97b97c178c9bc4bfd28c9edd1669887bfd415b74ed868",
+      "source_job_id": "5081929",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.9716,
+          "longitude": 77.5946
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": null
+    },
+    {
+      "id": "razonica-5067359",
+      "company": "Razonica",
+      "title": "Full Stack Developer (Next.js + Node.js + Cloud/DevOps)",
+      "source_url": "https://wellfound.com/jobs/5067359-full-stack-engineer-backend-frontend-postgres-devops",
+      "application_url": "https://wellfound.com/jobs/5067359-full-stack-engineer-backend-frontend-postgres-devops",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:09.246204+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-14T03:06:48Z",
+      "posted_date": "2026-11-14",
+      "source_sha256": "6067de3656f44a72567d2340a5d130726d8a5369d907dcb91304c7361a86eb23",
+      "source_job_id": "5067359",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Gurgaon",
+            "addressRegion": "Haryana",
+            "addressCountry": "India"
+          },
+          "latitude": 28.4595,
+          "longitude": 77.0266
+        }
+      ],
+      "applicant_location_requirements": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 450000.0,
+          "maxValue": 600000.0
+        }
+      }
+    },
+    {
+      "id": "naveera-technology-5061581",
+      "company": "Naveera Technology",
+      "title": "Senior .NET Full Stack Engineer — Agentic AI",
+      "source_url": "https://wellfound.com/jobs/5061581-sr-ai-forward-net-full-stack-engineer-reactjs-claude-code",
+      "application_url": "https://wellfound.com/jobs/5061581-sr-ai-forward-net-full-stack-engineer-reactjs-claude-code",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:09.471089+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-13T09:59:21Z",
+      "posted_date": "2026-11-13",
+      "source_sha256": "7423159d9f2865907b6e9d14659dd1cbc2b092d01cd0dc021f713366a8dba9c8",
+      "source_job_id": "5061581",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Madurai",
+            "addressRegion": "Tamil Nadu",
+            "addressCountry": "India"
+          },
+          "latitude": 9.9252,
+          "longitude": 78.1198
+        }
+      ],
+      "applicant_location_requirements": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_salary": null
+    },
+    {
+      "id": "unnat-ai-solutions-5035446",
+      "company": "Unnat AI Solutions",
+      "title": "Founding AI Systems Engineer",
+      "source_url": "https://wellfound.com/jobs/5035446-founding-ai-systems-engineer",
+      "application_url": "https://wellfound.com/jobs/5035446-founding-ai-systems-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:09.513038+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-12T08:16:46Z",
+      "posted_date": "2026-11-12",
+      "source_sha256": "1bdb59455b3c29755684d48bafd9c1233a91a1b4bcb2a762fa4b22b44f326a03",
+      "source_job_id": "5035446",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sonipat",
+            "addressRegion": "Haryana",
+            "addressCountry": "India"
+          },
+          "latitude": 28.9288,
+          "longitude": 77.0913
+        }
+      ],
+      "applicant_location_requirements": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 15000.0,
+          "maxValue": 25000.0
+        }
+      }
+    },
+    {
+      "id": "punditry-5035108",
+      "company": "Punditry",
+      "title": "Senior Full Stack Developer",
+      "source_url": "https://wellfound.com/jobs/5035108-senior-full-stack-developer",
+      "application_url": "https://wellfound.com/jobs/5035108-senior-full-stack-developer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:09.538456+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-11T07:28:52Z",
+      "posted_date": "2026-11-11",
+      "source_sha256": "51530bd2da9e7d6fc9fdf5e574842f86a3c5d72483bea8ad658022b31618dd85",
+      "source_job_id": "5035108",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.97,
+          "longitude": 77.6536
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1200000.0,
+          "maxValue": 2400000.0
+        }
+      }
+    },
+    {
+      "id": "frameiq-4995193",
+      "company": "FrameIQ",
+      "title": "Computer Vision / AI Engineer",
+      "source_url": "https://wellfound.com/jobs/4995193-computer-vision-ai-engineer-pune-onsite-remote",
+      "application_url": "https://wellfound.com/jobs/4995193-computer-vision-ai-engineer-pune-onsite-remote",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:11.452216+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-05T09:40:16Z",
+      "posted_date": "2026-11-05",
+      "source_sha256": "a593aadee8e668a8b7d5225741f9f3a746350fb064e4ec81003e6789044fedb5",
+      "source_job_id": "4995193",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Navi Mumbai",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 19.033,
+          "longitude": 73.0297
+        }
+      ],
+      "applicant_location_requirements": [
+        {
+          "@type": "Country",
+          "name": "India"
+        }
+      ],
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 200000.0,
+          "maxValue": 300000.0
+        }
+      },
+      "location_resolution": "The explicit work location/mode in the full JD takes precedence over broader or inconsistent board metadata."
+    },
+    {
+      "id": "manthhan-software-4965415",
+      "company": "Manthhan Software",
+      "title": "Senior Machine Learning Engineer",
+      "source_url": "https://wellfound.com/jobs/4965415-senior-machine-learning-engineer",
+      "application_url": "https://wellfound.com/jobs/4965415-senior-machine-learning-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:12.297665+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-02T06:03:47Z",
+      "posted_date": "2026-11-02",
+      "source_sha256": "e0ce9c25d94c61148c034f1a0a2ac61a5fa51e23c674f68717b90121c1e27c5e",
+      "source_job_id": "4965415",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Rajasthan",
+            "addressCountry": "India"
+          },
+          "latitude": 27.0238,
+          "longitude": 74.2179
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1200000.0,
+          "maxValue": 2500000.0
+        }
+      }
+    },
+    {
+      "id": "neoware-technology-solutions-4938712",
+      "company": "Neoware Technology Solutions",
+      "title": "Technical Lead — Azure Data Engineering",
+      "source_url": "https://wellfound.com/jobs/4938712-technical-lead-azure-data-engineer",
+      "application_url": "https://wellfound.com/jobs/4938712-technical-lead-azure-data-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:12.543899+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-30T07:00:20Z",
+      "posted_date": "2026-10-30",
+      "source_sha256": "7564d75b7e404f736fdad1d967af3f4716fc54a006e69c89c261c792b69bc198",
+      "source_job_id": "4938712",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.97,
+          "longitude": 77.6536
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Tamil Nadu",
+            "addressCountry": "India"
+          },
+          "latitude": 11.1271,
+          "longitude": 78.6569
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": null
+    },
+    {
+      "id": "walt-4943162",
+      "company": "WALT",
+      "title": "Senior Platform Engineer",
+      "source_url": "https://wellfound.com/jobs/4943162-senior-platform-engineer",
+      "application_url": "https://wellfound.com/jobs/4943162-senior-platform-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:12.851789+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-30T13:36:58Z",
+      "posted_date": "2026-10-30",
+      "source_sha256": "be294776e6ae9c062177a9c87e6a1e94e5df8424bc3e7bae00cff5b0df45f725",
+      "source_job_id": "4943162",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.97,
+          "longitude": 77.6536
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": null
+    },
+    {
+      "id": "pranatree-4903412",
+      "company": "PranaTree",
+      "title": "Applied AI Engineer",
+      "source_url": "https://wellfound.com/jobs/4903412-applied-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4903412-applied-ai-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:13.321306+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-29T05:40:39Z",
+      "posted_date": "2026-10-29",
+      "source_sha256": "2dc011418bd3322e08a2970b96375ae40c129f600141b119e669af78a022f2a1",
+      "source_job_id": "4903412",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Kochi",
+            "addressRegion": "Kerala",
+            "addressCountry": "India"
+          },
+          "latitude": 9.93123,
+          "longitude": 76.2673
+        }
+      ],
+      "applicant_location_requirements": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1500000.0,
+          "maxValue": 3000000.0
+        }
+      }
+    },
+    {
+      "id": "neoware-technology-solutions-4897479",
+      "company": "Neoware Technology Solutions",
+      "title": "Data Scientist Trainee",
+      "source_url": "https://wellfound.com/jobs/4897479-data-scientist-fresher",
+      "application_url": "https://wellfound.com/jobs/4897479-data-scientist-fresher",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:13.908372+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-27T08:22:53Z",
+      "posted_date": "2026-10-27",
+      "source_sha256": "b5137fa226d3322de9ee05c0964426ffcc80fb4cd9854a52e50024fd0ffa8b1e",
+      "source_job_id": "4897479",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.97,
+          "longitude": 77.6536
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Tamil Nadu",
+            "addressCountry": "India"
+          },
+          "latitude": 11.1271,
+          "longitude": 78.6569
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": null
+    },
+    {
+      "id": "unisouk-4897424",
+      "company": "UniSouk",
+      "title": "Full Stack Developer",
+      "source_url": "https://wellfound.com/jobs/4897424-full-stack-developer",
+      "application_url": "https://wellfound.com/jobs/4897424-full-stack-developer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:14.196504+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-27T05:01:58Z",
+      "posted_date": "2026-10-27",
+      "source_sha256": "baee5ce1548a1810dc47f6481f623461ea2c8fb70841ecf98767e39be19506ec",
+      "source_job_id": "4897424",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pune",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 18.5204,
+          "longitude": 73.8567
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ahmedabad",
+            "addressRegion": "Gujarat",
+            "addressCountry": "India"
+          },
+          "latitude": 23.0225,
+          "longitude": 72.5714
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Surat",
+            "addressRegion": "Gujarat",
+            "addressCountry": "India"
+          },
+          "latitude": 21.1702,
+          "longitude": 72.8311
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 19.076,
+          "longitude": 72.8777
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 19.7515,
+          "longitude": 75.7139
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Gujarat",
+            "addressCountry": "India"
+          },
+          "latitude": 22.2587,
+          "longitude": 71.1924
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 660000.0,
+          "maxValue": 720000.0
+        }
+      },
+      "location_resolution": "The explicit work location/mode in the full JD takes precedence over broader or inconsistent board metadata."
+    },
+    {
+      "id": "atomicads-4881119",
+      "company": "AtomicAds",
+      "title": "Member of Technical Staff (Backend Engineer)",
+      "source_url": "https://wellfound.com/jobs/4881119-member-of-technical-staff-backend-engineer",
+      "application_url": "https://wellfound.com/jobs/4881119-member-of-technical-staff-backend-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:15.069532+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-22T09:13:03Z",
+      "posted_date": "2026-10-22",
+      "source_sha256": "982c43c48a1c1f6b07c8d0d42001f94dee22e45c86bdc21d06a60f0d0c239016",
+      "source_job_id": "4881119",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Indore",
+            "addressRegion": "Madhya Pradesh",
+            "addressCountry": "India"
+          },
+          "latitude": 22.7196,
+          "longitude": 75.8577
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": null
+    },
+    {
+      "id": "juicelabs-ai-4879023",
+      "company": "JuiceLabs AI",
+      "title": "Software Engineer / AI Engineer",
+      "source_url": "https://wellfound.com/jobs/4879023-software-engineer-ai-engineer",
+      "application_url": "https://wellfound.com/jobs/4879023-software-engineer-ai-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:35:15.248162+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-22T08:28:03Z",
+      "posted_date": "2026-10-22",
+      "source_sha256": "8d1d81463eb1ab83aae7b1efc32e8f7d338b190eb9acd18761c9fd8b2e3371f1",
+      "source_job_id": "4879023",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "India"
+          },
+          "latitude": 20.5937,
+          "longitude": 78.9629
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.97,
+          "longitude": 77.6536
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.9081,
+          "longitude": 77.6476
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1500000.0,
+          "maxValue": 2500000.0
+        }
+      },
+      "location_resolution": "The explicit work location/mode in the full JD takes precedence over broader or inconsistent board metadata."
+    },
+    {
+      "id": "unisouk-5044730",
+      "company": "UniSouk",
+      "title": "DevOps + IT Security Engineer",
+      "source_url": "https://wellfound.com/jobs/5044730-devops-it-security-engineer",
+      "application_url": "https://wellfound.com/jobs/5044730-devops-it-security-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:46:42.392655+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-12T12:00:46Z",
+      "posted_date": "2026-11-12",
+      "source_sha256": "6f1dd55a4e9b79ce09e3fc811c9ac47b04cc035d690e6382a329fd4a302d7511",
+      "source_job_id": "5044730",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pune",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 18.5204,
+          "longitude": 73.8567
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ahmedabad",
+            "addressRegion": "Gujarat",
+            "addressCountry": "India"
+          },
+          "latitude": 23.0225,
+          "longitude": 72.5714
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Surat",
+            "addressRegion": "Gujarat",
+            "addressCountry": "India"
+          },
+          "latitude": 21.1702,
+          "longitude": 72.8311
+        },
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Mumbai",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 19.076,
+          "longitude": 72.8777
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 550000.0,
+          "maxValue": 600000.0
+        }
+      }
+    },
+    {
+      "id": "azodha-5094357",
+      "company": "Azodha",
+      "title": "DevOps Engineer",
+      "source_url": "https://wellfound.com/jobs/5094357-devops-engineer",
+      "application_url": "https://wellfound.com/jobs/5094357-devops-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:35.981509+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-17T06:27:59Z",
+      "posted_date": "2026-11-17",
+      "source_sha256": "ae3fee7b3740726b1d6471731cb7fbc99ae2a4eb54c48e708500d6b871402ea2",
+      "source_job_id": "5094357",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pune",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 18.5204,
+          "longitude": 73.8567
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 200000.0,
+          "maxValue": 250000.0
+        }
+      }
+    },
+    {
+      "id": "finthos-5081922",
+      "company": "Finthos",
+      "title": "Full-Stack Engineer — Finthos (AI-Native fintech startup)",
+      "source_url": "https://wellfound.com/jobs/5081922-full-stack-engineer-finthos-ai-native-fintech-startup",
+      "application_url": "https://wellfound.com/jobs/5081922-full-stack-engineer-finthos-ai-native-fintech-startup",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:35.982238+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-15T16:24:47Z",
+      "posted_date": "2026-11-15",
+      "source_sha256": "2edb1ef31c30a364e3ceb5c4461a441d693a8ce7b59ec357c0198199f773c78a",
+      "source_job_id": "5081922",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.9716,
+          "longitude": 77.5946
+        }
+      ],
+      "applicant_location_requirements": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2800000.0,
+          "maxValue": 4200000.0
+        }
+      }
+    },
+    {
+      "id": "zentrades-5044777",
+      "company": "ZenTrades",
+      "title": "Senior Software Engineer",
+      "source_url": "https://wellfound.com/jobs/5044777-senior-software-engineer",
+      "application_url": "https://wellfound.com/jobs/5044777-senior-software-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:36.334901+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-12T14:31:30Z",
+      "posted_date": "2026-11-12",
+      "source_sha256": "e1cbec1143ba891910bdd4dc9834b352d727d425ada8410bcdfee2768b2b4baa",
+      "source_job_id": "5044777",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Pune",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "India"
+          },
+          "latitude": 18.5204,
+          "longitude": 73.8567
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": null
+    },
+    {
+      "id": "octavolab-5008587",
+      "company": "OCTAVOLAB",
+      "title": "Frontend Engineer",
+      "source_url": "https://wellfound.com/jobs/5008587-frontend-engineer-octavolab",
+      "application_url": "https://wellfound.com/jobs/5008587-frontend-engineer-octavolab",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:36.347622+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-06T11:46:27Z",
+      "posted_date": "2026-11-06",
+      "source_sha256": "ba1f6d0b79920ef7eb640eb2a1c6e5a74f8a0d5d4664c9b114aa44feb658db12",
+      "source_job_id": "5008587",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "addressCountry": "India"
+          },
+          "latitude": 17.385,
+          "longitude": 78.4867
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 600000.0,
+          "maxValue": 700000.0
+        }
+      }
+    },
+    {
+      "id": "octavolab-5008560",
+      "company": "OCTAVOLAB",
+      "title": "QA Engineer II / Automation Engineer",
+      "source_url": "https://wellfound.com/jobs/5008560-qa-engineer-ii-automation-engineer",
+      "application_url": "https://wellfound.com/jobs/5008560-qa-engineer-ii-automation-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:36.543324+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-06T11:00:12Z",
+      "posted_date": "2026-11-06",
+      "source_sha256": "37432d5fbc3e4e39cc92a27fd5c6136e721e10906931066510ee51f331ea516c",
+      "source_job_id": "5008560",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "addressCountry": "India"
+          },
+          "latitude": 17.385,
+          "longitude": 78.4867
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 500000.0,
+          "maxValue": 600000.0
+        }
+      }
+    },
+    {
+      "id": "fxis-ai-4995245",
+      "company": "fxis.ai",
+      "title": "DevOps Engineer",
+      "source_url": "https://wellfound.com/jobs/4995245-devops-engineer",
+      "application_url": "https://wellfound.com/jobs/4995245-devops-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:36.629207+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-05T13:36:31Z",
+      "posted_date": "2026-11-05",
+      "source_sha256": "864c74dc04604882abaff0be1648992ba54cbb63117038b43ee84df838de3cf8",
+      "source_job_id": "4995245",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Ahmedabad",
+            "addressRegion": "Gujarat",
+            "addressCountry": "India"
+          },
+          "latitude": 23.0225,
+          "longitude": 72.5714
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 30000.0,
+          "maxValue": 45000.0
+        }
+      },
+      "salary_exclusion_note": "Excluded implausible INR 30,000–45,000 YEAR metadata for an experienced full-time role; no defensible period correction. Do not relabel it monthly."
+    },
+    {
+      "id": "abstrabit-technologies-4985576",
+      "company": "Abstrabit Technologies",
+      "title": "Senior Software Engineer (SDE-2)",
+      "source_url": "https://wellfound.com/jobs/4985576-senior-software-engineer-sde-2",
+      "application_url": "https://wellfound.com/jobs/4985576-senior-software-engineer-sde-2",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:36.673739+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-04T17:44:37Z",
+      "posted_date": "2026-11-04",
+      "source_sha256": "c4a3b2448a312928b856ab94cbe239ad4ca6240e13fd46e9900c76b395e4c120",
+      "source_job_id": "4985576",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.9716,
+          "longitude": 77.5946
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 800000.0,
+          "maxValue": 1300000.0
+        }
+      }
+    },
+    {
+      "id": "octavolab-4970022",
+      "company": "OCTAVOLAB",
+      "title": "Technical Lead (Full Stack)",
+      "source_url": "https://wellfound.com/jobs/4970022-technical-lead-full-stack",
+      "application_url": "https://wellfound.com/jobs/4970022-technical-lead-full-stack",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:36.862095+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-11-03T11:13:03Z",
+      "posted_date": "2026-11-03",
+      "source_sha256": "60a7ec20f6c263da9d1efd5608d3993d65733d46215b70303ebaa949933d8225",
+      "source_job_id": "4970022",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "addressCountry": "India"
+          },
+          "latitude": 17.385,
+          "longitude": 78.4867
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 1300000.0,
+          "maxValue": 1500000.0
+        }
+      }
+    },
+    {
+      "id": "greedygame-4897418",
+      "company": "GreedyGame",
+      "title": "Fullstack Engineer",
+      "source_url": "https://wellfound.com/jobs/4897418-fullstack-engineer",
+      "application_url": "https://wellfound.com/jobs/4897418-fullstack-engineer",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:37.127967+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-27T04:39:45Z",
+      "posted_date": "2026-10-27",
+      "source_sha256": "d37cb8bce6309e9a6d04d9f4e981f99e0eb73e399f10c07822c5a432c5e9485f",
+      "source_job_id": "4897418",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.9716,
+          "longitude": 77.5946
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": null
+    },
+    {
+      "id": "alpha-nodus-4881160",
+      "company": "Alpha Nodus",
+      "title": "Applied Data Scientist - Analytics & AI Agents",
+      "source_url": "https://wellfound.com/jobs/4881160-applied-data-scientist-analytics-ai-agents",
+      "application_url": "https://wellfound.com/jobs/4881160-applied-data-scientist-analytics-ai-agents",
+      "source_kind": "wellfound",
+      "checked_at": "2026-11-17T11:49:37.729578+00:00",
+      "http_status": 200,
+      "source_publication_field": "JobPosting.datePosted",
+      "source_published_at": "2026-10-22T12:18:33Z",
+      "posted_date": "2026-10-22",
+      "source_sha256": "f09b788adaab0ddab20a5ec451b471449e46f684b988a21f6186974ff4002c23",
+      "source_job_id": "4881160",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+          },
+          "latitude": 12.9716,
+          "longitude": 77.5946
+        }
+      ],
+      "applicant_location_requirements": null,
+      "source_salary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "unitText": "YEAR",
+          "minValue": 2000000.0,
+          "maxValue": 4000000.0
+        }
+      }
+    },
+    {
+      "id": "rippling-6f5bd2a1-8d00-42ca-95a8-1e88c82352ca",
+      "company": "Rippling",
+      "title": "Senior Software Engineer — AI Platform",
+      "source_url": "https://ats.rippling.com/rippling/jobs/6f5bd2a1-8d00-42ca-95a8-1e88c82352ca",
+      "application_url": "https://ats.rippling.com/rippling/jobs/6f5bd2a1-8d00-42ca-95a8-1e88c82352ca",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:28.674547+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-12T12:27:24.929000-08:00",
+      "posted_date": "2026-11-12",
+      "source_sha256": "08613bed16ab84ed98392cfd7bf4f2c5c46070b117f12a7ad21c56ea82afa23a",
+      "source_job_id": "6f5bd2a1-8d00-42ca-95a8-1e88c82352ca",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "AI Cloud",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "AI Cloud"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-ad1b0ae1-fa55-4308-83c7-75f3c51073ae",
+      "company": "Rippling",
+      "title": "Senior Software Engineer — App Components",
+      "source_url": "https://ats.rippling.com/rippling/jobs/ad1b0ae1-fa55-4308-83c7-75f3c51073ae",
+      "application_url": "https://ats.rippling.com/rippling/jobs/ad1b0ae1-fa55-4308-83c7-75f3c51073ae",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:28.993151+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-11T20:55:55.241000-08:00",
+      "posted_date": "2026-11-11",
+      "source_sha256": "7ac80a5227df50cdd69b1daa6ac7d83bca424659326b79d909a18e5633054b94",
+      "source_job_id": "ad1b0ae1-fa55-4308-83c7-75f3c51073ae",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "App Components",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "Platform",
+          "App Studio",
+          "App Components"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-b9f5dac7-ffc2-4d5c-a993-bba1967b87dd",
+      "company": "Rippling",
+      "title": "Senior Software Engineer — Payroll",
+      "source_url": "https://ats.rippling.com/rippling/jobs/b9f5dac7-ffc2-4d5c-a993-bba1967b87dd",
+      "application_url": "https://ats.rippling.com/rippling/jobs/b9f5dac7-ffc2-4d5c-a993-bba1967b87dd",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:29.756091+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-04T19:38:07.450000-08:00",
+      "posted_date": "2026-11-04",
+      "source_sha256": "713c2d4143c60c85cca9d76f4e2b05e30d1b37b940968586aa34424bc7d0a2ea",
+      "source_job_id": "b9f5dac7-ffc2-4d5c-a993-bba1967b87dd",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "Global Payroll",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "Finance Products",
+          "Global Payroll"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-8c578151-10e7-4024-aeaf-10b0119d56ce",
+      "company": "Rippling",
+      "title": "Software Engineer II — HRIS",
+      "source_url": "https://ats.rippling.com/rippling/jobs/8c578151-10e7-4024-aeaf-10b0119d56ce",
+      "application_url": "https://ats.rippling.com/rippling/jobs/8c578151-10e7-4024-aeaf-10b0119d56ce",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:31.527678+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-02T05:39:08.723000-08:00",
+      "posted_date": "2026-11-02",
+      "source_sha256": "5aab1c82253913c9baafa982547ab8e1905089c87a25151ed5272da0aa2e98e0",
+      "source_job_id": "8c578151-10e7-4024-aeaf-10b0119d56ce",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "HRIS Hiring",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "HR Products",
+          "HRIS",
+          "HRIS Hiring"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+      "company": "Rippling",
+      "title": "Software Engineer I — Finance Experience",
+      "source_url": "https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+      "application_url": "https://ats.rippling.com/rippling/jobs/472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:31.757010+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-10-21T23:48:17.112000-07:00",
+      "posted_date": "2026-10-21",
+      "source_sha256": "032e27876fa7c43351fb8cad76a394c490e1fbabef6b84982f6e00acb2366d35",
+      "source_job_id": "472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "Engineering",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-c42ff09d-bc37-48c9-995b-1685d8d61f46",
+      "company": "Rippling",
+      "title": "Software Engineer II — AI Platform",
+      "source_url": "https://ats.rippling.com/rippling/jobs/c42ff09d-bc37-48c9-995b-1685d8d61f46",
+      "application_url": "https://ats.rippling.com/rippling/jobs/c42ff09d-bc37-48c9-995b-1685d8d61f46",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:32.193619+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-09T01:03:08.863000-08:00",
+      "posted_date": "2026-11-09",
+      "source_sha256": "23f92ff43e6f2b05bba8664295d86e17519e19deaa4ac451c2ef39859f3aeac0",
+      "source_job_id": "c42ff09d-bc37-48c9-995b-1685d8d61f46",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "Data Catalog",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "Data Cloud",
+          "Data Management",
+          "Data Catalog"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-d611366e-400a-4267-a3de-376ac72cd9ad",
+      "company": "Rippling",
+      "title": "Staff Security Engineer — Detection and Response",
+      "source_url": "https://ats.rippling.com/rippling/jobs/d611366e-400a-4267-a3de-376ac72cd9ad",
+      "application_url": "https://ats.rippling.com/rippling/jobs/d611366e-400a-4267-a3de-376ac72cd9ad",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:32.820960+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-02T19:35:12.812000-08:00",
+      "posted_date": "2026-11-02",
+      "source_sha256": "e00ccaa3e5c8b4292c347280833c34802126fb94bbfe17ebbccb8768c964ff01",
+      "source_job_id": "d611366e-400a-4267-a3de-376ac72cd9ad",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "Security",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "Security"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-734028a4-ba9c-4062-9aea-6654f7c90c5e",
+      "company": "Rippling",
+      "title": "Staff Software Engineer — Accounting Integrations",
+      "source_url": "https://ats.rippling.com/rippling/jobs/734028a4-ba9c-4062-9aea-6654f7c90c5e",
+      "application_url": "https://ats.rippling.com/rippling/jobs/734028a4-ba9c-4062-9aea-6654f7c90c5e",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:33.535602+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-11T22:26:57.851000-08:00",
+      "posted_date": "2026-11-11",
+      "source_sha256": "38579029b98d85195a6b921660eb9ee813f170222b96be27ed5b462e08410586",
+      "source_job_id": "734028a4-ba9c-4062-9aea-6654f7c90c5e",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "Accounting Platform",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "Finance Products",
+          "Global Payroll",
+          "Accounting Platform"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-a5d44d14-a0a0-4920-988b-ca513a51ccdc",
+      "company": "Rippling",
+      "title": "Staff Software Engineer — PEO",
+      "source_url": "https://ats.rippling.com/rippling/jobs/a5d44d14-a0a0-4920-988b-ca513a51ccdc",
+      "application_url": "https://ats.rippling.com/rippling/jobs/a5d44d14-a0a0-4920-988b-ca513a51ccdc",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:34.681740+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-04T00:13:13.869000-08:00",
+      "posted_date": "2026-11-04",
+      "source_sha256": "e46e491e7593de702500b0501c82d275b37639227b8ae6c988373575fc95c985",
+      "source_job_id": "a5d44d14-a0a0-4920-988b-ca513a51ccdc",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "Engineering",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-ff353c88-a860-4d95-9af5-1c99def25962",
+      "company": "Rippling",
+      "title": "Staff Software Engineer — Rippling AI",
+      "source_url": "https://ats.rippling.com/rippling/jobs/ff353c88-a860-4d95-9af5-1c99def25962",
+      "application_url": "https://ats.rippling.com/rippling/jobs/ff353c88-a860-4d95-9af5-1c99def25962",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:34.696178+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-05T00:15:57.412000-08:00",
+      "posted_date": "2026-11-05",
+      "source_sha256": "a5940331383a3bc3afb29766ffa595815f6fc2875c0006a31a89eac8d1592f15",
+      "source_job_id": "ff353c88-a860-4d95-9af5-1c99def25962",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "AI Cloud",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "AI Cloud"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "rippling-a16529ca-3227-4c17-ac19-f72072ad32a3",
+      "company": "Rippling",
+      "title": "Staff Software Engineer — Tax Payments",
+      "source_url": "https://ats.rippling.com/rippling/jobs/a16529ca-3227-4c17-ac19-f72072ad32a3",
+      "application_url": "https://ats.rippling.com/rippling/jobs/a16529ca-3227-4c17-ac19-f72072ad32a3",
+      "source_kind": "rippling",
+      "checked_at": "2026-11-17T11:39:35.313108+00:00",
+      "http_status": 200,
+      "source_publication_field": "public jobPost.createdOn",
+      "source_published_at": "2026-11-11T00:12:47.177000-08:00",
+      "posted_date": "2026-11-11",
+      "source_sha256": "a700e536e5f64374a99490637a5d366a29507644d54b635e45c90df500ec900e",
+      "source_job_id": "a16529ca-3227-4c17-ac19-f72072ad32a3",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_location": [
+        "Bangalore, India"
+      ],
+      "source_department": {
+        "name": "Tax Payments",
+        "base_department": "Engineering",
+        "department_tree": [
+          "Engineering",
+          "Finance Products",
+          "Tax Platform",
+          "Tax Payments"
+        ]
+      },
+      "active_application": true,
+      "unlisted_from_search": false
+    },
+    {
+      "id": "yugabyte-4727518006",
+      "company": "Yugabyte",
+      "title": "Staff Engineer — Distributed SQL",
+      "source_url": "https://job-boards.greenhouse.io/yugabyte/jobs/4727518006",
+      "application_url": "https://job-boards.greenhouse.io/yugabyte/jobs/4727518006",
+      "source_kind": "greenhouse",
+      "checked_at": "2026-11-17T11:33:46.759453+00:00",
+      "http_status": 200,
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-16T22:26:42-05:00",
+      "posted_date": "2026-11-16",
+      "source_sha256": "ef66ac062cd888974b90eb715c4c9ceabf55e40dea51bc2c1048954049af3b51",
+      "source_job_id": "4727518006",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/yugabyte/jobs?content=true",
+      "source_location": {
+        "name": "India"
+      }
+    },
+    {
+      "id": "razorpay-4746944005",
+      "company": "Razorpay",
+      "title": "Engineering Manager — Data Platform",
+      "source_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746944005",
+      "application_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746944005",
+      "source_kind": "greenhouse",
+      "checked_at": "2026-11-17T11:36:05.146342+00:00",
+      "http_status": 200,
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-05T05:48:45-05:00",
+      "posted_date": "2026-11-05",
+      "source_sha256": "dfbf6a19eb1b558ea6a373fdb229fabc0aafa47c4790491e7bd3f1b36dd2102e",
+      "source_job_id": "4746944005",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs?content=true",
+      "source_location": {
+        "name": "Bengaluru"
+      }
+    },
+    {
+      "id": "razorpay-4746948005",
+      "company": "Razorpay",
+      "title": "Lead Security Engineer — Product Security",
+      "source_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746948005",
+      "application_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746948005",
+      "source_kind": "greenhouse",
+      "checked_at": "2026-11-17T11:36:05.146342+00:00",
+      "http_status": 200,
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-10-27T02:49:29-04:00",
+      "posted_date": "2026-10-27",
+      "source_sha256": "dfbf6a19eb1b558ea6a373fdb229fabc0aafa47c4790491e7bd3f1b36dd2102e",
+      "source_job_id": "4746948005",
+      "verification": "Read full current employer JD and India location; checked role identity, application availability, history and calendar-month cutoff. Verification time is separate from source publication time.",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs?content=true",
+      "source_location": {
+        "name": "Bengaluru"
+      }
     }
   ],
   "checked_at": "2026-11-16",

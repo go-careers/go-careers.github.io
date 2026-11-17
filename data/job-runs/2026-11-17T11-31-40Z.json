@@ -1,0 +1,1037 @@
+{
+  "started_at": "2026-11-17T11:31:40.123111+00:00",
+  "run_date": "2026-11-17",
+  "status": "in_progress",
+  "target": 50,
+  "target_met": false,
+  "search_window": {
+    "initial_start": "2026-11-17",
+    "end": "2026-11-17",
+    "prior_completed_run": "data/job-runs/2026-11-16T18-53-21Z.json",
+    "expanded_start": "2026-10-17",
+    "reason": "Only one ultimately eligible addition was published today. Broadened to the calendar-month cutoff after deduplicating the earlier same-day 100-job run."
+  },
+  "added_ids": [
+    "claysol-media-labs-5081929",
+    "razonica-5067359",
+    "naveera-technology-5061581",
+    "unnat-ai-solutions-5035446",
+    "punditry-5035108",
+    "frameiq-4995193",
+    "manthhan-software-4965415",
+    "neoware-technology-solutions-4938712",
+    "walt-4943162",
+    "pranatree-4903412",
+    "neoware-technology-solutions-4897479",
+    "unisouk-4897424",
+    "atomicads-4881119",
+    "juicelabs-ai-4879023",
+    "unisouk-5044730",
+    "azodha-5094357",
+    "finthos-5081922",
+    "zentrades-5044777",
+    "octavolab-5008587",
+    "octavolab-5008560",
+    "fxis-ai-4995245",
+    "abstrabit-technologies-4985576",
+    "octavolab-4970022",
+    "greedygame-4897418",
+    "alpha-nodus-4881160",
+    "rippling-6f5bd2a1-8d00-42ca-95a8-1e88c82352ca",
+    "rippling-ad1b0ae1-fa55-4308-83c7-75f3c51073ae",
+    "rippling-b9f5dac7-ffc2-4d5c-a993-bba1967b87dd",
+    "rippling-8c578151-10e7-4024-aeaf-10b0119d56ce",
+    "rippling-472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+    "rippling-c42ff09d-bc37-48c9-995b-1685d8d61f46",
+    "rippling-d611366e-400a-4267-a3de-376ac72cd9ad",
+    "rippling-734028a4-ba9c-4062-9aea-6654f7c90c5e",
+    "rippling-a5d44d14-a0a0-4920-988b-ca513a51ccdc",
+    "rippling-ff353c88-a860-4d95-9af5-1c99def25962",
+    "rippling-a16529ca-3227-4c17-ac19-f72072ad32a3",
+    "yugabyte-4727518006",
+    "razorpay-4746944005",
+    "razorpay-4746948005"
+  ],
+  "updated_ids": [],
+  "new_companies": [
+    "Abstrabit Technologies",
+    "Alpha Nodus",
+    "AtomicAds",
+    "Claysol Media Labs",
+    "Finthos",
+    "FrameIQ",
+    "GreedyGame",
+    "JuiceLabs AI",
+    "Manthhan Software",
+    "Naveera Technology",
+    "Neoware Technology Solutions",
+    "OCTAVOLAB",
+    "PranaTree",
+    "Punditry",
+    "Razonica",
+    "Razorpay",
+    "Rippling",
+    "UniSouk",
+    "Unnat AI Solutions",
+    "WALT",
+    "Yugabyte",
+    "ZenTrades",
+    "fxis.ai"
+  ],
+  "dated_recent_ids": [
+    "claysol-media-labs-5081929",
+    "razonica-5067359",
+    "naveera-technology-5061581",
+    "unnat-ai-solutions-5035446",
+    "punditry-5035108",
+    "frameiq-4995193",
+    "manthhan-software-4965415",
+    "neoware-technology-solutions-4938712",
+    "walt-4943162",
+    "pranatree-4903412",
+    "neoware-technology-solutions-4897479",
+    "unisouk-4897424",
+    "atomicads-4881119",
+    "juicelabs-ai-4879023",
+    "unisouk-5044730",
+    "azodha-5094357",
+    "finthos-5081922",
+    "zentrades-5044777",
+    "octavolab-5008587",
+    "octavolab-5008560",
+    "fxis-ai-4995245",
+    "abstrabit-technologies-4985576",
+    "octavolab-4970022",
+    "greedygame-4897418",
+    "alpha-nodus-4881160",
+    "rippling-6f5bd2a1-8d00-42ca-95a8-1e88c82352ca",
+    "rippling-ad1b0ae1-fa55-4308-83c7-75f3c51073ae",
+    "rippling-b9f5dac7-ffc2-4d5c-a993-bba1967b87dd",
+    "rippling-8c578151-10e7-4024-aeaf-10b0119d56ce",
+    "rippling-472ecc5e-9610-477b-bbb9-8b075c8f5a67",
+    "rippling-c42ff09d-bc37-48c9-995b-1685d8d61f46",
+    "rippling-d611366e-400a-4267-a3de-376ac72cd9ad",
+    "rippling-734028a4-ba9c-4062-9aea-6654f7c90c5e",
+    "rippling-a5d44d14-a0a0-4920-988b-ca513a51ccdc",
+    "rippling-ff353c88-a860-4d95-9af5-1c99def25962",
+    "rippling-a16529ca-3227-4c17-ac19-f72072ad32a3",
+    "yugabyte-4727518006",
+    "razorpay-4746944005",
+    "razorpay-4746948005"
+  ],
+  "undated_discovery_ids": [],
+  "retention": {
+    "run_date": "2026-11-17",
+    "cutoff": "2026-10-17",
+    "policy": "Inclusive one calendar month, Asia/Kolkata",
+    "initial_prune": [
+      {
+        "before": 130,
+        "remaining": 130,
+        "removed": [],
+        "dry_run": true
+      },
+      {
+        "before": 130,
+        "remaining": 130,
+        "removed": [],
+        "dry_run": false
+      }
+    ],
+    "final_prune": [
+      {
+        "before": 169,
+        "remaining": 169,
+        "removed": [],
+        "dry_run": true
+      },
+      {
+        "before": 169,
+        "remaining": 169,
+        "removed": [],
+        "dry_run": false
+      }
+    ],
+    "removed_by_reason": {
+      "older-than-one-month": [],
+      "posting-date-unknown": [],
+      "employer-expired": []
+    },
+    "archive_paths": [],
+    "existing_archive_records_unchanged": 183
+  },
+  "sources": [
+    {
+      "platform": "LinkedIn",
+      "query_or_scope": "site:linkedin.com/jobs/view India \"AI engineer\" startup",
+      "outcome": "Public discovery and employer profiles accessible. Anonymous-client recruiting leads excluded. Simbian frontend listing showed No longer accepting applications; no qualifying addition counted from LinkedIn. Public employee-search links supplied verified company IDs; no personal profiles or connection lists collected.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Wellfound",
+      "query_or_scope": "India ML, AI, backend, full-stack, frontend, DevOps and data-science category pages; employer job lists and full role pages",
+      "outcome": "25 additions from employer-authored full job pages, with matching IDs, India eligibility and reliable in-window publication metadata. Explicit reposts excluded; public detail pages for ChiefPulse and Ascendeum returned HTTP 410. Auroscale funding endpoint returned 403; its accessible main profile supplied funding context, but its reposted jobs were excluded.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Instahyre",
+      "query_or_scope": "site:instahyre.com/job \"AI\" Bengaluru startup",
+      "outcome": "Search returned largely company/blog leads without a qualifying newly dated job. Public software and DevOps salary guides were read for nine comparable, explicitly labelled market estimates in audit data.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Naukri",
+      "query_or_scope": "Naukri India AI/software startup job discovery",
+      "outcome": "Public retrieval was blocked by robots restrictions. No login or access-control bypass, and no unverifiable Naukri job added.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Himalayas",
+      "query_or_scope": "site:himalayas.app/companies \"India\" \"engineer\"",
+      "outcome": "Discovery leads followed to employer sources; reviewed leads were duplicates or older than cutoff. No mirror counted as a new requisition.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Remotive",
+      "query_or_scope": "site:remotive.com \"India\" \"engineer\"",
+      "outcome": "Public discovery attempted; returned leads did not establish a new eligible private-startup technical opening within the window.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Remote OK",
+      "query_or_scope": "site:remoteok.com \"India\" \"AI\"",
+      "outcome": "Discovery attempted; profiles, closed or annotation-oriented leads did not meet the verified engineering criteria.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Cutshort",
+      "query_or_scope": "site:cutshort.io \"AI\" \"engineer\"",
+      "outcome": "Public discovery attempted. Anonymous hiring-client leads and insufficiently verified candidates excluded; no Cutshort-only posting counted.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "YC / Work at a Startup",
+      "query_or_scope": "site:workatastartup.com/jobs \"India\" \"AI\"",
+      "outcome": "Public discovery attempted. Stale indexed/relative-date pages and previously known candidates did not produce an additional verified recent requisition.",
+      "reviewed_during": {
+        "started_at": "2026-11-17T11:31:40.123111+00:00",
+        "through": "2026-11-17T12:09:27.787235+00:00"
+      }
+    },
+    {
+      "platform": "Employer ATS and careers pages",
+      "outcome": "11 additions verified on Rippling public job pages and its current official board; three additions on Greenhouse (Yugabyte and Razorpay). Reviewed further Ashby, Lever, Zoho, Keka and PyjamaHR leads. No internal requisition modification timestamp used as publication.",
+      "known_feed_attempts": 85,
+      "known_feed_successes": 77,
+      "known_feed_failures": 8,
+      "retrievals": [
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/aiprise",
+          "checked_at": "2026-11-17T11:32:18.611084+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/airbyte",
+          "checked_at": "2026-11-17T11:32:18.611635+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/apollo",
+          "checked_at": "2026-11-17T11:32:18.611777+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/atlan",
+          "checked_at": "2026-11-17T11:32:18.611905+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/atlan?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:18.847820+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/blitzy",
+          "checked_at": "2026-11-17T11:32:19.017083+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/bolna?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:19.045157+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/bureau?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:19.444925+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/certa?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:19.509371+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/coderabbit?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:19.801193+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/cognition",
+          "checked_at": "2026-11-17T11:32:20.014297+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/cohere",
+          "checked_at": "2026-11-17T11:32:20.109573+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/composio?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:20.135585+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/cursor",
+          "checked_at": "2026-11-17T11:32:20.338194+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/cyberhaven?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:20.653914+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/decagon",
+          "checked_at": "2026-11-17T11:32:20.786294+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/deepgram",
+          "checked_at": "2026-11-17T11:32:21.014894+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:21.049811+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/ema?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:21.318337+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/hightouch",
+          "checked_at": "2026-11-17T11:32:21.606242+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/junipersquare?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:22.067029+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/kong",
+          "checked_at": "2026-11-17T11:32:22.165658+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/korza?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:22.343046+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/lambda",
+          "checked_at": "2026-11-17T11:32:22.452651+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/lyzr",
+          "checked_at": "2026-11-17T11:32:22.969012+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/mercor",
+          "checked_at": "2026-11-17T11:32:23.157246+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/metaforms?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:23.238597+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/openai?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:23.664747+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/outmarket?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:23.934191+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/plotlineso?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:23.947808+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/sarvam",
+          "checked_at": "2026-11-17T11:32:24.075311+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/sarvam?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:24.406338+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/scribe",
+          "checked_at": "2026-11-17T11:32:24.460009+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/sift",
+          "checked_at": "2026-11-17T11:32:24.723020+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/smallest?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:25.349408+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/socure",
+          "checked_at": "2026-11-17T11:32:25.410628+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/spotdraft",
+          "checked_at": "2026-11-17T11:32:25.516126+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/supabase",
+          "checked_at": "2026-11-17T11:32:25.878994+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/sycamore?includeCompensation=true",
+          "checked_at": "2026-11-17T11:32:26.414148+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/tekion",
+          "checked_at": "2026-11-17T11:32:26.658621+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/temporal",
+          "checked_at": "2026-11-17T11:32:26.758686+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/vercel",
+          "checked_at": "2026-11-17T11:32:27.015396+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.ashbyhq.com/posting-api/job-board/zip",
+          "checked_at": "2026-11-17T11:32:27.141733+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/Onehouse?mode=json",
+          "checked_at": "2026-11-17T11:32:27.439499+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/Sprinto?mode=json",
+          "checked_at": "2026-11-17T11:32:27.487557+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/acceldata?mode=json",
+          "checked_at": "2026-11-17T11:32:27.802137+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/drivetrain?mode=json",
+          "checked_at": "2026-11-17T11:32:27.891959+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/gushwork?mode=json",
+          "checked_at": "2026-11-17T11:33:04.367960+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/hevodata?mode=json",
+          "checked_at": "2026-11-17T11:33:04.369362+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/mindtickle?mode=json",
+          "checked_at": "2026-11-17T11:33:04.385653+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://api.lever.co/v0/postings/neuron7?mode=json",
+          "checked_at": "2026-11-17T11:33:04.409348+00:00",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/alphasenseindia/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:40.334269+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/apolloio/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:40.334674+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:40.341777+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/cloudsek/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:40.344423+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/coherehealth/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:41.050823+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/cresta/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:41.060134+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:41.107208+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/dataiku/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:41.128787+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/devrev/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:41.679703+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/druva/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:41.808383+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/dscout/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:41.868746+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/emergentlabsinc/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:42.334008+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/enchargeai36/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:42.510204+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/endorlabs/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:42.602187+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/enterpret/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:43.129346+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/entrupy/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:43.169605+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/fivetran/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:43.263501+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:43.291752+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:43.607898+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/harnessinc/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:43.702838+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/highradius/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:44.510112+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/lynxanalytics/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:44.621689+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/netlify/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.045077+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/netradyne/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.135677+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/observeai/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.308398+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/prodigal/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.502298+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/singlestore/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.537345+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/skildai-careers/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.749979+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/suki/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.812310+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/tailscale/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:45.989222+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/truefoundry/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:46.160843+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/turing/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:46.300275+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:46.316193+00:00",
+          "status": 200
+        },
+        {
+          "url": "https://boards-api.greenhouse.io/v1/boards/yugabyte/jobs?content=true",
+          "checked_at": "2026-11-17T11:33:46.759453+00:00",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "source_url": "https://wellfound.com/jobs/5061270-robotics-field-test-engineer",
+      "source_job_id": "5061270",
+      "company": "FloMobility",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-11-14"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/4597602-senior-gcp-data-engineer",
+      "source_job_id": "4597602",
+      "company": "krtrimaiq cognitive solutions",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-11-09"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/3166708-full-stack-developer-mern",
+      "source_job_id": "3166708",
+      "company": "TopGrep Tech",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-11-04"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/4544645-backend-engineer-python",
+      "source_job_id": "4544645",
+      "company": "Huvo AI",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-11-03"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/2999827-machine-learning-engineer-ii",
+      "source_job_id": "2999827",
+      "company": "Kawa Space",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-10-28"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/3767751-computer-vision-engineer",
+      "source_job_id": "3767751",
+      "company": "Awiros",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-10-22"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/4688521-full-stack-engineer-intern",
+      "source_job_id": "4688521",
+      "company": "Auroscale",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-11-16"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/3300823-devops-cloud-infra-fresher",
+      "source_job_id": "3300823",
+      "company": "Drona Pay",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-10-30"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/4129463-full-stack-engineer-nodejs-expressjs-reactjs-mysql-mumbai-in-office-1-year-experience",
+      "source_job_id": "4129463",
+      "company": "SquareYards",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-10-26"
+    },
+    {
+      "source_url": "https://wellfound.com/jobs/4130784-full-stack-engineer-nodejs-expressjs-reactjs-mysql-mumbai-in-office-2-3-years-experience",
+      "source_job_id": "4130784",
+      "company": "SquareYards",
+      "reason": "Explicitly labelled Reposted. Current JobPosting.datePosted cannot establish the original requisition publication date; exclude rather than reset its age.",
+      "reported_date": "2026-10-26"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4521046-co-founder-gtm-sales-clone",
+      "reason": "HTTP Error 410: Gone"
+    },
+    {
+      "url": "https://wellfound.com/jobs/5041472-devops-engineer",
+      "reason": "HTTP Error 410: Gone"
+    },
+    {
+      "company": "Simbian",
+      "source_url": "https://in.linkedin.com/jobs/view/software-engineer-frontend-at-simbian-4471327516",
+      "related_url": "https://wellfound.com/jobs/4980159-frontend-engineer",
+      "reason": "Matching LinkedIn listing says No longer accepting applications; current canonical careers page did not establish this frontend vacancy. Excluded conflicting live status."
+    },
+    {
+      "company": "Auroscale",
+      "source_url": "https://wellfound.com/jobs/4824849-account-executive-sales-us-uk-markets-clone",
+      "reason": "CTO content identifies a different requisition (4688519) from URL ID 4824849; also labelled Reposted, with inconsistent salary amounts across public surfaces. Excluded rather than guessing identity or publication age."
+    },
+    {
+      "company": "Constructor.io",
+      "source_url": "https://wellfound.com/jobs/4855436-integration-engineer-amer",
+      "reason": "AMER/Latin America hiring restriction; generic India discovery results do not establish India eligibility."
+    },
+    {
+      "company": "Naveera Technology",
+      "source_url": "https://wellfound.com/jobs/4897446-tech-appointment-setter-data-ai-engineering-services",
+      "reason": "Sales/appointment setting, not technical engineering."
+    },
+    {
+      "company": "Naveera Technology",
+      "source_url": "https://wellfound.com/jobs/4897451-svp-director-global-head-chief-procurement-officer-data-ai-engineering",
+      "reason": "Procurement/commercial lead, not engineering."
+    },
+    {
+      "companies": [
+        "Bizyl",
+        "Isomorph AI",
+        "Appsvisor",
+        "QualifyCode",
+        "BIZTELAI TECHNOLOGIES"
+      ],
+      "reason": "Live-looking role leads without sufficiently resolved independent-private ownership and employer identity evidence; not added."
+    },
+    {
+      "companies": [
+        "C42",
+        "Ind-US Target",
+        "PeopleGene",
+        "Recro",
+        "Antal",
+        "TalentXO"
+      ],
+      "reason": "Recruiter/anonymous-client opportunities without verified underlying employer; not treated as direct startup vacancies."
+    },
+    {
+      "companies": [
+        "Netskope",
+        "NTT",
+        "Cursor"
+      ],
+      "reason": "Public/acquired-company eligibility exclusions; no new role added."
+    },
+    {
+      "companies": [
+        "Rocketlane",
+        "Altimate",
+        "Wispr Flow",
+        "Nanonets",
+        "AiDash"
+      ],
+      "reason": "Reviewed engineering listings were outside original-publication window or duplicates; modification dates and mirror dates did not renew them."
+    },
+    {
+      "companies": [
+        "Leena AI",
+        "Autonomize AI"
+      ],
+      "reason": "Current careers leads found, but reliable original publication dates not established from accessible records; excluded. Leena detail browser attempt timed out."
+    }
+  ],
+  "flagged_existing_ids": [],
+  "validation": [
+    {
+      "command": "npm run check",
+      "result": "passed: 25 tests; 169 active / 169 total; production build generated"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    },
+    {
+      "command": "node tests/browser.mjs with installed Playwright, Chromium and Axe",
+      "result": "passed: 169 listings; links, logos, experience filters, desktop/mobile layouts and accessibility"
+    },
+    {
+      "check": "Rendered desktop/mobile screenshots",
+      "result": "inspected; new cards, salary amounts, logos and compact layout render correctly"
+    },
+    {
+      "check": "Historical IDs, canonical applications and existing CSV preservation",
+      "result": "39 distinct additions; all 130 baseline rows preserved field-for-field; archives unchanged"
+    }
+  ],
+  "publication_status": "validated_pending_publish",
+  "stats": {
+    "added": 39,
+    "total": 169,
+    "companies_in_batch": 24,
+    "active_companies": 94,
+    "new_companies": [
+      "Abstrabit Technologies",
+      "Alpha Nodus",
+      "AtomicAds",
+      "Claysol Media Labs",
+      "Finthos",
+      "FrameIQ",
+      "GreedyGame",
+      "JuiceLabs AI",
+      "Manthhan Software",
+      "Naveera Technology",
+      "Neoware Technology Solutions",
+      "OCTAVOLAB",
+      "PranaTree",
+      "Punditry",
+      "Razonica",
+      "Razorpay",
+      "Rippling",
+      "UniSouk",
+      "Unnat AI Solutions",
+      "WALT",
+      "Yugabyte",
+      "ZenTrades",
+      "fxis.ai"
+    ],
+    "new_logos": 23,
+    "employer_pay": 16,
+    "benchmarks": 9,
+    "unknown_pay": 14
+  },
+  "shortfall_reason": "39 of 50 verified additions. Broad searches covered all nine requested source families, 85 known public ATS feeds, further employer feeds and new-company pages. Ten shortlisted employer-authored Wellfound listings explicitly said Reposted; their current datePosted could not establish original publication, so they were excluded. Other leads were duplicates/older than the cutoff, closed, mismatched role identities, not India-eligible, nonengineering or unresolved ownership. No freshness or ownership requirements were relaxed to fill the remaining 11.",
+  "additional_retrievals": [
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/nanonets",
+      "checked_at": "2026-11-17T11:43:04.242650+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/aidashinc/jobs?content=true",
+      "checked_at": "2026-11-17T11:43:04.243313+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/postman/jobs?content=true",
+      "checked_at": "2026-11-17T11:43:04.243456+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://jobs.pyjamahr.com/leena-ai",
+      "checked_at": "2026-11-17T11:43:04.243597+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://jobs.greycroft.com/companies/leena-ai/jobs/98022208-forward-deployed-engineer",
+      "checked_at": "2026-11-17T11:43:05.545229+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://www.springboard.com/about",
+      "checked_at": "2026-11-17T11:43:05.738453+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://autonomize.keka.com/careers/jobdetails/91743",
+      "checked_at": "2026-11-17T11:43:05.752590+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Deel",
+      "checked_at": "2026-11-17T11:41:07.614771+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/altimate",
+      "checked_at": "2026-11-17T11:41:07.615394+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/wispr-flow",
+      "checked_at": "2026-11-17T11:41:07.615572+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/clickhouse/jobs?content=true",
+      "checked_at": "2026-11-17T11:41:07.615712+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/airwallex",
+      "checked_at": "2026-11-17T11:41:08.053630+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://isomorph.ai",
+      "checked_at": "2026-11-17T11:41:09.494639+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://faradayloop.com",
+      "checked_at": "2026-11-17T11:41:09.600830+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://huvo.ai",
+      "checked_at": "2026-11-17T11:41:09.737424+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://cvframeiq.com",
+      "checked_at": "2026-11-17T11:41:10.796801+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://unnataisolutions.com",
+      "checked_at": "2026-11-17T11:41:10.817853+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://bizyl.com",
+      "checked_at": "2026-11-17T11:41:11.725148+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://www.juicelabs.ai/",
+      "checked_at": "2026-11-17T11:41:11.735766+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://tealindia.in",
+      "checked_at": "2026-11-17T11:41:12.325579+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://www.springboard.com",
+      "checked_at": "2026-11-17T11:41:12.837247+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4824849-account-executive-sales-us-uk-markets-clone",
+      "checked_at": "2026-11-17T11:56:57.681557+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://www.rippling.com/blog/series-g-fundraising-tender-offer",
+      "checked_at": "2026-11-17T11:56:57.682242+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://www.yugabyte.com/blog/yugabyte-raises-188-million-series-c-to-make-distributed-sql-ubiquitous/",
+      "checked_at": "2026-11-17T11:56:57.682406+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://razorpay.com/newsroom/?p=4028",
+      "checked_at": "2026-11-17T11:56:57.682547+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://simbian.ai/careers",
+      "checked_at": "2026-11-17T11:56:58.195709+00:00",
+      "status": 200
+    },
+    {
+      "url": "https://wellfound.com/company/auroscale/funding",
+      "checked_at": "2026-11-17T11:56:58.319382+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "company_rechecks": [
+    {
+      "company": "Azodha",
+      "checked_at": "2026-11-17",
+      "source_url": "https://www.linkedin.com/company/azodha",
+      "result": "Private employer rechecked for the new DevOps opening; existing job rows and their verification dates unchanged."
+    }
+  ]
+}
