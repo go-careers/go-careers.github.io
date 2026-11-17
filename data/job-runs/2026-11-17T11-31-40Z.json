@@ -1,7 +1,7 @@
 {
   "started_at": "2026-11-17T11:31:40.123111+00:00",
   "run_date": "2026-11-17",
-  "status": "in_progress",
+  "status": "complete",
   "target": 50,
   "target_met": false,
   "search_window": {
@@ -852,7 +852,7 @@
       "result": "39 distinct additions; all 130 baseline rows preserved field-for-field; archives unchanged"
     }
   ],
-  "publication_status": "validated_pending_publish",
+  "publication_status": "published",
   "stats": {
     "added": 39,
     "total": 169,
@@ -1033,5 +1033,41 @@
       "source_url": "https://www.linkedin.com/company/azodha",
       "result": "Private employer rechecked for the new DevOps opening; existing job rows and their verification dates unchanged."
     }
-  ]
+  ],
+  "finished_at": "2026-11-17T12:13:00.705347+00:00",
+  "publication": {
+    "content_commit": "3a942ba086f928b6c41d4b02aacb18656e4c1b26",
+    "branch": "development-2",
+    "workflow_run": "https://github.com/go-careers/go-careers.github.io/actions/runs/44080658042",
+    "workflow_result": "success",
+    "live_verification": {
+      "checked_at": "2026-11-17T12:12:35.597127+00:00",
+      "url": "https://go-careers.github.io/",
+      "http_status": 200,
+      "active_cards": 169,
+      "all_new_ids_present": true,
+      "sitemap_urls": 170,
+      "details": [
+        {
+          "id": "manthhan-software-4965415",
+          "detail_status": 200,
+          "logo_status": 200,
+          "application_matches_csv": true
+        },
+        {
+          "id": "unnat-ai-solutions-5035446",
+          "detail_status": 200,
+          "logo_status": 200,
+          "application_matches_csv": true
+        },
+        {
+          "id": "rippling-6f5bd2a1-8d00-42ca-95a8-1e88c82352ca",
+          "detail_status": 200,
+          "logo_status": 200,
+          "application_matches_csv": true
+        }
+      ],
+      "note": "Public HTTP checks; analytics scripts were not executed."
+    }
+  }
 }
