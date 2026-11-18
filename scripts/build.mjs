@@ -96,6 +96,10 @@ ${browseMenu}</main>` });
   await rm(output, { recursive: true, force: true });
   await mkdir(join(output, 'assets'), { recursive: true });
   await cp(join(root, 'site'), join(output, 'assets'), { recursive: true });
+  if (canonicalBase === 'https://go-careers.github.io/' && !demo) {
+    const verificationFile = 'google5ddf0a2ba94d4a71.html';
+    await cp(join(root, verificationFile), join(output, verificationFile));
+  }
   await writeFile(join(output, 'index.html'), index);
   await writeFile(join(output, '.nojekyll'), '');
   const about = shell({
