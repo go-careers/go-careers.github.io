@@ -71,14 +71,15 @@
         "https://jobs.lever.co/hevodata",
         "https://www.crunchbase.com/organization/hevodata"
       ],
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "note": "Latest disclosed round found is Series B; checked for later rounds and acquisition. Refers to Hevo Data, not the unrelated HEVO electric vehicle company.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-16",
+        "checked_at": "2026-11-18",
         "sources": [
-          "https://www.nasdaqprivatemarket.com/company/hevo/"
+          "https://www.nasdaqprivatemarket.com/company/hevo/",
+          "https://hevodata.com/blog/series-b-funding/"
         ],
         "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
       }
@@ -90,14 +91,15 @@
       "source_url": "https://www.sarvam.ai/announcing-series-b",
       "homepage": "https://www.sarvam.ai",
       "category": "Foundation models and enterprise AI",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-16",
+        "checked_at": "2026-11-18",
         "sources": [
-          "https://www.barandbench.com/dealstreet/trilegal-tta-cyril-amarchand-mangaldas-act-on-sarvam-ai-300-million-series-b-fundraise"
+          "https://www.barandbench.com/dealstreet/trilegal-tta-cyril-amarchand-mangaldas-act-on-sarvam-ai-300-million-series-b-fundraise",
+          "https://www.sarvam.ai/announcing-series-b"
         ],
         "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
       }
@@ -398,7 +400,7 @@
       "source_url": "https://www.lyzr.ai/resources/newsroom/",
       "homepage": "https://www.lyzr.ai",
       "category": "Enterprise AI agent platform",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-18",
       "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
       "additional_sources": [
         "https://www.cbinsights.com/company/lyzr/financials"
@@ -406,9 +408,10 @@
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-16",
+        "checked_at": "2026-11-18",
         "sources": [
-          "https://www.linkedin.com/company/lyzr-platform"
+          "https://www.linkedin.com/company/lyzr-platform",
+          "https://www.lyzr.ai/webinar/how-we-generated-400m-interest-for-our-series-b-funding/"
         ],
         "note": "Private status supported by current company/investor or company-profile evidence, alongside existing funding research. No corroborated public listing or controlling acquisition found in the reviewed evidence. This is a manual research determination, not a live ownership registry."
       }
@@ -916,15 +919,16 @@
       "additional_sources": [
         "https://bitwarden.com/en-gb/blog/accelerating-value-for-bitwarden-users-bitwarden-raises-usd100-million/"
       ],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-18",
       "note": "Company announced a $100M minority growth investment in September 2022; no Series letter inferred.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-18",
         "sources": [
           "https://www.linkedin.com/company/bitwarden1",
-          "https://bitwarden.com/en-gb/blog/accelerating-value-for-bitwarden-users-bitwarden-raises-usd100-million/"
+          "https://bitwarden.com/en-gb/blog/accelerating-value-for-bitwarden-users-bitwarden-raises-usd100-million/",
+          "https://bitwarden.com/careers/"
         ],
         "note": "Company announced a $100M minority growth investment in September 2022; no Series letter inferred."
       }
@@ -1391,14 +1395,15 @@
       "round_date": "2025-06-16",
       "source_url": "https://www.junipersquare.com/news/series-d-junie-ai",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-18",
       "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-18",
         "sources": [
-          "https://www.linkedin.com/company/juniper-square"
+          "https://www.linkedin.com/company/juniper-square",
+          "https://www.junipersquare.com/news/series-d-junie-ai"
         ],
         "note": "Company identity and private status checked against the public company profile, employer website and later acquisition/IPO searches. No corroborated controlling acquisition or public listing found in reviewed evidence."
       }
@@ -1792,15 +1797,16 @@
       "additional_sources": [
         "https://www.tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group"
       ],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-18",
       "note": "Company announced $200M growth equity in July 2024; no Series letter assigned to this unlabelled later financing.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-18",
         "sources": [
           "https://www.linkedin.com/company/tekion",
-          "https://www.tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group"
+          "https://www.tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group",
+          "https://tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group"
         ],
         "note": "Company announced $200M growth equity in July 2024; no Series letter assigned to this unlabelled later financing."
       }
@@ -2314,6 +2320,451 @@
           "https://fxis.ai/"
         ],
         "note": "Employer identity, domain and private status reviewed against its public company profile and employer pages, with later acquisition/IPO searches. No corroborated public listing or controlling acquisition found in reviewed evidence; not a live ownership registry."
+      }
+    },
+    {
+      "company": "6sense",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://6sense.com/news/6sense-announces-200-million-series-e-round-increasing-valuation-to-5-2-billion",
+      "additional_sources": [
+        "https://www.nasdaqprivatemarket.com/company/6sense/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/6sense",
+          "https://6sense.com/news/6sense-announces-200-million-series-e-round-increasing-valuation-to-5-2-billion",
+          "https://www.nasdaqprivatemarket.com/company/6sense/"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Abnormal AI",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://abnormal.ai/newsroom/press-releases/series-d-5b-valuation",
+      "additional_sources": [
+        "https://abnormal.ai/newsroom/press-releases"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/abnormal-ai",
+          "https://abnormal.ai/newsroom/press-releases/series-d-5b-valuation",
+          "https://abnormal.ai/newsroom/press-releases"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Addepar",
+      "stage": "Series G",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.prnewswire.com/news-releases/addepar-raises-230-million-at-3-25-billion-valuation-in-series-g-investment-round-302453178.html",
+      "additional_sources": [
+        "https://addepar.com/newsroom/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/addepar",
+          "https://www.prnewswire.com/news-releases/addepar-raises-230-million-at-3-25-billion-valuation-in-series-g-investment-round-302453178.html",
+          "https://addepar.com/newsroom/"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Baya Systems",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://bayasystems.com/press-releases/baya-systems-raises-36m-propel-ai-chiplet-innovation/",
+      "additional_sources": [
+        "https://bayasystems.com/news/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/bayasystems",
+          "https://bayasystems.com/press-releases/baya-systems-raises-36m-propel-ai-chiplet-innovation/",
+          "https://bayasystems.com/news/"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Bloomreach",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.bloomreach.com/en/news/2022/bloomreach-valuation-soars-to-usd2-2-billion-following-usd175-million-investment-led-by-goldman-sachs-asset-management/",
+      "additional_sources": [
+        "https://www.bloomreach.com/en/about-us",
+        "https://vcmarketcap.com/company/bloomreach/round/series-f-2022"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "The company confirms the Goldman Sachs-led $175M financing. Funding histories identify it as Series F.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/bloomreach",
+          "https://www.bloomreach.com/en/news/2022/bloomreach-valuation-soars-to-usd2-2-billion-following-usd175-million-investment-led-by-goldman-sachs-asset-management/",
+          "https://www.bloomreach.com/en/about-us",
+          "https://vcmarketcap.com/company/bloomreach/round/series-f-2022"
+        ],
+        "note": "The company confirms the Goldman Sachs-led $175M financing. Funding histories identify it as Series F."
+      }
+    },
+    {
+      "company": "Celonis",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.celonis.com/news/press/celonis-announces-1-billion-round-to-meet-industry-wide-demand-for-execution-management",
+      "additional_sources": [
+        "https://www.celonis.com/faqs"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/celonis",
+          "https://www.celonis.com/news/press/celonis-announces-1-billion-round-to-meet-industry-wide-demand-for-execution-management",
+          "https://www.celonis.com/faqs"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Contentstack",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.contentstack.com/company/press/contentstack-raises-80-million-dollar-series-c",
+      "additional_sources": [
+        "https://www.contentstack.com/company/press"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/contentstack",
+          "https://www.contentstack.com/company/press/contentstack-raises-80-million-dollar-series-c",
+          "https://www.contentstack.com/company/press"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "HackerRank",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.hackerrank.com/about-us/",
+      "additional_sources": [
+        "https://www.jmi.com/portfolio/hackerrank/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/hackerrank",
+          "https://www.hackerrank.com/about-us/",
+          "https://www.jmi.com/portfolio/hackerrank/"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Harvey",
+      "stage": "Series H",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://lsvp.com/stories/helping-legal-teams-own-their-intelligence-our-series-h-investment-in-harvey/",
+      "additional_sources": [
+        "https://www.harvey.ai/blog/harvey-announces-investment-from-ontario-teachers-pension-plan-and-deepens-its-commitment-to-canada"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Lightspeed identifies the Series H round. Harvey subsequently announced an Ontario Teachers’ extension.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/harvey-ai",
+          "https://lsvp.com/stories/helping-legal-teams-own-their-intelligence-our-series-h-investment-in-harvey/",
+          "https://www.harvey.ai/blog/harvey-announces-investment-from-ontario-teachers-pension-plan-and-deepens-its-commitment-to-canada"
+        ],
+        "note": "Lightspeed identifies the Series H round. Harvey subsequently announced an Ontario Teachers’ extension."
+      }
+    },
+    {
+      "company": "HighLevel",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.gohighlevel.com/post/general-atlantic-joins-highlevel",
+      "additional_sources": [
+        "https://www.gohighlevel.com/about-us/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "General Atlantic joined as a growth investor. The announcement does not assign a Series letter.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/highlevel",
+          "https://www.gohighlevel.com/post/general-atlantic-joins-highlevel",
+          "https://www.gohighlevel.com/about-us/"
+        ],
+        "note": "General Atlantic joined as a growth investor. The announcement does not assign a Series letter."
+      }
+    },
+    {
+      "company": "IDfy",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.barandbench.com/dealstreet/trilegal-acts-on-idfy-476-crore-series-f-fundraise",
+      "additional_sources": [
+        "https://economictimes.indiatimes.com/tech/funding/regtech-startup-idfy-secures-rs-476-crore-from-neo-asset-management-and-existing-investors/articleshow/128273894.cms",
+        "https://www.idfy.com/investors/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "The deal coverage identifies the February 2026 round as Series F. TransUnion’s earlier investment was a minority stake.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/idfy",
+          "https://www.barandbench.com/dealstreet/trilegal-acts-on-idfy-476-crore-series-f-fundraise",
+          "https://economictimes.indiatimes.com/tech/funding/regtech-startup-idfy-secures-rs-476-crore-from-neo-asset-management-and-existing-investors/articleshow/128273894.cms",
+          "https://www.idfy.com/investors/"
+        ],
+        "note": "The deal coverage identifies the February 2026 round as Series F. TransUnion’s earlier investment was a minority stake."
+      }
+    },
+    {
+      "company": "Kuku",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://techcrunch.com/2025/10/15/indias-kuku-snags-85m-as-mobile-content-wars-intensify/",
+      "additional_sources": [
+        "https://inc42.com/company/kuku-fm/funding/",
+        "https://www.moneycontrol.com/news/business/funding/kuku-lands-85-million-funding-led-by-granite-asia-will-accelerate-kuku-tv-fm-expansion-13619707.html"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "The founder described the $85M Granite Asia round as Series C. Some databases assign another letter to the same transaction.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/kukufm",
+          "https://techcrunch.com/2025/10/15/indias-kuku-snags-85m-as-mobile-content-wars-intensify/",
+          "https://inc42.com/company/kuku-fm/funding/",
+          "https://www.moneycontrol.com/news/business/funding/kuku-lands-85-million-funding-led-by-granite-asia-will-accelerate-kuku-tv-fm-expansion-13619707.html"
+        ],
+        "note": "The founder described the $85M Granite Asia round as Series C. Some databases assign another letter to the same transaction."
+      }
+    },
+    {
+      "company": "Motive",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://gomotive.com/motive-secures-more-than-1-3-billion-in-growth-financing-from-general-catalyst/",
+      "additional_sources": [
+        "https://www.cooley.com/news/coverage/2022/2022-06-01-motive-raises-%24150-million-in-series-f-funding"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Motive withdrew its S-1 following General Catalyst growth financing. The latest named equity round supported here is Series F.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/motive-inc",
+          "https://gomotive.com/motive-secures-more-than-1-3-billion-in-growth-financing-from-general-catalyst/",
+          "https://www.cooley.com/news/coverage/2022/2022-06-01-motive-raises-%24150-million-in-series-f-funding"
+        ],
+        "note": "Motive withdrew its S-1 following General Catalyst growth financing. The latest named equity round supported here is Series F."
+      }
+    },
+    {
+      "company": "Outreach",
+      "stage": "Series G",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.fenwick.com/insights/experience/fenwick-represents-outreach-in-200-million-series-g-financing",
+      "additional_sources": [
+        "https://www.prnewswire.com/news-releases/outreach-closes-200-million-round-4-4-billion-valuation-for-sales-engagement-category-leader-301304239.html"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/outreach-saas",
+          "https://www.fenwick.com/insights/experience/fenwick-represents-outreach-in-200-million-series-g-financing",
+          "https://www.prnewswire.com/news-releases/outreach-closes-200-million-round-4-4-billion-valuation-for-sales-engagement-category-leader-301304239.html"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Plane",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://plane.so/blog/plane-raises-4m-seed",
+      "additional_sources": [
+        "https://plane.so/about"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/planepowers",
+          "https://plane.so/blog/plane-raises-4m-seed",
+          "https://plane.so/about"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Saviynt",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://saviynt.com/press-release/saviynt-raises-700m-in-kkr-led-round-to-establish-identity-security-as-the-foundation-for-the-ai-era",
+      "additional_sources": [
+        "https://www.carrickcapitalpartners.com/carrick-capital-partners-closes-oversubscribed-continuation-vehicle-with-600-million-and-commits-255-million-of-new-capital-to-saviynt/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "KKR led a Series B growth equity financing in the founder-led company.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/saviynt",
+          "https://saviynt.com/press-release/saviynt-raises-700m-in-kkr-led-round-to-establish-identity-security-as-the-foundation-for-the-ai-era",
+          "https://www.carrickcapitalpartners.com/carrick-capital-partners-closes-oversubscribed-continuation-vehicle-with-600-million-and-commits-255-million-of-new-capital-to-saviynt/"
+        ],
+        "note": "KKR led a Series B growth equity financing in the founder-led company."
+      }
+    },
+    {
+      "company": "Stripe",
+      "stage": "Series I",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity",
+      "additional_sources": [
+        "https://stripe.com/newsroom/news/stripe-2025-update"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/stripe",
+          "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity",
+          "https://stripe.com/newsroom/news/stripe-2025-update"
+        ],
+        "note": "Private employer profile and funding evidence reviewed alongside subsequent ownership and listing searches."
+      }
+    },
+    {
+      "company": "Tide",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+      "additional_sources": [
+        "https://www.tpg.com/news-and-insights/tide-secures-strategic-investment-from-leading-global-investor-tpg"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "Apax identifies Series C. TPG subsequently invested in the private company without assigning a new Series letter.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/tide-banking",
+          "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
+          "https://www.tpg.com/news-and-insights/tide-secures-strategic-investment-from-leading-global-investor-tpg"
+        ],
+        "note": "Apax identifies Series C. TPG subsequently invested in the private company without assigning a new Series letter."
+      }
+    },
+    {
+      "company": "project44",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.project44.com/press-releases/project44-raises-80-million-valuing-company-at-2-7-billion-up-12-from-january-despite-widespread-downturn-in-b2b-saas-valuations/",
+      "additional_sources": [
+        "https://www.tpg.com/news-and-insights/project44-receives-420-million-investment-led-thoma-bravo-tpg",
+        "https://www.project44.com/press-releases/project44-creates-two-businesses-and-launches-lsp44-the-ai-agent-and-api-infrastructure-that-9-of-the-worlds-10-largest-logistics-providers-already-run/"
+      ],
+      "checked_at": "2026-11-18",
+      "note": "The latest $80M financing was reported as Series F. The employer continues to operate its logistics technology businesses.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          "https://www.linkedin.com/company/project-44",
+          "https://www.project44.com/press-releases/project44-raises-80-million-valuing-company-at-2-7-billion-up-12-from-january-despite-widespread-downturn-in-b2b-saas-valuations/",
+          "https://www.tpg.com/news-and-insights/project44-receives-420-million-investment-led-thoma-bravo-tpg",
+          "https://www.project44.com/press-releases/project44-creates-two-businesses-and-launches-lsp44-the-ai-agent-and-api-infrastructure-that-9-of-the-worlds-10-largest-logistics-providers-already-run/"
+        ],
+        "note": "The latest $80M financing was reported as Series F. The employer continues to operate its logistics technology businesses."
       }
     }
   ]

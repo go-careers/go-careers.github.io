@@ -1,0 +1,70 @@
+{
+  "created_at": "2026-11-18T13:00:54.968Z",
+  "run_date": "2026-11-18",
+  "cutoff": "2026-10-18",
+  "policy": "one-calendar-month",
+  "records": [
+    {
+      "reason": "older-than-one-month",
+      "job": {
+        "id": "allminds-3143348",
+        "title": "Staff Software Engineer",
+        "company": "Allminds",
+        "location": "India",
+        "work_mode": "Remote",
+        "employment_type": "Full-time",
+        "experience_min": "6",
+        "experience_max": "",
+        "skills": "Python|React|HTML|CSS|system design|API integration",
+        "salary": "USD 45,000–80,000 / year",
+        "apply_url": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+        "posted_date": "2026-10-17",
+        "expiry_date": "",
+        "description": "Build full-stack software that connects patients and therapists through Allminds. Develop React interfaces, Node.js and Python services, API integrations and scalable infrastructure for a mental-health platform.",
+        "is_demo": "false",
+        "salary_benchmark": "",
+        "salary_basis": "",
+        "salary_source_url": "",
+        "salary_source_name": "",
+        "salary_note": "",
+        "salary_checked_at": "",
+        "funding_stage": "Bootstrapped",
+        "funding_source_url": "https://wellfound.com/jobs/3143348-staff-software-engineer",
+        "funding_checked_at": "2026-11-17",
+        "company_logo": "allminds.png",
+        "verified_date": "2026-11-17"
+      }
+    },
+    {
+      "reason": "older-than-one-month",
+      "job": {
+        "id": "scispace-3534689",
+        "title": "Senior Agentic AI Engineer",
+        "company": "SciSpace",
+        "location": "Bengaluru",
+        "work_mode": "Hybrid",
+        "employment_type": "Full-time",
+        "experience_min": "5",
+        "experience_max": "",
+        "skills": "Python|FastAPI|LangGraph|LLMs|AWS|GCP|Azure|Docker",
+        "salary": "₹30–47 LPA",
+        "apply_url": "https://wellfound.com/jobs/3534689-senior-agentic-ai-engineer",
+        "posted_date": "2026-10-17",
+        "expiry_date": "",
+        "description": "Build and deploy generative AI systems for SciSpace's research platform. Develop ML pipelines and agent capabilities that serve researchers at scale, with ownership of reliable production deployment.",
+        "is_demo": "false",
+        "salary_benchmark": "",
+        "salary_basis": "",
+        "salary_source_url": "",
+        "salary_source_name": "",
+        "salary_note": "",
+        "salary_checked_at": "",
+        "funding_stage": "Undisclosed",
+        "funding_source_url": "https://www.linkedin.com/company/scispace",
+        "funding_checked_at": "2026-11-17",
+        "company_logo": "scispace.png",
+        "verified_date": "2026-11-17"
+      }
+    }
+  ]
+}

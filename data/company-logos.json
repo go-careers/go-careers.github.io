@@ -874,6 +874,178 @@
       "checked_at": "2026-11-17",
       "retrieved_at": "2026-11-17T12:02:02.373077+00:00",
       "original_sha256": "c8b85f5bdcb28148d0ce8b70478bb77267cd4e764f6461f342b2e6a825ba8d2f"
+    },
+    {
+      "company": "6sense",
+      "url": "https://us.v-cdn.net/6036580/uploads/UJJWMNXFHJY2/6sense-fullcolor-dark-emblem.png",
+      "page": "https://revcity.6sense.com/home/discussion/798/6sense-media-kit",
+      "file": "6sense.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:46:23.889770+00:00",
+      "original_sha256": "0770342854ed9916e77db5a34822015f295801c5e7e6ad1d0c9ec2f9bfd7bba9",
+      "note": "Official dark emblem from the employer media kit, scaled and centered on white to fit square cards."
+    },
+    {
+      "company": "Abnormal AI",
+      "page": "https://abnormal.ai/careers/jobs/8016870003?gh_jid=8016870003",
+      "url": "https://abnormal.ai/abnormal-logo.png",
+      "file": "abnormal-ai.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:22.443072+00:00",
+      "original_sha256": "f6120e87e6685a123201b44648d79a8fa9d405f50e18a598eb97dcceb459490c"
+    },
+    {
+      "company": "Addepar",
+      "page": "https://job-boards.greenhouse.io/addepar1/jobs/8906942002",
+      "url": "https://s2-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/598/100/original/Addepar-Logo-Icon-Grn.png?1599093016",
+      "file": "addepar.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:19.152377+00:00",
+      "original_sha256": "9f0143fb1e17b0cc5bf87ee61f5929435572d6673af0107747b12aa4c965f827"
+    },
+    {
+      "company": "Baya Systems",
+      "page": "https://job-boards.greenhouse.io/bayasystems/jobs/5482253008",
+      "url": "https://s8-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/527/700/original/0_BayaSystems-Symbol_Standard.png?1740561655",
+      "file": "baya-systems.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:22.911715+00:00",
+      "original_sha256": "205432552c722112cd9fa363f6bba1201b46380595135cf9b816b115ae75ccd0"
+    },
+    {
+      "company": "Bloomreach",
+      "page": "https://job-boards.greenhouse.io/bloomreach/jobs/8349395",
+      "url": "https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/001/392/original/Primary_Brand_Icon.png?1733750806",
+      "file": "bloomreach.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:20.366851+00:00",
+      "original_sha256": "e95ec465ad8eab4874707287ee74191b4b4fec8682da67bb10eb8ffd42680d1e"
+    },
+    {
+      "company": "Celonis",
+      "page": "https://job-boards.greenhouse.io/celonis/jobs/7991058003?gh_jid=7991058003",
+      "url": "https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/062/000/original/External_Internal_Lettermark-RGB-mono-black_(1).png?1728399549",
+      "file": "celonis.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:20.669797+00:00",
+      "original_sha256": "ecb6021e53518ae62a95766034f08afefe474bd114533efa595cf8ebbac6a2d6"
+    },
+    {
+      "company": "Contentstack",
+      "page": "https://www.contentstack.com/",
+      "url": "https://www.contentstack.com/apple-icon.png?apple-icon.01-ytjr51qiss.png",
+      "file": "contentstack.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:20.923695+00:00",
+      "original_sha256": "142015cda01ca63e10d1a72bd34839c763c04d5a41f2bab5075288f16315be67"
+    },
+    {
+      "company": "HackerRank",
+      "page": "https://www.hackerrank.com/",
+      "url": "https://www.hackerrank.com/_sherpa/assets/static/apple-touch-icon.png",
+      "file": "hackerrank.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:19.013823+00:00",
+      "original_sha256": "f2b8426bb10fdbede9365b87cf47d49c12bc0d7a38a4a084d1f51dc9dc3f0cb8"
+    },
+    {
+      "company": "Harvey",
+      "page": "https://jobs.ashbyhq.com/harvey/235f1793-7b5a-470b-b6ee-4f0f0249623c",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-logo/868dcb5b-0628-48f1-b4f7-fed828a37e35/8ee59e75-fb38-4eb7-80b7-3b902c5da994/ba4329fb-4c07-4f68-9a2a-ea85386fb430.png",
+      "file": "harvey.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:19.013968+00:00",
+      "original_sha256": "98b23da619ddd1b88614b0ed3689db1cf2e6f4a56f50e4c942f2b18884067ac0"
+    },
+    {
+      "company": "HighLevel",
+      "page": "https://jobs.lever.co/gohighlevel/ec11cca8-6c38-4ab0-bf5d-7f1d20e3caee",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/ed2e5fac-21a3-42d8-9c36-2e67260eab00-1706550880893.png",
+      "file": "highlevel.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:19.366620+00:00",
+      "original_sha256": "59ddf59e09f7a7e121fb6fbff6a796d054d87d3f0e2bdac5ff7da49e3dc974f9"
+    },
+    {
+      "company": "IDfy",
+      "url": "https://photos.wellfound.com/startups/i/238874-91d2f466a2547165f294a080e1f1dd66-medium_jpg.jpg?buster=1578546027",
+      "page": "https://wellfound.com/jobs/4890545-software-engineer",
+      "file": "idfy.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:21.637831+00:00",
+      "original_sha256": "fd8b61bf17ceafddc21558fe00faeffa33cde97120d53e27c161aaa45f7796e8"
+    },
+    {
+      "company": "Kuku",
+      "url": "https://photos.wellfound.com/startups/i/6095145-4b42c31c4e28d1833b7720934462a7fa-medium_jpg.jpg?buster=1580277218",
+      "page": "https://wellfound.com/jobs/4901349-ai-engineer",
+      "file": "kuku.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:21.731108+00:00",
+      "original_sha256": "3a13f7940a852129b5a5573bc15fe1ddc16daec081fb281f973f22ec31ba4e68"
+    },
+    {
+      "company": "Motive",
+      "page": "https://gomotive.com/",
+      "url": "https://gomotive.com/wp-content/themes/phoenix/dist/theme/images/favicon/apple-touch-icon.png",
+      "file": "motive.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:20.867946+00:00",
+      "original_sha256": "63b63ebab2cbafcb94d39de4093f1682875e44373dfa0c96b48783445aaefc3a"
+    },
+    {
+      "company": "Outreach",
+      "page": "https://jobs.lever.co/outreach/88257b0f-9915-4e5f-96bf-d37b183b6cf6",
+      "url": "https://lever-client-logos.s3.amazonaws.com/a8587b80-ef40-42f9-bc60-90ed6d34321d-1533317789481.png",
+      "file": "outreach.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:19.977204+00:00",
+      "original_sha256": "13e595f900120da890e3e7a7c7aadc4944744258e09bc45f61a0888a7cc9db0c"
+    },
+    {
+      "company": "Plane",
+      "page": "https://jobs.ashbyhq.com/plane/0076054c-1df5-4f73-88b0-2af635e20f51",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-logo/313f8acd-f21c-46e3-8131-c291e664a9a9/9571408c-3ae4-42be-a3b6-893c0eacec25/9dc654b0-b697-48fc-a14d-93ad6acb0ace.png",
+      "file": "plane.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:20.352571+00:00",
+      "original_sha256": "f8978da7768d2d3462bba3e47c577c8452b8d7351016d54f11e5a3d4d7e83a7e"
+    },
+    {
+      "company": "Saviynt",
+      "page": "https://jobs.lever.co/saviynt/90a4d0dc-0fee-4db5-9d07-7c32eea107a8",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/ce99b770-5388-4dab-9ded-1f9c58e887a4-1764798903876.png",
+      "file": "saviynt.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:19.013675+00:00",
+      "original_sha256": "767922ca068bc2a2ea5bb5b889ff21d45163ee15e2cdb56078f58c8fa24dae5a"
+    },
+    {
+      "company": "Stripe",
+      "page": "https://stripe.com/",
+      "url": "https://images.stripeassets.com/fzn2n1nzq965/4vVgZi0ZMoEzOhkcv7EVwK/8cce6fdcf2733b2ec8e99548908847ed/favicon.png?w=180&h=180",
+      "file": "stripe.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:20.472943+00:00",
+      "original_sha256": "cb86ad335799c963a12003be1ef5ca21afe578fb4fa0592dd344294b42a5aba2"
+    },
+    {
+      "company": "Tide",
+      "page": "https://www.tide.co/",
+      "url": "https://www.tide.co/apple-touch-icon.png",
+      "file": "tide.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:19.013244+00:00",
+      "original_sha256": "6f91008f41e00eedf4c00a44820f9f79087f5131d62b71c08647d38c10320af9"
+    },
+    {
+      "company": "project44",
+      "page": "https://job-boards.greenhouse.io/project44/jobs/8345245",
+      "url": "https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/010/527/original/Logo_Square_V2-01.png?1639437883",
+      "file": "project44.png",
+      "checked_at": "2026-11-18",
+      "retrieved_at": "2026-11-18T13:32:20.222535+00:00",
+      "original_sha256": "09e440e150fe5cb9a23019e74cf5012374ee22d2b59c56285af217ea8fa8c3fa"
     }
   ]
 }

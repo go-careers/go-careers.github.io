@@ -1,0 +1,269 @@
+{
+  "status": "complete",
+  "target": 50,
+  "started_at": "2026-11-18T13:00:55.027305+00:00",
+  "run_date": "2026-11-18",
+  "added_ids": [
+    "contentstack-8045927003",
+    "tekion-ac934bd2-5345-404a-8fbb-86026f2b008f",
+    "6sense-8394423",
+    "hevo-data-4eccaf98-ba19-42ea-b040-e0976d4dadfe",
+    "lyzr-ai-d64d202e-5f6f-4d12-a3a6-570bc6b40faa",
+    "project44-8384793",
+    "bitwarden-7881269003",
+    "motive-8905070002",
+    "highlevel-ea8ed99e-59bf-4c23-8cb6-71609f2d9313",
+    "sarvam-ai-fa96b55d-0c77-423d-8eef-f579c8496adb",
+    "stripe-8386610",
+    "baya-systems-5482253008",
+    "celonis-7991058003",
+    "juniper-square-77ca840e-d86e-40f6-8fad-8c0cba12d70f",
+    "celonis-8203121003",
+    "hackerrank-8358510",
+    "stripe-8352150",
+    "tide-8197482003",
+    "tide-8197416003",
+    "project44-8345245",
+    "bloomreach-8349395",
+    "addepar-8906899002",
+    "addepar-8906942002",
+    "addepar-8906935002",
+    "highlevel-ec11cca8-6c38-4ab0-bf5d-7f1d20e3caee",
+    "tide-8096229003",
+    "plane-0076054c-1df5-4f73-88b0-2af635e20f51",
+    "contentstack-8032547003",
+    "highlevel-225f9dfc-2b20-45a3-a315-ac248b314c9c",
+    "6sense-8304084",
+    "motive-8916410002",
+    "hackerrank-8281055",
+    "kuku-4901349",
+    "contentstack-8032566003",
+    "celonis-8037525003",
+    "highlevel-6311f25e-fb4c-4700-b3ee-3ba813b05231",
+    "highlevel-b5070476-0bfd-45c8-b0f6-b7aad6d8e68e",
+    "harvey-235f1793-7b5a-470b-b6ee-4f0f0249623c",
+    "harvey-b8a48279-6b24-45c2-b101-3ae322ba5fb5",
+    "highlevel-011acab0-4b2c-4896-a3d2-53006f668c33",
+    "idfy-4890545",
+    "6sense-8304080",
+    "harvey-78d412a6-d63a-4475-802b-934aa0e12ccb",
+    "highlevel-c7972450-4798-49a4-8389-cf74d5b7d7a5",
+    "outreach-88257b0f-9915-4e5f-96bf-d37b183b6cf6",
+    "contentstack-8012782003",
+    "contentstack-8012760003",
+    "abnormal-ai-8016870003",
+    "saviynt-90a4d0dc-0fee-4db5-9d07-7c32eea107a8",
+    "outreach-75b437e3-8c71-4df7-905b-fddf7c68fd19"
+  ],
+  "target_met": true,
+  "timezone": "Asia/Kolkata",
+  "cutoff": "2026-10-18",
+  "previous_completed_run": "2026-11-17T11-31-40Z",
+  "initial_search": "Since previous completed run, prioritizing 17–18 November.",
+  "expanded_window": {
+    "from": "2026-10-18",
+    "through": "2026-11-18",
+    "inclusive": true,
+    "reason": "Fewer than 50 genuinely new verified roles since the previous completed pass."
+  },
+  "added_count": 50,
+  "employers_in_batch": [
+    "6sense",
+    "Abnormal AI",
+    "Addepar",
+    "Baya Systems",
+    "Bitwarden",
+    "Bloomreach",
+    "Celonis",
+    "Contentstack",
+    "HackerRank",
+    "Harvey",
+    "Hevo Data",
+    "HighLevel",
+    "IDfy",
+    "Juniper Square",
+    "Kuku",
+    "Lyzr AI",
+    "Motive",
+    "Outreach",
+    "Plane",
+    "Sarvam AI",
+    "Saviynt",
+    "Stripe",
+    "Tekion",
+    "Tide",
+    "project44"
+  ],
+  "companies_in_batch": 25,
+  "active_companies": 113,
+  "total": 217,
+  "active": 217,
+  "posted_on_run_date": 4,
+  "pruning": {
+    "initial": {
+      "before": 169,
+      "remaining": 167,
+      "removed": {
+        "older-than-one-month": 2
+      },
+      "removed_ids": [
+        "allminds-3143348",
+        "scispace-3534689"
+      ],
+      "archive": "data/job-archive/2026-11-18T13-00-54.968Z-42860be8.json"
+    },
+    "final": {
+      "before": 217,
+      "remaining": 217,
+      "removed": []
+    },
+    "missing_publication_dates_removed": 0,
+    "early_employer_expiries_removed": 0
+  },
+  "sources_searched": [
+    {
+      "source": "LinkedIn",
+      "query": "site:linkedin.com/jobs/view AI startup software engineer India November",
+      "examples": [
+        "https://in.linkedin.com/jobs/view/software-engineer-at-gostride-ventures-4490184967",
+        "https://in.linkedin.com/jobs/view/software-developer-bengaluru-ai-saas-startup-at-michael-page-4486965921"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "Public job search surfaced employer and recruiter listings. Identifiable employer postings were followed up; anonymous-client listings were excluded."
+    },
+    {
+      "source": "Wellfound",
+      "query": "site:wellfound.com/jobs machine learning Bangalore India startup",
+      "examples": [
+        "https://wellfound.com/jobs/4756812-machine-learning-scientist-ii-clone",
+        "https://wellfound.com/jobs/4450748-ml-engineer"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "Searched India role pages and company boards. Read structured JobPosting data, employer JDs, publication date, geography, and repost labels. Two employer-authored roles added."
+    },
+    {
+      "source": "Instahyre",
+      "query": "site:instahyre.com/job software machine learning AI Hyderabad",
+      "examples": [
+        "https://help.instahyre.com/en/article/explore-matching-opportunities-1s98q42/",
+        "https://resources.instahyre.com/news/ai-jobs-in-india-hidden-2027/"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "Job search returned help and editorial pages without a verifiable job-only addition. Public compensation research was accessible."
+    },
+    {
+      "source": "Naukri",
+      "query": "site:naukri.com generative AI engineer India startup",
+      "examples": [],
+      "checked_at": "2026-11-18",
+      "outcome": "Public job search blocked by robots.txt. No Naukri-only openings counted."
+    },
+    {
+      "source": "Himalayas",
+      "query": "site:himalayas.app/jobs India AI engineer remote",
+      "examples": [
+        "https://himalayas.app/jobs/countries/india/ai-engineering",
+        "https://himalayas.app/jobs/countries/india/full-time-ai-engineer"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "India remote AI category accessible. Category pages were discovery leads only."
+    },
+    {
+      "source": "Remotive",
+      "query": "site:remotive.com remote India backend AI engineer",
+      "examples": [
+        "https://remotive.com/remote/jobs/artificial-intelligence/ai-ml-engineer-6639243"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "Found Volga Partners AI/ML posting. Employer suitability and India eligibility were not established for publication."
+    },
+    {
+      "source": "Remote OK",
+      "query": "site:remoteok.com remote India machine learning engineer",
+      "examples": [
+        "https://remoteok.com/remote-engineer-jobs?location=IN%2Cregion_AS%2CWorldwide",
+        "https://www.remoteok.com/hire-remotely"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "Public remote engineer category searched. General worldwide listings were not treated as proof of India eligibility."
+    },
+    {
+      "source": "Cutshort",
+      "query": "site:cutshort.io India AI engineer jobs LLM startup",
+      "examples": [
+        "https://cutshort.io/jobs/artificial-intelligence-ai-jobs",
+        "https://cutshort.io/jobs/artificial-intelligence-ai-jobs-in-mumbai"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "India AI and city listings surfaced. No uncorroborated board-only openings added."
+    },
+    {
+      "source": "YC / Work at a Startup",
+      "query": "site:workatastartup.com/jobs Bengaluru AI engineer India",
+      "examples": [
+        "https://www.workatastartup.com/internships",
+        "https://www.workatastartup.com/market",
+        "https://www.ycombinator.com/jobs/role/all/india"
+      ],
+      "checked_at": "2026-11-18",
+      "outcome": "Searched YC India and Work at a Startup listings. Checked employer identity, acquisition history and technical scope."
+    },
+    {
+      "source": "Public employer hiring feeds",
+      "checked_at": "2026-11-18",
+      "endpoints_attempted": 518,
+      "endpoints_returning_data": 228,
+      "scope": "Known employers and new Greenhouse, Lever, Ashby and Workable tenants; includes empty boards and unsuccessful tenant lookups. Individual employer endpoints and publication fields are attached to new listings."
+    }
+  ],
+  "additions_by_source": {
+    "greenhouse": 29,
+    "ashby": 8,
+    "lever": 11,
+    "wellfound": 2
+  },
+  "salary_outcomes": {
+    "India market estimate": 18,
+    "Not established": 20,
+    "Company benchmark": 10,
+    "Employer published": 2
+  },
+  "new_company_logos": 19,
+  "flagged_existing_ids": [],
+  "deduplication": "Compared stable requisitions, canonical application URLs and normalized company/title/location against active rows, both archives and historical job-source records. Tide city mirrors are one opening; HighLevel frontend and backend posts have separate IDs and distinct engineering responsibilities.",
+  "excluded": [
+    {
+      "company": "Tide",
+      "source_url": "https://job-boards.greenhouse.io/tide/jobs/8197483003",
+      "reason": "Same Accounts team, JD and level as Hyderabad posting; merged Delhi NCR as alternate location."
+    },
+    {
+      "company": "Stripe",
+      "source_url": "https://stripe.com/jobs/search?gh_jid=8185012",
+      "reason": "The employer feed pointed to generic search and the role-specific page had no application."
+    },
+    {
+      "company": "Azodha",
+      "source_url": "https://wellfound.com/jobs/5061227-product-engineer-backend-node-js-typescript",
+      "reason": "The JD specifically restricts applicants to the US, despite broader board metadata."
+    },
+    {
+      "company": "Huvo AI",
+      "source_url": "https://wellfound.com/jobs/4544645-backend-engineer-python",
+      "reason": "Board labels the requisition a repost; original date not established."
+    },
+    {
+      "company": "Isomorph AI",
+      "source_url": "https://wellfound.com/company/isomorph-ai/jobs",
+      "reason": "Several live India AI openings surfaced, but the verified numeric LinkedIn employer mapping required by the board could not be established this run; retained as leads."
+    }
+  ],
+  "validation": {
+    "npm_run_check": "Passed 25 tests, CSV validation and static build; 217 active of 217 total.",
+    "git_diff_check": "Passed.",
+    "dedup_and_assets": "All 50 added IDs unique, present in both per-job audits, with matching verified local PNGs.",
+    "browser": "Repository desktop/mobile browser suite plus Axe passed. Additional 1440px and 390px inspection verified all 50 card/detail relationships, employer destinations, logos and horizontal overflow."
+  },
+  "publication_status": "Validated release submitted for publication through the development-2 GitHub Pages workflow. Deployment result is recorded by GitHub Actions.",
+  "completed_at": "2026-11-18T13:50:14.406014+00:00"
+}
