@@ -4,7 +4,7 @@ const cities = [
   ['delhi-ncr', 'Delhi NCR', ['Delhi', 'New Delhi', 'Delhi NCR', 'Delhi-NCR', 'NCR', 'Noida', 'Greater Noida', 'Gurgaon', 'Gurugram']],
   ['hyderabad', 'Hyderabad', ['Hyderabad', 'Secunderabad']],
   ['mumbai', 'Mumbai', ['Mumbai', 'Bombay', 'Navi Mumbai']],
-  ['pune', 'Pune', ['Pune']],
+  ['pune', 'Pune', ['Pune', 'Pune (Hinjawadi)']],
 ];
 const normalize = value => value.trim().toLowerCase().replace(/\s+/g, ' ');
 const aliases = new Map(cities.flatMap(([id, , names]) => names.map(name => [normalize(name), id])));

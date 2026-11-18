@@ -21,8 +21,15 @@ try {
   assert.equal((await page.goto(base)).status(), 200);
   await page.locator('#search-form:visible').waitFor();
   assert.equal(await page.locator('.job-card').count(), jobs.length);
-  await page.waitForFunction(() => [...document.querySelectorAll('.company-logo img')].every(img => img.complete && img.naturalWidth > 0));
+  await page.waitForFunction(() => [...document.querySelectorAll('.company-logo img:not([loading="lazy"])')].every(img => img.complete && img.naturalWidth > 0));
   assert.equal(await page.locator('.company-logo img').count(), jobs.filter(job => job.company_logo).length);
+  assert.equal(await page.locator('.job-card img[loading="lazy"]').count(), jobs.slice(4).filter(job => job.company_logo).length);
+  const lastLogo = page.locator('.job-card:visible .company-logo img').last();
+  if (await lastLogo.count()) {
+    await lastLogo.scrollIntoViewIfNeeded();
+    await lastLogo.evaluate(img => img.decode());
+    await page.evaluate(() => window.scrollTo(0, 0));
+  }
   assert.equal(await count(), Math.min(20, jobs.length));
   if (jobs.length > 20) {
     await page.locator('#next').click();
@@ -253,6 +260,33 @@ try {
   assert.ok((await noJS.locator('.results').boundingBox()).width > 800, 'The no-JavaScript board uses the full content width');
   await noJS.locator('.job-card h3 a').first().click();
   assert.ok(await noJS.locator('.description').count()>0);
+  await noJS.goto(base);
+  const firstCollection = noJS.locator('.browse-menu a').first();
+  if (await firstCollection.count()) {
+    await firstCollection.click();
+    const collectionPath = new URL(noJS.url()).pathname;
+    assert.equal(await noJS.locator('[data-collection] h1').count(), 1);
+    assert.ok(await noJS.locator('.job-card:visible').count() > 0);
+    await noJS.locator('.job-card h3 a').first().click();
+    assert.equal(await noJS.locator('#apply-link').count(), 1);
+    assert.ok((await noJS.locator('main nav a').evaluateAll(links => links.map(a => new URL(a.href).pathname))).includes(collectionPath));
+    await page.goto(base + collectionPath);
+    assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+    if (process.env.AXE_MODULE) {
+      const mod = await import(pathToFileURL(process.env.AXE_MODULE).href);
+      const AxeBuilder = mod.default.default || mod.default;
+      const result = await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
+      assert.deepEqual(result.violations.map(v => v.id), []);
+    }
+    const expiring = await browser.newPage();
+    await expiring.clock.install({time: new Date(jobs.map(job => windowEnd(job.posted_date)).sort().at(-1) + 'T18:29:00Z')});
+    await expiring.goto(base + collectionPath);
+    await expiring.clock.fastForward(60001);
+    assert.equal(await expiring.locator('meta[name="robots"]').getAttribute('content'), 'noindex, follow');
+    assert.equal(await expiring.locator('.job-card:visible').count(), 0);
+    assert.match(await expiring.locator('[data-collection-summary]').textContent(), /no current openings/);
+    await expiring.close();
+  }
   await noJS.close();
   assert.equal((await page.goto(base+'/missing-page')).status(),404);
   // A cached board/detail must age out at midnight in India without a rebuild.
@@ -271,6 +305,7 @@ try {
     assert.equal(await agingCard.isVisible(), false);
     assert.equal(await expiryDetail.locator('#apply-link').count(), 0);
     assert.equal(await expiryDetail.locator('#closed-notice').isVisible(), true);
+    assert.equal(await expiryDetail.locator('meta[name="robots"]').getAttribute('content'), 'noindex, follow');
     await expiryBoard.close(); await expiryDetail.close();
   }
   assert.deepEqual(errors,[]);

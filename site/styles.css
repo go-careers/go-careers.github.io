@@ -136,6 +136,21 @@ button:disabled { opacity: .45; cursor: default; }
 .detail-page { padding-block: 24px 60px; min-height: 75vh; }
 .back-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 13px; margin-bottom: 24px; }
 .back-link:hover { text-decoration: underline; }
+.detail-trail, .browse-menu > div, .related-collections { display: flex; flex-wrap: wrap; align-items: center; gap: 0 16px; }
+.detail-trail { margin-bottom: 24px; gap: 0 8px; color: var(--muted); font-size: 13px; }
+.detail-trail .back-link { margin: 0; }
+.detail-trail a, .browse-menu a, .related-collections a, .footer-inner a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; text-underline-offset: 3px; }
+.browse-menu { padding-block: 22px; border-top: 1px solid var(--line); }
+.browse-menu h2, .related-collections h2 { width: 100%; margin: 0 0 6px; font-size: 16px; font-weight: 650; }
+.browse-menu > div, .related-collections a { font-size: 13px; }
+.browse-menu strong { min-width: 56px; color: var(--muted); font-weight: 500; }
+.related-collections { margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--line); }
+.collection-page, .guide-page { padding-block: 24px 48px; }
+.guide-page { max-width: 740px; }
+.guide-page > .button { margin-top: 12px; }
+.collection-page h1, .guide-page h1 { margin: 0; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -.8px; }
+.collection-summary { margin: 10px 0 22px; color: var(--muted); }
+.collection-jobs:has(.job-card:not([hidden])) { border: 1px solid var(--line); border-radius: 10px; }
 .detail-layout { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 48px; }
 .detail-heading .company-mark { margin-bottom: 16px; width: 52px; height: 52px; font-size: 16px; }
 .detail-heading h1 { font-size: clamp(26px, 3vw, 34px); line-height: 1.25; letter-spacing: -.8px; font-weight: 650; margin: 8px 0 16px; overflow-wrap: anywhere; }

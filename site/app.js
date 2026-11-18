@@ -82,10 +82,22 @@
       back.textContent = "← Back to your results";
     }
   }
+  const activeOn = ({ dataset }, date) => (!dataset.posted || dataset.posted <= date) &&
+    dataset.windowEnd >= date && (!dataset.expiry || dataset.expiry >= date);
+  function markClosedPage() {
+    let robots = document.querySelector('meta[name="robots"]');
+    if (!robots) {
+      robots = document.createElement('meta');
+      robots.name = 'robots';
+      document.head.append(robots);
+    }
+    robots.content = 'noindex, follow';
+  }
   const checkDetail = () => {
-    if (detail && ((detail.dataset.expiry && detail.dataset.expiry < today()) || detail.dataset.windowEnd < today())) {
+    if (detail && !activeOn(detail, today())) {
       byId("closed-notice").hidden = false;
       byId("apply-link")?.remove();
+      markClosedPage();
     }
   };
   checkDetail();
@@ -93,6 +105,23 @@
   const list = byId("job-list");
   if (!list) {
     if (detail) setInterval(checkDetail, 60000);
+    const collection = document.querySelector('[data-collection]');
+    if (collection) {
+      const cards = [...collection.querySelectorAll('.job-card')];
+      function refreshCollection() {
+        const date = today();
+        const current = cards.filter(card => activeOn(card, date));
+        if (current.length === cards.length) return;
+        cards.forEach(card => { card.hidden = !activeOn(card, date); });
+        const employers = new Set(current.map(card => card.dataset.company)).size;
+        collection.querySelector('[data-collection-summary]').textContent = current.length
+          ? `${current.length} ${current.length === 1 ? 'opening' : 'openings'} at ${employers} private ${employers === 1 ? 'startup' : 'startups'}.`
+          : 'There are no current openings in this group.';
+        if (!current.length) markClosedPage();
+      }
+      refreshCollection();
+      setInterval(refreshCollection, 60000);
+    }
     return;
   }
   const cards = [...list.querySelectorAll(".job-card")];
@@ -127,9 +156,6 @@
     filterToggle.focus({preventScroll: true});
     byId('view-bar').scrollIntoView({block: 'start'});
   });
-  const active = (card) =>
-    card.dataset.posted <= today() && card.dataset.windowEnd >= today() &&
-    (!card.dataset.expiry || card.dataset.expiry >= today());
   function readURL() {
     const params = new URLSearchParams(location.search);
     savedOnly = params.get('saved') === '1';
@@ -172,6 +198,8 @@
     history.replaceState(null, "", url);
   }
   function render(updateURL = true) {
+    const date = today();
+    const active = card => activeOn(card, date);
     const focusedCardControl = list.contains(document.activeElement) ? document.activeElement : null;
     const tokens = controls.q.value
       .trim()

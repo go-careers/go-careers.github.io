@@ -160,6 +160,53 @@ test("real builds create static detail pages, canonical URLs and sitemap while e
     await rm(output, { recursive: true, force: true });
   }
 });
+test("search destinations and breadcrumbs follow the live feed on project subpaths", async (t) => {
+  const output = await mkdtemp(join(tmpdir(), "gocareers-discovery-"));
+  t.after(() => rm(output, { recursive: true, force: true }));
+  const base = "https://example.com/board/";
+  const ai = { ...row, id: "ml", title: "Applied Scientist", location: "Bangalore / Gurugram", expiry_date: "2026-11-16",
+    description: "Develop language models.\n\nReview </script> markers and evaluation results." };
+  const remote = { ...row, id: "remote", title: "Platform Engineer", location: "India", work_mode: "Remote", skills: "AI|Python" };
+  const source = csv(ai, remote, { ...row, id: "old", posted_date: "2026-10-15" });
+  const page = path => readFile(join(output, path, "index.html"), "utf8");
+  const graph = html => JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1])["@graph"];
+  await build({ output, csv: source, today: "2026-11-16", production: true, siteURL: base });
+  const home = await page("");
+  assert.ok(graph(home).some(item => item["@type"] === "WebSite" && item.url === base));
+  const aiPath = "browse/ai-ml-jobs-india/";
+  const remotePath = "browse/remote-startup-jobs-india/";
+  assert.ok(home.includes(`href="${aiPath}"`));
+  const sitemap = await readFile(join(output, "sitemap.xml"), "utf8");
+  const paths = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
+  assert.deepEqual(new Set(paths), new Set(["", aiPath, remotePath, "browse/startup-jobs-bengaluru/", "browse/startup-jobs-delhi-ncr/", "about/", "jobs/ml/", "jobs/remote/"].map(path => base + path)));
+  assert.equal(paths.length, new Set(paths).size);
+  const collection = await page(aiPath);
+  assert.ok(collection.includes('href="../../jobs/ml/"'));
+  assert.ok(!collection.includes('href="../../jobs/remote/"'));
+  assert.ok(!(await page(remotePath)).includes('href="../../jobs/ml/"'));
+  const detail = await page("jobs/ml/");
+  const [webPage, breadcrumb] = graph(detail);
+  assert.equal(webPage["@type"], "WebPage");
+  assert.equal(webPage.relatedLink, ai.apply_url);
+  assert.ok(webPage.description.includes("</script>"));
+  assert.equal(breadcrumb["@id"], webPage.breadcrumb["@id"]);
+  assert.deepEqual(breadcrumb.itemListElement.map(item => item.item), [base, base + aiPath, base + "jobs/ml/"]);
+  assert.match(await page("jobs/remote/"), /<title>Platform Engineer at Example \| Remote in India \| Go Careers<\/title>/);
+  for (const path of paths) {
+    const html = await page(path.slice(base.length));
+    assert.ok(html.includes(`rel="canonical" href="${path}"`));
+    assert.ok(html.includes(`property="og:image" content="${base}assets/logo.jpg"`));
+    assert.doesNotMatch(html, /noindex|JobPosting/);
+  }
+  const missing = await readFile(join(output, "404.html"), "utf8");
+  assert.match(missing, /noindex, follow/);
+  assert.doesNotMatch(missing, /rel="canonical"/);
+  await build({ output, csv: source, today: "2026-11-17", production: true, siteURL: base });
+  await assert.rejects(page(aiPath), { code: "ENOENT" });
+  await assert.rejects(page("jobs/ml/"), { code: "ENOENT" });
+  assert.doesNotMatch(await readFile(join(output, "sitemap.xml"), "utf8"), /ai-ml-jobs|jobs\/ml\/|delhi-ncr|bengaluru/);
+  assert.ok((await page(remotePath)).includes('href="../../jobs/remote/"'));
+});
 test("demo builds disable application links and indexing; production refuses sample data", async () => {
   const output = await mkdtemp(join(tmpdir(), "gocareers-test-"));
   const data = csv({ ...row, is_demo: "true" });

@@ -105,6 +105,14 @@ The command archives complete removed CSV rows in `data/job-archive/` before rep
 
 Builds enforce the same window without modifying the CSV, including scheduled daily deployments. Browser tabs recheck the generated retention deadline every minute, remove stale cards and disable Apply on aged-out detail pages. Generated pages and sitemap entries disappear on the next build. No new analytics events are added.
 
+## Search discovery
+
+The homepage links to static pages for role families, engineering internships, remote work and major Indian cities. The generator creates a collection only when it contains current openings. Every listing is readable without JavaScript and links to its original application page. The selection and salary methodology is published at `/about/`.
+
+Production pages have a clean canonical URL, a search description and social preview metadata. Job briefs use WebPage and breadcrumb structured data. The daily rebuild removes closed or aged-out URLs and empty collections from both the output and the sitemap. Missing URLs return the site's 404 page.
+
+The sitemap is [go-careers.github.io/sitemap.xml](https://go-careers.github.io/sitemap.xml). A verified owner can submit it once in [Google Search Console](https://search.google.com/search-console) and use the Performance report to measure search impressions and clicks.
+
 ## Analytics
 
 Production pages use the owner's Umami Cloud website `e6cb80e5-9b47-4a06-823e-7d76c5c0e762`, restricted to `go-careers.github.io`. Local/preview builds omit tracking. The website ID is public configuration, not a secret.
