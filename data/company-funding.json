@@ -1,6 +1,6 @@
 {
   "policy": "Independent private startups at any funding stage. Public, acquired and unverified-ownership employers are excluded. A named financing round is background evidence, not a maximum stage. Undisclosed means no current named round established in the reviewed evidence.",
-  "checked_at": "2026-11-16",
+  "checked_at": "2026-11-19",
   "companies": [
     {
       "company": "Onehouse",
@@ -322,12 +322,12 @@
       "source_url": "https://www.neuron7.ai/about-us",
       "homepage": "https://www.neuron7.ai",
       "category": "AI agents for enterprise service",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-19",
       "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-16",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.nasdaqprivatemarket.com/company/neuron7/",
           "https://www.neuron7.ai/about-us"
@@ -898,12 +898,12 @@
       "round_date": "",
       "source_url": "https://www.linkedin.com/company/azodha",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-19",
       "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/azodha"
         ],
@@ -1224,12 +1224,12 @@
       "round_date": "",
       "source_url": "https://www.linkedin.com/company/flomobility",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-19",
       "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/flomobility"
         ],
@@ -1395,12 +1395,12 @@
       "round_date": "2025-06-16",
       "source_url": "https://www.junipersquare.com/news/series-d-junie-ai",
       "additional_sources": [],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-19",
       "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/juniper-square",
           "https://www.junipersquare.com/news/series-d-junie-ai"
@@ -1453,12 +1453,12 @@
       "round_date": "",
       "source_url": "https://www.linkedin.com/company/loopr-ai",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-19",
       "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/loopr-ai"
         ],
@@ -1757,12 +1757,12 @@
       "round_date": "",
       "source_url": "https://www.linkedin.com/company/go-swift/",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-19",
       "note": "No named round established in the reviewed evidence; Undisclosed is not a claim that the company has never raised capital.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/go-swift/"
         ],
@@ -1797,12 +1797,12 @@
       "additional_sources": [
         "https://www.tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-19",
       "note": "Company announced $200M growth equity in July 2024; no Series letter assigned to this unlabelled later financing.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/tekion",
           "https://www.tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group",
@@ -2077,12 +2077,12 @@
       "round_date": "",
       "source_url": "https://www.linkedin.com/company/octavolab",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-19",
       "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/octavolab"
         ],
@@ -2705,12 +2705,12 @@
       "additional_sources": [
         "https://stripe.com/newsroom/news/stripe-2025-update"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-19",
       "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-19",
         "sources": [
           "https://www.linkedin.com/company/stripe",
           "https://stripe.com/newsroom/news/stripe-series-i-employee-liquidity",
@@ -2765,6 +2765,405 @@
           "https://www.project44.com/press-releases/project44-creates-two-businesses-and-launches-lsp44-the-ai-agent-and-api-infrastructure-that-9-of-the-worlds-10-largest-logistics-providers-already-run/"
         ],
         "note": "The latest $80M financing was reported as Series F. The employer continues to operate its logistics technology businesses."
+      }
+    },
+    {
+      "company": "8th Element Digital",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://8thelement.ai/about",
+      "additional_sources": [
+        "https://wellfound.com/company/8th-element-digital"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The employer profile and founders’ account identify the same independent AI engineering business in Hyderabad. No named round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/8thelement-ai",
+          "https://8thelement.ai/about",
+          "https://wellfound.com/company/8th-element-digital"
+        ],
+        "note": "The employer profile and founders’ account identify the same independent AI engineering business in Hyderabad. No named round was established."
+      }
+    },
+    {
+      "company": "Aktoria Robotics",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.ycombinator.com/companies/aktoria-robotics",
+      "additional_sources": [],
+      "checked_at": "2026-11-19",
+      "note": "YC identifies the independent founding team and its robotics data business. No named financing round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/aktoria-robotics",
+          "https://www.ycombinator.com/companies/aktoria-robotics"
+        ],
+        "note": "YC identifies the independent founding team and its robotics data business. No named financing round was established."
+      }
+    },
+    {
+      "company": "Apna",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://news.ventureintelligence.com/private-equity/bluecollar-workers-platform-apnaco-increases-series-c-round-size-to-100m",
+      "additional_sources": [
+        "https://techcrunch.com/2021/09/15/tiger-global-led-100m-investment-makes-apna-indias-fastest-unicorn/"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The hiring marketplace and its own Engineering department identify the employer. The last named financing found was its Series C.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/apnahq",
+          "https://news.ventureintelligence.com/private-equity/bluecollar-workers-platform-apnaco-increases-series-c-round-size-to-100m",
+          "https://techcrunch.com/2021/09/15/tiger-global-led-100m-investment-makes-apna-indias-fastest-unicorn/"
+        ],
+        "note": "The hiring marketplace and its own Engineering department identify the employer. The last named financing found was its Series C."
+      }
+    },
+    {
+      "company": "Arctic Wolf",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-150-million-series-f-financing-round/",
+      "additional_sources": [
+        "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-the-closing-of-a-401-million-convertible-notes-offering/"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The named Series F preceded a convertible note offering.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/arctic-wolf-networks",
+          "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-150-million-series-f-financing-round/",
+          "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-the-closing-of-a-401-million-convertible-notes-offering/"
+        ],
+        "note": "The named Series F preceded a convertible note offering."
+      }
+    },
+    {
+      "company": "BrowserStack",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.browserstack.com/press/browserstack-closes-200-million-in-series-b-funding-at-a-4-billion-valuation",
+      "additional_sources": [],
+      "checked_at": "2026-11-19",
+      "note": "BrowserStack disclosed a Series B for its independent software testing business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/browserstack",
+          "https://www.browserstack.com/press/browserstack-closes-200-million-in-series-b-funding-at-a-4-billion-valuation"
+        ],
+        "note": "BrowserStack disclosed a Series B for its independent software testing business."
+      }
+    },
+    {
+      "company": "Cloudesign Technology Solutions",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.cloudesign.com/about-us/message-from-ceo/",
+      "additional_sources": [
+        "https://www.zaubacorp.com/CLOUDESIGN-TECHNOLOGY-SOLUTIONS-LLP-AAH-5780"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The founder describes the business and its register entry identifies the Indian LLP. No named round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/cloudesign",
+          "https://www.cloudesign.com/about-us/message-from-ceo/",
+          "https://www.zaubacorp.com/CLOUDESIGN-TECHNOLOGY-SOLUTIONS-LLP-AAH-5780"
+        ],
+        "note": "The founder describes the business and its register entry identifies the Indian LLP. No named round was established."
+      }
+    },
+    {
+      "company": "Cohesity",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.cohesity.com/newsroom/press/cohesity-announces-250-million-in-series-e-funding/",
+      "additional_sources": [
+        "https://www.cohesity.com/newsroom/press/cohesity-collaboration-to-strengthen-cyber-resilience-with-ibm-investment/"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "Cohesity announced a Series E and later investment from IBM. Its combination with Veritas’s enterprise data protection business kept the Cohesity brand.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/cohesity",
+          "https://www.cohesity.com/newsroom/press/cohesity-announces-250-million-in-series-e-funding/",
+          "https://www.cohesity.com/newsroom/press/cohesity-collaboration-to-strengthen-cyber-resilience-with-ibm-investment/"
+        ],
+        "note": "Cohesity announced a Series E and later investment from IBM. Its combination with Veritas’s enterprise data protection business kept the Cohesity brand."
+      }
+    },
+    {
+      "company": "Fortanix",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.fortanix.com/company/pr/2022/09/fortanix-raises-90m-in-series-c-funding-led-by-goldman-sachs-asset-management-to-accelerate-leadership-in-the-data-security-market",
+      "additional_sources": [],
+      "checked_at": "2026-11-19",
+      "note": "Fortanix disclosed a Series C for its data security business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/fortanix",
+          "https://www.fortanix.com/company/pr/2022/09/fortanix-raises-90m-in-series-c-funding-led-by-goldman-sachs-asset-management-to-accelerate-leadership-in-the-data-security-market"
+        ],
+        "note": "Fortanix disclosed a Series C for its data security business."
+      }
+    },
+    {
+      "company": "genieX",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://geniex.dev/",
+      "additional_sources": [],
+      "checked_at": "2026-11-19",
+      "note": "The founder-led AI and software business recruits its own contract team. No named funding round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/gogeniex",
+          "https://geniex.dev/"
+        ],
+        "note": "The founder-led AI and software business recruits its own contract team. No named funding round was established."
+      }
+    },
+    {
+      "company": "Icertis",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.icertis.com/company/news/icertis-series-f/",
+      "additional_sources": [],
+      "checked_at": "2026-11-19",
+      "note": "Icertis disclosed a Series F for its contract intelligence platform.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/icertis",
+          "https://www.icertis.com/company/news/icertis-series-f/"
+        ],
+        "note": "Icertis disclosed a Series F for its contract intelligence platform."
+      }
+    },
+    {
+      "company": "Instawork",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.instawork.com/blog/new-markets-and-new-investors-in-pursuit-of-our-vision",
+      "additional_sources": [
+        "https://www.ycombinator.com/companies/instawork"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "Instawork announced a Series D for its labor marketplace.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/instawork",
+          "https://www.instawork.com/blog/new-markets-and-new-investors-in-pursuit-of-our-vision",
+          "https://www.ycombinator.com/companies/instawork"
+        ],
+        "note": "Instawork announced a Series D for its labor marketplace."
+      }
+    },
+    {
+      "company": "Isomorph AI",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://isomorph.ai/careers/",
+      "additional_sources": [
+        "https://wellfound.com/company/isomorph-ai"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The company recruits its own founding team to build an enterprise agent platform. No named round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/isomorph-ai",
+          "https://isomorph.ai/careers/",
+          "https://wellfound.com/company/isomorph-ai"
+        ],
+        "note": "The company recruits its own founding team to build an enterprise agent platform. No named round was established."
+      }
+    },
+    {
+      "company": "KoiReader Technologies",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://pier71.sg/startup/koireader-technologies/",
+      "additional_sources": [
+        "https://www.koireader.com/resources/press-release"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The PIER71 startup programme and company identify the industrial AI business. No named round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/koireader",
+          "https://pier71.sg/startup/koireader-technologies/",
+          "https://www.koireader.com/resources/press-release"
+        ],
+        "note": "The PIER71 startup programme and company identify the industrial AI business. No named round was established."
+      }
+    },
+    {
+      "company": "Leena AI",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://leena.ai/newsroom/announces-seriesB-funding",
+      "additional_sources": [
+        "https://www.prnewswire.com/news-releases/ibm-ventures-invests-in-leena-ai-to-accelerate-agentic-ai-across-the-enterprise-back-office-302914251.html"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "Leena AI disclosed a Series B. Its subsequent IBM Ventures investment did not name a new series.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/leena-ai",
+          "https://leena.ai/newsroom/announces-seriesB-funding",
+          "https://www.prnewswire.com/news-releases/ibm-ventures-invests-in-leena-ai-to-accelerate-agentic-ai-across-the-enterprise-back-office-302914251.html"
+        ],
+        "note": "Leena AI disclosed a Series B. Its subsequent IBM Ventures investment did not name a new series."
+      }
+    },
+    {
+      "company": "Lynx Analytics",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.lynxanalytics.com/leadership",
+      "additional_sources": [
+        "https://www.lynxanalytics.com/press"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The graph analytics company identifies its leadership and independent operations. No named funding round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/lynx-analytics",
+          "https://www.lynxanalytics.com/leadership",
+          "https://www.lynxanalytics.com/press"
+        ],
+        "note": "The graph analytics company identifies its leadership and independent operations. No named funding round was established."
+      }
+    },
+    {
+      "company": "Navtech",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://navtech.io/about-us/",
+      "additional_sources": [
+        "https://wellfound.com/company/navtech-solutions"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The privately held cloud engineering business identifies its founders and Hyderabad team. No named round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/nav-technologies",
+          "https://navtech.io/about-us/",
+          "https://wellfound.com/company/navtech-solutions"
+        ],
+        "note": "The privately held cloud engineering business identifies its founders and Hyderabad team. No named round was established."
+      }
+    },
+    {
+      "company": "OneTrust",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.onetrust.com/news/onetrust-series-c/",
+      "additional_sources": [
+        "https://www.onetrust.com/news/onetrust-secures-150m-investment-led-by-generation-investment-management/"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "OneTrust later announced an unnumbered investment led by Generation Investment Management.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/onetrust",
+          "https://www.onetrust.com/news/onetrust-series-c/",
+          "https://www.onetrust.com/news/onetrust-secures-150m-investment-led-by-generation-investment-management/"
+        ],
+        "note": "OneTrust later announced an unnumbered investment led by Generation Investment Management."
+      }
+    },
+    {
+      "company": "Runsurf",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://runsurf.co/terms-of-service",
+      "additional_sources": [
+        "https://wellfound.com/company/runsurf"
+      ],
+      "checked_at": "2026-11-19",
+      "note": "The employer uses Surf and Runsurf and identifies its founders and operating business. No named funding round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-19",
+        "sources": [
+          "https://www.linkedin.com/company/runsurf",
+          "https://runsurf.co/terms-of-service",
+          "https://wellfound.com/company/runsurf"
+        ],
+        "note": "The employer uses Surf and Runsurf and identifies its founders and operating business. No named funding round was established."
       }
     }
   ]

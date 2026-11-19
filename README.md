@@ -27,7 +27,7 @@ Ownership is a separate build requirement. Every real employer must have an elig
 
 This board is focused on software development, machine learning, AI, and related engineering roles (platform/SRE, data engineering, and security automation). Keep sales, marketing, design, product management, customer support, and general IT operations out of the feed.
 
-The latest daily run on **18 November 2026** added **50 verified India technical openings across 25 private startups**. Four of the additions were posted on 18 November. The search covered the inclusive **18 October–18 November** window. Two older listings were archived, bringing the board to **217 active roles across 113 private startups**. See [the daily run](data/job-runs/2026-11-18T13-00-55Z.json) for sources, compensation coverage and exclusions.
+The latest daily run on **19 November 2026** added **50 verified India technical openings across 27 private startups**. Eight were posted on 19 November. The search covered the inclusive **19 October–19 November** window. No listings aged out, bringing the board to **267 active roles across 131 private startups**. See [the daily run](data/job-runs/2026-11-19T14-54-37Z.json) for sources, compensation coverage and exclusions.
 
 The [earlier 100-role sourcing run](data/job-runs/2026-11-16T18-53-21Z.json) remains historical evidence. The archive now contains 185 historical listings, including 170 older postings and 15 undated postings. Verification dates apply to individual records; this update does not imply every older listing was checked again.
 

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16",
+  "checked_at": "2026-11-19",
   "method": "Company IDs extracted from the public LinkedIn company page's View all employees / See all employees link (facetCurrentCompany in the LinkedIn sign-in redirect). Company names and domains checked against the employer. No member profiles or connection data stored.",
   "companies": [
     {
@@ -914,6 +914,114 @@
       "company_id": "3563664",
       "source_url": "https://www.linkedin.com/company/project-44",
       "checked_at": "2026-11-18"
+    },
+    {
+      "company": "8th Element Digital",
+      "company_id": "43260723",
+      "source_url": "https://www.linkedin.com/company/8thelement-ai",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Aktoria Robotics",
+      "company_id": "132233910",
+      "source_url": "https://www.linkedin.com/company/aktoria-robotics",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Apna",
+      "company_id": "26594389",
+      "source_url": "https://www.linkedin.com/company/apnahq",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Arctic Wolf",
+      "company_id": "2760138",
+      "source_url": "https://www.linkedin.com/company/arctic-wolf-networks",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "BrowserStack",
+      "company_id": "2553488",
+      "source_url": "https://www.linkedin.com/company/browserstack",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Cloudesign Technology Solutions",
+      "company_id": "6435378",
+      "source_url": "https://www.linkedin.com/company/cloudesign",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Cohesity",
+      "company_id": "3750699",
+      "source_url": "https://www.linkedin.com/company/cohesity",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Fortanix",
+      "company_id": "12417189",
+      "source_url": "https://www.linkedin.com/company/fortanix",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "genieX",
+      "company_id": "79435464",
+      "source_url": "https://www.linkedin.com/company/gogeniex",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Icertis",
+      "company_id": "697992",
+      "source_url": "https://www.linkedin.com/company/icertis",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Instawork",
+      "company_id": "10410445",
+      "source_url": "https://www.linkedin.com/company/instawork",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Isomorph AI",
+      "company_id": "143919983",
+      "source_url": "https://www.linkedin.com/company/isomorph-ai",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "KoiReader Technologies",
+      "company_id": "27219957",
+      "source_url": "https://www.linkedin.com/company/koireader",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Leena AI",
+      "company_id": "13370785",
+      "source_url": "https://www.linkedin.com/company/leena-ai",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Lynx Analytics",
+      "company_id": "3247643",
+      "source_url": "https://www.linkedin.com/company/lynx-analytics",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Navtech",
+      "company_id": "678572",
+      "source_url": "https://www.linkedin.com/company/nav-technologies",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "OneTrust",
+      "company_id": "10795459",
+      "source_url": "https://www.linkedin.com/company/onetrust",
+      "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Runsurf",
+      "company_id": "100919113",
+      "source_url": "https://www.linkedin.com/company/runsurf",
+      "checked_at": "2026-11-19"
     }
   ]
 }

@@ -1,0 +1,378 @@
+{
+  "status": "complete",
+  "started_at": "2026-11-19T14:54:37.808474+00:00",
+  "run_date": "2026-11-19",
+  "timezone": "Asia/Kolkata",
+  "target": 50,
+  "cutoff": "2026-10-19",
+  "previous_completed_run": "2026-11-18T13-00-55Z",
+  "pruning": {
+    "initial": {
+      "before": 217,
+      "remaining": 217,
+      "removed": []
+    },
+    "final": {
+      "before": 267,
+      "remaining": 267,
+      "removed": []
+    },
+    "missing_publication_dates_removed": 0,
+    "early_employer_expiries_removed": 0,
+    "older_than_one_month_removed": 0,
+    "archives_created": []
+  },
+  "added_ids": [
+    "lynx-analytics-8873951002",
+    "tekion-fc8b32fd-7fa6-4a41-a7b8-85bcae2624bd",
+    "neuron7-9d4338a0-7d26-498b-af40-116a7e483cbe",
+    "juniper-square-63d688eb-d662-4c3f-8762-d14e63a1eb12",
+    "juniper-square-b3070449-9d0b-4620-9e85-d440ea26cc5b",
+    "azodha-5105884",
+    "flomobility-5105919",
+    "cloudesign-technology-solutions-5105646",
+    "arctic-wolf-r26-987",
+    "geniex-5101370",
+    "geniex-5101369",
+    "runsurf-5101660",
+    "runsurf-5101658",
+    "onetrust-8380548",
+    "arctic-wolf-r26-1250",
+    "arctic-wolf-r26-1142",
+    "cohesity-r05095",
+    "icertis-7664",
+    "isomorph-ai-5081936",
+    "isomorph-ai-5081935",
+    "isomorph-ai-5081934",
+    "isomorph-ai-5081933",
+    "isomorph-ai-5081931",
+    "swift-5077918",
+    "cohesity-r04736",
+    "arctic-wolf-r26-1075",
+    "cohesity-r02376",
+    "fortanix-99549ef3c5",
+    "octavolab-5008585",
+    "navtech-4969995",
+    "navtech-4969987",
+    "onetrust-8327115",
+    "cohesity-r04941",
+    "arctic-wolf-r26-1181",
+    "aktoria-robotics-119343",
+    "stripe-8130876",
+    "cohesity-r05092",
+    "apna-896fa981a4",
+    "apna-b5820bba78",
+    "loopr-ai-4897494",
+    "browserstack-jr103661",
+    "arctic-wolf-r26-1074",
+    "leena-ai-68d93daef4",
+    "aktoria-robotics-118749",
+    "8th-element-digital-4895656",
+    "icertis-7767",
+    "koireader-technologies-4872315",
+    "instawork-4719664006",
+    "cohesity-r03690",
+    "icertis-7806"
+  ],
+  "updated_ids": [],
+  "new_companies": [
+    "8th Element Digital",
+    "Aktoria Robotics",
+    "Apna",
+    "Arctic Wolf",
+    "BrowserStack",
+    "Cloudesign Technology Solutions",
+    "Cohesity",
+    "Fortanix",
+    "Icertis",
+    "Instawork",
+    "Isomorph AI",
+    "KoiReader Technologies",
+    "Leena AI",
+    "Lynx Analytics",
+    "Navtech",
+    "OneTrust",
+    "Runsurf",
+    "genieX"
+  ],
+  "companies_in_batch": [
+    "8th Element Digital",
+    "Aktoria Robotics",
+    "Apna",
+    "Arctic Wolf",
+    "Azodha",
+    "BrowserStack",
+    "Cloudesign Technology Solutions",
+    "Cohesity",
+    "FloMobility",
+    "Fortanix",
+    "Icertis",
+    "Instawork",
+    "Isomorph AI",
+    "Juniper Square",
+    "KoiReader Technologies",
+    "Leena AI",
+    "Loopr AI",
+    "Lynx Analytics",
+    "Navtech",
+    "Neuron7",
+    "OCTAVOLAB",
+    "OneTrust",
+    "Runsurf",
+    "Stripe",
+    "Swift",
+    "Tekion",
+    "genieX"
+  ],
+  "employers_in_batch": 27,
+  "active_companies": 131,
+  "added_count": 50,
+  "posted_on_run_date": 8,
+  "salary_outcomes": {
+    "Not established": 25,
+    "Company benchmark": 9,
+    "India market estimate": 2,
+    "Employer published": 14
+  },
+  "additions_by_source": {
+    "greenhouse": 5,
+    "ashby": 3,
+    "lever": 1,
+    "workday": 13,
+    "workable": 4,
+    "oracle": 3,
+    "yc": 2,
+    "wellfound": 19
+  },
+  "total": 267,
+  "active": 267,
+  "target_met": true,
+  "completed_at": "2026-11-19T15:39:59.118954+00:00",
+  "initial_search": {
+    "since": "2026-11-18T13:50:14.406014+00:00",
+    "until": "2026-11-19T14:54:37.808474+00:00"
+  },
+  "expanded_window": {
+    "start": "2026-10-19",
+    "end": "2026-11-19",
+    "reason": "The interval since the previous completed search yielded fewer than 50 qualifying new postings."
+  },
+  "dated_recent_ids": [
+    "lynx-analytics-8873951002",
+    "tekion-fc8b32fd-7fa6-4a41-a7b8-85bcae2624bd",
+    "neuron7-9d4338a0-7d26-498b-af40-116a7e483cbe",
+    "juniper-square-63d688eb-d662-4c3f-8762-d14e63a1eb12",
+    "juniper-square-b3070449-9d0b-4620-9e85-d440ea26cc5b",
+    "azodha-5105884",
+    "flomobility-5105919",
+    "cloudesign-technology-solutions-5105646",
+    "arctic-wolf-r26-987",
+    "geniex-5101370",
+    "geniex-5101369",
+    "runsurf-5101660",
+    "runsurf-5101658",
+    "onetrust-8380548",
+    "arctic-wolf-r26-1250",
+    "arctic-wolf-r26-1142",
+    "cohesity-r05095",
+    "icertis-7664",
+    "isomorph-ai-5081936",
+    "isomorph-ai-5081935",
+    "isomorph-ai-5081934",
+    "isomorph-ai-5081933",
+    "isomorph-ai-5081931",
+    "swift-5077918",
+    "cohesity-r04736",
+    "arctic-wolf-r26-1075",
+    "cohesity-r02376",
+    "fortanix-99549ef3c5",
+    "octavolab-5008585",
+    "navtech-4969995",
+    "navtech-4969987",
+    "onetrust-8327115",
+    "cohesity-r04941",
+    "arctic-wolf-r26-1181",
+    "aktoria-robotics-119343",
+    "stripe-8130876",
+    "cohesity-r05092",
+    "apna-896fa981a4",
+    "apna-b5820bba78",
+    "loopr-ai-4897494",
+    "browserstack-jr103661",
+    "arctic-wolf-r26-1074",
+    "leena-ai-68d93daef4",
+    "aktoria-robotics-118749",
+    "8th-element-digital-4895656",
+    "icertis-7767",
+    "koireader-technologies-4872315",
+    "instawork-4719664006",
+    "cohesity-r03690",
+    "icertis-7806"
+  ],
+  "undated_discovery_ids": [],
+  "flagged_existing_ids": [],
+  "new_company_logos": 18,
+  "sources_searched": [
+    {
+      "source": "LinkedIn",
+      "url": "https://in.linkedin.com/jobs/startup-engineer-jobs-bengaluru",
+      "checked_on": "2026-11-19",
+      "outcome": "Reviewed startup searches and public employer job pages, including Isomorph AI. Cross-checked the employer identities and direct applications."
+    },
+    {
+      "source": "Wellfound",
+      "url": "https://wellfound.com/location/bangalore",
+      "checked_on": "2026-11-19",
+      "outcome": "Searched employer boards and role/city combinations. Reviewed native employer listings for datePosted, hiring geography, employment type, pay and repost or closure notices."
+    },
+    {
+      "source": "Y Combinator",
+      "url": "https://www.ycombinator.com/jobs/role/software-engineer/new-delhi",
+      "checked_on": "2026-11-19",
+      "outcome": "Reviewed employer-written jobs in India including Aktoria Robotics. Public requests returning HTTP 429 were left unverified."
+    },
+    {
+      "source": "Instahyre",
+      "url": "https://help.instahyre.com/en/article/explore-matching-opportunities-1s98q42/",
+      "checked_on": "2026-11-19",
+      "outcome": "Job discovery did not yield independently verifiable public requisitions. Its published India automation engineer salary guide supported two benchmarks."
+    },
+    {
+      "source": "Naukri",
+      "url": "https://www.naukri.com/artificial-intelligence-jobs",
+      "checked_on": "2026-11-19",
+      "outcome": "Public job search was blocked by robots restrictions."
+    },
+    {
+      "source": "Himalayas",
+      "url": "https://himalayas.app/jobs/countries/india/ai-platform-engineer",
+      "checked_on": "2026-11-19",
+      "outcome": "Remote-India search reviewed. Mirrors were checked against employer sources."
+    },
+    {
+      "source": "Remotive",
+      "url": "https://remotive.com/remote/jobs/software-development/software-engineer-ii-6553668",
+      "checked_on": "2026-11-19",
+      "outcome": "Remote engineering listings reviewed as leads. No additional qualifying independent opening attributed to this source."
+    },
+    {
+      "source": "Remote OK",
+      "url": "https://remoteok.com/remote-jobs/remote-qa-engineer-iii-interface-ai-1069574",
+      "checked_on": "2026-11-19",
+      "outcome": "Reviewed remote engineering leads and checked geography and canonical employer postings."
+    },
+    {
+      "source": "Cutshort",
+      "url": "https://cutshort.io/jobs/startup-jobs-in-bangalore-bengaluru",
+      "checked_on": "2026-11-19",
+      "outcome": "Reviewed startup engineering listings. Unidentified client and unverified employer leads were excluded."
+    },
+    {
+      "source": "Greenhouse",
+      "url": "https://boards-api.greenhouse.io/v1/boards/lynxanalytics/jobs?content=true",
+      "checked_on": "2026-11-19",
+      "outcome": "Employer job boards and first_published dates."
+    },
+    {
+      "source": "Ashby",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/tekion?includeCompensation=true",
+      "checked_on": "2026-11-19",
+      "outcome": "Listed roles, publishedAt and primary/secondary India locations."
+    },
+    {
+      "source": "Lever",
+      "url": "https://api.lever.co/v0/postings/neuron7?mode=json",
+      "checked_on": "2026-11-19",
+      "outcome": "Current postings and original creation date, compared with historical evidence."
+    },
+    {
+      "source": "Workday",
+      "url": "https://cohesity.wd5.myworkdayjobs.com/wday/cxs/cohesity/cohesity_careers/job/Bangalore---India-Office/Senior-Manager---Software-Engineering_R05095-1",
+      "checked_on": "2026-11-19",
+      "outcome": "Employer job detail, canApply and public JobPosting.datePosted compared against startDate."
+    },
+    {
+      "source": "Workable",
+      "url": "https://apply.workable.com/api/v2/accounts/fortanix/jobs/99549EF3C5",
+      "checked_on": "2026-11-19",
+      "outcome": "External published job state, published field, location and department."
+    },
+    {
+      "source": "Oracle Recruiting",
+      "url": "https://iaaviz.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=CX_1,limit=50",
+      "checked_on": "2026-11-19",
+      "outcome": "Public external requisitions for Icertis were checked against role pages, location and original posted date."
+    },
+    {
+      "source": "Rippling",
+      "url": "https://www.rippling.com/careers/open-roles",
+      "checked_on": "2026-11-19",
+      "outcome": "Reviewed public search and detail records. No additional distinct, eligible in-window role from this pass."
+    },
+    {
+      "source": "Keka",
+      "url": "https://skanai.keka.com/careers/api/embedjobs/default/active/d83629ac-cbae-4575-a5b0-a6e0e556f459",
+      "checked_on": "2026-11-19",
+      "outcome": "Reviewed Indian employer boards. No additional distinct, in-scope technical opening qualified."
+    }
+  ],
+  "deduplication": "Compared stable requisitions, normalized applications, prior source evidence, and employer/title/location against 217 original rows and 185 archived listings. Reviewed closely related requisitions using title, team, employment type and responsibilities.",
+  "excluded": [
+    {
+      "candidate": "https://wellfound.com/jobs/5101345-software-engineer-product",
+      "company": "Commenda",
+      "reason": "The original employer page dates the opening to 8 October, outside the window. The later Wellfound date is a mirror.",
+      "evidence": "https://www.commenda.io/careers/software-engineer-product"
+    },
+    {
+      "candidate": "https://wellfound.com/jobs/4982389-product-engineer-full-stack-ic-india",
+      "company": "Springboard",
+      "reason": "The employer first published the same requisition on 23 September, before the cutoff.",
+      "evidence": "https://boards-api.greenhouse.io/v1/boards/springboardmentors/jobs/6206300004"
+    },
+    {
+      "candidate": "https://wellfound.com/jobs/5105960-firmware-engineer-clone",
+      "company": "FloMobility",
+      "reason": "Posted as an internship on Wellfound, but the employer describes this firmware vacancy as a full-time engineer with the same duties and experience as the existing vacancy.",
+      "evidence": "https://flomobility.com/careers/"
+    },
+    {
+      "candidate": "https://www.ycombinator.com/companies/clinikally/jobs/CZN0FqX-devops-intern",
+      "company": "Clinikally",
+      "reason": "The employer advertises Gurugram, but the YC application specifies US citizenship or visa. Excluded due to conflicting eligibility."
+    },
+    {
+      "candidate": "https://browserstack.wd3.myworkdayjobs.com/External/job/Mumbai-Remote/Engineering-Manager_JR103751",
+      "company": "BrowserStack",
+      "reason": "Mumbai remote version repeats the India-remote management requisition and responsibilities."
+    },
+    {
+      "candidate": "https://wellfound.com/jobs/4995496-senior-software-engineer-applied-ai",
+      "company": "Superclaims",
+      "reason": "Acquisition by ekincare makes the employer ineligible."
+    },
+    {
+      "candidate": "https://jobs.lever.co/gohighlevel/01aa8ff3-d250-40a1-89e2-5341f66f1a36",
+      "company": "HighLevel",
+      "reason": "Technical support is the primary function."
+    },
+    {
+      "candidate": "https://jobs.lever.co/Sprinto/e93a9b23-2136-4d16-8bf7-7f6a5d474f61",
+      "company": "Sprinto",
+      "reason": "Possible repost of an archived remote senior full-stack vacancy."
+    },
+    {
+      "candidate": "https://www.anthropic.com/careers",
+      "company": "Anthropic",
+      "reason": "Public company as of this run."
+    }
+  ],
+  "validation": {
+    "npm_run_check": "26 tests passed. CSV validation and static build passed with 267 active jobs of 267 total.",
+    "production_build": "Production build with the public site URL succeeded. All 50 new job paths appear in the generated sitemap.",
+    "salary_and_sources": "All 50 new rows matched their source and salary records. All original CSV rows were preserved. Each canonical application is unique and all new logos are valid PNGs.",
+    "browser": "Repository browser and accessibility checks passed. All 50 new cards, employer links, logos and detail pages were checked at 1440 and 390 pixels.",
+    "git_diff_check": "Passed."
+  },
+  "publication_status": "Validated for the existing GitHub Pages workflow on development-2. The deployment associated with this commit records publication status."
+}

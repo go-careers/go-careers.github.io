@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16",
+  "checked_at": "2026-11-19",
   "note": "Official company icons or recruiting-page logos, stored locally for job-listing identification. Trademarks belong to their respective owners.",
   "logos": [
     {
@@ -1046,6 +1046,168 @@
       "checked_at": "2026-11-18",
       "retrieved_at": "2026-11-18T13:32:20.222535+00:00",
       "original_sha256": "09e440e150fe5cb9a23019e74cf5012374ee22d2b59c56285af217ea8fa8c3fa"
+    },
+    {
+      "company": "8th Element Digital",
+      "page": "https://wellfound.com/company/8th-element-digital",
+      "url": "https://photos.wellfound.com/startups/i/10650489-2d170ffe9e6d48f72b1c8a1253a6e652-medium_jpg.jpg?buster=1755502019",
+      "file": "8th-element-digital.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:34:54.779515+00:00",
+      "original_sha256": "84ba4e7631fbfc1983b79fd955dbc73af39997624956b55b1071ff816326443a"
+    },
+    {
+      "company": "Aktoria Robotics",
+      "page": "https://www.ycombinator.com/companies/aktoria-robotics/jobs/zzhX0Kl-data-infrastructure-engineer",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/87a10d62adb927072657a9be3281af92a78ab9c6.png",
+      "file": "aktoria-robotics.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:46.117066+00:00",
+      "original_sha256": "ab0a22def374a1459439b94619cc9fa0704f1ee71eff1dcfb2e50ae356d0508d"
+    },
+    {
+      "company": "Apna",
+      "page": "https://apply.workable.com/apna/j/B5820BBA78/",
+      "url": "https://apna.co/favicon.ico",
+      "file": "apna.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:47.393291+00:00",
+      "original_sha256": "83910d654cb345220ce673d28d03f9d9bf423af92d1f75bfc39dcd0fdba2e0a8"
+    },
+    {
+      "company": "Arctic Wolf",
+      "page": "https://arcticwolf.com/",
+      "url": "https://arcticwolf.com/wp-content/uploads/2019/11/aw-favicon-rebrand.png",
+      "file": "arctic-wolf.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:28:09.157466+00:00",
+      "original_sha256": "79c460f284b66f805c79b0f83da8e625b8ed4fb25fbbbbee619d6861497c460e"
+    },
+    {
+      "company": "BrowserStack",
+      "page": "https://browserstack.wd3.myworkdayjobs.com/External/job/India-Remote/Engineering-Manager_JR103661",
+      "url": "https://browserstack.wd3.myworkdayjobs.com/wday/cxs/browserstack/External/sidebarimage/879963865bf310015479e545bfdb0000",
+      "file": "browserstack.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:46.022512+00:00",
+      "original_sha256": "6b397fa56ef8844ecd1995724ef3bf1c65690c17f61f75601dbac9886b30d145"
+    },
+    {
+      "company": "Cloudesign Technology Solutions",
+      "page": "https://wellfound.com/company/cloudesign-technology-solutions",
+      "url": "https://photos.wellfound.com/startups/i/6322288-86fcac0be5831759879bae54476cc830-medium_jpg.jpg?buster=1537242808",
+      "file": "cloudesign-technology-solutions.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:44.640670+00:00",
+      "original_sha256": "b92fea9213d3ea85346729f43cdfbe9b8420fe7604dda64c9e381399dfb88000"
+    },
+    {
+      "company": "Cohesity",
+      "page": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Pune---Panchshil---India-Office/Member-of-Technical-Staff---MTS-4_R04941",
+      "url": "https://cohesity.wd5.myworkdayjobs.com/wday/cxs/cohesity/cohesity_careers/sidebarimage/87c71c27098b10015cb0e0ecb2b70000",
+      "file": "cohesity.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:46.084926+00:00",
+      "original_sha256": "aaa685a161065cfff672969b25c925c64ba081678df4627f2d4ed535b34d8d30"
+    },
+    {
+      "company": "Fortanix",
+      "page": "https://apply.workable.com/fortanix/j/99549EF3C5/",
+      "url": "https://www.fortanix.com/favicon.ico",
+      "file": "fortanix.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:47.909673+00:00",
+      "original_sha256": "f5c142277296b1553d6e68ea2230e4c88f7b88ea415d4a6b21b295b7f61eb1c4"
+    },
+    {
+      "company": "genieX",
+      "page": "https://wellfound.com/company/geniexdev",
+      "url": "https://photos.wellfound.com/startups/i/9949757-dcaf10873f9b055122ca9e99232a08ef-medium_jpg.jpg?buster=1741780918",
+      "file": "geniex.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:44.641302+00:00",
+      "original_sha256": "f2a7361c1d046f5a0b048497e26b8822e103537f246f4a604d40fbc9d2238b03"
+    },
+    {
+      "company": "Icertis",
+      "page": "https://www.icertis.com/",
+      "url": "https://www.icertis.com/static/images/apple-touch-icon.png",
+      "file": "icertis.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:28:09.156954+00:00",
+      "original_sha256": "743602128fbcc6192f4832c77dcec6612cb4155e5d09061925899ca10485de0b"
+    },
+    {
+      "company": "Instawork",
+      "page": "https://www.instawork.com/",
+      "url": "https://cdn.prod.website-files.com/63fd26f2fd0da53e0276079c/647e2794ec611bef8c055ebd_IW-favicon-white-grey-256x256.png",
+      "file": "instawork.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:28:09.157300+00:00",
+      "original_sha256": "37d59df8cd294b3a22c6bd950b2dc9c84c64fb003a3073077e930b5c9a53e4ab"
+    },
+    {
+      "company": "Isomorph AI",
+      "page": "https://wellfound.com/company/isomorph-ai",
+      "url": "https://photos.wellfound.com/startups/i/11424596-b0687422aa3f282db5343c9ac5b2fa4d-medium_jpg.jpg?buster=1794765083",
+      "file": "isomorph-ai.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:45.882220+00:00",
+      "original_sha256": "3eb15a7731dd466d291cd9b441c908a0b55cb5d258daffab775d30080fefc3f5"
+    },
+    {
+      "company": "KoiReader Technologies",
+      "page": "https://wellfound.com/company/koireader",
+      "url": "https://photos.wellfound.com/startups/i/7211002-309b3e551cdc905f1a7bc21689c2e657-medium_jpg.jpg?buster=1604398576",
+      "file": "koireader-technologies.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:45.896209+00:00",
+      "original_sha256": "3d75df3e607bba84ab0355e01db74db400d9dccacb5d71a291575c5266e2b625"
+    },
+    {
+      "company": "Leena AI",
+      "page": "https://apply.workable.com/leena-ai/j/68D93DAEF4/",
+      "url": "https://leena.ai/favicon.ico",
+      "file": "leena-ai.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:47.511667+00:00",
+      "original_sha256": "f4527c523d0140b3a082c4f6e1246cc35547ce5c20c095977286834ae02544a9"
+    },
+    {
+      "company": "Lynx Analytics",
+      "page": "https://www.lynxanalytics.com/",
+      "url": "https://www.lynxanalytics.com/hubfs/Lynx-scratch-fullcolour-web-500px.png",
+      "file": "lynx-analytics.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:28:09.638760+00:00",
+      "original_sha256": "6885d4b3369f7e30bcd6002f25c4510af1e04b5f58bc53d920e52454dedf97b4"
+    },
+    {
+      "company": "Navtech",
+      "page": "https://wellfound.com/company/navtech-solutions",
+      "url": "https://photos.wellfound.com/startups/i/1146602-855aae95ec4bdbe5e578e08c0611a38a-medium_jpg.jpg?buster=1709632329",
+      "file": "navtech.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:34:54.779351+00:00",
+      "original_sha256": "bdb8cec963093e6affeeced72cbed6cf054f2501ecc244f0d2d048c31e1afcbb"
+    },
+    {
+      "company": "OneTrust",
+      "page": "https://job-boards.greenhouse.io/onetrust/jobs/8327115",
+      "url": "https://recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/000/007/943/original/ot-glassdoor-logo-256x256-black.png?1774273481",
+      "file": "onetrust.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:45.910225+00:00",
+      "original_sha256": "f841238e11457576df5b52e3f4bae27792222f316f9856660b2055477134a0c3"
+    },
+    {
+      "company": "Runsurf",
+      "page": "https://wellfound.com/company/runsurf",
+      "url": "https://photos.wellfound.com/startups/i/10996864-324f90eda1159980abb61ae753125ed5-medium_jpg.jpg?buster=1778837765",
+      "file": "runsurf.png",
+      "checked_at": "2026-11-19",
+      "retrieved_at": "2026-11-19T15:24:44.641435+00:00",
+      "original_sha256": "a2bcfe85c803aa40bda049723c8e1f984eacf36dfe11a6fa4934940e81f1096f"
     }
   ]
 }
