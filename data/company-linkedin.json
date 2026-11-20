@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19",
+  "checked_at": "2026-11-20",
   "method": "Company IDs extracted from the public LinkedIn company page's View all employees / See all employees link (facetCurrentCompany in the LinkedIn sign-in redirect). Company names and domains checked against the employer. No member profiles or connection data stored.",
   "companies": [
     {
@@ -1022,6 +1022,90 @@
       "company_id": "100919113",
       "source_url": "https://www.linkedin.com/company/runsurf",
       "checked_at": "2026-11-19"
+    },
+    {
+      "company": "Quantiphi",
+      "company_id": "3618960",
+      "source_url": "https://www.linkedin.com/company/quantiphi",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "Sigmoid",
+      "company_id": "3187479",
+      "source_url": "https://www.linkedin.com/company/sigmoid-analytics",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "Techdome",
+      "company_id": "77906147",
+      "source_url": "https://www.linkedin.com/company/techdome-solutions",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "Automation Anywhere",
+      "company_id": "208639",
+      "source_url": "https://www.linkedin.com/company/automation-anywhere",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "Firstwork",
+      "company_id": "102548470",
+      "source_url": "https://www.linkedin.com/company/firstworkhr",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "Atlys",
+      "company_id": "74370473",
+      "source_url": "https://www.linkedin.com/company/getatlys",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "GoKwik",
+      "company_id": "70901276",
+      "source_url": "https://www.linkedin.com/company/gokwik",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "Entropik",
+      "company_id": "7795723",
+      "source_url": "https://www.linkedin.com/company/entropiktech",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "CommerceIQ",
+      "company_id": "19177157",
+      "source_url": "https://www.linkedin.com/company/commerceiq",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "G-P",
+      "company_id": "2804770",
+      "source_url": "https://www.linkedin.com/company/globalization-partners",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "UptimeAI",
+      "company_id": "37484013",
+      "source_url": "https://www.linkedin.com/company/uptimeai-inc",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "ShyftLabs",
+      "company_id": "35719440",
+      "source_url": "https://www.linkedin.com/company/shyftlabs",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "ClickHouse",
+      "company_id": "80114151",
+      "source_url": "https://www.linkedin.com/company/clickhouseinc",
+      "checked_at": "2026-11-20"
+    },
+    {
+      "company": "JumpCloud",
+      "company_id": "3033823",
+      "source_url": "https://www.linkedin.com/company/jumpcloud",
+      "checked_at": "2026-11-20"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19",
+  "checked_at": "2026-11-20",
   "note": "Official company icons or recruiting-page logos, stored locally for job-listing identification. Trademarks belong to their respective owners.",
   "logos": [
     {
@@ -1208,6 +1208,132 @@
       "checked_at": "2026-11-19",
       "retrieved_at": "2026-11-19T15:24:44.641435+00:00",
       "original_sha256": "a2bcfe85c803aa40bda049723c8e1f984eacf36dfe11a6fa4934940e81f1096f"
+    },
+    {
+      "company": "Quantiphi",
+      "file": "quantiphi.png",
+      "page": "https://quantiphi.com/",
+      "url": "https://quantiphi.com/favicon.ico",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:03.825995+00:00",
+      "source_sha256": "6f0287bdd1efcd6a21523e88af502f4b3821eda6ed200c5c7e5ae2fad2dc545c"
+    },
+    {
+      "company": "Sigmoid",
+      "file": "sigmoid.png",
+      "page": "https://job-boards.greenhouse.io/sigmoid/jobs/8011986002",
+      "url": "https://s2-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/498/200/original/Logo.png?1744028118",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:03.826288+00:00",
+      "source_sha256": "56aadaa6adbbc5f94c2aa4ff2ad869df786e769925215ca3b6d84749b1f82140"
+    },
+    {
+      "company": "Techdome",
+      "file": "techdome.png",
+      "page": "https://techdome.io/",
+      "url": "https://techdome.io/favicon.ico",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:04.362521+00:00",
+      "source_sha256": "b1081a544b8480ad37b40b7e7b4c1ba8d2f9c0ecff86d055859f263e00bb5bdb"
+    },
+    {
+      "company": "Automation Anywhere",
+      "file": "automation-anywhere.png",
+      "page": "https://www.automationanywhere.com/",
+      "url": "https://www.automationanywhere.com/themes/custom/aai_cohesion/favicon.ico",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:06:08.753458+00:00",
+      "source_sha256": "2c8e5983865776145c10a020ac00cc6c157bc3693ad58a5ea99881aa4bfe322c"
+    },
+    {
+      "company": "Firstwork",
+      "file": "firstwork.png",
+      "page": "https://www.firstwork.com/",
+      "url": "https://cdn.prod.website-files.com/6796783f35faa4c61a224a54/679b70c8cba222367b36709b_webclip.png",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:06:08.753844+00:00",
+      "source_sha256": "600baeb706c7ea102b1f140af1214deae82be86c32e69a81e9360e8a1f7a7e3f"
+    },
+    {
+      "company": "Atlys",
+      "file": "atlys.png",
+      "page": "https://www.atlys.com/",
+      "url": "https://www.atlys.com/favicon.ico",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:07.699769+00:00",
+      "source_sha256": "f9123ef2891c0646ff6e88f4532458df79b2fa88ac7ff699bcec239e4cf5017d"
+    },
+    {
+      "company": "GoKwik",
+      "file": "gokwik.png",
+      "page": "https://www.gokwik.co/",
+      "url": "https://www.gokwik.co/favicon.ico",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:08.531161+00:00",
+      "source_sha256": "55ebbb6db9ec0b72da1581cda4b10d78d5ef64520d6000905146942e92a17cf0"
+    },
+    {
+      "company": "Entropik",
+      "file": "entropik.png",
+      "page": "https://www.askdecode.ai/",
+      "url": "https://framerusercontent.com/images/euyijiVKkzzAcBo1MAaJ67TTOc.png",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:06:08.754006+00:00",
+      "source_sha256": "368dc789f932214a501ea2cfb27b5559009aa290ed6716ae076531220ea8fddd"
+    },
+    {
+      "company": "CommerceIQ",
+      "file": "commerceiq.png",
+      "page": "https://www.commerceiq.ai/",
+      "url": "https://www.commerceiq.ai/favicon.ico",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:09.560253+00:00",
+      "source_sha256": "51cdea4ed4e65d3b77f95b5c4c47ffc1cf22a372f1dbbbd79d5d400d91eb0480"
+    },
+    {
+      "company": "G-P",
+      "file": "g-p.png",
+      "page": "https://job-boards.greenhouse.io/globalizationpartners/jobs/8164387003",
+      "url": "https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/095/700/original/Logo_1024x512-01.png?1670837777",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:09.985006+00:00",
+      "source_sha256": "2972363ac4e0a233b3938a01ff011205fca3aa3d4ed4a879aac6a2fc892c1dd3"
+    },
+    {
+      "company": "UptimeAI",
+      "file": "uptimeai.png",
+      "page": "https://www.emergent.vc/portfolio",
+      "url": "https://cdn.prod.website-files.com/67e4727d71f266db29d757fc/67e4727d71f266db29d7595e_uptimeai.png",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:07:05.021539+00:00",
+      "source_sha256": "5a30b736427883e8dbb642c0f006e051aab9040284171ede312fba807516cf80"
+    },
+    {
+      "company": "ShyftLabs",
+      "file": "shyftlabs.png",
+      "page": "https://jobs.lever.co/shyftlabs/75e1eb51-c562-4f01-a029-1a8823a16b4a",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/e51a226b-a430-49c3-951a-828fb3a7fe71-1789073494110.png",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:10.536635+00:00",
+      "source_sha256": "2020af4e0ab5d238b804f77ae91b9fff67024fd3c0ec18ef0286393e12cbd308"
+    },
+    {
+      "company": "ClickHouse",
+      "file": "clickhouse.png",
+      "page": "https://clickhouse.com/",
+      "url": "https://clickhouse.com/favicon.ico",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:12.166183+00:00",
+      "source_sha256": "ce0f67af88dd9b66e67d7d16d2ca534dfa89f525d5de3a351ae3f726038bf346"
+    },
+    {
+      "company": "JumpCloud",
+      "file": "jumpcloud.png",
+      "page": "https://jobs.lever.co/jumpcloud/5021c758-9273-43f3-ac21-8d1b4fdb57fa",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/a5feea54-1a7d-49fa-8277-e069a70ed94f-1659388147688.png",
+      "checked_at": "2026-11-20",
+      "retrieved_at": "2026-11-20T16:03:13.242686+00:00",
+      "source_sha256": "3bcd821030051afcb99880a663127d27e12303b614d5e3ca02871150bad1e5f0"
     }
   ]
 }

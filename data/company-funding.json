@@ -1,6 +1,6 @@
 {
   "policy": "Independent private startups at any funding stage. Public, acquired and unverified-ownership employers are excluded. A named financing round is background evidence, not a maximum stage. Undisclosed means no current named round established in the reviewed evidence.",
-  "checked_at": "2026-11-19",
+  "checked_at": "2026-11-20",
   "companies": [
     {
       "company": "Onehouse",
@@ -26,10 +26,25 @@
     {
       "company": "JumpCloud",
       "stage": "Series F",
-      "eligible": false,
+      "eligible": true,
       "round_date": "2021-10-19",
-      "source_url": "https://jumpcloud.com/press/seriesFclose",
-      "note": "Already beyond the Series C ceiling."
+      "source_url": "https://jumpcloud.com/press/seriesfclose",
+      "additional_sources": [
+        "https://jumpcloud.com/company"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Independent cloud directory vendor backed by the participants in its Series F financing.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/jumpcloud",
+          "https://jumpcloud.com/press/seriesfclose",
+          "https://jumpcloud.com/company"
+        ],
+        "note": "Independent cloud directory vendor backed by the participants in its Series F financing."
+      }
     },
     {
       "company": "Mindtickle",
@@ -1203,12 +1218,12 @@
         "https://www.fivetran.com/press/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents",
         "https://www.getdbt.com/blog/fivetran-and-dbt-are-one-company-now-here-s-what-that-means"
       ],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-20",
       "note": "Fivetran and dbt Labs completed their merger in June 2026. Fivetran is the continuing private combined operating company, not an acquired subsidiary of a public employer. The old round is not represented as the latest combined-company financing.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-20",
         "sources": [
           "https://www.linkedin.com/company/fivetran",
           "https://www.fivetran.com/press/fivetran-dbt-labs-complete-merger-to-create-the-data-infrastructure-for-trusted-ai-agents",
@@ -2354,12 +2369,12 @@
       "additional_sources": [
         "https://abnormal.ai/newsroom/press-releases"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-20",
       "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-20",
         "sources": [
           "https://www.linkedin.com/company/abnormal-ai",
           "https://abnormal.ai/newsroom/press-releases/series-d-5b-valuation",
@@ -2540,12 +2555,12 @@
       "additional_sources": [
         "https://www.gohighlevel.com/about-us/"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-20",
       "note": "General Atlantic joined as a growth investor. The announcement does not assign a Series letter.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-20",
         "sources": [
           "https://www.linkedin.com/company/highlevel",
           "https://www.gohighlevel.com/post/general-atlantic-joins-highlevel",
@@ -2842,12 +2857,12 @@
       "additional_sources": [
         "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-the-closing-of-a-401-million-convertible-notes-offering/"
       ],
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-20",
       "note": "The named Series F preceded a convertible note offering.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-19",
+        "checked_at": "2026-11-20",
         "sources": [
           "https://www.linkedin.com/company/arctic-wolf-networks",
           "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-150-million-series-f-financing-round/",
@@ -3164,6 +3179,305 @@
           "https://wellfound.com/company/runsurf"
         ],
         "note": "The employer uses Surf and Runsurf and identifies its founders and operating business. No named funding round was established."
+      }
+    },
+    {
+      "company": "Quantiphi",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://quantiphi.com/media-releases/global-ai-solutions-provider-quantiphi-raises-usd-20-million-investment-from-multiples-alternate-asset-management/",
+      "additional_sources": [
+        "https://www.cci.gov.in/images/summaryorders/en/summary1740028336.pdf"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Multiples invested in the founder-led operating company. The later notified transaction transferred the investor holding between affiliated funds.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/quantiphi",
+          "https://quantiphi.com/media-releases/global-ai-solutions-provider-quantiphi-raises-usd-20-million-investment-from-multiples-alternate-asset-management/",
+          "https://www.cci.gov.in/images/summaryorders/en/summary1740028336.pdf"
+        ],
+        "note": "Multiples invested in the founder-led operating company. The later notified transaction transferred the investor holding between affiliated funds."
+      }
+    },
+    {
+      "company": "Sigmoid",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://techcrunch.com/2022/09/14/sigmoid-sequoia-capital-india-series-b-funding/?rand=23331",
+      "additional_sources": [
+        "https://www.sigmoid.com/"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Sequoia Capital India funded the independent data engineering and analytics business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/sigmoid-analytics",
+          "https://techcrunch.com/2022/09/14/sigmoid-sequoia-capital-india-series-b-funding/?rand=23331",
+          "https://www.sigmoid.com/"
+        ],
+        "note": "Sequoia Capital India funded the independent data engineering and analytics business."
+      }
+    },
+    {
+      "company": "Techdome",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://techdome.io/about",
+      "additional_sources": [
+        "https://www.zaubacorp.com/TECHDOME-SOLUTIONS-PRIVATE-LIMITED-U72900MP2020PTC053008"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Founder-led Indian private software company established in 2020. A named financing round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/techdome-solutions",
+          "https://techdome.io/about",
+          "https://www.zaubacorp.com/TECHDOME-SOLUTIONS-PRIVATE-LIMITED-U72900MP2020PTC053008"
+        ],
+        "note": "Founder-led Indian private software company established in 2020. A named financing round was not established."
+      }
+    },
+    {
+      "company": "Automation Anywhere",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.automationanywhere.com/company/press-room/automation-anywhere-announces-290-million-in-series-b-financing",
+      "additional_sources": [
+        "https://www.automationanywhere.com/company/about-us"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Independent privately financed automation software vendor. Series B is the latest named round supported here.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/automation-anywhere",
+          "https://www.automationanywhere.com/company/press-room/automation-anywhere-announces-290-million-in-series-b-financing",
+          "https://www.automationanywhere.com/company/about-us"
+        ],
+        "note": "Independent privately financed automation software vendor. Series B is the latest named round supported here."
+      }
+    },
+    {
+      "company": "Firstwork",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.firstwork.com/post/firstwork-raises-15m-series-a-to-scale-applied-ai-for-frontline-workforce-operations",
+      "additional_sources": [
+        "https://www.ycombinator.com/companies/firstwork"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Founder-led workforce software startup. The company announced its Series A for applied AI in workforce operations.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/firstworkhr",
+          "https://www.firstwork.com/post/firstwork-raises-15m-series-a-to-scale-applied-ai-for-frontline-workforce-operations",
+          "https://www.ycombinator.com/companies/firstwork"
+        ],
+        "note": "Founder-led workforce software startup. The company announced its Series A for applied AI in workforce operations."
+      }
+    },
+    {
+      "company": "Atlys",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.atlys.com/ar-SA/newsroom",
+      "additional_sources": [
+        "https://www.atlys.com/en-US/newsroom"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "The employer newsroom records the March 2026 Series C led by Susquehanna Asia VC.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/getatlys",
+          "https://www.atlys.com/ar-SA/newsroom",
+          "https://www.atlys.com/en-US/newsroom"
+        ],
+        "note": "The employer newsroom records the March 2026 Series C led by Susquehanna Asia VC."
+      }
+    },
+    {
+      "company": "GoKwik",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://rtp.vc/gokwik-series-growth-round-raise-2025/",
+      "additional_sources": [
+        "https://techcrunch.com/2025/06/24/indias-gokwik-raised-a-small-13m-round-for-a-hefty-leap-in-valuation/"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Independent commerce software startup. Its investor describes the later financing as a growth round following Series B.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/gokwik",
+          "https://rtp.vc/gokwik-series-growth-round-raise-2025/",
+          "https://techcrunch.com/2025/06/24/indias-gokwik-raised-a-small-13m-round-for-a-hefty-leap-in-valuation/"
+        ],
+        "note": "Independent commerce software startup. Its investor describes the later financing as a growth round following Series B."
+      }
+    },
+    {
+      "company": "Entropik",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.askdecode.ai/llm-info",
+      "additional_sources": [
+        "https://www.inflexor.vc/portfolio/entropik"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Entropik operates Decode. Employer and investor identify the independently financed research technology business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/entropiktech",
+          "https://www.askdecode.ai/llm-info",
+          "https://www.inflexor.vc/portfolio/entropik"
+        ],
+        "note": "Entropik operates Decode. Employer and investor identify the independently financed research technology business."
+      }
+    },
+    {
+      "company": "CommerceIQ",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.commerceiq.ai/press-releases/commerceiq-secures-115-million-investment-from-softbank-vision-fund-2-at-unicorn-valuation-to-revolutionize-retail-ecommerce-management",
+      "additional_sources": [
+        "https://www.commerceiq.ai/"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Founder-led commerce software company backed by SoftBank Vision Fund 2 and existing venture investors.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/commerceiq",
+          "https://www.commerceiq.ai/press-releases/commerceiq-secures-115-million-investment-from-softbank-vision-fund-2-at-unicorn-valuation-to-revolutionize-retail-ecommerce-management",
+          "https://www.commerceiq.ai/"
+        ],
+        "note": "Founder-led commerce software company backed by SoftBank Vision Fund 2 and existing venture investors."
+      }
+    },
+    {
+      "company": "G-P",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.globalization-partners.com/news/globalization-partners-closes-150-million-minority-investment/",
+      "additional_sources": [
+        "https://www.vistaequitypartners.com/news/globalization-partners-the-leading-global-employment-platform-raises-200-million-to-fund-continued-growth/"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Globalization Partners identifies minority equity financing and subsequent growth financing from Vista Credit Partners. No controlling sale or named series was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/globalization-partners",
+          "https://www.globalization-partners.com/news/globalization-partners-closes-150-million-minority-investment/",
+          "https://www.vistaequitypartners.com/news/globalization-partners-the-leading-global-employment-platform-raises-200-million-to-fund-continued-growth/"
+        ],
+        "note": "Globalization Partners identifies minority equity financing and subsequent growth financing from Vista Credit Partners. No controlling sale or named series was established."
+      }
+    },
+    {
+      "company": "UptimeAI",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.uptimeai.com/resources/abb-partnership-with-uptimeai/",
+      "additional_sources": [
+        "https://www.emergent.vc/portfolio"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Privately financed industrial AI startup. ABB Motion Ventures describes its strategic investment and partnership after the Series A.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/uptimeai-inc",
+          "https://www.uptimeai.com/resources/abb-partnership-with-uptimeai/",
+          "https://www.emergent.vc/portfolio"
+        ],
+        "note": "Privately financed industrial AI startup. ABB Motion Ventures describes its strategic investment and partnership after the Series A."
+      }
+    },
+    {
+      "company": "ShyftLabs",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://shyftlabs.io/legal/terms-of-use",
+      "additional_sources": [
+        "https://www.shyftlabs.io/about-us"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Founder-led private data engineering and AI business. A named round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/shyftlabs",
+          "https://shyftlabs.io/legal/terms-of-use",
+          "https://www.shyftlabs.io/about-us"
+        ],
+        "note": "Founder-led private data engineering and AI business. A named round was not established."
+      }
+    },
+    {
+      "company": "ClickHouse",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://clickhouse.com/blog/clickhouse-raises-400-million-series-d-acquires-langfuse-launches-postgres?loc=banner",
+      "additional_sources": [
+        "https://clickhouse.com/company/news"
+      ],
+      "checked_at": "2026-11-20",
+      "note": "Independent database software company. The employer documents its Series D and its acquisition of other businesses.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-20",
+        "sources": [
+          "https://www.linkedin.com/company/clickhouseinc",
+          "https://clickhouse.com/blog/clickhouse-raises-400-million-series-d-acquires-langfuse-launches-postgres?loc=banner",
+          "https://clickhouse.com/company/news"
+        ],
+        "note": "Independent database software company. The employer documents its Series D and its acquisition of other businesses."
       }
     }
   ]
