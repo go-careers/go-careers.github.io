@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20",
+  "checked_at": "2026-11-23",
   "note": "Official company icons or recruiting-page logos, stored locally for job-listing identification. Trademarks belong to their respective owners.",
   "logos": [
     {
@@ -1334,6 +1334,231 @@
       "checked_at": "2026-11-20",
       "retrieved_at": "2026-11-20T16:03:13.242686+00:00",
       "source_sha256": "3bcd821030051afcb99880a663127d27e12303b614d5e3ca02871150bad1e5f0"
+    },
+    {
+      "company": "Emergence AI",
+      "file": "emergence-ai.png",
+      "page": "https://job-boards.greenhouse.io/emergenceai/jobs/4514510009",
+      "url": "https://s9-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/679/300/original/Isotype_Black_(1).png?1785784832",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:40.796702+00:00",
+      "source_sha256": "75f69f0aba5560e40cd94cf3bb21fcdb2449c1ba0598952b1365cbf97a0ea9c7"
+    },
+    {
+      "company": "InferEdge",
+      "file": "inferedge.png",
+      "page": "https://www.ycombinator.com/companies/inferedge/jobs/cnf3ckF-software-engineer-ai-platform",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/9ca294ba99345dad1e7a7357621f3373230c00cf.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:40.967565+00:00",
+      "source_sha256": "ae458124479a764a3bc8ae04ebb63f4dcb496fa415079bc137ecdf42c78a1106"
+    },
+    {
+      "company": "Certify",
+      "file": "certify.png",
+      "page": "https://jobs.ashbyhq.com/certifyos/3ac954c0-376b-41ad-953b-e3df7e835114",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-wordmark/01a90b4e-b2ec-4f71-9b31-f036b4007d0b/273e7516-c12a-4bbe-8430-e4a11a0cb917/aa76d1a0-b3fd-4553-9fe6-c9e1e257513f.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:42.162209+00:00",
+      "source_sha256": "c23a73adcfa44049559414a11560fae4d942310743801bcc838e13ad53d3d86c"
+    },
+    {
+      "company": "Trackmind",
+      "file": "trackmind.png",
+      "page": "https://jobs.lever.co/trackmind/ec14b2d1-13e6-4fc4-8f20-45e84b572fe5",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/e21ed44c-22bd-4620-9c6c-166541bc21e7-1753249252419.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:42.270761+00:00",
+      "source_sha256": "9d3818a5c6697fea9d442aa03c05a7180d219963a1b3cb26b44b08b33be61756"
+    },
+    {
+      "company": "Meraki Labs",
+      "file": "meraki-labs.png",
+      "page": "https://jobs.ashbyhq.com/Meraki-Labs/d0c8081c-3660-41f2-a907-4355028ec7eb",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-wordmark/1eeae0b6-8760-4bc0-a2c9-6e1b99940516/53938861-0a9e-4197-a46b-748b635b60eb/885b9fa2-219a-46df-b0bd-ee85415a41fa.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:43.595125+00:00",
+      "source_sha256": "2e95185da074d10d49457182a397b4d9a16ada9705fbc7956ba5eb73c5257c69"
+    },
+    {
+      "company": "Disseqt AI",
+      "file": "disseqt-ai.png",
+      "page": "https://www.disseqt.ai/",
+      "url": "https://framerusercontent.com/images/1azRl20LigXWR2zFYvGxcWWPcps.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:50:56.474665+00:00",
+      "source_sha256": "3a00fd320b349dcf28bee38a3682431865ef123b595f807e6777b4768e2eb2b3"
+    },
+    {
+      "company": "Ascentt",
+      "file": "ascentt.png",
+      "page": "https://www.ascentt.com/",
+      "url": "https://www.ascentt.com/favicon.ico",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:44.341514+00:00",
+      "source_sha256": "77b46920e9175ea636845801b48b23444b0a43423c357dc187c426ddf978d220"
+    },
+    {
+      "company": "DDN",
+      "file": "ddn.png",
+      "page": "https://jobs.ashbyhq.com/ddn/eabb807f-539c-4c3d-85b9-ea6d560d5739",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-wordmark/7828979a-0023-4eef-b0b4-5ed59ce51d5b/1ea5413f-63b1-49e8-99d1-91205579a592/86eb20a1-0ff0-4aae-9101-7e3f81f4ee4f.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:47.179351+00:00",
+      "source_sha256": "3f40802c0385eb6f87474ec9e1a3f2950b66495436ca103505ce3e0c22c75489"
+    },
+    {
+      "company": "Metropolis Technologies",
+      "file": "metropolis-technologies.png",
+      "page": "https://job-boards.greenhouse.io/metropolis/jobs/8045143003",
+      "url": "https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/053/300/original/mark.png?1578956035",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T21:00:20.020088+00:00",
+      "source_sha256": "53c00741a0968c3c725f226fb1389276cfe3bc427c6c9759ae6f656e7dbc5b90"
+    },
+    {
+      "company": "Kantiv",
+      "file": "kantiv.png",
+      "page": "https://jobs.ashbyhq.com/kantiv/09204463-408e-4673-9ce7-82c22741497d",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-wordmark/f77d611f-10d8-4a8a-924e-f47073d4e642/34305a32-1341-44e1-acc4-6a7cdc7ca76f/6dc09a3d-6e6e-418c-8aba-d816985369a7.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:48.226492+00:00",
+      "source_sha256": "890e52a06127d0870f4c0c274e0f8bf6edd1ded2360a389ea3214e48ee3e2461"
+    },
+    {
+      "company": "OutSystems",
+      "file": "outsystems.png",
+      "page": "https://www.outsystems.com/",
+      "url": "https://www.outsystems.com/favicon.ico",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:48.580110+00:00",
+      "source_sha256": "22e069c8b300c2e00025866acb5d774744fb1f501db4399411c84dbb0b2f793a"
+    },
+    {
+      "company": "Secfix",
+      "file": "secfix.png",
+      "page": "https://jobs.ashbyhq.com/secfix/583140f4-b26c-47b4-a9be-c7a88dc3c0f5",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-wordmark/9f57512d-58dc-4008-b5c8-ad772681c9b9/1dc178c9-c9a6-45c5-ae7c-0d277f7cf29b/d9e1742d-4a3d-42f1-a117-1283c65786ed.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:48.833590+00:00",
+      "source_sha256": "09c86c7302479bfa086e346678e6086c831f2738726751131471bb309632acb8"
+    },
+    {
+      "company": "Esper",
+      "file": "esper.png",
+      "page": "https://www.esper.io/",
+      "url": "https://cdn.prod.website-files.com/68dc0aa637f28f93a0bbbb71/694390f56c844fffee9eb363_610bd48c4be332475c653798_Esper_logo_256.jpg",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:49:23.006491+00:00",
+      "source_sha256": "12018c58ad6d59f53ad6b68a98f9a243c2915f271bf640cbbfe269b74dcaeed1"
+    },
+    {
+      "company": "Abundant",
+      "file": "abundant.png",
+      "page": "https://www.ycombinator.com/companies/abundant/jobs/T1WBAf7-member-of-technical-staff-applied-research",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/ac0261264b03915325cd897f5bcb7484eec48903.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:49.344572+00:00",
+      "source_sha256": "c3e0f0701d54cbc264dcfe27314d9c4281f242f0535b4a8881bfd90dd2e9c8f6"
+    },
+    {
+      "company": "GetCrux",
+      "file": "getcrux.png",
+      "page": "https://www.ycombinator.com/companies/getcrux/jobs/Q7UBlgM-founding-engineer-backend-analytics-getcrux",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/e441803edd599221aeb0cd1571b07115de1320cb.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:49.364603+00:00",
+      "source_sha256": "e151aad9816f64890ae7824686dd3fb6ed8580879375a8e15382593b4bfdfbb5"
+    },
+    {
+      "company": "FrontPage",
+      "file": "frontpage.png",
+      "page": "https://www.ycombinator.com/companies/frontpage/jobs/0vuyaqX-engineering-intern-testing-automation-development",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/29ac95e715a7bf8e21b677a36c6d3cebf4e933ad.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:50.430788+00:00",
+      "source_sha256": "5e1c7c0b123f73d8443fa75523a36c6d3c44f26c8c32cefe9acba03a07d8ff8d"
+    },
+    {
+      "company": "Kalpa Labs",
+      "file": "kalpa-labs.png",
+      "page": "https://www.ycombinator.com/companies/kalpa-labs/jobs/0f7ceoC-founding-ml-infrastructure-engineer",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/1716cc43aa0fee3a4f60b9708b803805a0a152b1.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:50.444348+00:00",
+      "source_sha256": "4a42a011e326f35c0ae2b555568e70ca60c417de5efb75459b2858d7d6fe86e1"
+    },
+    {
+      "company": "Encord",
+      "file": "encord.png",
+      "page": "https://www.ycombinator.com/companies/encord/jobs/eO9Z4w5-devops-engineer",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/fd8270caf52cdd1093c290cba2176776fc6c3460.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:51.619190+00:00",
+      "source_sha256": "39e6825f46ea33cb974a279437503dd08398aa6b401370b1e9475b8cb0a4e713"
+    },
+    {
+      "company": "Cekura",
+      "file": "cekura.png",
+      "page": "https://www.ycombinator.com/companies/cekura-ai/jobs/4CYy8uB-member-of-technical-staff-cekura-bangalore-in-person",
+      "url": "https://bookface-images.s3.amazonaws.com/small_logos/e614d24f652dc1e194f172153c3b7036c9c30b2f.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:51.628232+00:00",
+      "source_sha256": "0a7932401cfe18da208c91a0764fa26d7a8f7da6520c9de3f12a6bd34a0b9547"
+    },
+    {
+      "company": "Intangles",
+      "file": "intangles.png",
+      "page": "https://www.intangles.ai/",
+      "url": "https://www.intangles.ai/favicon.ico",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:52.645127+00:00",
+      "source_sha256": "56d1f1c1d3d38f43924744c0c74915b45c91ef8b9df4d4f74ce071770b7296be"
+    },
+    {
+      "company": "Equal Experts",
+      "file": "equal-experts.png",
+      "page": "https://www.equalexperts.com/",
+      "url": "https://www.equalexperts.com/wp-content/themes/equalexperts2024/assets/images/ico/favicon.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:49:23.146484+00:00",
+      "source_sha256": "24385e8e1b68f5c447adc827fa945e8b20f27eb98ee6f86f47cfc8cdb486d30a"
+    },
+    {
+      "company": "Sahaj Software",
+      "file": "sahaj-software.png",
+      "page": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5022233101",
+      "url": "https://s101-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/448/810/original/Signature_Sahaj_Logo_copy_2.png?1793167718",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:52.894292+00:00",
+      "source_sha256": "20f5701ec73bf21d599b32a1bca1aba361628630316bfa8330641f3ab00951ae"
+    },
+    {
+      "company": "Zeta",
+      "file": "zeta.png",
+      "page": "https://jobs.lever.co/zeta/f827a249-2537-4f7f-aade-25b829fc13f2",
+      "url": "https://lever-client-logos.s3.amazonaws.com/1ae7615f-b504-43a9-8f3f-6311590fb6fa-1463999313297.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:47:53.890471+00:00",
+      "source_sha256": "25a6165faff3762612ffe8e99d18d8ef08c36eb2e30991e76ffd30315e170ae6"
+    },
+    {
+      "company": "Neo4j",
+      "file": "neo4j.png",
+      "page": "https://boards.greenhouse.io/neo4j/jobs/4704398006?gh_jid=4704398006",
+      "url": "https://s6-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/031/900/original/logo_for_linkedin.png?1710874561",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T20:55:45.220937+00:00",
+      "source_sha256": "077f0b7b6a38c3eb3b658938ab35151ffc591a4245932530c68098213c6a4744"
+    },
+    {
+      "company": "Blink Health",
+      "file": "blink-health.png",
+      "page": "https://job-boards.greenhouse.io/blinkhealth/jobs/8904959002",
+      "url": "https://s2-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/044/400/original/B_Favicon_Cherry.png?1762906480",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-22T21:02:38.342921+00:00",
+      "source_sha256": "e23b0da1facdaa71f286aee25d6cf6dc61f1e372748336a02e29a61071195049"
     }
   ]
 }

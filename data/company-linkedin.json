@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-20",
+  "checked_at": "2026-11-23",
   "method": "Company IDs extracted from the public LinkedIn company page's View all employees / See all employees link (facetCurrentCompany in the LinkedIn sign-in redirect). Company names and domains checked against the employer. No member profiles or connection data stored.",
   "companies": [
     {
@@ -1106,6 +1106,160 @@
       "company_id": "3033823",
       "source_url": "https://www.linkedin.com/company/jumpcloud",
       "checked_at": "2026-11-20"
+    },
+    {
+      "company": "InferEdge",
+      "company_id": "122013988",
+      "source_url": "https://www.linkedin.com/company/inferedge-ai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Abundant",
+      "company_id": "104812983",
+      "source_url": "https://www.linkedin.com/company/abundant-ai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Kalpa Labs",
+      "company_id": "107142110",
+      "source_url": "https://www.linkedin.com/company/kalpalabs",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "FrontPage",
+      "company_id": "14384452",
+      "source_url": "https://www.linkedin.com/company/crowdwarelabs",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "GetCrux",
+      "company_id": "82619927",
+      "source_url": "https://www.linkedin.com/company/getcruxai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Cekura",
+      "company_id": "104795138",
+      "source_url": "https://www.linkedin.com/company/104795138",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Encord",
+      "company_id": "69557125",
+      "source_url": "https://www.linkedin.com/company/encord-team",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Emergence AI",
+      "company_id": "103815597",
+      "source_url": "https://www.linkedin.com/company/emergenceai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Disseqt AI",
+      "company_id": "108988025",
+      "source_url": "https://www.linkedin.com/company/disseqt-ai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Certify",
+      "company_id": "76538397",
+      "source_url": "https://www.linkedin.com/company/certifyos",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Meraki Labs",
+      "company_id": "69810562",
+      "source_url": "https://www.linkedin.com/company/merakilabsindia",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Intangles",
+      "company_id": "32980214",
+      "source_url": "https://www.linkedin.com/company/intangles-lab-pvt-ltd",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Trackmind",
+      "company_id": "2869183",
+      "source_url": "https://www.linkedin.com/company/trackmind",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Ascentt",
+      "company_id": "230220",
+      "source_url": "https://www.linkedin.com/company/ascentt-systems",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "DDN",
+      "company_id": "21665",
+      "source_url": "https://www.linkedin.com/company/ddn",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Kantiv",
+      "company_id": "65592010",
+      "source_url": "https://www.linkedin.com/company/kantiv",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "OutSystems",
+      "company_id": "16663",
+      "source_url": "https://www.linkedin.com/company/outsystems",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Esper",
+      "company_id": "19082475",
+      "source_url": "https://www.linkedin.com/company/esperdev",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Secfix",
+      "company_id": "26542346",
+      "source_url": "https://www.linkedin.com/company/secfix",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Equal Experts",
+      "company_id": "252335",
+      "source_url": "https://www.linkedin.com/company/equal-experts",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Sahaj Software",
+      "company_id": "3880103",
+      "source_url": "https://www.linkedin.com/company/sahajsoftware",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Neo4j",
+      "company_id": "828370",
+      "source_url": "https://www.linkedin.com/company/neo4j",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Zeta",
+      "company_id": "10355561",
+      "source_url": "https://www.linkedin.com/company/zetasuite",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Metropolis Technologies",
+      "company_id": "18851732",
+      "source_url": "https://www.linkedin.com/company/metropolisio",
+      "checked_at": "2026-11-23",
+      "additional_source": "https://www.kaggle.com/datasets/arshkon/linkedin-job-postings",
+      "note": "The public employer directory matches organization 18851732 to the Santa Monica computer vision company."
+    },
+    {
+      "company": "Blink Health",
+      "company_id": "10206331",
+      "source_url": "https://www.linkedin.com/company/blink-health",
+      "checked_at": "2026-11-23",
+      "additional_source": "https://www.kaggle.com/datasets/arshkon/linkedin-job-postings",
+      "note": "Public directory matches organization 10206331 with Blink Health in New York."
     }
   ]
 }

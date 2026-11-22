@@ -1,6 +1,6 @@
 {
   "policy": "Independent private startups at any funding stage. Public, acquired and unverified-ownership employers are excluded. A named financing round is background evidence, not a maximum stage. Undisclosed means no current named round established in the reviewed evidence.",
-  "checked_at": "2026-11-20",
+  "checked_at": "2026-11-23",
   "companies": [
     {
       "company": "Onehouse",
@@ -32,12 +32,12 @@
       "additional_sources": [
         "https://jumpcloud.com/company"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-23",
       "note": "Independent cloud directory vendor backed by the participants in its Series F financing.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/jumpcloud",
           "https://jumpcloud.com/press/seriesfclose",
@@ -1430,12 +1430,12 @@
       "round_date": "2024-11-19",
       "source_url": "https://konghq.com/company/press-room/press-release/kong-secures-175-million-new-financing",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-23",
       "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/konghq"
         ],
@@ -1833,12 +1833,12 @@
       "round_date": "",
       "source_url": "https://www.turing.com/press/turing-111-million-series-e",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-23",
       "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/turingcom"
         ],
@@ -3236,12 +3236,12 @@
       "additional_sources": [
         "https://www.zaubacorp.com/TECHDOME-SOLUTIONS-PRIVATE-LIMITED-U72900MP2020PTC053008"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-23",
       "note": "Founder-led Indian private software company established in 2020. A named financing round was not established.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/techdome-solutions",
           "https://techdome.io/about",
@@ -3259,12 +3259,12 @@
       "additional_sources": [
         "https://www.automationanywhere.com/company/about-us"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-23",
       "note": "Independent privately financed automation software vendor. Series B is the latest named round supported here.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/automation-anywhere",
           "https://www.automationanywhere.com/company/press-room/automation-anywhere-announces-290-million-in-series-b-financing",
@@ -3443,12 +3443,12 @@
       "additional_sources": [
         "https://www.shyftlabs.io/about-us"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-23",
       "note": "Founder-led private data engineering and AI business. A named round was not established.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/shyftlabs",
           "https://shyftlabs.io/legal/terms-of-use",
@@ -3478,6 +3478,581 @@
           "https://clickhouse.com/company/news"
         ],
         "note": "Independent database software company. The employer documents its Series D and its acquisition of other businesses."
+      }
+    },
+    {
+      "company": "InferEdge",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.ycombinator.com/companies/inferedge",
+      "additional_sources": [
+        "https://www.inferedge.com"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/inferedge-ai",
+          "https://www.ycombinator.com/companies/inferedge",
+          "https://www.inferedge.com"
+        ],
+        "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established."
+      }
+    },
+    {
+      "company": "Abundant",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.ycombinator.com/companies/abundant",
+      "additional_sources": [
+        "https://www.abundant.ai/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/abundant-ai",
+          "https://www.ycombinator.com/companies/abundant",
+          "https://www.abundant.ai/"
+        ],
+        "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established."
+      }
+    },
+    {
+      "company": "Kalpa Labs",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.ycombinator.com/companies/kalpa-labs",
+      "additional_sources": [
+        "https://kalpalabs.ai/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/kalpalabs",
+          "https://www.ycombinator.com/companies/kalpa-labs",
+          "https://kalpalabs.ai/"
+        ],
+        "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established."
+      }
+    },
+    {
+      "company": "FrontPage",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.ycombinator.com/companies/frontpage",
+      "additional_sources": [
+        "https://front.page"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/crowdwarelabs",
+          "https://www.ycombinator.com/companies/frontpage",
+          "https://front.page"
+        ],
+        "note": "YC identifies this founder-led company as active. Its employer profile and official site identify the operating business. A named financing round was not established."
+      }
+    },
+    {
+      "company": "GetCrux",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://getcrux.ai/blog/seed-round-announcement",
+      "additional_sources": [
+        "https://www.ycombinator.com/companies/getcrux"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Founder-led YC startup. The company announced a seed round for its data and analytics business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/getcruxai",
+          "https://getcrux.ai/blog/seed-round-announcement",
+          "https://www.ycombinator.com/companies/getcrux"
+        ],
+        "note": "Founder-led YC startup. The company announced a seed round for its data and analytics business."
+      }
+    },
+    {
+      "company": "Cekura",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.cekura.ai/blogs/fundraise",
+      "additional_sources": [
+        "https://www.ycombinator.com/companies/cekura-ai"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The independent voice AI evaluation startup announced a $2.4 million seed financing including YC and other investors.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/104795138",
+          "https://www.cekura.ai/blogs/fundraise",
+          "https://www.ycombinator.com/companies/cekura-ai"
+        ],
+        "note": "The independent voice AI evaluation startup announced a $2.4 million seed financing including YC and other investors."
+      }
+    },
+    {
+      "company": "Encord",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://encord.com/blog/encord-announces-60-million-series-c/",
+      "additional_sources": [
+        "https://www.ycombinator.com/companies/encord"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The founder-led AI data platform announced a $60 million Series C. Its active YC company profile identifies the same operating business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/encord-team",
+          "https://encord.com/blog/encord-announces-60-million-series-c/",
+          "https://www.ycombinator.com/companies/encord"
+        ],
+        "note": "The founder-led AI data platform announced a $60 million Series C. Its active YC company profile identifies the same operating business."
+      }
+    },
+    {
+      "company": "Emergence AI",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.emergence.ai/about-us",
+      "additional_sources": [
+        "https://www.linkedin.com/company/emergenceai"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Independent US agent research and platform company backed by Learn Capital. No round label was assigned to its disclosed venture financing.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/emergenceai",
+          "https://www.emergence.ai/about-us",
+          "https://www.linkedin.com/company/emergenceai"
+        ],
+        "note": "Independent US agent research and platform company backed by Learn Capital. No round label was assigned to its disclosed venture financing."
+      }
+    },
+    {
+      "company": "Disseqt AI",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.svv.ai/news/disseqt8mseedround",
+      "additional_sources": [
+        "https://www.disseqt.ai/investor"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The independent AI assurance company raised an $8 million seed round led by Gresham House Ventures. Sure Valley Ventures identifies the investee and round.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/disseqt-ai",
+          "https://www.svv.ai/news/disseqt8mseedround",
+          "https://www.disseqt.ai/investor"
+        ],
+        "note": "The independent AI assurance company raised an $8 million seed round led by Gresham House Ventures. Sure Valley Ventures identifies the investee and round."
+      }
+    },
+    {
+      "company": "Certify",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.generalcatalyst.com/stories/our-investment-in-certifyos-unlocking-the-power-of-provider-intelligence",
+      "additional_sources": [
+        "https://www.certifyos.com/company/news"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "General Catalyst led the Series A in the independent US provider intelligence startup CertifyOS, which operates as Certify.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/certifyos",
+          "https://www.generalcatalyst.com/stories/our-investment-in-certifyos-unlocking-the-power-of-provider-intelligence",
+          "https://www.certifyos.com/company/news"
+        ],
+        "note": "General Catalyst led the Series A in the independent US provider intelligence startup CertifyOS, which operates as Certify."
+      }
+    },
+    {
+      "company": "Meraki Labs",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.merakilabs.com/about-us",
+      "additional_sources": [
+        "https://www.linkedin.com/company/merakilabsindia"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Founder-operated Indian venture studio. Meraki itself advertises the selected roles on its recruiting board for its Proofline and NuPlay ventures.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/merakilabsindia",
+          "https://www.merakilabs.com/about-us",
+          "https://www.linkedin.com/company/merakilabsindia"
+        ],
+        "note": "Founder-operated Indian venture studio. Meraki itself advertises the selected roles on its recruiting board for its Proofline and NuPlay ventures."
+      }
+    },
+    {
+      "company": "Intangles",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.intangles.ai/news/predictive-ai-firm-intangles-grabs-30m-funding-led-by-avataar-venture-partners/",
+      "additional_sources": [
+        "https://www.intangles.ai/news/intangles-raises-10-million-in-series-a-funding/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Avataar led a $30 million Series B in the independent fleet analytics startup after its Baring-backed Series A.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/intangles-lab-pvt-ltd",
+          "https://www.intangles.ai/news/predictive-ai-firm-intangles-grabs-30m-funding-led-by-avataar-venture-partners/",
+          "https://www.intangles.ai/news/intangles-raises-10-million-in-series-a-funding/"
+        ],
+        "note": "Avataar led a $30 million Series B in the independent fleet analytics startup after its Baring-backed Series A."
+      }
+    },
+    {
+      "company": "Trackmind",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/company/trackmind",
+      "additional_sources": [
+        "https://www.trackmind.com/careers/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The privately held digital product engineering company identifies its US and India teams. The Hyderabad requisition is on the same Trackmind employer board.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/trackmind",
+          "https://www.linkedin.com/company/trackmind",
+          "https://www.trackmind.com/careers/"
+        ],
+        "note": "The privately held digital product engineering company identifies its US and India teams. The Hyderabad requisition is on the same Trackmind employer board."
+      }
+    },
+    {
+      "company": "Ascentt",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.ascentt.com/about/",
+      "additional_sources": [
+        "https://www.linkedin.com/company/ascentt-systems"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Founder-led privately held data and AI engineering company, identified by its corporate site and matching company profile. No named round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/ascentt-systems",
+          "https://www.ascentt.com/about/",
+          "https://www.linkedin.com/company/ascentt-systems"
+        ],
+        "note": "Founder-led privately held data and AI engineering company, identified by its corporate site and matching company profile. No named round was established."
+      }
+    },
+    {
+      "company": "DDN",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.blackstone.com/news/press/blackstone-invests-300-million-at-a-5-billion-valuation-in-ddn-ai-and-data-intelligence-solutions-leader-to-fuel-further-rapid-growth/",
+      "additional_sources": [
+        "https://www.ddn.com/about-us/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Blackstone made a minority investment in the privately held founder-led AI infrastructure company. The announced investment carries no series label.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/ddn",
+          "https://www.blackstone.com/news/press/blackstone-invests-300-million-at-a-5-billion-valuation-in-ddn-ai-and-data-intelligence-solutions-leader-to-fuel-further-rapid-growth/",
+          "https://www.ddn.com/about-us/"
+        ],
+        "note": "Blackstone made a minority investment in the privately held founder-led AI infrastructure company. The announced investment carries no series label."
+      }
+    },
+    {
+      "company": "Metropolis Technologies",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.metropolis.io/newsroom/metropolis-secures-financing-and-closes-series-d",
+      "additional_sources": [
+        "https://www.metropolis.io/about"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The independent computer vision company raised a Series D led by investors in its private equity financing. It acquired SP Plus. This US business is separate from the listed Indian diagnostic chain.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.metropolis.io/newsroom/metropolis-secures-financing-and-closes-series-d",
+          "https://www.metropolis.io/about",
+          "https://www.linkedin.com/company/metropolisio"
+        ],
+        "note": "The independent computer vision company raised a Series D led by investors in its private equity financing. It acquired SP Plus. This US business is separate from the listed Indian diagnostic chain."
+      }
+    },
+    {
+      "company": "Kantiv",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.kantiv.com/our-story",
+      "additional_sources": [
+        "https://jobs.buildingventures.com/companies/kantiv"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Building Ventures lists the private portfolio company. Joist AI rebranded as Kantiv and retains its AEC software business.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/kantiv",
+          "https://www.kantiv.com/our-story",
+          "https://jobs.buildingventures.com/companies/kantiv"
+        ],
+        "note": "Building Ventures lists the private portfolio company. Joist AI rebranded as Kantiv and retains its AEC software business."
+      }
+    },
+    {
+      "company": "OutSystems",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://media.kkr.com/news-details?news_id=fa8f7d11-d6b5-46a1-9328-dfe41bf16e45&type=1",
+      "additional_sources": [
+        "https://www.outsystems.com/company/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "KKR and Goldman Sachs invested in the privately held software platform through minority positions. Later financing has no consistently documented series label.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/outsystems",
+          "https://media.kkr.com/news-details?news_id=fa8f7d11-d6b5-46a1-9328-dfe41bf16e45&type=1",
+          "https://www.outsystems.com/company/"
+        ],
+        "note": "KKR and Goldman Sachs invested in the privately held software platform through minority positions. Later financing has no consistently documented series label."
+      }
+    },
+    {
+      "company": "Esper",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.nasdaqprivatemarket.com/company/esper/",
+      "additional_sources": [
+        "https://www.esper.io/about-us"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The private device infrastructure startup raised a Series C. Nasdaq Private Market identifies the company as privately held.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/esperdev",
+          "https://www.nasdaqprivatemarket.com/company/esper/",
+          "https://www.esper.io/about-us"
+        ],
+        "note": "The private device infrastructure startup raised a Series C. Nasdaq Private Market identifies the company as privately held."
+      }
+    },
+    {
+      "company": "Secfix",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.secfix.com/press/press-release",
+      "additional_sources": [
+        "https://www.secfix.com/about-us"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The privately funded compliance startup announced a $12 million Series A, following its seed round.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/secfix",
+          "https://www.secfix.com/press/press-release",
+          "https://www.secfix.com/about-us"
+        ],
+        "note": "The privately funded compliance startup announced a $12 million Series A, following its seed round."
+      }
+    },
+    {
+      "company": "Equal Experts",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.equalexperts.com/about-us/equal-experts-trust/",
+      "additional_sources": [
+        "https://www.equalexperts.com/blog/employee-ownership/100-network-owned-welcome-to-the-equal-experts-network-trust/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The independent software company is owned by its network through an employee ownership trust.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/equal-experts",
+          "https://www.equalexperts.com/about-us/equal-experts-trust/",
+          "https://www.equalexperts.com/blog/employee-ownership/100-network-owned-welcome-to-the-equal-experts-network-trust/"
+        ],
+        "note": "The independent software company is owned by its network through an employee ownership trust."
+      }
+    },
+    {
+      "company": "Sahaj Software",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://sahaj.ai/people/founders/",
+      "additional_sources": [
+        "https://www.linkedin.com/company/sahajsoftware"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Independent privately held software engineering company established by its founding team. No published named funding round was established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/sahajsoftware",
+          "https://sahaj.ai/people/founders/",
+          "https://www.linkedin.com/company/sahajsoftware"
+        ],
+        "note": "Independent privately held software engineering company established by its founding team. No published named funding round was established."
+      }
+    },
+    {
+      "company": "Neo4j",
+      "stage": "Series F",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://neo4j.com/press-releases/neo4j-announces-seriesf-funding/",
+      "additional_sources": [
+        "https://forgeglobal.com/insights/neo4j-upcoming-ipo-news/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The founder-led private graph database company announced a Series F. Forge identifies Neo4j shares as private and its IPO as prospective.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/neo4j",
+          "https://neo4j.com/press-releases/neo4j-announces-seriesf-funding/",
+          "https://forgeglobal.com/insights/neo4j-upcoming-ipo-news/"
+        ],
+        "note": "The founder-led private graph database company announced a Series F. Forge identifies Neo4j shares as private and its IPO as prospective."
+      }
+    },
+    {
+      "company": "Zeta",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.zeta.tech/in/press/zeta-funding-omni-stack",
+      "additional_sources": [
+        "https://www.zeta.tech/in/press/zeta-valued-at-2b-in-new-strategic-fundraise"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "SoftBank led the named Series C. The later $50 million strategic investment carried no new series designation. This founder-led banking software company is distinct from the listed Zeta Global.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/zetasuite",
+          "https://www.zeta.tech/in/press/zeta-funding-omni-stack",
+          "https://www.zeta.tech/in/press/zeta-valued-at-2b-in-new-strategic-fundraise"
+        ],
+        "note": "SoftBank led the named Series C. The later $50 million strategic investment carried no new series designation. This founder-led banking software company is distinct from the listed Zeta Global."
+      }
+    },
+    {
+      "company": "Blink Health",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "2024-11-15",
+      "source_url": "https://forgeglobal.com/blink-health_stock/",
+      "additional_sources": [
+        "https://www.blinkrx.com/articles/why-i-built-blinkrx-a-30-year-journey-that-started-in-my-fathers-medical-office"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Founder-led prescription access technology company, operating as BlinkRx. Forge records Series D private shares and private-market financing.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://forgeglobal.com/blink-health_stock/",
+          "https://www.blinkrx.com/articles/why-i-built-blinkrx-a-30-year-journey-that-started-in-my-fathers-medical-office",
+          "https://www.linkedin.com/company/blink-health"
+        ],
+        "note": "Founder-led prescription access technology company, operating as BlinkRx. Forge records Series D private shares and private-market financing."
       }
     }
   ]
