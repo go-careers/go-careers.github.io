@@ -1,0 +1,521 @@
+{
+  "run_date": "2026-11-23",
+  "timezone": "Asia/Kolkata",
+  "started_at": "2026-11-23T13:37:32.878918+00:00",
+  "status": "complete",
+  "target": 50,
+  "cutoff": "2026-10-23",
+  "previous_completed_run": "2026-11-22T20-26-02Z",
+  "initial_search_since": "2026-11-22T21:05:05.455668+00:00",
+  "added_ids": [
+    "uptimeai-0fedf5a5-4d2c-4fc1-912c-8f350434bfd8",
+    "celonis-7791343003",
+    "highlevel-03c20542-a178-4162-89f2-8feccd658d82",
+    "suki-8213880003",
+    "6sense-8258411",
+    "highradius-8200225003",
+    "certify-c107e265-1479-470e-85a3-911536adaa89",
+    "razorpay-4747004005",
+    "quantiphi-jr9674",
+    "quantiphi-jr10864",
+    "techdome-171303",
+    "celonis-7791383003",
+    "celonis-7791303003",
+    "refold-ai-c37ea990-850c-4cc2-a4fb-d3066f08d952",
+    "exotel-fk0zah3",
+    "volga-partners-61f7ccdf5b",
+    "genios-ai-5b241c8e-fad9-4d98-bdb1-50aced3c5b74",
+    "genios-ai-710a1de4-9069-403f-bbcb-c19b465d6f0c",
+    "plum-69198",
+    "rearc-88ece928-dadc-413e-84f6-0413b1f899d2",
+    "covergo-f623572a61",
+    "updraft-dbaf488afe",
+    "truveta-6262111004",
+    "refold-ai-17b0acc5-66c2-4ed2-8c65-792084b0612a",
+    "alaan-69089",
+    "whatfix-fk0zc89",
+    "refold-ai-fb50560d-8cde-4221-acab-bbf585a01006",
+    "refold-ai-f1d8cc2f-2ade-4a4b-aa98-c52b28ab12e1",
+    "litmus-6b75ea53-9d4c-46d3-917b-2c6ea48d014c",
+    "exotel-fk0zrsg",
+    "jove-1c990b971b",
+    "exotel-fk0z7wh",
+    "exotel-fk0pstk",
+    "exotel-fk0pefg",
+    "exotel-fk0z2xa",
+    "greylabs-ai-34499",
+    "truveta-6240382004",
+    "abacus-insights-8925405002",
+    "exotel-fk0zoax",
+    "refold-ai-ef65161f-274f-47fb-94d5-f4df1aab1592",
+    "refold-ai-f0285553-0c73-4a05-ae6f-a8efed7f16cb",
+    "exotel-fk0znye",
+    "exotel-fk0zio4",
+    "jove-3f6bdc10d3",
+    "greylabs-ai-64584",
+    "leucine-e203432e74",
+    "whatfix-fk0zrs9",
+    "bright-money-11994",
+    "exotel-fk0z83d",
+    "teal-india-4246041"
+  ],
+  "pruning": {
+    "initial": {
+      "run_date": "2026-11-23",
+      "cutoff": "2026-10-23",
+      "before": 338,
+      "remaining": 338,
+      "removed": [],
+      "dry_run": false
+    },
+    "final": {
+      "run_date": "2026-11-23",
+      "cutoff": "2026-10-23",
+      "before": 388,
+      "remaining": 388,
+      "removed": [],
+      "dry_run": false
+    }
+  },
+  "updated_ids": [],
+  "new_companies": [
+    "Abacus Insights",
+    "Alaan",
+    "Bright Money",
+    "CoverGo",
+    "Exotel",
+    "Genios AI",
+    "GreyLabs AI",
+    "HighRadius",
+    "JoVE",
+    "Leucine",
+    "Litmus",
+    "Plum",
+    "Rearc",
+    "Refold AI",
+    "Teal India",
+    "Truveta",
+    "Updraft",
+    "Volga Partners",
+    "Whatfix"
+  ],
+  "companies_in_batch": [
+    "6sense",
+    "Abacus Insights",
+    "Alaan",
+    "Bright Money",
+    "Celonis",
+    "Certify",
+    "CoverGo",
+    "Exotel",
+    "Genios AI",
+    "GreyLabs AI",
+    "HighLevel",
+    "HighRadius",
+    "JoVE",
+    "Leucine",
+    "Litmus",
+    "Plum",
+    "Quantiphi",
+    "Razorpay",
+    "Rearc",
+    "Refold AI",
+    "Suki",
+    "Teal India",
+    "Techdome",
+    "Truveta",
+    "Updraft",
+    "UptimeAI",
+    "Volga Partners",
+    "Whatfix"
+  ],
+  "employers_in_batch": 28,
+  "active_companies": 178,
+  "added_count": 50,
+  "posted_on_run_date": 11,
+  "salary_outcomes": {
+    "India market estimate": 39,
+    "Company benchmark": 6,
+    "Not established": 3,
+    "Employer published": 2
+  },
+  "additions_by_source": {
+    "ashby": 10,
+    "greenhouse": 10,
+    "lever": 1,
+    "workday": 2,
+    "keka": 1,
+    "trakstar": 12,
+    "workable": 6,
+    "kula": 5,
+    "wellfound": 1,
+    "rippling": 2
+  },
+  "total": 388,
+  "target_met": true,
+  "active": 388,
+  "finished_at": "2026-11-23T14:15:35.239191+00:00",
+  "completed_at": "2026-11-23T14:15:35.239191+00:00",
+  "dated_recent_ids": [
+    "uptimeai-0fedf5a5-4d2c-4fc1-912c-8f350434bfd8",
+    "celonis-7791343003",
+    "highlevel-03c20542-a178-4162-89f2-8feccd658d82",
+    "suki-8213880003",
+    "6sense-8258411",
+    "highradius-8200225003",
+    "certify-c107e265-1479-470e-85a3-911536adaa89",
+    "razorpay-4747004005",
+    "quantiphi-jr9674",
+    "quantiphi-jr10864",
+    "techdome-171303",
+    "celonis-7791383003",
+    "celonis-7791303003",
+    "refold-ai-c37ea990-850c-4cc2-a4fb-d3066f08d952",
+    "exotel-fk0zah3",
+    "volga-partners-61f7ccdf5b",
+    "genios-ai-5b241c8e-fad9-4d98-bdb1-50aced3c5b74",
+    "genios-ai-710a1de4-9069-403f-bbcb-c19b465d6f0c",
+    "plum-69198",
+    "rearc-88ece928-dadc-413e-84f6-0413b1f899d2",
+    "covergo-f623572a61",
+    "updraft-dbaf488afe",
+    "truveta-6262111004",
+    "refold-ai-17b0acc5-66c2-4ed2-8c65-792084b0612a",
+    "alaan-69089",
+    "whatfix-fk0zc89",
+    "refold-ai-fb50560d-8cde-4221-acab-bbf585a01006",
+    "refold-ai-f1d8cc2f-2ade-4a4b-aa98-c52b28ab12e1",
+    "litmus-6b75ea53-9d4c-46d3-917b-2c6ea48d014c",
+    "exotel-fk0zrsg",
+    "jove-1c990b971b",
+    "exotel-fk0z7wh",
+    "exotel-fk0pstk",
+    "exotel-fk0pefg",
+    "exotel-fk0z2xa",
+    "greylabs-ai-34499",
+    "truveta-6240382004",
+    "abacus-insights-8925405002",
+    "exotel-fk0zoax",
+    "refold-ai-ef65161f-274f-47fb-94d5-f4df1aab1592",
+    "refold-ai-f0285553-0c73-4a05-ae6f-a8efed7f16cb",
+    "exotel-fk0znye",
+    "exotel-fk0zio4",
+    "jove-3f6bdc10d3",
+    "greylabs-ai-64584",
+    "leucine-e203432e74",
+    "whatfix-fk0zrs9",
+    "bright-money-11994",
+    "exotel-fk0z83d",
+    "teal-india-4246041"
+  ],
+  "undated_discovery_ids": [],
+  "flagged_existing_ids": [],
+  "retention": {
+    "cutoff": "2026-10-23",
+    "run_date": "2026-11-23",
+    "initial_before": 338,
+    "after_initial_prune": 338,
+    "final_count": 388,
+    "removed_by_reason": {
+      "older-than-one-month": [],
+      "posting-date-unknown": [],
+      "employer-expired": []
+    },
+    "archives": []
+  },
+  "search_window": {
+    "initial_start": "2026-11-22T21:05:05.455668+00:00",
+    "initial_end": "2026-11-23T14:15:35.239191+00:00",
+    "expanded_start": "2026-10-23",
+    "expanded_end": "2026-11-23",
+    "timezone": "Asia/Kolkata",
+    "posted_since_previous_run": [
+      "uptimeai-0fedf5a5-4d2c-4fc1-912c-8f350434bfd8",
+      "celonis-7791343003",
+      "highlevel-03c20542-a178-4162-89f2-8feccd658d82",
+      "suki-8213880003",
+      "6sense-8258411",
+      "highradius-8200225003",
+      "certify-c107e265-1479-470e-85a3-911536adaa89",
+      "razorpay-4747004005",
+      "techdome-171303"
+    ],
+    "same_day_without_publication_time": [
+      "quantiphi-jr9674",
+      "quantiphi-jr10864"
+    ],
+    "note": "Nine employer timestamps fall after the earlier run. Two Workday roles are dated 23 November without a time. The remaining 39 additions were originally posted earlier in the inclusive calendar-month window."
+  },
+  "sources": [
+    {
+      "source": "LinkedIn Jobs",
+      "example_url": "https://in.linkedin.com/jobs/search/?keywords=Machine%20Learning%20Engineer&location=India&f_TPR=r86400",
+      "checked_from": "2026-11-23T13:37:49.903776+00:00",
+      "checked_through": "2026-11-23T13:37:49.903776+00:00",
+      "distinct_requests": 1,
+      "outcomes": {
+        "200": 1
+      },
+      "result": "Public search and indexed listings used for discovery. Public access varied and did not independently establish every application."
+    },
+    {
+      "source": "Wellfound",
+      "example_url": "https://wellfound.com/role/l/machine-learning-engineer/india",
+      "checked_from": "2026-11-23T13:37:49.904266+00:00",
+      "checked_through": "2026-11-23T14:00:53.456455+00:00",
+      "distinct_requests": 12,
+      "outcomes": {
+        "200": 10,
+        "HTTP Error 410: Gone": 2
+      },
+      "result": "Public employer listings reviewed. One addition from Teal India, including its direct application and employer-published annual pay. Two retrieved candidates were gone."
+    },
+    {
+      "source": "Instahyre jobs",
+      "example_url": "https://www.instahyre.com/search-jobs/",
+      "checked_from": "2026-11-23T13:37:49.906587+00:00",
+      "checked_through": "2026-11-23T13:37:49.906587+00:00",
+      "distinct_requests": 1,
+      "outcomes": {
+        "HTTP Error 403: Forbidden": 1
+      },
+      "result": "Job discovery returned HTTP 403. Indexed salary research was reviewed independently."
+    },
+    {
+      "source": "Naukri",
+      "example_url": "https://www.naukri.com/machine-learning-engineer-startup-jobs",
+      "checked_from": "2026-11-23T13:37:49.993211+00:00",
+      "checked_through": "2026-11-23T13:37:49.993211+00:00",
+      "distinct_requests": 1,
+      "outcomes": {
+        "200": 1
+      },
+      "result": "The accessible search page was a client-rendered shell. No job was verified using that page."
+    },
+    {
+      "source": "Himalayas",
+      "example_url": "https://himalayas.app/jobs/countries/india/machine-learning",
+      "checked_from": "2026-11-23T13:37:50.051346+00:00",
+      "checked_through": "2026-11-23T13:37:50.051346+00:00",
+      "distinct_requests": 1,
+      "outcomes": {
+        "HTTP Error 403: Forbidden": 1
+      },
+      "result": "The India ML search endpoint returned HTTP 403. Indexed results were considered only as discovery leads."
+    },
+    {
+      "source": "Remotive",
+      "example_url": "https://remotive.com/api/remote-jobs?category=software-dev",
+      "checked_from": "2026-11-23T13:37:50.124629+00:00",
+      "checked_through": "2026-11-23T13:37:50.124629+00:00",
+      "distinct_requests": 1,
+      "outcomes": {
+        "200": 1
+      },
+      "result": "Public remote job source checked for India-eligible technical vacancies."
+    },
+    {
+      "source": "Remote OK",
+      "example_url": "https://remoteok.com/remote-india-jobs",
+      "checked_from": "2026-11-23T13:37:50.159892+00:00",
+      "checked_through": "2026-11-23T13:37:50.159892+00:00",
+      "distinct_requests": 1,
+      "outcomes": {
+        "200": 1
+      },
+      "result": "Public India collection checked."
+    },
+    {
+      "source": "Cutshort",
+      "example_url": "https://cutshort.io/jobs/artificial-intelligence-ai-jobs-in-bangalore-bengaluru",
+      "checked_from": "2026-11-23T13:37:50.243775+00:00",
+      "checked_through": "2026-11-23T13:37:50.243775+00:00",
+      "distinct_requests": 1,
+      "outcomes": {
+        "200": 1
+      },
+      "result": "Public India technical job discovery checked."
+    },
+    {
+      "source": "Y Combinator",
+      "example_url": "https://www.ycombinator.com/jobs/location/india",
+      "checked_from": "2026-11-23T13:37:50.405526+00:00",
+      "checked_through": "2026-11-23T13:45:03.393014+00:00",
+      "distinct_requests": 41,
+      "outcomes": {
+        "200": 41
+      },
+      "result": "Examined employer-authored listings and compared results with the board and archive."
+    },
+    {
+      "source": "Ashby",
+      "example_url": "https://api.ashbyhq.com/posting-api/job-board/Lambda?includeCompensation=true",
+      "checked_from": "2026-11-23T13:37:50.876094+00:00",
+      "checked_through": "2026-11-23T13:51:40.808408+00:00",
+      "distinct_requests": 198,
+      "outcomes": {
+        "200": 152,
+        "HTTP Error 404: Not Found": 46
+      },
+      "result": "Reviewed listed employer records, publishedAt, location and individual posting or application."
+    },
+    {
+      "source": "Greenhouse",
+      "example_url": "https://boards-api.greenhouse.io/v1/boards/6sense/jobs?content=true",
+      "checked_from": "2026-11-23T13:39:30.150122+00:00",
+      "checked_through": "2026-11-23T13:51:38.963787+00:00",
+      "distinct_requests": 349,
+      "outcomes": {
+        "200": 266,
+        "HTTP Error 404: Not Found": 83
+      },
+      "result": "Reviewed first_published, India eligibility, role content and employer application. Checked dedicated application forms for the Suki and HighRadius website integrations."
+    },
+    {
+      "source": "Lever",
+      "example_url": "https://api.lever.co/v0/postings/100ms?mode=json",
+      "checked_from": "2026-11-23T13:38:10.026847+00:00",
+      "checked_through": "2026-11-23T13:51:38.750979+00:00",
+      "distinct_requests": 129,
+      "outcomes": {
+        "200": 83,
+        "The read operation timed out": 3,
+        "HTTP Error 404: Not Found": 43
+      },
+      "result": "Reviewed createdAt and the employer-specific application."
+    },
+    {
+      "source": "Workday",
+      "example_url": "https://thoughtspot.wd5.myworkdayjobs.com/en-US/careers/job/Staff-Engineer_JR2176",
+      "checked_from": "2026-11-23T13:40:20.813776+00:00",
+      "checked_through": "2026-11-23T14:00:45.400161+00:00",
+      "distinct_requests": 16,
+      "outcomes": {
+        "200": 16
+      },
+      "result": "Matched employer startDate and JobPosting publication date. Verified the requisition is posted and accepting applications."
+    },
+    {
+      "source": "Keka",
+      "example_url": "https://attero.keka.com/careers/api/embedjobs/default/active/52d63d06-bc61-437e-a156-09e99afce260",
+      "checked_from": "2026-11-23T13:39:29.924823+00:00",
+      "checked_through": "2026-11-23T13:46:00.784747+00:00",
+      "distinct_requests": 51,
+      "outcomes": {
+        "200": 51
+      },
+      "result": "Verified the active employer job and original publishedOn timestamp."
+    },
+    {
+      "source": "Trakstar",
+      "example_url": "https://whatfix101.hire.trakstar.com/?city=Bengaluru&rsu=mile",
+      "checked_from": "2026-11-23T13:40:14.673699+00:00",
+      "checked_through": "2026-11-23T13:52:27.828039+00:00",
+      "distinct_requests": 324,
+      "outcomes": {
+        "200": 324
+      },
+      "result": "Read original datePosted, full-time status, hiring organization and duties from employer-controlled role pages."
+    },
+    {
+      "source": "Kula",
+      "example_url": "https://careers.kula.ai/cashfree?applySuccess=true",
+      "checked_from": "2026-11-23T13:40:30.372349+00:00",
+      "checked_through": "2026-11-23T13:53:49.851336+00:00",
+      "distinct_requests": 141,
+      "outcomes": {
+        "200": 140,
+        "HTTP Error 404: Not Found": 1
+      },
+      "result": "Verified original publication dates, employer names, India locations and job-specific postings."
+    },
+    {
+      "source": "Rippling",
+      "example_url": "https://ats.rippling.com/rippling/jobs/a85f4703-0d12-4148-adeb-075e78024248",
+      "checked_from": "2026-11-23T13:44:42.536752+00:00",
+      "checked_through": "2026-11-23T13:54:43.201678+00:00",
+      "distinct_requests": 72,
+      "outcomes": {
+        "200": 70,
+        "HTTP Error 308: Permanent Redirect": 2
+      },
+      "result": "Verified active employer requisitions and original createdOn, including the explicit India location and US meeting travel."
+    },
+    {
+      "source": "Workable",
+      "example_url": "https://apply.workable.com/api/v1/widget/accounts/dbox?details=true",
+      "checked_from": "2026-11-23T13:47:29.236615+00:00",
+      "checked_through": "2026-11-23T14:12:03.135922+00:00",
+      "distinct_requests": 110,
+      "outcomes": {
+        "200": 83,
+        "HTTP Error 404: Not Found": 27
+      },
+      "result": "Checked current company feeds and matched individual requisitions and original publication dates. Withheld candidates with substantial earlier history or unresolved eligibility."
+    }
+  ],
+  "excluded": [
+    {
+      "company": "YouTrip",
+      "role": "Staff Software Engineer - Features",
+      "source_job_id": "1B9B879C80",
+      "source_url": "https://apply.workable.com/youtrip/j/1B9B879C80/",
+      "reason": "Created in January 2026, months before the apparent November publication. Original posting age for the requisition could not be established inside the window."
+    },
+    {
+      "company": "Mindera",
+      "role": "Senior Data Engineer",
+      "source_job_id": "00BDAF3C30",
+      "source_url": "https://apply.workable.com/minderacraft/j/00BDAF3C30/",
+      "reason": "Created in 2022. The current publication did not establish a new requisition."
+    },
+    {
+      "company": "OneTrust",
+      "role": "Senior Staff Software Engineer",
+      "source_job_id": "8405034",
+      "source_url": "https://job-boards.greenhouse.io/onetrust/jobs/8405034",
+      "reason": "Responsibilities overlap substantially with the existing senior staff listing. A separate team or role scope could not be confirmed."
+    },
+    {
+      "company": "CRED",
+      "role": "fraud analytics engineer",
+      "source_job_id": "913a6616-78c9-4ca3-8c92-67ddea8a80df",
+      "source_url": "https://jobs.lever.co/cred/913a6616-78c9-4ca3-8c92-67ddea8a80df",
+      "reason": "Description identifies a fraud analyst remit, primarily analysing fraud patterns."
+    },
+    {
+      "company": "Gruve",
+      "role": "Infrastructure Security Engineer-L2 (Palo Alto & Cloud)",
+      "source_job_id": "5478920008",
+      "source_url": "https://gruve.ai/careers/?gh_jid=5478920008",
+      "reason": "L2 support, firewall administration and vendor coordination predominate."
+    },
+    {
+      "company": "systango",
+      "role": "Director / Associate Director, Engineering (Product, Cloud & AI)",
+      "source_job_id": "171363",
+      "source_url": "https://systango.keka.com/careers/jobdetails/171363",
+      "reason": "Publicly traded employer."
+    },
+    {
+      "company": "Whatfix",
+      "role": "Solutions Engineer ",
+      "source_job_id": "fk0zn68",
+      "source_url": "https://whatfix101.hire.trakstar.com/jobs/fk0zn68/",
+      "reason": "Sales and presales remit."
+    }
+  ],
+  "deduplication": "Checked current and archived IDs and application URLs, historical requisitions, normalized titles and related descriptions. Cross-board mirrors and unresolved reposts were withheld. Similar included Quantiphi roles have distinct specializations documented in the per-job audit.",
+  "salary_notes": [
+    "Volga Partners and Teal India publish annual INR ranges. Six additions have company-specific benchmarks and 39 have sourced India role or location comparisons.",
+    "Three roles have no sufficiently matched estimate. These remain blank."
+  ],
+  "validation": {
+    "npm_run_check": "26 tests, CSV validation and static build passed with 388 active and total listings.",
+    "production_build": "Generated the production site with SITE_URL=https://go-careers.github.io.",
+    "records": "All 50 additions have unique application links, matching source and compensation evidence, official local logos, static pages and sitemap entries.",
+    "browser": "Repository browser and accessibility checks passed. Checked all 50 cards and detail pages at 390 and 1440 pixels, including logo decoding, application link and page overflow.",
+    "whitespace": "git diff --check passed."
+  },
+  "publication_status": "Prepared for the authorized GitHub Pages workflow on development-2. GitHub Actions records the deployment result for the commit."
+}

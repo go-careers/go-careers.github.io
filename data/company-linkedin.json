@@ -1260,6 +1260,120 @@
       "checked_at": "2026-11-23",
       "additional_source": "https://www.kaggle.com/datasets/arshkon/linkedin-job-postings",
       "note": "Public directory matches organization 10206331 with Blink Health in New York."
+    },
+    {
+      "company": "Abacus Insights",
+      "company_id": "27021519",
+      "source_url": "https://www.linkedin.com/company/abacusinsights",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Alaan",
+      "company_id": "79116635",
+      "source_url": "https://www.linkedin.com/company/alaanpay",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Bright Money",
+      "company_id": "19199917",
+      "source_url": "https://www.linkedin.com/company/bright-money",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "CoverGo",
+      "company_id": "13315520",
+      "source_url": "https://www.linkedin.com/company/covergo",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Exotel",
+      "company_id": "18161648",
+      "source_url": "https://www.linkedin.com/company/exotel",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Genios AI",
+      "company_id": "106436507",
+      "source_url": "https://www.linkedin.com/company/genios-ai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "GreyLabs AI",
+      "company_id": "101881336",
+      "source_url": "https://www.linkedin.com/company/greylabs-ai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "HighRadius",
+      "company_id": "835110",
+      "source_url": "https://www.linkedin.com/company/highradius",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "JoVE",
+      "company_id": "312490",
+      "source_url": "https://www.linkedin.com/company/jove",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Leucine",
+      "company_id": "13303471",
+      "source_url": "https://www.linkedin.com/company/leucine",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Litmus",
+      "company_id": "5220045",
+      "source_url": "https://www.linkedin.com/company/litmus-automation",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Plum",
+      "company_id": "28689540",
+      "source_url": "https://www.linkedin.com/company/plumhq",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Rearc",
+      "company_id": "10888631",
+      "source_url": "https://www.linkedin.com/company/rearc",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Refold AI",
+      "company_id": "82783634",
+      "source_url": "https://www.linkedin.com/company/refoldai",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Teal India",
+      "company_id": "18923625",
+      "source_url": "https://www.linkedin.com/company/tealindia",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Truveta",
+      "company_id": "71451871",
+      "source_url": "https://www.linkedin.com/company/truveta",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Updraft",
+      "company_id": "18741881",
+      "source_url": "https://www.linkedin.com/company/helloupdraft",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Volga Partners",
+      "company_id": "54301134",
+      "source_url": "https://www.linkedin.com/company/volga-partners",
+      "checked_at": "2026-11-23"
+    },
+    {
+      "company": "Whatfix",
+      "company_id": "2058906",
+      "source_url": "https://www.linkedin.com/company/whatfix",
+      "checked_at": "2026-11-23"
     }
   ]
 }

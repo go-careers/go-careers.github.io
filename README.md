@@ -27,7 +27,7 @@ Ownership is a separate build requirement. Every real employer must have an elig
 
 This board is focused on software development, machine learning, AI, and related engineering roles (platform/SRE, data engineering, and security automation). Keep sales, marketing, design, product management, customer support, and general IT operations out of the feed.
 
-The **23 November 2026** run added **50 verified engineering openings across 31 private startups**. One was posted after the previous completed run. The remaining 49 were first-time additions from the inclusive **23 October–23 November** window. The run archived 21 older listings, leaving **338 active roles across 159 private startups**. [Daily run details](data/job-runs/2026-11-22T20-26-02Z.json)
+The two runs on **23 November 2026** added **100 verified India engineering openings**. The evening refresh added **50 openings across 28 private companies**, including 11 with a 23 November posting date. No additional listings aged out in the evening. After both runs the board contains **388 active roles across 178 private companies** in the inclusive 23 October–23 November window. [Evening run](data/job-runs/2026-11-23T13-37-32Z.json) · [Earlier run](data/job-runs/2026-11-22T20-26-02Z.json)
 
 The [earlier 100-role sourcing run](data/job-runs/2026-11-16T18-53-21Z.json) remains historical evidence. The archive now contains 214 historical listings, including 199 older postings and 15 undated postings. Verification dates apply to individual records; this update does not imply every older listing was checked again.
 
@@ -69,7 +69,7 @@ City filters include every city on multi-location roles, normalize Bangalore/Ben
 
 ### Salary research
 
-On 23 November, **252 of 338 active listings show expected compensation**. Employers published amounts for 65 roles, and 187 have sourced estimates. The latest 50 additions include seven employer-published amounts and 43 estimates. The board preserves the original currency and pay period, including monthly internship pay.
+On 23 November, **299 of 388 active openings show expected compensation**. Employers published pay for 67 roles and 232 have sourced estimates. The evening refresh added two employer-published ranges and 45 estimates. The board preserves each amount’s currency and pay period.
 
 Estimates use relevant company employee reports where available, then documented India role/experience benchmarks from Instahyre, Naukri, Glassdoor and Michael Page. Market estimates are **not company-confirmed salary bands**. Finite experience ranges use the envelope of overlapping published bands; open-ended experience uses the minimum band. Title-only comparisons, mismatched sectors, small samples and aging reports are documented per job. Some ranges include equity and variable pay; base-pay sources remain marked separately in the CSV. These are not take-home amounts. Internship estimates retain their monthly period. No arbitrary startup premium or currency conversion is added.
 

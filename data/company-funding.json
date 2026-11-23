@@ -1753,12 +1753,12 @@
       "round_date": "2026-10-13",
       "source_url": "https://www.suki.ai/press-releases/suki-secures-90-million-to-build-and-scale-ai-agents-for-health-systems-and-health-tech-companies/",
       "additional_sources": [],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-23",
       "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/sukihq"
         ],
@@ -2174,12 +2174,12 @@
         "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794567970546.pdf",
         "https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-sebi-approval-for-rs-6000-cr-ipo-in-india/articleshow/135810458.cms"
       ],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-23",
       "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/razorpay",
           "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794567970546.pdf",
@@ -2346,12 +2346,12 @@
       "additional_sources": [
         "https://www.nasdaqprivatemarket.com/company/6sense/"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-23",
       "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/6sense",
           "https://6sense.com/news/6sense-announces-200-million-series-e-round-increasing-valuation-to-5-2-billion",
@@ -2463,12 +2463,12 @@
       "additional_sources": [
         "https://www.celonis.com/faqs"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-23",
       "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/celonis",
           "https://www.celonis.com/news/press/celonis-announces-1-billion-round-to-meet-industry-wide-demand-for-execution-management",
@@ -2555,12 +2555,12 @@
       "additional_sources": [
         "https://www.gohighlevel.com/about-us/"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-23",
       "note": "General Atlantic joined as a growth investor. The announcement does not assign a Series letter.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/highlevel",
           "https://www.gohighlevel.com/post/general-atlantic-joins-highlevel",
@@ -3190,12 +3190,12 @@
       "additional_sources": [
         "https://www.cci.gov.in/images/summaryorders/en/summary1740028336.pdf"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-23",
       "note": "Multiples invested in the founder-led operating company. The later notified transaction transferred the investor holding between affiliated funds.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/quantiphi",
           "https://quantiphi.com/media-releases/global-ai-solutions-provider-quantiphi-raises-usd-20-million-investment-from-multiples-alternate-asset-management/",
@@ -3420,12 +3420,12 @@
       "additional_sources": [
         "https://www.emergent.vc/portfolio"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-23",
       "note": "Privately financed industrial AI startup. ABB Motion Ventures describes its strategic investment and partnership after the Series A.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-23",
         "sources": [
           "https://www.linkedin.com/company/uptimeai-inc",
           "https://www.uptimeai.com/resources/abb-partnership-with-uptimeai/",
@@ -4053,6 +4053,443 @@
           "https://www.linkedin.com/company/blink-health"
         ],
         "note": "Founder-led prescription access technology company, operating as BlinkRx. Forge records Series D private shares and private-market financing."
+      }
+    },
+    {
+      "company": "Abacus Insights",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://abacusinsights.com/abacus-insights-raises-35-million-in-series-b-financing-to-help-health-plans-liberate-data-enabling-consumers-to-make-better-health-choices-and-their-providers-to-offer-more-informed-recommendations/",
+      "additional_sources": [
+        "https://www.linkedin.com/company/abacusinsights"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The healthcare data company announced its Series B and continues to recruit under its own company name.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/abacusinsights",
+          "https://abacusinsights.com/abacus-insights-raises-35-million-in-series-b-financing-to-help-health-plans-liberate-data-enabling-consumers-to-make-better-health-choices-and-their-providers-to-offer-more-informed-recommendations/",
+          "https://www.linkedin.com/company/abacusinsights"
+        ],
+        "note": "The healthcare data company announced its Series B and continues to recruit under its own company name."
+      }
+    },
+    {
+      "company": "Alaan",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.alaan.com/press-releases/alaan-raises-48-million",
+      "additional_sources": [
+        "https://www.alaan.com/about-us"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Founders continue to operate the spend-management company following its $48 million Series A.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/alaanpay",
+          "https://www.alaan.com/press-releases/alaan-raises-48-million",
+          "https://www.alaan.com/about-us"
+        ],
+        "note": "Founders continue to operate the spend-management company following its $48 million Series A."
+      }
+    },
+    {
+      "company": "Bright Money",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.cbinsights.com/company/bright-money/financials",
+      "additional_sources": [
+        "https://www.fintechfutures.com/venture-capital-funding/bright-money-lands-62m-debt-and-equity-funding"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The 2023 financing comprised $12 million of equity and $50 million of debt. The financing database classifies the equity as Series B.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/bright-money",
+          "https://www.cbinsights.com/company/bright-money/financials",
+          "https://www.fintechfutures.com/venture-capital-funding/bright-money-lands-62m-debt-and-equity-funding"
+        ],
+        "note": "The 2023 financing comprised $12 million of equity and $50 million of debt. The financing database classifies the equity as Series B."
+      }
+    },
+    {
+      "company": "CoverGo",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://covergo.com/news/covergo-raises-us6-million-in-series-b1-funding-to-accelerate-global-adoption-of-its-ai-insurance-platform/",
+      "additional_sources": [
+        "https://covergo.com/about-us/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "CoverGo identifies its most recent disclosed round as Series B1. The board groups this under Series B.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/covergo",
+          "https://covergo.com/news/covergo-raises-us6-million-in-series-b1-funding-to-accelerate-global-adoption-of-its-ai-insurance-platform/",
+          "https://covergo.com/about-us/"
+        ],
+        "note": "CoverGo identifies its most recent disclosed round as Series B1. The board groups this under Series B."
+      }
+    },
+    {
+      "company": "Exotel",
+      "stage": "Series D",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://exotel.com/newsroom/exotel-strengthens-board-to-shape-its-next-chapter-of-ai-led-growth/",
+      "additional_sources": [
+        "https://exotel.hire.trakstar.com/jobs/fk0zah3/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The company identifies itself as Series D funded and has announced its independent board and leadership. The employer recruits as Exotel Techcom Pvt Ltd.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/exotel",
+          "https://exotel.com/newsroom/exotel-strengthens-board-to-shape-its-next-chapter-of-ai-led-growth/",
+          "https://exotel.hire.trakstar.com/jobs/fk0zah3/"
+        ],
+        "note": "The company identifies itself as Series D funded and has announced its independent board and leadership. The employer recruits as Exotel Techcom Pvt Ltd."
+      }
+    },
+    {
+      "company": "Genios AI",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://geniosai.co/press/",
+      "additional_sources": [
+        "https://www.goodwinlaw.com/en/news-and-events/news/2026/11/announcements-technology-goodwin-advises-geniosai-seed-series-a-financing"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The founder-led financial intelligence startup announced seed and Series A investment from General Catalyst, FactSet and Zoom in November 2026.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/genios-ai",
+          "https://geniosai.co/press/",
+          "https://www.goodwinlaw.com/en/news-and-events/news/2026/11/announcements-technology-goodwin-advises-geniosai-seed-series-a-financing"
+        ],
+        "note": "The founder-led financial intelligence startup announced seed and Series A investment from General Catalyst, FactSet and Zoom in November 2026."
+      }
+    },
+    {
+      "company": "GreyLabs AI",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://careers.kula.ai/greylabs/34499-platform-engineer-devops",
+      "additional_sources": [
+        "https://www.greylabs.ai/about"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The employer discloses an ₹85 crore Series A led by Elevation Capital with Z47 in its live recruiting material.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/greylabs-ai",
+          "https://careers.kula.ai/greylabs/34499-platform-engineer-devops",
+          "https://www.greylabs.ai/about"
+        ],
+        "note": "The employer discloses an ₹85 crore Series A led by Elevation Capital with Z47 in its live recruiting material."
+      }
+    },
+    {
+      "company": "HighRadius",
+      "stage": "Series C",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.highradius.com/en-gb/about/news/highradius-raises-300m-series-c-at-over-3-billion-valuation/",
+      "additional_sources": [
+        "https://www.highradius.com/about/company-overview/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The founder-led finance software company announced a $300 million Series C. Current company and ownership records were checked for a subsequent listing or takeover.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/highradius",
+          "https://www.highradius.com/en-gb/about/news/highradius-raises-300m-series-c-at-over-3-billion-valuation/",
+          "https://www.highradius.com/about/company-overview/"
+        ],
+        "note": "The founder-led finance software company announced a $300 million Series C. Current company and ownership records were checked for a subsequent listing or takeover."
+      }
+    },
+    {
+      "company": "JoVE",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.jove.com/about/leadership",
+      "additional_sources": [
+        "https://www.crunchbase.com/organization/jove-journal-of-visualized-experiments"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The scientific video platform continues to identify its founder in its executive leadership. A named funding round could not be verified.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/jove",
+          "https://www.jove.com/about/leadership",
+          "https://www.crunchbase.com/organization/jove-journal-of-visualized-experiments"
+        ],
+        "note": "The scientific video platform continues to identify its founder in its executive leadership. A named funding round could not be verified."
+      }
+    },
+    {
+      "company": "Leucine",
+      "stage": "Series A",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.linkedin.com/posts/leucine_leucine-makes-drug-manufacturing-compliance-activity-7119658012872507392-pDzG",
+      "additional_sources": [
+        "https://leucine.ai/about/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The pharmaceutical software company announced a $7 million Series A led by Ecolab, with other venture investors participating.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/leucine",
+          "https://www.linkedin.com/posts/leucine_leucine-makes-drug-manufacturing-compliance-activity-7119658012872507392-pDzG",
+          "https://leucine.ai/about/"
+        ],
+        "note": "The pharmaceutical software company announced a $7 million Series A led by Ecolab, with other venture investors participating."
+      }
+    },
+    {
+      "company": "Litmus",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://litmus.io/newsroom/litmus-secures-additional-investment-led-by-insight-partners-to-accelerate",
+      "additional_sources": [
+        "https://litmus.io/who-we-are"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The industrial data company announced additional investment from Insight Partners and Munich Re Ventures following its Series B. The latest financing has no disclosed series label.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/litmus-automation",
+          "https://litmus.io/newsroom/litmus-secures-additional-investment-led-by-insight-partners-to-accelerate",
+          "https://litmus.io/who-we-are"
+        ],
+        "note": "The industrial data company announced additional investment from Insight Partners and Munich Re Ventures following its Series B. The latest financing has no disclosed series label."
+      }
+    },
+    {
+      "company": "Plum",
+      "stage": "Series B",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.plumhq.com/blog/series-b-funding",
+      "additional_sources": [
+        "https://www.plumhq.com/about"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The Indian employee insurance platform identifies the latest round as Series B and names Peak XV as lead investor.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/plumhq",
+          "https://www.plumhq.com/blog/series-b-funding",
+          "https://www.plumhq.com/about"
+        ],
+        "note": "The Indian employee insurance platform identifies the latest round as Series B and names Peak XV as lead investor."
+      }
+    },
+    {
+      "company": "Rearc",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://rearc.io/about",
+      "additional_sources": [
+        "https://rearc.io/team"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Company and leadership profiles identify the cloud and AI engineering firm and its founding team. A named financing round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/rearc",
+          "https://rearc.io/about",
+          "https://rearc.io/team"
+        ],
+        "note": "Company and leadership profiles identify the cloud and AI engineering firm and its founding team. A named financing round was not established."
+      }
+    },
+    {
+      "company": "Refold AI",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://refold.ai/blog/350b-year-goes-into-duct-taping-apis-we-raised-6-5m-to-build-agents-instead/",
+      "additional_sources": [
+        "https://www.linkedin.com/company/refoldai"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Refold announced $6.5 million in seed funding for its AI integration platform. Its company recruiting account confirms the Bengaluru operation.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/refoldai",
+          "https://refold.ai/blog/350b-year-goes-into-duct-taping-apis-we-raised-6-5m-to-build-agents-instead/",
+          "https://www.linkedin.com/company/refoldai"
+        ],
+        "note": "Refold announced $6.5 million in seed funding for its AI integration platform. Its company recruiting account confirms the Bengaluru operation."
+      }
+    },
+    {
+      "company": "Teal India",
+      "stage": "Seed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.tealindia.in/about",
+      "additional_sources": [
+        "https://www.infoedge.in/pdfs/corporatePresentations_pdfs/Info-Edge-May26-Presentation.pdf"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The Indian property-data startup identifies its founding team and discloses its seed funding from Info Edge. The hiring business is Terra Economics and Analytics Lab. Investor disclosure lists a 23.03% diluted interest.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/tealindia",
+          "https://www.tealindia.in/about",
+          "https://www.infoedge.in/pdfs/corporatePresentations_pdfs/Info-Edge-May26-Presentation.pdf"
+        ],
+        "note": "The Indian property-data startup identifies its founding team and discloses its seed funding from Info Edge. The hiring business is Terra Economics and Analytics Lab. Investor disclosure lists a 23.03% diluted interest."
+      }
+    },
+    {
+      "company": "Truveta",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-collaborates-truveta-and-leading-american-health/",
+      "additional_sources": [
+        "https://www.truveta.com/leadership/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Truveta is jointly backed by a group of US health systems and minority strategic investors. Its research-platform financing did not carry a disclosed series designation.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/truveta",
+          "https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-collaborates-truveta-and-leading-american-health/",
+          "https://www.truveta.com/leadership/"
+        ],
+        "note": "Truveta is jointly backed by a group of US health systems and minority strategic investors. Its research-platform financing did not carry a disclosed series designation."
+      }
+    },
+    {
+      "company": "Updraft",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://www.quilamcapital.com/our-portfolio/updraft/",
+      "additional_sources": [
+        "https://www.updraft.com/regulatory/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Updraft is the trading name of independent UK fintech Fairscore Ltd. Investor Quilam identifies equity and subordinated debt financing without a named series.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/helloupdraft",
+          "https://www.quilamcapital.com/our-portfolio/updraft/",
+          "https://www.updraft.com/regulatory/"
+        ],
+        "note": "Updraft is the trading name of independent UK fintech Fairscore Ltd. Investor Quilam identifies equity and subordinated debt financing without a named series."
+      }
+    },
+    {
+      "company": "Volga Partners",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://volgapartners.com/about-us/",
+      "additional_sources": [
+        "https://www.linkedin.com/company/volga-partners"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "The privately held enterprise AI company identifies its two founders and its current operating leadership. A named financing round was not established.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/volga-partners",
+          "https://volgapartners.com/about-us/",
+          "https://www.linkedin.com/company/volga-partners"
+        ],
+        "note": "The privately held enterprise AI company identifies its two founders and its current operating leadership. A named financing round was not established."
+      }
+    },
+    {
+      "company": "Whatfix",
+      "stage": "Series E",
+      "eligible": true,
+      "round_date": "",
+      "source_url": "https://whatfix.com/newsroom/press-releases/whatfix-raises-125-million-series-e/",
+      "additional_sources": [
+        "https://whatfix.com/"
+      ],
+      "checked_at": "2026-11-23",
+      "note": "Whatfix announced its $125 million Series E and continues to operate its enterprise software products under its own leadership.",
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "checked_at": "2026-11-23",
+        "sources": [
+          "https://www.linkedin.com/company/whatfix",
+          "https://whatfix.com/newsroom/press-releases/whatfix-raises-125-million-series-e/",
+          "https://whatfix.com/"
+        ],
+        "note": "Whatfix announced its $125 million Series E and continues to operate its enterprise software products under its own leadership."
       }
     }
   ]

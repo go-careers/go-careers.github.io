@@ -1559,6 +1559,177 @@
       "checked_at": "2026-11-23",
       "retrieved_at": "2026-11-22T21:02:38.342921+00:00",
       "source_sha256": "e23b0da1facdaa71f286aee25d6cf6dc61f1e372748336a02e29a61071195049"
+    },
+    {
+      "company": "HighRadius",
+      "file": "highradius.png",
+      "page": "https://www.highradius.com/",
+      "url": "https://www.highradius.com/favicon.ico",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:45.215314+00:00",
+      "source_sha256": "1e73ec94257db453ff44ed5890de8afb3813becc29dc40a7640db439e7db0671"
+    },
+    {
+      "company": "Exotel",
+      "file": "exotel.png",
+      "page": "https://exotel.hire.trakstar.com/jobs/fk0pzgl/",
+      "url": "https://d1zx4fn8ox8446.cloudfront.net/filemanager.rboxfile/de56a3364ec849a594c39b51d65b10ec/Exotel_logo_Black.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:45.422624+00:00",
+      "source_sha256": "e8bf125788d58ff3a777ce28e8c921e7e7cbbca52fb3e36d198c7e390bf721f3"
+    },
+    {
+      "company": "Refold AI",
+      "file": "refold-ai.png",
+      "page": "https://jobs.ashbyhq.com/refoldai/c37ea990-850c-4cc2-a4fb-d3066f08d952",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-wordmark/c9d466ee-0e96-478f-a861-6fba03a23b96/6b62f8b8-b0f9-4953-a193-ca953f12e5e1/2aa781f6-eceb-40cb-8c37-9234ec549661.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:45.485079+00:00",
+      "source_sha256": "e289669322a019780ea31aaa98bbbe3855fdf61d020e70602fe5b5a113bf6e9f"
+    },
+    {
+      "company": "Whatfix",
+      "file": "whatfix.png",
+      "page": "https://whatfix101.hire.trakstar.com/jobs/fk0zc89/",
+      "url": "https://d1zx4fn8ox8446.cloudfront.net/filemanager.rboxfile/ae8db2b59d9940eaab00f3ba6a12ecc4/android-chrome-512x512.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:46.793007+00:00",
+      "source_sha256": "00c0f751b682e031af96b58e8481113a5ef535375d076cb6f9d78c91dfd6ff1c"
+    },
+    {
+      "company": "Truveta",
+      "file": "truveta.png",
+      "page": "https://job-boards.greenhouse.io/truveta/jobs/6262111004",
+      "url": "https://s4-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/008/200/original/Truveta_Logo_Horizontal-Primary_RGB.png?1631040253",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:46.849007+00:00",
+      "source_sha256": "a23d5e90ea2ede0a8561fe1da9895e46e6b16a706ba38130ee9ed5ef55b299d2"
+    },
+    {
+      "company": "JoVE",
+      "file": "jove.png",
+      "page": "https://apply.workable.com/api/v1/accounts/jove",
+      "url": "https://workablehr.s3.amazonaws.com/uploads/account/logo/736049/logo",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:09:01.399948+00:00",
+      "source_sha256": "433651adf48f3ec2a05fe41eece37f7d00105f2a5b2b2a59439925b9a2ef4931"
+    },
+    {
+      "company": "Plum",
+      "file": "plum.png",
+      "page": "https://careers.kula.ai/plumhq/69198-engineering-manager-ai-agentic-systems",
+      "url": "https://assets.kula.ai/images/career/dg2y97e9p32ryx65mjr962thter4",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:47.615241+00:00",
+      "source_sha256": "2189bebd138d1dd4d37b9f203b3b0a9ace725d4fdede48d6a545c8c9df27d892"
+    },
+    {
+      "company": "Alaan",
+      "file": "alaan.png",
+      "page": "https://careers.kula.ai/alaan/69089-ml-engineer",
+      "url": "https://assets.kula.ai/images/career/hhssmmcaif14zwyv2mrtivhsgv2v",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:47.952340+00:00",
+      "source_sha256": "5323bf73c6b949e091027440b18607c2f93021f64f8f35663e7cfc0a7d126290"
+    },
+    {
+      "company": "GreyLabs AI",
+      "file": "greylabs-ai.png",
+      "page": "https://careers.kula.ai/greylabs/34499-platform-engineer-devops",
+      "url": "https://assets.kula.ai/images/career/dnlw8tla9s4dvsdjfuedenmv1a1z",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:48.026418+00:00",
+      "source_sha256": "3215afbe5e329c4171883e7794940642a70a87155615fa02d97d8c78f38792bd"
+    },
+    {
+      "company": "Bright Money",
+      "file": "bright-money.png",
+      "page": "https://careers.kula.ai/brightmoney/11994-sde-iii-backend",
+      "url": "https://assets.kula.ai/images/career/fur67dwqn7s0sreu34akr9taiptm",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:48.353936+00:00",
+      "source_sha256": "5edab9b994ff96800f5d6ce7456e9fea3555f41c35f34b55da1652ca3d71233f"
+    },
+    {
+      "company": "CoverGo",
+      "file": "covergo.png",
+      "page": "https://covergo.com/",
+      "url": "https://covergo.com/favicon.ico",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:49.551715+00:00",
+      "source_sha256": "dee670978a497eea6ba37467b850a64f273e755b2e71f248ffc79f4ac991c9b3"
+    },
+    {
+      "company": "Leucine",
+      "file": "leucine.png",
+      "page": "https://apply.workable.com/leucine/j/E203432E74/",
+      "url": "https://d2y4rc9q318ytb.cloudfront.net/accounts/3e799c3e-55dc-4875-8238-2141452d796e/192x192/1782107668299-2b6627d6.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:06:51.516562+00:00",
+      "source_sha256": "0ed5bebbf765e09156d54db6c6204687257ed1a5b476179ea558ef07b692bd13"
+    },
+    {
+      "company": "Updraft",
+      "file": "updraft.png",
+      "page": "https://www.updraft.com/",
+      "url": "https://www.updraft.com/wp-content/uploads/2025/01/favicon-300x300.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:06:51.517170+00:00",
+      "source_sha256": "ec408e482a466f9a346825431e349c7515f801ec1eb864969ebdee5bf1ecf4b2"
+    },
+    {
+      "company": "Rearc",
+      "file": "rearc.png",
+      "page": "https://jobs.ashbyhq.com/rearc/88ece928-dadc-413e-84f6-0413b1f899d2",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-wordmark/ae9c43e2-4ef2-4657-8936-bb079bd1f0b5/0f0e5873-b14f-49fd-8426-0ea05b3e722f/fae094e3-eca0-40eb-8c86-b01519a071d8.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:52.647867+00:00",
+      "source_sha256": "968a416ff66c20849efea353b2c31c026808ccaff7383ebcb4d8dbd9b6e05268"
+    },
+    {
+      "company": "Abacus Insights",
+      "file": "abacus-insights.png",
+      "page": "https://boards.greenhouse.io/abacusinsights/jobs/8925405002?gh_jid=8925405002",
+      "url": "https://s2-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/719/900/original/Abacus_Full_Logo_Color.png?1743023709",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:52.681402+00:00",
+      "source_sha256": "34e9e98f2425042ade6ce5e72b39dc537d34732f60e8f4205d911ef7efefd7e3"
+    },
+    {
+      "company": "Litmus",
+      "file": "litmus.png",
+      "page": "https://jobs.ashbyhq.com/litmus/6b75ea53-9d4c-46d3-917b-2c6ea48d014c",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-logo/9676a80e-deab-436f-b6de-7eaf4c7081aa/3c5f9123-dfa0-4077-9287-20953537eb3a/c83542e6-1f8c-4570-9a74-b7c6da6bb01c.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:52.760695+00:00",
+      "source_sha256": "db82e0108ae0e9ff584fe539f1cf7602255aca514adc1351966829047396f535"
+    },
+    {
+      "company": "Teal India",
+      "file": "teal-india.png",
+      "page": "https://wellfound.com/jobs/4246041-ai-ml-engineer",
+      "url": "https://photos.wellfound.com/startups/i/6778426-3a4da45d05807a8d0e45fb1a471c56ae-medium_jpg.jpg?buster=1549526098",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:00:53.456455+00:00",
+      "source_sha256": "720ded6ec9e3dfc24234826c30f161f926b840f4be8b3a027f529a96b4a47ea8"
+    },
+    {
+      "company": "Volga Partners",
+      "file": "volga-partners.png",
+      "page": "https://volgapartners.com/about-us/",
+      "url": "https://volgapartners.com/wp-content/uploads/2026/09/cropped-volga-linkedin-logo-tile-white-192x192.webp",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:07:56.970333+00:00",
+      "source_sha256": "3ed510737a9e6ef3bc379c865d2b7354298ca8dc848efa6c77e2719c309c72a8"
+    },
+    {
+      "company": "Genios AI",
+      "file": "genios-ai.png",
+      "page": "https://geniosai.co/",
+      "url": "https://geniosai.co/favicon.png",
+      "checked_at": "2026-11-23",
+      "retrieved_at": "2026-11-23T14:07:56.970813+00:00",
+      "source_sha256": "a99f03152a04a0a4a51679af5e8a01ed1ed31bdbc8b96c511c092eaa59813bed"
     }
   ]
 }
