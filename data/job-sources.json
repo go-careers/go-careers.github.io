@@ -13645,6 +13645,1292 @@
       "source_api_checked_at": "2026-11-23T13:39:29.576384+00:00",
       "source_api_record_sha256": "f90f9787c76a20b3a8a0703100b9e6600ff7fbaac452d5b58307d23aa53adf36",
       "location_note": "India requisition explicitly designates Bengaluru. The JD requires monthly travel to the Bay Area or Seattle, which the listing discloses."
+    },
+    {
+      "id": "coderabbit-2ac28238-d1e4-423c-82ae-03dc826bee40",
+      "company": "CodeRabbit",
+      "title": "Senior Software Engineer, Backend",
+      "source_title": "Senior Software Engineer - Backend",
+      "source_kind": "ashby",
+      "source_job_id": "2ac28238-d1e4-423c-82ae-03dc826bee40",
+      "source_url": "https://jobs.ashbyhq.com/coderabbit/2ac28238-d1e4-423c-82ae-03dc826bee40",
+      "application_url": "https://jobs.ashbyhq.com/coderabbit/2ac28238-d1e4-423c-82ae-03dc826bee40",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/coderabbit?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-25T11:25:44.855+00:00",
+      "posted_date": "2026-11-25",
+      "source_location": "Bengaluru",
+      "source_additional_locations": [
+        "Bengaluru"
+      ],
+      "checked_at": "2026-11-25T18:15:11.666239+00:00",
+      "http_status": 200,
+      "source_sha256": "6d045cd7226362dd335fc95e20ed8a06bf2106ba3e752f1c2a0e2791a62a0cdd",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/coderabbit?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "celonis-8198070003",
+      "company": "Celonis",
+      "title": "Analytics Engineer, IC2",
+      "source_title": "Analytics Engineer_IC2",
+      "source_kind": "greenhouse",
+      "source_job_id": "8198070003",
+      "source_url": "https://job-boards.greenhouse.io/celonis/jobs/8198070003?gh_jid=8198070003",
+      "application_url": "https://job-boards.greenhouse.io/celonis/jobs/8198070003?gh_jid=8198070003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-25T08:56:01-05:00",
+      "posted_date": "2026-11-25",
+      "source_location": "Bangalore, India",
+      "source_additional_locations": [
+        "Bangalore, India"
+      ],
+      "checked_at": "2026-11-25T18:15:16.297302+00:00",
+      "http_status": 200,
+      "source_sha256": "58db70202a021e6f8a4f5c957c132790fc0b99b684c33dde332254b458d9cae7",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/celonis/jobs?content=true"
+      ]
+    },
+    {
+      "id": "certify-6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+      "company": "Certify",
+      "title": "Engineering Manager",
+      "source_title": "Engineering Manager",
+      "source_kind": "ashby",
+      "source_job_id": "6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+      "source_url": "https://jobs.ashbyhq.com/certifyos/6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+      "application_url": "https://jobs.ashbyhq.com/certifyos/6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/certifyos?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-25T11:12:32.386+00:00",
+      "posted_date": "2026-11-25",
+      "source_location": "Bengaluru, India",
+      "source_additional_locations": [
+        "Bengaluru, India"
+      ],
+      "checked_at": "2026-11-25T18:15:16.856881+00:00",
+      "http_status": 200,
+      "source_sha256": "d920beafcfccc25e9d4304fe39a9ce71029ab0d1f2ec7620faf7143283ac1595",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/certifyos?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "certa-7045409d-3a8f-493f-b76f-113b849db8a4",
+      "company": "Certa",
+      "title": "Software Development Engineer II, Backend",
+      "source_title": "Software Development Engineer II (SDE-2) Backend",
+      "source_kind": "ashby",
+      "source_job_id": "7045409d-3a8f-493f-b76f-113b849db8a4",
+      "source_url": "https://jobs.ashbyhq.com/certa/7045409d-3a8f-493f-b76f-113b849db8a4",
+      "application_url": "https://jobs.ashbyhq.com/certa/7045409d-3a8f-493f-b76f-113b849db8a4",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/certa?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-25T12:33:03.998+00:00",
+      "posted_date": "2026-11-25",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:17.282647+00:00",
+      "http_status": 200,
+      "source_sha256": "d999e4556f1b74a092b6e865a813d642701b697e49324d9ac5e328c6d9c1e98c",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/certa?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "razorpay-4746998005",
+      "company": "Razorpay",
+      "title": "Lead Software Development Engineer",
+      "source_title": "Lead Software Development Engineer",
+      "source_kind": "greenhouse",
+      "source_job_id": "4746998005",
+      "source_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746998005",
+      "application_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746998005",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-25T05:31:14-05:00",
+      "posted_date": "2026-11-25",
+      "source_location": "Bengaluru",
+      "source_additional_locations": [
+        "Bengaluru"
+      ],
+      "checked_at": "2026-11-25T18:15:17.592437+00:00",
+      "http_status": 200,
+      "source_sha256": "cfde4213bdcec21ea52152883107f6133cef7db398c7f81f35f5a51ac11cffd1",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs?content=true"
+      ]
+    },
+    {
+      "id": "onetrust-8405036",
+      "company": "OneTrust",
+      "title": "Senior Quality Engineer, SDET",
+      "source_title": "Senior Quality Engineer - SDET",
+      "source_kind": "greenhouse",
+      "source_job_id": "8405036",
+      "source_url": "https://job-boards.greenhouse.io/onetrust/jobs/8405036",
+      "application_url": "https://job-boards.greenhouse.io/onetrust/jobs/8405036",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/onetrust/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-23T10:26:27-05:00",
+      "posted_date": "2026-11-23",
+      "source_location": "Bengaluru, India",
+      "source_additional_locations": [
+        "Bengaluru, India"
+      ],
+      "checked_at": "2026-11-25T18:15:19.535410+00:00",
+      "http_status": 200,
+      "source_sha256": "fc428602a8abd023a125f6a0eb24f3fc368e1f0f1675f73f0b1ab3648ef6c14d",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/onetrust/jobs?content=true"
+      ]
+    },
+    {
+      "id": "gokwik-167254",
+      "company": "GoKwik",
+      "title": "Software Development Engineer III",
+      "source_title": "Software Development Engineer III",
+      "source_kind": "keka",
+      "source_job_id": "167254",
+      "source_url": "https://gokwik.keka.com/careers/jobdetails/167254",
+      "application_url": "https://gokwik.keka.com/careers/jobdetails/167254",
+      "source_api": "https://gokwik.keka.com/careers/api/embedjobs/default/active/19d678f6-8b79-4532-a5f0-d57b593a822e",
+      "source_publication_field": "publishedOn",
+      "source_published_at": "2026-11-25T12:15:48.713Z",
+      "posted_date": "2026-11-25",
+      "source_location": "Gurugram",
+      "source_additional_locations": [
+        "Gurugram"
+      ],
+      "checked_at": "2026-11-25T18:15:24.183656+00:00",
+      "http_status": 200,
+      "source_sha256": "bad170acb3b9b11da923a52deebda9c679667e99d31f84f9ef06dee1589a4e97",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://gokwik.keka.com/careers/api/embedjobs/default/active/19d678f6-8b79-4532-a5f0-d57b593a822e"
+      ],
+      "source_salary": {
+        "minimum": 3500000.0,
+        "maximum": 4500000.0,
+        "currency": "INR",
+        "salaryPeriod": 4,
+        "cultureInfo": "en-IN"
+      }
+    },
+    {
+      "id": "gokwik-163510",
+      "company": "GoKwik",
+      "title": "Software Development Engineer II",
+      "source_title": "Software Development Engineer - II",
+      "source_kind": "keka",
+      "source_job_id": "163510",
+      "source_url": "https://gokwik.keka.com/careers/jobdetails/163510",
+      "application_url": "https://gokwik.keka.com/careers/jobdetails/163510",
+      "source_api": "https://gokwik.keka.com/careers/api/embedjobs/default/active/19d678f6-8b79-4532-a5f0-d57b593a822e",
+      "source_publication_field": "publishedOn",
+      "source_published_at": "2026-11-25T12:28:00.77Z",
+      "posted_date": "2026-11-25",
+      "source_location": "Bengaluru / Gurugram",
+      "source_additional_locations": [
+        "Bengaluru / Gurugram"
+      ],
+      "checked_at": "2026-11-25T18:15:24.413162+00:00",
+      "http_status": 200,
+      "source_sha256": "4515cb0fd328f3c9b139bfa20099be9d5c174270d5a48872661206e0a045cc01",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://gokwik.keka.com/careers/api/embedjobs/default/active/19d678f6-8b79-4532-a5f0-d57b593a822e"
+      ],
+      "source_salary": {
+        "minimum": 2500000.0,
+        "maximum": 3500000.0,
+        "currency": "INR",
+        "salaryPeriod": 4,
+        "cultureInfo": "en-IN"
+      }
+    },
+    {
+      "id": "tide-8215174003",
+      "company": "Tide",
+      "title": "Director of Engineering, Commercial Services",
+      "source_title": "Director of Engineering, Commercial Services",
+      "source_kind": "greenhouse",
+      "source_job_id": "8215174003",
+      "source_url": "https://job-boards.greenhouse.io/tide/jobs/8215174003",
+      "application_url": "https://job-boards.greenhouse.io/tide/jobs/8215174003",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/tide/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-24T06:40:49-05:00",
+      "posted_date": "2026-11-24",
+      "source_location": "India, Hyderabad",
+      "source_additional_locations": [
+        "India, Hyderabad"
+      ],
+      "checked_at": "2026-11-25T18:15:10.594087+00:00",
+      "http_status": 200,
+      "source_sha256": "6d216aa902c35f8ad66df2e4cdf9b8301646102bb70c50bab897f49f9ef343f3",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/tide/jobs?content=true"
+      ],
+      "alternate_location_url": "https://job-boards.greenhouse.io/tide/jobs/8213969003"
+    },
+    {
+      "id": "mindtickle-2f32712f-bc84-4485-b2fb-99e167f54e21",
+      "company": "Mindtickle",
+      "title": "Software Development Engineer III",
+      "source_title": "SDE-III",
+      "source_kind": "lever",
+      "source_job_id": "2f32712f-bc84-4485-b2fb-99e167f54e21",
+      "source_url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21",
+      "application_url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21",
+      "source_api": "https://api.lever.co/v0/postings/mindtickle?mode=json",
+      "source_publication_field": "createdAt",
+      "source_published_at": 1795496309151,
+      "posted_date": "2026-11-24",
+      "source_location": "Pune, Maharashtra",
+      "source_additional_locations": [
+        "Pune, Maharashtra",
+        "Pune, Maharashtra",
+        "Bengaluru, Karnataka"
+      ],
+      "checked_at": "2026-11-25T18:15:16.770311+00:00",
+      "http_status": 200,
+      "source_sha256": "bf20df84998bdc8c2986db97d13b556b60fccc39c19ae7dda6242fcfa165ac35",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.lever.co/v0/postings/mindtickle?mode=json"
+      ]
+    },
+    {
+      "id": "atlys-b890cae8-aed2-4c4c-be41-53843662f947",
+      "company": "Atlys",
+      "title": "iOS Engineer",
+      "source_title": "iOS Engineer",
+      "source_kind": "ashby",
+      "source_job_id": "b890cae8-aed2-4c4c-be41-53843662f947",
+      "source_url": "https://jobs.ashbyhq.com/atlys/b890cae8-aed2-4c4c-be41-53843662f947",
+      "application_url": "https://jobs.ashbyhq.com/atlys/b890cae8-aed2-4c4c-be41-53843662f947",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/atlys?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-24T10:02:15.198+00:00",
+      "posted_date": "2026-11-24",
+      "source_location": "Delhi HQ",
+      "source_additional_locations": [
+        "Delhi HQ"
+      ],
+      "checked_at": "2026-11-25T18:15:16.836989+00:00",
+      "http_status": 200,
+      "source_sha256": "8f5510d5980964d8b4591e8ea94b3ad1ba2c9ebc7600705474fe7dabda77d469",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/atlys?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "refold-ai-d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+      "company": "Refold AI",
+      "title": "Senior AI Engineer",
+      "source_title": "Senior AI Engineer",
+      "source_kind": "ashby",
+      "source_job_id": "d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+      "source_url": "https://jobs.ashbyhq.com/refoldai/d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+      "application_url": "https://jobs.ashbyhq.com/refoldai/d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/refoldai?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-24T10:34:42.566+00:00",
+      "posted_date": "2026-11-24",
+      "source_location": "Bengaluru",
+      "source_additional_locations": [
+        "Bengaluru"
+      ],
+      "checked_at": "2026-11-25T18:15:18.156036+00:00",
+      "http_status": 200,
+      "source_sha256": "edb9473a3e29985e8991688ce6d4847324322e8ef753472b8a26df46f3850f1b",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/refoldai?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "zeta-bf61238b-c630-4f34-a940-77398c388bb3",
+      "company": "Zeta",
+      "title": "Manager, Site Reliability Engineering",
+      "source_title": "Manager Site Reliability Engineer",
+      "source_kind": "lever",
+      "source_job_id": "bf61238b-c630-4f34-a940-77398c388bb3",
+      "source_url": "https://jobs.lever.co/zeta/bf61238b-c630-4f34-a940-77398c388bb3",
+      "application_url": "https://jobs.lever.co/zeta/bf61238b-c630-4f34-a940-77398c388bb3",
+      "source_api": "https://api.lever.co/v0/postings/zeta?mode=json",
+      "source_publication_field": "createdAt",
+      "source_published_at": 1795508452478,
+      "posted_date": "2026-11-24",
+      "source_location": "Mumbai",
+      "source_additional_locations": [
+        "Mumbai",
+        "Mumbai"
+      ],
+      "checked_at": "2026-11-25T18:15:18.321155+00:00",
+      "http_status": 200,
+      "source_sha256": "455b113941a11709d0dd15eb8c888158755a21318d8f7919ab0d4ab8db414d56",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.lever.co/v0/postings/zeta?mode=json"
+      ]
+    },
+    {
+      "id": "hackerrank-8245384",
+      "company": "HackerRank",
+      "title": "Senior Engineering Manager, Evaluation",
+      "source_title": "Senior Engineering Manager - Evaluation",
+      "source_kind": "greenhouse",
+      "source_job_id": "8245384",
+      "source_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8245384",
+      "application_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8245384",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/hackerrank/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-24T02:30:21-05:00",
+      "posted_date": "2026-11-24",
+      "source_location": "Hybrid in Bangalore, India",
+      "source_additional_locations": [
+        "Hybrid in Bangalore, India"
+      ],
+      "checked_at": "2026-11-25T18:15:20.208595+00:00",
+      "http_status": 200,
+      "source_sha256": "43469fe4a6a771a335700e5017aac422402fd1da137ed638f36bc33df03ef9f3",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/hackerrank/jobs?content=true"
+      ]
+    },
+    {
+      "id": "sahaj-software-5046980101",
+      "company": "Sahaj Software",
+      "title": "Senior Full-Stack Engineer",
+      "source_title": "Senior Engineer - Full Stack",
+      "source_kind": "greenhouse",
+      "source_job_id": "5046980101",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5046980101",
+      "application_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5046980101",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-24T01:20:12-05:00",
+      "posted_date": "2026-11-24",
+      "source_location": "Chennai, Tamil Nadu, India",
+      "source_additional_locations": [
+        "Chennai, Tamil Nadu, India"
+      ],
+      "checked_at": "2026-11-25T18:15:21.458680+00:00",
+      "http_status": 200,
+      "source_sha256": "7fc558aa118f1a7a16cb7acb861db324674c49f09d07e5e9accf99dd3e0abb07",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true"
+      ]
+    },
+    {
+      "id": "blitzy-877a82e4-9271-4523-806a-aac67f48e2da",
+      "company": "Blitzy",
+      "title": "Senior Backend Engineer",
+      "source_title": "Senior Backend Engineer",
+      "source_kind": "ashby",
+      "source_job_id": "877a82e4-9271-4523-806a-aac67f48e2da",
+      "source_url": "https://jobs.ashbyhq.com/blitzy/877a82e4-9271-4523-806a-aac67f48e2da",
+      "application_url": "https://jobs.ashbyhq.com/blitzy/877a82e4-9271-4523-806a-aac67f48e2da",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/blitzy?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-24T14:21:04.091+00:00",
+      "posted_date": "2026-11-24",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:23.132809+00:00",
+      "http_status": 200,
+      "source_sha256": "88061d27c1b82a803f472e32fdbf002aab7a1e8e146968987a5a20bfc0633604",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/blitzy?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "quantiphi-jr10775",
+      "company": "Quantiphi",
+      "title": "Research Engineer, Quantum Computing",
+      "source_title": "Research Engineer",
+      "source_kind": "workday",
+      "source_job_id": "JR10775",
+      "source_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Research-Engineer_JR10775",
+      "application_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Research-Engineer_JR10775",
+      "source_api": "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Research-Engineer_JR10775",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-25",
+      "posted_date": "2026-11-25",
+      "source_location": "IN KA Bengaluru",
+      "source_additional_locations": [
+        "IN MH Mumbai Eureka"
+      ],
+      "checked_at": "2026-11-25T18:15:24.719637+00:00",
+      "http_status": 200,
+      "source_sha256": "881c565afba3178b05e12f81d7eaffa555dd7958c53baea1467968e6aeb64f87",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Research-Engineer_JR10775"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "sifive-r-101617",
+      "company": "SiFive",
+      "title": "Software Engineer, Service Observability Platform",
+      "source_title": "Software Engineer; Service Observability Platform",
+      "source_kind": "workday",
+      "source_job_id": "R-101617",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Software-Engineer--Service-Observability-Platform_R-101617",
+      "application_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Software-Engineer--Service-Observability-Platform_R-101617",
+      "source_api": "https://sifive.wd1.myworkdayjobs.com/wday/cxs/sifive/sifivecareers/job/Bengaluru-Karnataka-India/Software-Engineer--Service-Observability-Platform_R-101617",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-25",
+      "posted_date": "2026-11-25",
+      "source_location": "Bengaluru, Karnataka, India",
+      "source_additional_locations": [],
+      "checked_at": "2026-11-25T18:15:26.123148+00:00",
+      "http_status": 200,
+      "source_sha256": "a4fac0f498d18f84bdf0647b48e644a52371f768472a2285d3f79b238ee9b4f8",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://sifive.wd1.myworkdayjobs.com/wday/cxs/sifive/sifivecareers/job/Bengaluru-Karnataka-India/Software-Engineer--Service-Observability-Platform_R-101617"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "arctic-wolf-r26-1281",
+      "company": "Arctic Wolf",
+      "title": "Staff Developer, AI Threat Intelligence Platform",
+      "source_title": "Staff Developer - AI Threat Intel Platform",
+      "source_kind": "workday",
+      "source_job_id": "R26_1281",
+      "source_url": "https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Staff-Developer---AI-Threat-Intel-Platform_R26_1281",
+      "application_url": "https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Staff-Developer---AI-Threat-Intel-Platform_R26_1281",
+      "source_api": "https://arcticwolf.wd1.myworkdayjobs.com/wday/cxs/arcticwolf/External/job/Bengaluru-IND/Staff-Developer---AI-Threat-Intel-Platform_R26_1281",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-25",
+      "posted_date": "2026-11-25",
+      "source_location": "Bengaluru, IND",
+      "source_additional_locations": [],
+      "checked_at": "2026-11-25T18:15:26.720013+00:00",
+      "http_status": 200,
+      "source_sha256": "ed9fd265552bde5cf402d3bd0985e2b9120752d61ad5a01ad9cd420213b8947a",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://arcticwolf.wd1.myworkdayjobs.com/wday/cxs/arcticwolf/External/job/Bengaluru-IND/Staff-Developer---AI-Threat-Intel-Platform_R26_1281"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "arctic-wolf-r26-1288",
+      "company": "Arctic Wolf",
+      "title": "Senior Developer 2",
+      "source_title": "Senior Developer 2",
+      "source_kind": "workday",
+      "source_job_id": "R26_1288",
+      "source_url": "https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Senior-Developer-2_R26_1288",
+      "application_url": "https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Senior-Developer-2_R26_1288",
+      "source_api": "https://arcticwolf.wd1.myworkdayjobs.com/wday/cxs/arcticwolf/External/job/Bengaluru-IND/Senior-Developer-2_R26_1288",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-25",
+      "posted_date": "2026-11-25",
+      "source_location": "Bengaluru, IND",
+      "source_additional_locations": [],
+      "checked_at": "2026-11-25T18:15:26.861469+00:00",
+      "http_status": 200,
+      "source_sha256": "c94be863739ec603145938d0de3a10c752f2b2fc0c249e58ca8565dd5581f300",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://arcticwolf.wd1.myworkdayjobs.com/wday/cxs/arcticwolf/External/job/Bengaluru-IND/Senior-Developer-2_R26_1288"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "bjak-eff3f437-4bfa-4970-91f8-58b21f80b18d",
+      "company": "BJAK",
+      "title": "Staff Software Engineer",
+      "source_title": "Staff Software Engineer",
+      "source_kind": "ashby",
+      "source_job_id": "eff3f437-4bfa-4970-91f8-58b21f80b18d",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/eff3f437-4bfa-4970-91f8-58b21f80b18d",
+      "application_url": "https://jobs.ashbyhq.com/bjakcareer/eff3f437-4bfa-4970-91f8-58b21f80b18d",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-10-29T07:30:54.692+00:00",
+      "posted_date": "2026-10-29",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:15.621639+00:00",
+      "http_status": 200,
+      "source_sha256": "c024e9ea315a900c67aa67c7663e0ed01ba8b203de67352b9b9cdf3ca57a01e3",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true"
+      ],
+      "publication_note": "An earlier public feed capture for this same ID establishes the original date. Current publishedAt is a republication.",
+      "latest_published_at": "2026-11-24T09:05:51.622+00:00"
+    },
+    {
+      "id": "alphasense-8769853002",
+      "company": "AlphaSense",
+      "title": "Senior Software Engineer, Document Processing",
+      "source_title": "Senior Software Engineer",
+      "source_kind": "greenhouse",
+      "source_job_id": "8769853002",
+      "source_url": "https://job-boards.greenhouse.io/alphasenseindia/jobs/8769853002",
+      "application_url": "https://job-boards.greenhouse.io/alphasenseindia/jobs/8769853002",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/alphasenseindia/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-24T05:05:47-05:00",
+      "posted_date": "2026-11-24",
+      "source_location": "Remote - India",
+      "source_additional_locations": [
+        "Remote - India"
+      ],
+      "checked_at": "2026-11-25T18:15:18.738344+00:00",
+      "http_status": 200,
+      "source_sha256": "a66777de4b85cce72938e997502bfecee06114d121065e8552e226035879df33",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/alphasenseindia/jobs?content=true"
+      ]
+    },
+    {
+      "id": "headout-575a9f45-486b-4368-a69c-aab596733817",
+      "company": "Headout",
+      "title": "Software Engineer in Test",
+      "source_title": "Software Engineer in Test",
+      "source_kind": "ashby",
+      "source_job_id": "575a9f45-486b-4368-a69c-aab596733817",
+      "source_url": "https://jobs.ashbyhq.com/headout/575a9f45-486b-4368-a69c-aab596733817",
+      "application_url": "https://jobs.ashbyhq.com/headout/575a9f45-486b-4368-a69c-aab596733817",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/headout?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-24T16:25:02.969+00:00",
+      "posted_date": "2026-11-24",
+      "source_location": "Bengaluru",
+      "source_additional_locations": [
+        "Bengaluru"
+      ],
+      "checked_at": "2026-11-25T18:15:20.391385+00:00",
+      "http_status": 200,
+      "source_sha256": "19c714cc02a11d52f54649be0ec1bfb52b4d0b8ca50ea3ffceb0e689d49146ac",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/headout?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "cohesity-r05337",
+      "company": "Cohesity",
+      "title": "Research Engineer, Post-Training and Vision-Language Models",
+      "source_title": "Research Engineer, Post-Training & Vision-Language Models",
+      "source_kind": "workday",
+      "source_job_id": "R05337",
+      "source_url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Bangalore---India-Office/Research-Engineer--Post-Training---Vision-Language-Models_R05337",
+      "application_url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Bangalore---India-Office/Research-Engineer--Post-Training---Vision-Language-Models_R05337",
+      "source_api": "https://cohesity.wd5.myworkdayjobs.com/wday/cxs/cohesity/cohesity_careers/job/Bangalore---India-Office/Research-Engineer--Post-Training---Vision-Language-Models_R05337",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-24",
+      "posted_date": "2026-11-24",
+      "source_location": "Bangalore - India (Office)",
+      "source_additional_locations": [],
+      "checked_at": "2026-11-25T18:15:26.475211+00:00",
+      "http_status": 200,
+      "source_sha256": "cf27fed95677d6c502c4959e749678f9b70210906176d42464aa48ffc80020b5",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://cohesity.wd5.myworkdayjobs.com/wday/cxs/cohesity/cohesity_careers/job/Bangalore---India-Office/Research-Engineer--Post-Training---Vision-Language-Models_R05337"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "dozee-3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "company": "Dozee",
+      "title": "Quality Engineer III",
+      "source_title": "Quality Engineer III",
+      "source_kind": "lever",
+      "source_job_id": "3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "source_url": "https://jobs.lever.co/dozee/3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "application_url": "https://jobs.lever.co/dozee/3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "source_api": "https://api.lever.co/v0/postings/dozee?mode=json",
+      "source_publication_field": "createdAt",
+      "source_published_at": 1795432230969,
+      "posted_date": "2026-11-23",
+      "source_location": "Bangalore",
+      "source_additional_locations": [
+        "Bangalore",
+        "Bangalore"
+      ],
+      "checked_at": "2026-11-25T18:15:11.210071+00:00",
+      "http_status": 200,
+      "source_sha256": "29201b14dfed3eeb3d729c1248afb8680c476e60aabee880e9242fc6f16fea95",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.lever.co/v0/postings/dozee?mode=json"
+      ]
+    },
+    {
+      "id": "dozee-9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+      "company": "Dozee",
+      "title": "Staff Engineer, Full Stack",
+      "source_title": "Staff Engineer - Full Stack",
+      "source_kind": "lever",
+      "source_job_id": "9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+      "source_url": "https://jobs.lever.co/dozee/9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+      "application_url": "https://jobs.lever.co/dozee/9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+      "source_api": "https://api.lever.co/v0/postings/dozee?mode=json",
+      "source_publication_field": "createdAt",
+      "source_published_at": 1795430723714,
+      "posted_date": "2026-11-23",
+      "source_location": "Bangalore",
+      "source_additional_locations": [
+        "Bangalore",
+        "Bangalore"
+      ],
+      "checked_at": "2026-11-25T18:15:11.388380+00:00",
+      "http_status": 200,
+      "source_sha256": "a59dcfb27b9fec95b2d73dc0939cb4ab46bdfcf20a30db73d056510b8888941b",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.lever.co/v0/postings/dozee?mode=json"
+      ]
+    },
+    {
+      "id": "bjak-e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+      "company": "BJAK",
+      "title": "Applied AI Engineer, AI Finance Agent",
+      "source_title": "Applied AI Engineer - AI Finance Agent",
+      "source_kind": "ashby",
+      "source_job_id": "e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+      "application_url": "https://jobs.ashbyhq.com/bjakcareer/e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-23T06:19:05.379+00:00",
+      "posted_date": "2026-11-23",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:12.956045+00:00",
+      "http_status": 200,
+      "source_sha256": "4a27d6973b9ea2d9704804448aec4b89e2fef3ecaa0efd314a0286a5993cddd7",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "bjak-08454ce3-a782-45b8-834e-a3c9452b1647",
+      "company": "BJAK",
+      "title": "Full-Stack Software Engineer, AI Finance Agent",
+      "source_title": "Full Stack Software Engineer - AI Finance Agent",
+      "source_kind": "ashby",
+      "source_job_id": "08454ce3-a782-45b8-834e-a3c9452b1647",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/08454ce3-a782-45b8-834e-a3c9452b1647",
+      "application_url": "https://jobs.ashbyhq.com/bjakcareer/08454ce3-a782-45b8-834e-a3c9452b1647",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-23T06:32:14.694+00:00",
+      "posted_date": "2026-11-23",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:13.533794+00:00",
+      "http_status": 200,
+      "source_sha256": "2fcbefd0a4fac6e290ffcfe123fb402b60c563b22e4e0d4c9ed735e8f6e91d4e",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "bjak-4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+      "company": "BJAK",
+      "title": "Android Developer, AI Finance Agent",
+      "source_title": "Android Developer - AI Finance Agent",
+      "source_kind": "ashby",
+      "source_job_id": "4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+      "application_url": "https://jobs.ashbyhq.com/bjakcareer/4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-23T07:15:22.355+00:00",
+      "posted_date": "2026-11-23",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:13.587185+00:00",
+      "http_status": 200,
+      "source_sha256": "7e4e26a016f7d1cd46bfa273962d19193900d3aedcc0d704ef522354796ee950",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "bjak-3a04559c-3700-429b-b2d2-1e144dc27611",
+      "company": "BJAK",
+      "title": "iOS Developer, AI Finance Agent",
+      "source_title": "iOS Developer - AI Finance Agent",
+      "source_kind": "ashby",
+      "source_job_id": "3a04559c-3700-429b-b2d2-1e144dc27611",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/3a04559c-3700-429b-b2d2-1e144dc27611",
+      "application_url": "https://jobs.ashbyhq.com/bjakcareer/3a04559c-3700-429b-b2d2-1e144dc27611",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-23T07:11:35.665+00:00",
+      "posted_date": "2026-11-23",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:14.187168+00:00",
+      "http_status": 200,
+      "source_sha256": "ae1232c35b6653da0101badc16650f9205dbf4e992b57d237a0ac0011dcd6100",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "bjak-7f6692fb-eed1-4134-9baa-76cb68850037",
+      "company": "BJAK",
+      "title": "Backend Software Engineer, AI Finance Agent",
+      "source_title": "Backend Software Engineer - AI Finance Agent",
+      "source_kind": "ashby",
+      "source_job_id": "7f6692fb-eed1-4134-9baa-76cb68850037",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/7f6692fb-eed1-4134-9baa-76cb68850037",
+      "application_url": "https://jobs.ashbyhq.com/bjakcareer/7f6692fb-eed1-4134-9baa-76cb68850037",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-23T06:35:25.697+00:00",
+      "posted_date": "2026-11-23",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:14.227270+00:00",
+      "http_status": 200,
+      "source_sha256": "dd2cd742f1c49e4a8afdf48b5167f19aa1bcc30982f8d68f82a02c6665e10b57",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/bjakcareer?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "trackier-5135332",
+      "company": "Trackier",
+      "title": "Founding Machine Learning Engineer",
+      "source_title": "Machine Learning Engineer - (Founding ML Hire)",
+      "source_kind": "wellfound",
+      "source_job_id": "5135332",
+      "source_url": "https://wellfound.com/jobs/5135332-machine-learning-engineer-founding-ml-hire",
+      "application_url": "https://wellfound.com/jobs/5135332-machine-learning-engineer-founding-ml-hire",
+      "source_api": "https://wellfound.com/jobs/5135332-machine-learning-engineer-founding-ml-hire",
+      "source_publication_field": "datePosted",
+      "source_published_at": "2026-11-23T11:32:50Z",
+      "posted_date": "2026-11-23",
+      "source_location": "Noida, Uttar Pradesh, India",
+      "source_additional_locations": [
+        "Noida, Uttar Pradesh, India"
+      ],
+      "checked_at": "2026-11-25T18:17:28.905937+00:00",
+      "http_status": 200,
+      "source_sha256": "0ceb6aa06e7f9267a4709bd525c0f8c06887ec5fc8322dd03e5d29c79123f7da",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://wellfound.com/jobs/5135332-machine-learning-engineer-founding-ml-hire"
+      ]
+    },
+    {
+      "id": "exotel-fk0pzgl",
+      "company": "Exotel",
+      "title": "Principal Engineer, Messaging",
+      "source_title": "Principal Engineer - Messaging",
+      "source_kind": "trakstar",
+      "source_job_id": "fk0pzgl",
+      "source_url": "https://exotel.hire.trakstar.com/jobs/fk0pzgl/",
+      "application_url": "https://exotel.hire.trakstar.com/jobs/fk0pzgl/",
+      "source_api": "https://exotel.hire.trakstar.com/jobs/fk0pzgl/",
+      "source_publication_field": "datePosted",
+      "source_published_at": "2026-11-23",
+      "posted_date": "2026-11-23",
+      "source_location": "Bengaluru, Karnataka, India",
+      "source_additional_locations": [
+        "Bengaluru, Karnataka, India"
+      ],
+      "checked_at": "2026-11-25T18:20:36.499740+00:00",
+      "http_status": 200,
+      "source_sha256": "19733e6fbaaead35efd366759388171d2345a8a40ad8e73d10731f712c2f408e",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://exotel.hire.trakstar.com/jobs/fk0pzgl/"
+      ],
+      "latest_published_at": "2026-11-24",
+      "earlier_capture_checked_at": "2026-11-23T13:51:45.701070+00:00",
+      "earlier_capture_sha256": "a477c4f9a2595325f375e8f876235cac2b389711bf7943cff8a1e6030458b4db",
+      "publication_note": "The employer changed datePosted on the same Trakstar requisition. The 23 November capture supplies the earlier date."
+    },
+    {
+      "id": "skan-ai-42722",
+      "company": "Skan AI",
+      "title": "Site Reliability Engineer, Infrastructure and Support",
+      "source_title": "Site Reliability Engineer (SRE) & Support",
+      "source_kind": "keka",
+      "source_job_id": "42722",
+      "source_url": "https://skanai.keka.com/careers/jobdetails/42722",
+      "application_url": "https://skanai.keka.com/careers/jobdetails/42722",
+      "source_api": "https://skanai.keka.com/careers/api/embedjobs/default/active/d83629ac-cbae-4575-a5b0-a6e0e556f459",
+      "source_publication_field": "publishedOn",
+      "source_published_at": "2026-11-20T08:28:21.207Z",
+      "posted_date": "2026-11-20",
+      "source_location": "India",
+      "source_additional_locations": [
+        "India"
+      ],
+      "checked_at": "2026-11-25T18:15:24.631633+00:00",
+      "http_status": 200,
+      "source_sha256": "f02e116625a3a36b0609c48b4bef47cb346320ba1506e020ebf15f41dbb1101a",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://skanai.keka.com/careers/api/embedjobs/default/active/d83629ac-cbae-4575-a5b0-a6e0e556f459"
+      ],
+      "experience_note": "Keka lists 5–7 years in the structured field and 3–5 in the JD. Numeric filters are blank."
+    },
+    {
+      "id": "doxel-7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+      "company": "Doxel",
+      "title": "Full-Stack Software Engineer, Schedule Mapping",
+      "source_title": "Full Stack Software Engineer, India",
+      "source_kind": "lever",
+      "source_job_id": "7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+      "source_url": "https://jobs.lever.co/doxel/7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+      "application_url": "https://jobs.lever.co/doxel/7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+      "source_api": "https://api.lever.co/v0/postings/doxel?mode=json",
+      "source_publication_field": "createdAt",
+      "source_published_at": 1795067848254,
+      "posted_date": "2026-11-19",
+      "source_location": "Bengaluru, Karnataka",
+      "source_additional_locations": [
+        "Bengaluru, Karnataka",
+        "Bengaluru, Karnataka"
+      ],
+      "checked_at": "2026-11-25T18:15:18.069872+00:00",
+      "http_status": 200,
+      "source_sha256": "1b08d42acae90af8dc52bdbdaafa9c870b7e45adc017505f36a2a5a7b4d9c9a4",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.lever.co/v0/postings/doxel?mode=json"
+      ]
+    },
+    {
+      "id": "quantiphi-jr12626",
+      "company": "Quantiphi",
+      "title": "Associate Technical Architect, Cloud Migration",
+      "source_title": "Associate Technical Architect - Platform - Migration",
+      "source_kind": "workday",
+      "source_job_id": "JR12626",
+      "source_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Associate-Technical-Architect---Platform---Migration_JR12626",
+      "application_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Associate-Technical-Architect---Platform---Migration_JR12626",
+      "source_api": "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Associate-Technical-Architect---Platform---Migration_JR12626",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-19",
+      "posted_date": "2026-11-19",
+      "source_location": "IN KA Bengaluru",
+      "source_additional_locations": [
+        "IN MH Mumbai Eureka"
+      ],
+      "checked_at": "2026-11-25T18:15:25.298295+00:00",
+      "http_status": 200,
+      "source_sha256": "0c0f679c5151c606fe905a3f91c436ba5c8747f74dd48784741948db3d48241b",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Associate-Technical-Architect---Platform---Migration_JR12626"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "emergence-ai-4485910009",
+      "company": "Emergence AI",
+      "title": "Research Engineer, Language Models and Ontologies",
+      "source_title": "Research Engineer (LLM + Ontology) - India",
+      "source_kind": "greenhouse",
+      "source_job_id": "4485910009",
+      "source_url": "https://job-boards.greenhouse.io/emergenceai/jobs/4485910009",
+      "application_url": "https://job-boards.greenhouse.io/emergenceai/jobs/4485910009",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/emergenceai/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-11T06:42:08-05:00",
+      "posted_date": "2026-11-11",
+      "source_location": "India ",
+      "source_additional_locations": [
+        "India "
+      ],
+      "checked_at": "2026-11-25T18:15:23.068939+00:00",
+      "http_status": 200,
+      "source_sha256": "391d39104f2950b744bf2e5a6146e076f280d8a0e571df868ac483fd2349053f",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/emergenceai/jobs?content=true"
+      ]
+    },
+    {
+      "id": "uptimeai-7f25cca4-3722-474c-b937-4d75f0fb7efe",
+      "company": "UptimeAI",
+      "title": "Implementation Engineer, Renewable Energy",
+      "source_title": "Implementation Engineer - Renewable Energy (Solar & Wind)",
+      "source_kind": "ashby",
+      "source_job_id": "7f25cca4-3722-474c-b937-4d75f0fb7efe",
+      "source_url": "https://jobs.ashbyhq.com/uptimeai/7f25cca4-3722-474c-b937-4d75f0fb7efe",
+      "application_url": "https://jobs.ashbyhq.com/uptimeai/7f25cca4-3722-474c-b937-4d75f0fb7efe",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/uptimeai?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-11-17T09:13:09.873+00:00",
+      "posted_date": "2026-11-17",
+      "source_location": "Bengaluru - Hybrid",
+      "source_additional_locations": [
+        "Bengaluru - Hybrid"
+      ],
+      "checked_at": "2026-11-25T18:15:17.974259+00:00",
+      "http_status": 200,
+      "source_sha256": "96556cca96ce34d566c43ebb896770327cb8406a599b9bc55626ab264c999ef1",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/uptimeai?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "diagrid-06fdf2f3-fff0-4628-b58c-2c07d408e656",
+      "company": "Diagrid",
+      "title": "Senior Full-Stack Software Engineer",
+      "source_title": "Fullstack Senior Software Engineer",
+      "source_kind": "ashby",
+      "source_job_id": "06fdf2f3-fff0-4628-b58c-2c07d408e656",
+      "source_url": "https://jobs.ashbyhq.com/Diagrid/06fdf2f3-fff0-4628-b58c-2c07d408e656",
+      "application_url": "https://jobs.ashbyhq.com/Diagrid/06fdf2f3-fff0-4628-b58c-2c07d408e656",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/diagrid?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-10-30T02:42:52.370+00:00",
+      "posted_date": "2026-10-30",
+      "source_location": "Remote India",
+      "source_additional_locations": [
+        "Remote India",
+        "Remote Bangalore"
+      ],
+      "checked_at": "2026-11-25T18:15:18.921690+00:00",
+      "http_status": 200,
+      "source_sha256": "e797078a836fad453c42bb645e80beb295cf720a2c5ee68baeca26f47cd9c33d",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/diagrid?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "diagrid-ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+      "company": "Diagrid",
+      "title": "Senior Software Engineer, Dapr Open Source",
+      "source_title": "Senior Software Engineer (Dapr OSS)",
+      "source_kind": "ashby",
+      "source_job_id": "ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+      "source_url": "https://jobs.ashbyhq.com/Diagrid/ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+      "application_url": "https://jobs.ashbyhq.com/Diagrid/ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+      "source_api": "https://api.ashbyhq.com/posting-api/job-board/diagrid?includeCompensation=true",
+      "source_publication_field": "publishedAt",
+      "source_published_at": "2026-10-30T03:10:35.714+00:00",
+      "posted_date": "2026-10-30",
+      "source_location": "Remote India",
+      "source_additional_locations": [
+        "Remote India",
+        "Remote Bangalore"
+      ],
+      "checked_at": "2026-11-25T18:15:19.291337+00:00",
+      "http_status": 200,
+      "source_sha256": "61396ecfc6359ba87dc6cc11880528643daa2ff7d4e25fa68e65a22b7d9b666d",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://api.ashbyhq.com/posting-api/job-board/diagrid?includeCompensation=true"
+      ]
+    },
+    {
+      "id": "sahaj-software-5028440101",
+      "company": "Sahaj Software",
+      "title": "Senior Full-Stack Engineer",
+      "source_title": "Senior Engineer - Full Stack",
+      "source_kind": "greenhouse",
+      "source_job_id": "5028440101",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5028440101",
+      "application_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5028440101",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-05T05:56:13-05:00",
+      "posted_date": "2026-11-05",
+      "source_location": "Pune, Maharashtra, India",
+      "source_additional_locations": [
+        "Pune, Maharashtra, India"
+      ],
+      "checked_at": "2026-11-25T18:15:21.332277+00:00",
+      "http_status": 200,
+      "source_sha256": "6ed44722a23b4848f233aabca53270c7101cd8ed4c3d22351b918f6cc91757fe",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true"
+      ]
+    },
+    {
+      "id": "sahaj-software-5028691101",
+      "company": "Sahaj Software",
+      "title": "Senior Full-Stack Engineer",
+      "source_title": "Senior Engineer - Full Stack ",
+      "source_kind": "greenhouse",
+      "source_job_id": "5028691101",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5028691101",
+      "application_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5028691101",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-11-05T08:49:07-05:00",
+      "posted_date": "2026-11-05",
+      "source_location": "Hyderabad, Andhra Pradesh, India",
+      "source_additional_locations": [
+        "Hyderabad, Andhra Pradesh, India"
+      ],
+      "checked_at": "2026-11-25T18:15:21.613564+00:00",
+      "http_status": 200,
+      "source_sha256": "02fea4dcb58e3463d76fea1e1cf3838bbb3120f4f11fffbc5071a77ed7913072",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true"
+      ]
+    },
+    {
+      "id": "sifive-r-101160",
+      "company": "SiFive",
+      "title": "Engineer II, Design Automation and PPA Analytics",
+      "source_title": "Engineer II, PPA Analytics & CAD",
+      "source_kind": "workday",
+      "source_job_id": "R-101160",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Engineer--PPA-Analytics---CAD_R-101160",
+      "application_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Engineer--PPA-Analytics---CAD_R-101160",
+      "source_api": "https://sifive.wd1.myworkdayjobs.com/wday/cxs/sifive/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Engineer--PPA-Analytics---CAD_R-101160",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-04",
+      "posted_date": "2026-11-04",
+      "source_location": "Bengaluru, Karnataka, India",
+      "source_additional_locations": [],
+      "checked_at": "2026-11-25T18:15:25.335684+00:00",
+      "http_status": 200,
+      "source_sha256": "3e48bd10b30c4d7b62ba9c21011280b7301129344c97d3da36f5d13ca607597f",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://sifive.wd1.myworkdayjobs.com/wday/cxs/sifive/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Engineer--PPA-Analytics---CAD_R-101160"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "exotel-fk0zndh",
+      "company": "Exotel",
+      "title": "Implementation Engineer",
+      "source_title": "Implementation Engineer",
+      "source_kind": "trakstar",
+      "source_job_id": "fk0zndh",
+      "source_url": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
+      "application_url": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
+      "source_api": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
+      "source_publication_field": "datePosted",
+      "source_published_at": "2026-11-04",
+      "posted_date": "2026-11-04",
+      "source_location": "Bengaluru, Karnataka, India",
+      "source_additional_locations": [
+        "Bengaluru, Karnataka, India"
+      ],
+      "checked_at": "2026-11-25T18:20:43.601659+00:00",
+      "http_status": 200,
+      "source_sha256": "3699c59e5db3c2660cad311369c07a4ed754c717d9174e27475e632a96aedd15",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://exotel.hire.trakstar.com/jobs/fk0zndh/"
+      ]
+    },
+    {
+      "id": "sahaj-software-5020301101",
+      "company": "Sahaj Software",
+      "title": "Lead Data Engineer",
+      "source_title": "Lead Data Engineer",
+      "source_kind": "greenhouse",
+      "source_job_id": "5020301101",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5020301101",
+      "application_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5020301101",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-10-29T09:13:04-04:00",
+      "posted_date": "2026-10-29",
+      "source_location": "Bengaluru, Karnataka, India",
+      "source_additional_locations": [
+        "Bengaluru, Karnataka, India"
+      ],
+      "checked_at": "2026-11-25T18:15:20.551189+00:00",
+      "http_status": 200,
+      "source_sha256": "2386dc22a7d9e3bb0ba3cd9dc06955a6a4d29fa1ddc0ec9d0dce45a0709d5987",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true"
+      ]
+    },
+    {
+      "id": "sahaj-software-5020648101",
+      "company": "Sahaj Software",
+      "title": "Lead Data Engineer",
+      "source_title": "Lead Data Engineer",
+      "source_kind": "greenhouse",
+      "source_job_id": "5020648101",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5020648101",
+      "application_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5020648101",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-10-29T09:22:02-04:00",
+      "posted_date": "2026-10-29",
+      "source_location": "Pune, Maharashtra, India",
+      "source_additional_locations": [
+        "Pune, Maharashtra, India"
+      ],
+      "checked_at": "2026-11-25T18:15:20.804917+00:00",
+      "http_status": 200,
+      "source_sha256": "a63e93c079b99d85ee9a0c2d1651262bdb5a89726010893132ee33f418bd52ec",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true"
+      ]
+    },
+    {
+      "id": "sahaj-software-5018878101",
+      "company": "Sahaj Software",
+      "title": "Lead / Principal Full-Stack Engineer",
+      "source_title": "Lead / Principal Engineer - Full Stack",
+      "source_kind": "greenhouse",
+      "source_job_id": "5018878101",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5018878101",
+      "application_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5018878101",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-10-28T06:56:10-04:00",
+      "posted_date": "2026-10-28",
+      "source_location": "Chennai, Tamil Nadu, India",
+      "source_additional_locations": [
+        "Chennai, Tamil Nadu, India"
+      ],
+      "checked_at": "2026-11-25T18:15:20.860236+00:00",
+      "http_status": 200,
+      "source_sha256": "d156c72e57c08cb21c42fd0bb683678a8d3b7398b2be9d1543774a5d8bb9d6af",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true"
+      ]
+    },
+    {
+      "id": "sahaj-software-5017265101",
+      "company": "Sahaj Software",
+      "title": "Data Scientist",
+      "source_title": "Data Scientist",
+      "source_kind": "greenhouse",
+      "source_job_id": "5017265101",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5017265101",
+      "application_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5017265101",
+      "source_api": "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true",
+      "source_publication_field": "first_published",
+      "source_published_at": "2026-10-27T05:43:46-04:00",
+      "posted_date": "2026-10-27",
+      "source_location": "Bengaluru, Karnataka, India",
+      "source_additional_locations": [
+        "Bengaluru, Karnataka, India"
+      ],
+      "checked_at": "2026-11-25T18:15:20.453993+00:00",
+      "http_status": 200,
+      "source_sha256": "09942abf8335d329c2eacb780e378b3141747ad233ff145fcbf5ef43de1d876f",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://boards-api.greenhouse.io/v1/boards/sahajsoftware/jobs?content=true"
+      ]
+    },
+    {
+      "id": "quantiphi-jr12555",
+      "company": "Quantiphi",
+      "title": "Senior Platform Engineer, AWS Cloud Migration",
+      "source_title": "Senior Platform Engineer - Cloud Migration",
+      "source_kind": "workday",
+      "source_job_id": "JR12555",
+      "source_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Senior-Platform-Engineer---Cloud-Migration_JR12555",
+      "application_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Senior-Platform-Engineer---Cloud-Migration_JR12555",
+      "source_api": "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Senior-Platform-Engineer---Cloud-Migration_JR12555",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-11-13",
+      "posted_date": "2026-11-13",
+      "source_location": "IN KA Bengaluru",
+      "source_additional_locations": [
+        "IN MH Mumbai Eureka"
+      ],
+      "checked_at": "2026-11-25T18:15:24.850736+00:00",
+      "http_status": 200,
+      "source_sha256": "218889bdff4fc818a4cc644c4068b86b9848f96fbdcd8022e453791e9b49a4cd",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://quantiphi.wd1.myworkdayjobs.com/wday/cxs/quantiphi/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Senior-Platform-Engineer---Cloud-Migration_JR12555"
+      ],
+      "can_apply": true,
+      "posted": true
+    },
+    {
+      "id": "sifive-r-101274",
+      "company": "SiFive",
+      "title": "Senior Design Verification Infrastructure Engineer, VIPs and Testbench",
+      "source_title": "Senior Design Verification  Infrastructure Engineer - VIPs and Testbench",
+      "source_kind": "workday",
+      "source_job_id": "R-101274",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Design-Verification--Infrastructure-Engineer---VIPs-and-Testbench_R-101274",
+      "application_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Design-Verification--Infrastructure-Engineer---VIPs-and-Testbench_R-101274",
+      "source_api": "https://sifive.wd1.myworkdayjobs.com/wday/cxs/sifive/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Design-Verification--Infrastructure-Engineer---VIPs-and-Testbench_R-101274",
+      "source_publication_field": "startDate",
+      "source_published_at": "2026-10-26",
+      "posted_date": "2026-10-26",
+      "source_location": "Bengaluru, Karnataka, India",
+      "source_additional_locations": [],
+      "checked_at": "2026-11-25T18:26:46.782511+00:00",
+      "http_status": 200,
+      "source_sha256": "baaad471dd880fc65790600a5b1175ac489e8d722fbdae17a1f3b2e304008d97",
+      "verification": "Reviewed the employer-authored description, India location, original publication date and active application.",
+      "discovered_on": [
+        "https://sifive.wd1.myworkdayjobs.com/wday/cxs/sifive/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Design-Verification--Infrastructure-Engineer---VIPs-and-Testbench_R-101274"
+      ],
+      "can_apply": true,
+      "posted": true
     }
   ],
   "checked_at": "2026-11-23",

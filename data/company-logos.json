@@ -1730,6 +1730,87 @@
       "checked_at": "2026-11-23",
       "retrieved_at": "2026-11-23T14:07:56.970813+00:00",
       "source_sha256": "a99f03152a04a0a4a51679af5e8a01ed1ed31bdbc8b96c511c092eaa59813bed"
+    },
+    {
+      "company": "AlphaSense",
+      "file": "alphasense.png",
+      "page": "https://www.alpha-sense.com/",
+      "url": "https://www.alpha-sense.com/apple-touch-icon.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:26.828356+00:00",
+      "source_sha256": "9a33c0925f47c3b26b72a25b403c5e7e5a2634f950c059609744d5250580eb68"
+    },
+    {
+      "company": "BJAK",
+      "file": "bjak.png",
+      "page": "https://bjak.my/",
+      "url": "https://bjak.my/apple-touch-icon.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.611900+00:00",
+      "source_sha256": "608264adde9e334bbc50ee320c5f497fa9668385890fb2539b492a9b659d0f33"
+    },
+    {
+      "company": "Diagrid",
+      "file": "diagrid.png",
+      "page": "https://www.diagrid.io/",
+      "url": "https://www.diagrid.io/favicon.svg",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.832249+00:00",
+      "source_sha256": "c8720c0ce0a1733e345588e95287133baf44995c85e9f569a6f2e8fca2ab5afc"
+    },
+    {
+      "company": "Doxel",
+      "file": "doxel.png",
+      "page": "https://doxel.ai/",
+      "url": "https://cdn.prod.website-files.com/66aa56b055292635770d0c44/672e0c7bd52bd8476c269e3c_resize-17310710791984656422ve8F0yty400x400removebgpreview.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.751938+00:00",
+      "source_sha256": "77916459c448fd69f00f9a44f017a75fb7b76b6c35660fc198612f875051ee83"
+    },
+    {
+      "company": "Dozee",
+      "file": "dozee.png",
+      "page": "https://jobs.lever.co/dozee/3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/a820bdf0-68ad-4f7f-afa2-7b00788ec256-1794556229971.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:19:48.958545+00:00",
+      "source_sha256": "6acf929c0cc863bb345acc934ce2b120c4d80ffa2de7ee20d67a379f65d9d804"
+    },
+    {
+      "company": "Headout",
+      "file": "headout.png",
+      "page": "https://www.headout.com/",
+      "url": "https://www.headout.com/static/favicons/favicon-1024x1024.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.112072+00:00",
+      "source_sha256": "8080ff0c0f528e381b48e780180762f9b3b1e17a59c2ffadee938285f28b1447"
+    },
+    {
+      "company": "Mindtickle",
+      "file": "mindtickle.png",
+      "page": "https://www.mindtickle.com/",
+      "url": "https://www.mindtickle.com/images/favicon.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:26.568966+00:00",
+      "source_sha256": "ff37a500c9cc53512a712edbac9ea6c68f0a477262d15d4e406bd5ee06d8e499"
+    },
+    {
+      "company": "SiFive",
+      "file": "sifive.png",
+      "page": "https://www.sifive.com/",
+      "url": "https://www.sifive.com/favicon.ico",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:26.569812+00:00",
+      "source_sha256": "4297afcf922d27d3010fe804f2fca4fc0300b1b52d38b6799e475fe25d9c74e5"
+    },
+    {
+      "company": "Trackier",
+      "file": "trackier.png",
+      "page": "https://trackier.com/",
+      "url": "https://trackier.com/wp-content/uploads/2024/12/cropped-Fav-Icon-4-192x192.webp",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:23:50.581884+00:00",
+      "source_sha256": "c992f8c93af8ee8926abbdbc7e4c12e64618f22b0123f1e176f1237a9040c436"
     }
   ]
 }

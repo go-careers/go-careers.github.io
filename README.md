@@ -27,9 +27,9 @@ Ownership is a separate build requirement. Every real employer must have an elig
 
 This board is focused on software development, machine learning, AI, and related engineering roles (platform/SRE, data engineering, and security automation). Keep sales, marketing, design, product management, customer support, and general IT operations out of the feed.
 
-The two runs on **23 November 2026** added **100 verified India engineering openings**. The evening refresh added **50 openings across 28 private companies**, including 11 with a 23 November posting date. No additional listings aged out in the evening. After both runs the board contains **388 active roles across 178 private companies** in the inclusive 23 October–23 November window. [Evening run](data/job-runs/2026-11-23T13-37-32Z.json) · [Earlier run](data/job-runs/2026-11-22T20-26-02Z.json)
+The **25–26 November 2026** refresh added **50 verified India technical openings across 30 private companies**. At final validation on **26 November**, the board contained **418 active listings across 185 companies**, covering 26 October through 26 November inclusive. The run archived 19 older postings and one listing that reached its employer deadline. [Run audit](data/job-runs/2026-11-25T18-08-19Z.json)
 
-The [earlier 100-role sourcing run](data/job-runs/2026-11-16T18-53-21Z.json) remains historical evidence. The archive now contains 214 historical listings, including 199 older postings and 15 undated postings. Verification dates apply to individual records; this update does not imply every older listing was checked again.
+The [earlier 100-role sourcing run](data/job-runs/2026-11-16T18-53-21Z.json) remains in the history. The archive contains 234 listings, including 218 older postings, 15 undated postings and one listing that reached its employer deadline. Each job carries its own verification date.
 
 The earlier cross-source pass searched LinkedIn, Wellfound, Instahyre, Naukri, Himalayas, Remotive, Remote OK and Cutshort. It added five employer-authored Wellfound roles (Simplismart, Fibr AI, Zenskar), three India-remote OrbitShift roles confirmed through its official Zoho careers feed after discovery on LinkedIn/Himalayas, and five Prodigal roles from its current Greenhouse feed. Naukri denied automated retrieval; Instahyre returned errors/challenge content, so no listings available only on those platforms were claimed as verified. Stale and duplicate leads were excluded. `data/source-search.json` records coverage, access limits and rejected leads; new job audit entries contain `discovered_on` links. Board mirrors do not create extra opportunities.
 
@@ -69,7 +69,7 @@ City filters include every city on multi-location roles, normalize Bangalore/Ben
 
 ### Salary research
 
-On 23 November, **299 of 388 active openings show expected compensation**. Employers published pay for 67 roles and 232 have sourced estimates. The evening refresh added two employer-published ranges and 45 estimates. The board preserves each amount’s currency and pay period.
+On 26 November, **289 of 418 active openings show expected compensation**. Employers published pay for 66 roles, and 223 other roles have sourced estimates. The board preserves each amount’s currency and pay period.
 
 Estimates use relevant company employee reports where available, then documented India role/experience benchmarks from Instahyre, Naukri, Glassdoor and Michael Page. Market estimates are **not company-confirmed salary bands**. Finite experience ranges use the envelope of overlapping published bands; open-ended experience uses the minimum band. Title-only comparisons, mismatched sectors, small samples and aging reports are documented per job. Some ranges include equity and variable pay; base-pay sources remain marked separately in the CSV. These are not take-home amounts. Internship estimates retain their monthly period. No arbitrary startup premium or currency conversion is added.
 

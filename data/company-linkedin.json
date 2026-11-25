@@ -1374,6 +1374,62 @@
       "company_id": "2058906",
       "source_url": "https://www.linkedin.com/company/whatfix",
       "checked_at": "2026-11-23"
+    },
+    {
+      "company": "AlphaSense",
+      "company_id": "3508673",
+      "source_url": "https://www.linkedin.com/company/alphasense",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "BJAK",
+      "company_id": "14607755",
+      "source_url": "https://www.linkedin.com/company/bjak",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Diagrid",
+      "company_id": "78416785",
+      "source_url": "https://www.linkedin.com/company/diagrid-inc",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Doxel",
+      "company_id": "13182198",
+      "source_url": "https://www.linkedin.com/company/13182198",
+      "checked_at": "2026-11-25",
+      "profile_url": "https://www.linkedin.com/company/doxel-sr-autonomous-inc.-",
+      "evidence_note": "The public named profile contains punctuation in its slug. Its employee-search link supplies the numeric ID used for the company permalink."
+    },
+    {
+      "company": "Dozee",
+      "company_id": "6635733",
+      "source_url": "https://www.linkedin.com/company/dozeehealth",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Headout",
+      "company_id": "3218656",
+      "source_url": "https://www.linkedin.com/company/headout-com/",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Mindtickle",
+      "company_id": "2337411",
+      "source_url": "https://www.linkedin.com/company/mindtickle",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "SiFive",
+      "company_id": "7579420",
+      "source_url": "https://www.linkedin.com/company/sifive",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Trackier",
+      "company_id": "13214136",
+      "source_url": "https://www.linkedin.com/company/trackier",
+      "checked_at": "2026-11-25"
     }
   ]
 }

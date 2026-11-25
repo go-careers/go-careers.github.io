@@ -49,10 +49,25 @@
     {
       "company": "Mindtickle",
       "stage": "Series E",
-      "eligible": false,
+      "eligible": true,
       "round_date": "2021-08-05",
       "source_url": "https://go.mindtickle.com/rs/270-YTL-592/images/Aug%20%2721%20NL.pdf",
-      "note": "Company newsletter confirms Series E; beyond the Series C ceiling."
+      "note": "Its Series E is eligible under the current private-company policy. The employer continues to operate its sales enablement product.",
+      "additional_sources": [
+        "https://www.mindtickle.com/about-us/"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/mindtickle",
+          "https://go.mindtickle.com/rs/270-YTL-592/images/Aug%20%2721%20NL.pdf",
+          "https://www.mindtickle.com/about-us/"
+        ],
+        "note": "Its Series E is eligible under the current private-company policy. The employer continues to operate its sales enablement product.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
     },
     {
       "company": "Drivetrain",
@@ -145,12 +160,12 @@
       "source_url": "https://www.coderabbit.ai/newsroom/coderabbit-series-c-agentic-change-management",
       "homepage": "https://www.coderabbit.ai",
       "category": "AI code review",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-25",
       "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-16",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.caplight.com/company/coderabbit"
         ],
@@ -396,12 +411,12 @@
       "source_url": "https://www.prnewswire.com/news-releases/skan-ai-raises-63-million-to-give-enterprise-ai-the-context-its-missing-how-work-actually-gets-done-302849114.html",
       "homepage": "https://www.skan.ai",
       "category": "Enterprise process intelligence and agent context",
-      "checked_at": "2026-11-16",
+      "checked_at": "2026-11-25",
       "note": "Latest publicly named funding stage found after checking company news and later financing/acquisition searches.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-16",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/skan-ai/"
         ],
@@ -957,12 +972,12 @@
       "additional_sources": [
         "https://blitzy.com/blog/taking-the-long-and-less-traveled-road-is-the-only-path-to-autonomy"
       ],
-      "checked_at": "2026-11-17",
+      "checked_at": "2026-11-25",
       "note": "Company announced a $200M growth round in May 2026; no Series letter inferred. Identity is blitzy.com / blitzyai, not the Australian consultancy.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/blitzyai",
           "https://blitzy.com/blog/taking-the-long-and-less-traveled-road-is-the-only-path-to-autonomy"
@@ -994,14 +1009,16 @@
       "stage": "Series B",
       "eligible": true,
       "round_date": "",
-      "source_url": "https://www.certa.ai/careers",
-      "additional_sources": [],
-      "checked_at": "2026-11-17",
-      "note": "Latest supported named round in this research pass; no funding-stage cap applies.",
+      "source_url": "https://www.certa.ai/press/certa-raises-oversubscribed-35m-series-b-to-further-reduce-third-party-management-friction",
+      "additional_sources": [
+        "https://www.certa.ai/careers"
+      ],
+      "checked_at": "2026-11-25",
+      "note": "Certa reports its $35 million Series B for third-party management software.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-17",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/getcerta"
         ],
@@ -2174,12 +2191,12 @@
         "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794567970546.pdf",
         "https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-sebi-approval-for-rs-6000-cr-ipo-in-india/articleshow/135810458.cms"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "Latest supported named round in reviewed company/funding evidence and subsequent-change searches. Undisclosed means no current named round was established, not that the company has never raised capital.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/razorpay",
           "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1794567970546.pdf",
@@ -2463,12 +2480,12 @@
       "additional_sources": [
         "https://www.celonis.com/faqs"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/celonis",
           "https://www.celonis.com/news/press/celonis-announces-1-billion-round-to-meet-industry-wide-demand-for-execution-management",
@@ -2509,12 +2526,12 @@
       "additional_sources": [
         "https://www.jmi.com/portfolio/hackerrank/"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "note": "Funding stage recorded from the financing evidence, independently of the private-company eligibility check.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/hackerrank",
           "https://www.hackerrank.com/about-us/",
@@ -2743,12 +2760,12 @@
       "additional_sources": [
         "https://www.tpg.com/news-and-insights/tide-secures-strategic-investment-from-leading-global-investor-tpg"
       ],
-      "checked_at": "2026-11-18",
+      "checked_at": "2026-11-25",
       "note": "Apax identifies Series C. TPG subsequently invested in the private company without assigning a new Series letter.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-18",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/tide-banking",
           "https://www.apax.com/news-views/tide-raises-100-million-in-series-c-funding-led-by-the-apax-digital-fund/",
@@ -2857,12 +2874,12 @@
       "additional_sources": [
         "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-the-closing-of-a-401-million-convertible-notes-offering/"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-25",
       "note": "The named Series F preceded a convertible note offering.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/arctic-wolf-networks",
           "https://arcticwolf.com/resources/press-releases/arctic-wolf-announces-150-million-series-f-financing-round/",
@@ -2923,12 +2940,12 @@
       "additional_sources": [
         "https://www.cohesity.com/newsroom/press/cohesity-collaboration-to-strengthen-cyber-resilience-with-ibm-investment/"
       ],
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "note": "Cohesity announced a Series E and later investment from IBM. Its combination with Veritas’s enterprise data protection business kept the Cohesity brand.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-19",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/cohesity",
           "https://www.cohesity.com/newsroom/press/cohesity-announces-250-million-in-series-e-funding/",
@@ -3144,12 +3161,12 @@
       "additional_sources": [
         "https://www.onetrust.com/news/onetrust-secures-150m-investment-led-by-generation-investment-management/"
       ],
-      "checked_at": "2026-11-19",
+      "checked_at": "2026-11-25",
       "note": "OneTrust later announced an unnumbered investment led by Generation Investment Management.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-19",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/onetrust",
           "https://www.onetrust.com/news/onetrust-series-c/",
@@ -3190,12 +3207,12 @@
       "additional_sources": [
         "https://www.cci.gov.in/images/summaryorders/en/summary1740028336.pdf"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "Multiples invested in the founder-led operating company. The later notified transaction transferred the investor holding between affiliated funds.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/quantiphi",
           "https://quantiphi.com/media-releases/global-ai-solutions-provider-quantiphi-raises-usd-20-million-investment-from-multiples-alternate-asset-management/",
@@ -3305,12 +3322,12 @@
       "additional_sources": [
         "https://www.atlys.com/en-US/newsroom"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-25",
       "note": "The employer newsroom records the March 2026 Series C led by Susquehanna Asia VC.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/getatlys",
           "https://www.atlys.com/ar-SA/newsroom",
@@ -3328,12 +3345,12 @@
       "additional_sources": [
         "https://techcrunch.com/2025/06/24/indias-gokwik-raised-a-small-13m-round-for-a-hefty-leap-in-valuation/"
       ],
-      "checked_at": "2026-11-20",
+      "checked_at": "2026-11-25",
       "note": "Independent commerce software startup. Its investor describes the later financing as a growth round following Series B.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-20",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/gokwik",
           "https://rtp.vc/gokwik-series-growth-round-raise-2025/",
@@ -3420,12 +3437,12 @@
       "additional_sources": [
         "https://www.emergent.vc/portfolio"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "Privately financed industrial AI startup. ABB Motion Ventures describes its strategic investment and partnership after the Series A.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/uptimeai-inc",
           "https://www.uptimeai.com/resources/abb-partnership-with-uptimeai/",
@@ -3650,12 +3667,12 @@
       "additional_sources": [
         "https://www.linkedin.com/company/emergenceai"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "Independent US agent research and platform company backed by Learn Capital. No round label was assigned to its disclosed venture financing.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/emergenceai",
           "https://www.emergence.ai/about-us",
@@ -3689,19 +3706,20 @@
     },
     {
       "company": "Certify",
-      "stage": "Series A",
+      "stage": "Series B",
       "eligible": true,
-      "round_date": "",
-      "source_url": "https://www.generalcatalyst.com/stories/our-investment-in-certifyos-unlocking-the-power-of-provider-intelligence",
+      "round_date": "2025-06-26",
+      "source_url": "https://www.certifyos.com/company/news/series-b-announcement",
       "additional_sources": [
-        "https://www.certifyos.com/company/news"
+        "https://www.certifyos.com/company/news",
+        "https://www.generalcatalyst.com/stories/our-investment-in-certifyos-unlocking-the-power-of-provider-intelligence"
       ],
-      "checked_at": "2026-11-23",
-      "note": "General Catalyst led the Series A in the independent US provider intelligence startup CertifyOS, which operates as Certify.",
+      "checked_at": "2026-11-25",
+      "note": "CertifyOS announced its $40 million Series B on June 26, 2025, following the recorded Series A.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/certifyos",
           "https://www.generalcatalyst.com/stories/our-investment-in-certifyos-unlocking-the-power-of-provider-intelligence",
@@ -3972,12 +3990,12 @@
       "additional_sources": [
         "https://www.linkedin.com/company/sahajsoftware"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "Independent privately held software engineering company established by its founding team. No published named funding round was established.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/sahajsoftware",
           "https://sahaj.ai/people/founders/",
@@ -4018,12 +4036,12 @@
       "additional_sources": [
         "https://www.zeta.tech/in/press/zeta-valued-at-2b-in-new-strategic-fundraise"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "SoftBank led the named Series C. The later $50 million strategic investment carried no new series designation. This founder-led banking software company is distinct from the listed Zeta Global.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/zetasuite",
           "https://www.zeta.tech/in/press/zeta-funding-omni-stack",
@@ -4156,12 +4174,12 @@
       "additional_sources": [
         "https://exotel.hire.trakstar.com/jobs/fk0zah3/"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "The company identifies itself as Series D funded and has announced its independent board and leadership. The employer recruits as Exotel Techcom Pvt Ltd.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/exotel",
           "https://exotel.com/newsroom/exotel-strengthens-board-to-shape-its-next-chapter-of-ai-led-growth/",
@@ -4363,12 +4381,12 @@
       "additional_sources": [
         "https://www.linkedin.com/company/refoldai"
       ],
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-25",
       "note": "Refold announced $6.5 million in seed funding for its AI integration platform. Its company recruiting account confirms the Bengaluru operation.",
       "ownership": {
         "status": "private",
         "independent": true,
-        "checked_at": "2026-11-23",
+        "checked_at": "2026-11-25",
         "sources": [
           "https://www.linkedin.com/company/refoldai",
           "https://refold.ai/blog/350b-year-goes-into-duct-taping-apis-we-raised-6-5m-to-build-agents-instead/",
@@ -4491,6 +4509,182 @@
         ],
         "note": "Whatfix announced its $125 million Series E and continues to operate its enterprise software products under its own leadership."
       }
+    },
+    {
+      "company": "SiFive",
+      "stage": "Series G",
+      "eligible": true,
+      "source_url": "https://www.sifive.com/press/sifive-raises-400-million-to-accelerate-high-performance-risc-v-data-center-solutions",
+      "note": "SiFive announced the $400 million investment and transaction counsel identifies it as a Series G.",
+      "additional_sources": [
+        "https://www.wsgr.com/print/v2/content/49069001/Wilson-Sonsini-Advises-SiFive-on-%24400-Million-Series-G-Financing.pdf"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/sifive",
+          "https://www.sifive.com/press/sifive-raises-400-million-to-accelerate-high-performance-risc-v-data-center-solutions",
+          "https://www.wsgr.com/print/v2/content/49069001/Wilson-Sonsini-Advises-SiFive-on-%24400-Million-Series-G-Financing.pdf"
+        ],
+        "note": "SiFive announced the $400 million investment and transaction counsel identifies it as a Series G.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "BJAK",
+      "stage": "Undisclosed",
+      "eligible": true,
+      "source_url": "https://bjak.my/en/about-us",
+      "note": "The company describes its Malaysian founding and independent insurance platform. No named financing round was established.",
+      "additional_sources": [
+        "https://www.linkedin.com/company/bjak"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/bjak",
+          "https://bjak.my/en/about-us",
+          "https://www.linkedin.com/company/bjak"
+        ],
+        "note": "The company describes its Malaysian founding and independent insurance platform. No named financing round was established.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "AlphaSense",
+      "stage": "Series G",
+      "eligible": true,
+      "source_url": "https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/",
+      "note": "The company announced a $350 million financing. The private-company profile identifies the round as Series G. Accenture separately announced a strategic investment.",
+      "additional_sources": [
+        "https://stockanalysis.com/private/alphasense/"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/alphasense",
+          "https://www.alpha-sense.com/press/alphasense-raises-350m-at-7-5b-valuation-and-surpasses-600m-in-annual-recurring-revenue/",
+          "https://stockanalysis.com/private/alphasense/"
+        ],
+        "note": "The company announced a $350 million financing. The private-company profile identifies the round as Series G. Accenture separately announced a strategic investment.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Headout",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://versionone.vc/q1-2022/",
+      "note": "Portfolio investor Version One reports the follow-on financing led by Glade Brook. The funding history identifies it as an extension of Series B.",
+      "additional_sources": [
+        "https://www.cbinsights.com/company/headout/financials"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/headout-com/",
+          "https://versionone.vc/q1-2022/",
+          "https://www.cbinsights.com/company/headout/financials"
+        ],
+        "note": "Portfolio investor Version One reports the follow-on financing led by Glade Brook. The funding history identifies it as an extension of Series B.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Dozee",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://www.primevp.in/news-and-announcement/dozee-raises-inr-44-croreusd-6-million-series-set-transform-critical-care-infrastructure-across-india-through-contactless-remote-patient-monitoring-platform",
+      "note": "The investor documents Series A. The follow-on A2 investment is grouped under Series A for this board.",
+      "additional_sources": [
+        "https://temasektrust.org.sg/en/newsroom/newsroom-details/c3h-invests-in-dozee-to-drive-healthcare-innovation-and-expand-access-to-contactless-remote-patient-monitoring"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/dozeehealth",
+          "https://www.primevp.in/news-and-announcement/dozee-raises-inr-44-croreusd-6-million-series-set-transform-critical-care-infrastructure-across-india-through-contactless-remote-patient-monitoring-platform",
+          "https://temasektrust.org.sg/en/newsroom/newsroom-details/c3h-invests-in-dozee-to-drive-healthcare-innovation-and-expand-access-to-contactless-remote-patient-monitoring"
+        ],
+        "note": "The investor documents Series A. The follow-on A2 investment is grouped under Series A for this board.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Trackier",
+      "stage": "Bootstrapped",
+      "eligible": true,
+      "source_url": "https://www.linkedin.com/company/trackier",
+      "note": "Trackier reports that it grew the company without external funding.",
+      "additional_sources": [
+        "https://trackier.com/"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/trackier",
+          "https://www.linkedin.com/company/trackier",
+          "https://trackier.com/"
+        ],
+        "note": "Trackier reports that it grew the company without external funding.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Doxel",
+      "stage": "Series B",
+      "eligible": true,
+      "source_url": "https://www.gunder.com/print/v2/content/2429/doxel-raises-40m-series-b-financing.pdf?lang=en",
+      "note": "Company counsel identifies the Insight Partners-led Series B for the construction technology business.",
+      "additional_sources": [
+        "https://doxel.ai/"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/doxel-sr-autonomous-inc.-",
+          "https://www.gunder.com/print/v2/content/2429/doxel-raises-40m-series-b-financing.pdf?lang=en",
+          "https://doxel.ai/"
+        ],
+        "note": "Company counsel identifies the Insight Partners-led Series B for the construction technology business.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Diagrid",
+      "stage": "Series A",
+      "eligible": true,
+      "source_url": "https://www.amplifypartners.com/blog-posts/our-investment-in-diagrid",
+      "note": "Amplify identifies its investment in the Dapr infrastructure company. The funding history records seed and Series A rounds.",
+      "additional_sources": [
+        "https://www.caplight.com/company/diagrid"
+      ],
+      "ownership": {
+        "status": "private",
+        "independent": true,
+        "sources": [
+          "https://www.linkedin.com/company/diagrid-inc",
+          "https://www.amplifypartners.com/blog-posts/our-investment-in-diagrid",
+          "https://www.caplight.com/company/diagrid"
+        ],
+        "note": "Amplify identifies its investment in the Dapr infrastructure company. The funding history records seed and Series A rounds.",
+        "checked_at": "2026-11-25"
+      },
+      "checked_at": "2026-11-25"
     }
   ]
 }
