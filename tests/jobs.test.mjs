@@ -1,10 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, readFile, rm, access } from "node:fs/promises";
+import { mkdtemp, readFile, writeFile, rm, access } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { columns, parseCSV, readJobs, activeJobs } from "../scripts/jobs.mjs";
 import { build as buildSite } from "../scripts/build.mjs";
+import { readIngestionTimes } from "../scripts/ingestion.mjs";
 
 const companyAudit = { companies: [{ company: 'Example', eligible: true, stage: 'Seed', ownership: { status: 'private', independent: true, checked_at: '2026-11-16', sources: ['https://example.com/about'] } }] };
 const build = options => buildSite({ companyAudit, ...options });
@@ -29,15 +30,17 @@ const row = {
   funding_source_url: "https://example.com/seed",
   funding_checked_at: "2026-11-16",
 };
-const csv = (...rows) =>
-  [
-    columns.join(","),
+const csv = (...rows) => {
+  const fields = rows.some(row => "ingested_at" in row) ? [...columns, "ingested_at"] : columns;
+  return [
+    fields.join(","),
     ...rows.map((r) =>
-      columns
+      fields
         .map((key) => `"${String(r[key] ?? "").replace(/"/g, '""')}"`)
         .join(","),
     ),
   ].join("\r\n");
+};
 
 test("CSV handles BOM, quoted commas, escaped quotes, newlines, CRLF and trailing empty cells", () => {
   assert.deepEqual(
@@ -106,6 +109,27 @@ test("expiry is inclusive through its India date; future listings remain hidden"
     activeJobs(jobs, "2026-11-16").map((j) => j.id),
     ["frontend-1", "today"],
   );
+});
+test("the first import orders jobs across same-day batches and survives rechecks", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "gocareers-ingestion-"));
+  try {
+    const early = { completed_at: "2026-11-16T08:30:00+05:30", added_ids: ["early"] };
+    const late = { finished_at: "2026-11-16T17:30:00+05:30", added_ids: ["late", "early", "expired"], updated_ids: ["manual"] };
+    await writeFile(join(dir, "a.json"), JSON.stringify(late));
+    await writeFile(join(dir, "b.json"), JSON.stringify(early));
+    const imports = await readIngestionTimes(dir);
+    const source = csv(
+      { ...row, id: "early", posted_date: "2026-11-16" },
+      { ...row, id: "late", posted_date: "2026-11-01" },
+      { ...row, id: "expired", posted_date: "2026-10-15" },
+      { ...row, id: "manual", ingested_at: "2026-11-16T06:00:00Z" },
+      { ...row, id: "unknown" },
+    );
+    const active = activeJobs(readJobs(source, imports), "2026-11-16");
+    assert.deepEqual(active.map(job => job.id), ["late", "manual", "early", "unknown"]);
+    assert.equal(active[2].ingested_at, "2026-11-16T03:00:00.000Z");
+    assert.throws(() => readJobs(source.replace("2026-11-16T06:00:00Z", "2026-02-31T06:00:00Z")), /ingested_at/);
+  } finally { await rm(dir, {recursive: true, force: true}); }
 });
 test("undated jobs retain their evidence but are excluded from the recent feed", async () => {
   const unknown = {...row,posted_date:'',work_mode:'Not specified'};

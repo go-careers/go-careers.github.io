@@ -1,4 +1,5 @@
 import { indiaDate, removalReason } from './job-window.mjs';
+import { ingestionTime } from './ingestion.mjs';
 
 export const columns = [
   "id",
@@ -54,7 +55,7 @@ export const salaryColumns = [
   "salary_benchmark", "salary_basis", "salary_source_url",
   "salary_source_name", "salary_note", "salary_checked_at",
 ];
-export const presentationColumns = ["company_logo", "verified_date"];
+export const presentationColumns = ["company_logo", "verified_date", "ingested_at"];
 
 // CSV with quoted commas, escaped quotes, CRLF, UTF-8 BOM, and multiline cells.
 export function parseCSV(input) {
@@ -110,7 +111,7 @@ export function validDate(value) {
   );
 }
 
-export function readJobs(csv) {
+export function readJobs(csv, firstAdded = new Map()) {
   const [rawHeaders, ...rows] = parseCSV(csv);
   if (!rawHeaders) throw new Error("CSV is empty. Include the header row.");
   const headers = rawHeaders.map((s) => s.trim());
@@ -139,6 +140,10 @@ export function readJobs(csv) {
       fail("company_logo must be a local lowercase PNG filename, without directories.");
     if (job.verified_date && !validDate(job.verified_date))
       fail("verified_date must be a real YYYY-MM-DD date.");
+    const manualTime = ingestionTime(job.ingested_at);
+    if (job.ingested_at && !manualTime) fail("ingested_at must be an ISO timestamp with a time zone.");
+    const runTime = firstAdded.get(job.id);
+    job.ingested_at = runTime && (!manualTime || runTime < manualTime) ? runTime : manualTime;
     if (job.is_demo !== "true" || job.funding_stage) {
       if (!eligibleFundingStages.includes(job.funding_stage))
         fail("funding_stage must be Bootstrapped, Pre-seed, Seed, a named Series round, or Undisclosed. Private ownership must be verified separately.");
@@ -244,6 +249,7 @@ export function activeJobs(
     )
     .sort(
       (a, b) =>
+        (b.ingested_at || '').localeCompare(a.ingested_at || '') ||
         b.posted_date.localeCompare(a.posted_date) || a.id.localeCompare(b.id),
     );
 }

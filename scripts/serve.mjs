@@ -85,7 +85,7 @@ if (process.argv.includes("--watch")) {
       }
     }
   }
-  for (const directory of ["data", "site"])
+  for (const directory of ["data", "data/job-runs", "site"])
     watchers.push(
       watch(join(root, directory), () => {
         clearTimeout(timer);

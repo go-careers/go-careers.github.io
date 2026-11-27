@@ -231,14 +231,12 @@
       option.textContent = `${option.dataset.label} (${count})`;
       option.disabled = !!option.value && count === 0 && option.value !== controls.location.value;
     }
-    const filtered = candidates.filter(card => matchesLocation(card, controls.location.value))
-      .sort(
-        (a, b) =>
-          Number(!a.dataset.posted) - Number(!b.dataset.posted) ||
-          (controls.sort.value === "oldest" ? 1 : -1) *
-            a.dataset.posted.localeCompare(b.dataset.posted) ||
-          a.dataset.id.localeCompare(b.dataset.id),
-      );
+    // Filtering preserves the build's newest-added order and its tie-breakers.
+    const filtered = candidates.filter(card => matchesLocation(card, controls.location.value));
+    if (controls.sort.value === "oldest") {
+      filtered.sort((a, b) => Number(!a.dataset.ingested) - Number(!b.dataset.ingested) ||
+        a.dataset.ingested.localeCompare(b.dataset.ingested));
+    }
     const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
     page = Math.min(page, pages);
     cards.forEach((card) => {

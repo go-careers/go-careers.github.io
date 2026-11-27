@@ -37,6 +37,8 @@ Sources include employer ATS feeds (Ashby, Greenhouse, Lever, Workable, Keka and
 
 `posted_date` uses the source's published or creation timestamp. Relative ages or unavailable dates remain blank and require `verified_date`; undated roles remain in historical evidence but are excluded from the recent feed. Verification is never presented as a new posting date. Unknown work styles use `Not specified`, rather than assuming on-site from a city. No salary or closing date is invented. The production build rejects rows marked `is_demo=true`.
 
+The board puts the most recently added jobs first, using the earliest import that lists each ID in `added_ids`. Within an import, newer employer postings appear first, with the job ID breaking ties. Rechecking a listing keeps its original position. For manual CSV additions, set `ingested_at` on first entry. Jobs without an import record or timestamp follow dated additions in both sort directions.
+
 Edit `data/jobs.csv` in GitHub or a spreadsheet, preserving the column names. Export as UTF-8 CSV. Every row is a job. Keep IDs stable so existing links continue to work.
 
 | Column | Format |
@@ -52,6 +54,7 @@ Edit `data/jobs.csv` in GitHub or a spreadsheet, preserving the column names. Ex
 | `funding_checked_at` | Required actual research date, `YYYY-MM-DD`; do not refresh automatically on build |
 | `salary` | Employer-disclosed salary only; blank when undisclosed. Include currency, period and pay basis |
 | `apply_url` | Required HTTPS application URL for real jobs; no credentials in URLs |
+| `ingested_at` | Optional first import timestamp for manual entries, including time zone, e.g. `2026-11-27T15:00:00Z` |
 | `posted_date` | Source date, `YYYY-MM-DD`; blank only with `verified_date`. Future listings stay hidden |
 | `expiry_date` | Optional `YYYY-MM-DD`; visible through that date in Asia/Kolkata, hidden afterward |
 | `description` | Required plain text; blank lines create paragraphs; HTML is displayed as text |
