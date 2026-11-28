@@ -170,6 +170,8 @@ Upload `dist/` and configure the host to serve directory index pages and `404.ht
 
 Search matches words across titles, companies, locations, and skills. Filters combine, and experience matches overlapping ranges. Jobs without any numeric experience requirement appear with no experience filter selected, and are excluded when a numeric range is selected. Filter state is stored in the URL. Twenty results appear per page with JavaScript; all active jobs remain readable without it. This approach suits a modest feed (hundreds or a few thousand jobs); a very large catalogue would need a different search strategy.
 
+Under **Filters → Advanced filters**, narrow results by when Go Careers first added a listing, role family, salary source, or startup funding stage. **Today** and the last 3, 7 or 14 days use calendar days in India, including today. Listings with unknown import times still appear under **Any time**. Role families use the same title matches as the browse pages and can overlap. **With salary info** includes employer-published pay and market estimates. Advanced selections also filter the charts and saved jobs and can be shared in the board URL.
+
 Expiry is applied at build time and rechecked in open browser tabs every minute. With JavaScript disabled, expiry changes require the next build. GitHub scheduled workflows can be delayed and can be disabled after repository inactivity; check Actions if listings appear stale. Already-open pages cannot receive changed CSV content until refreshed after deployment.
 
 Optional browser checks use an existing Playwright installation, with the preview server running:
@@ -183,6 +185,8 @@ Set `CHROMIUM_EXECUTABLE` if the installed browser is outside Playwright's defau
 **Explore job charts** shows the five cities with the most matching jobs and the counts by work style. Selecting a bar applies the corresponding filter, and selecting it again clears that filter. Both charts use all matching listings across pages. Each chart respects the other filters and the saved-jobs view. Multi-city roles count once in each named city. On phones, switch between Top cities and Work style. The matching-jobs link closes the charts and jumps to the results.
 
 Run `node tests/charts-browser.mjs` against the preview with the same Playwright environment to check chart counts, filter interactions, and the light-only appearance. Set `BROWSER=firefox` or `BROWSER=webkit` for those engines.
+
+Run `node tests/advanced-filters-browser.mjs` with the same environment to check the advanced controls, India date boundaries, saved jobs, and links back to filtered results on a fixed set of listings.
 
 Browser QA includes narrow phone and tablet layouts, unclipped default filter labels, single-line header navigation, the active saved-jobs state and keyboard focus during background updates. Filters collapse at 900px and below, with a single column on phones up to 480px. CSS and JavaScript asset URLs include content hashes so new releases load the matching assets; an already-open page still needs a refresh to load updated HTML.
 

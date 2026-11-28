@@ -126,8 +126,13 @@
     mode: byId("mode"),
     type: byId("type"),
     experience: byId("experience"),
+    added: byId("added"),
+    role: byId("role"),
+    pay: byId("pay"),
+    stage: byId("stage"),
     sort: byId("sort"),
   };
+  const advanced = byId('advanced-filters');
   const pageSize = 20;
   let page = 1;
   let savedOnly = false;
@@ -174,6 +179,7 @@
           : value;
     }
     page = Math.max(1, Number.parseInt(params.get("page"), 10) || 1);
+    advanced.open = [...advanced.querySelectorAll('select')].some(select => select.value);
   }
   function writeURL() {
     const url = new URL(location.href);
@@ -233,7 +239,13 @@
     });
   }
   function render(updateURL = true) {
-    const date = today();
+    const now = new Date();
+    const date = calendar.format(now);
+    // Count calendar days from midnight in India, including today.
+    const addedSince = controls.added.value
+      ? new Date(Date.parse(date + 'T00:00:00+05:30') - (Number(controls.added.value) - 1) * 86400000).toISOString()
+      : '';
+    const currentTime = now.toISOString();
     const active = card => activeOn(card, date);
     const focusedCardControl = list.contains(document.activeElement) ? document.activeElement : null;
     const tokens = controls.q.value
@@ -253,6 +265,10 @@
           tokens.every((token) => d.search.includes(token)) &&
           (!controls.company.value || controls.company.value === d.company) &&
           (!controls.type.value || controls.type.value === d.type) &&
+          (!addedSince || (d.ingested >= addedSince && d.ingested <= currentTime)) &&
+          (!controls.role.value || d.roles.split(' ').includes(controls.role.value)) &&
+          (!controls.stage.value || d.stage === controls.stage.value) &&
+          (!controls.pay.value || (controls.pay.value === 'listed' ? !!d.pay : d.pay === controls.pay.value)) &&
           (!range ||
             ((d.min !== "" || d.max !== "") &&
               (d.min === "" ? 0 : Number(d.min)) <= (range[1] ?? range[0]) &&
@@ -344,7 +360,8 @@
         const button = document.createElement("button");
         button.type = "button";
         button.className = "filter-chip";
-        const label = key === "q" ? `Search: ${input.value.trim()}` : input.selectedOptions[0].dataset.label || input.selectedOptions[0].textContent;
+        let label = key === "q" ? `Search: ${input.value.trim()}` : input.selectedOptions[0].dataset.label || input.selectedOptions[0].textContent;
+        if (advanced.contains(input)) label = `${input.labels[0].textContent}: ${label}`;
         button.textContent = `${label} ×`;
         button.setAttribute("aria-label", `Remove ${label} filter`);
         button.addEventListener("click", () => {
@@ -360,6 +377,8 @@
     byId("reset").disabled = !applied.length;
     const filterCount = applied.filter(([key]) => key !== "q").length;
     byId("filter-count").textContent = filterCount ? `(${filterCount})` : "";
+    const advancedCount = applied.filter(([, input]) => advanced.contains(input)).length;
+    byId('advanced-count').textContent = advancedCount ? `(${advancedCount})` : '';
     document.querySelectorAll("[data-quick]").forEach(button => {
       button.setAttribute("aria-pressed", String(controls[button.dataset.quick].value === button.dataset.value));
     });

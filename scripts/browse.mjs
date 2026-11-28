@@ -20,7 +20,7 @@ export function browseCollections(jobs, places) {
     }
   }
   const collections = topics.map(([slug, label, heading, pattern]) => ({
-    slug, label, heading, group: 'Role', jobs: jobs.filter(job => pattern.test(job.title)),
+    slug, label, heading, group: 'Role', roleFamily: true, jobs: jobs.filter(job => pattern.test(job.title)),
   }));
   collections.push({
     slug: 'engineering-internships-india', label: 'Engineering internships', heading: 'Startup engineering internships in India',

@@ -226,6 +226,7 @@ try {
     assert.ok(firstRole.y + firstRole.height <= 812, 'A job title is visible on the first screen');
     await page.locator('#filter-toggle').click();
     assert.equal(await page.locator('#filter-toggle').getAttribute('aria-expanded'), 'true');
+    await page.locator('#advanced-filters summary').click();
     const clipped = await page.locator('#filters select').evaluateAll(selects => selects.filter(select => {
       const style = getComputedStyle(select);
       const canvas = document.createElement('canvas').getContext('2d');
