@@ -131,6 +131,21 @@ test("the first import orders jobs across same-day batches and survives rechecks
     assert.throws(() => readJobs(source.replace("2026-11-16T06:00:00Z", "2026-02-31T06:00:00Z")), /ingested_at/);
   } finally { await rm(dir, {recursive: true, force: true}); }
 });
+test("cards show the India date of import and omit it for older rows without a timestamp", async () => {
+  const output = await mkdtemp(join(tmpdir(), "gocareers-added-date-"));
+  try {
+    const source = csv(
+      { ...row, ingested_at: "2026-11-15T20:00:00Z" },
+      { ...row, id: "legacy", title: "Legacy role", apply_url: "https://example.com/legacy" },
+    );
+    await build({ output, csv: source, today: "2026-11-16" });
+    const html = await readFile(join(output, "index.html"), "utf8");
+    const cards = html.match(/<article class="job-card"[\s\S]*?<\/article>/g);
+    assert.equal(cards.length, 2);
+    assert.match(cards[0], /datetime="2026-11-15T20:00:00.000Z">Added 16 Nov<\/time>/);
+    assert.doesNotMatch(cards[1], /class="added-date"/);
+  } finally { await rm(output, { recursive: true, force: true }); }
+});
 test("undated jobs retain their evidence but are excluded from the recent feed", async () => {
   const unknown = {...row,posted_date:'',work_mode:'Not specified'};
   assert.throws(() => readJobs(csv(unknown)), /requires verified_date/);

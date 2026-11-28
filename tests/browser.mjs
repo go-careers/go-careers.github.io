@@ -190,6 +190,11 @@ try {
     await page.goto(base);
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true,`No overflow at ${width}px`);
     assert.equal(await page.locator('#filters').isVisible(), false, 'Mobile filters start collapsed');
+    const tabs = await page.locator('.board-tabs').boundingBox();
+    const toggle = await page.locator('#filter-toggle').boundingBox();
+    assert.ok(toggle.y < tabs.y + tabs.height && tabs.y < toggle.y + toggle.height, 'Filters and saved jobs share one row');
+    const firstRole = await page.locator('.job-card:visible h3').first().boundingBox();
+    assert.ok(firstRole.y + firstRole.height <= 812, 'A job title is visible on the first screen');
     await page.locator('#filter-toggle').click();
     assert.equal(await page.locator('#filter-toggle').getAttribute('aria-expanded'), 'true');
     const clipped = await page.locator('#filters select').evaluateAll(selects => selects.filter(select => {
