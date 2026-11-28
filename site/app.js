@@ -197,6 +197,41 @@
     else url.searchParams.delete('saved');
     history.replaceState(null, "", url);
   }
+  const charts = byId('job-charts');
+  function drawBars(group, entries, selected, scale, limit = entries.length) {
+    entries.sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+    const rows = entries.filter((entry, index) => (index < limit && entry.count > 0) || entry.value === selected);
+    const signature = JSON.stringify([rows, selected, scale]);
+    if (group.dataset.signature === signature) return;
+    group.dataset.signature = signature;
+    const focused = group.contains(document.activeElement) ? document.activeElement.dataset.value : null;
+    const buttons = rows.map(({label, value, count}) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.dataset.value = value;
+      button.setAttribute('aria-pressed', String(value === selected));
+      button.setAttribute('aria-label', `${label}, ${count} ${count === 1 ? 'job' : 'jobs'}`);
+      button.style.setProperty('--bar-width', `${100 * count / scale}%`);
+      const name = document.createElement('span');
+      name.textContent = label;
+      const total = document.createElement('span');
+      total.className = 'chart-count';
+      total.textContent = count;
+      button.append(name, total);
+      return button;
+    });
+    group.replaceChildren(...buttons);
+    if (!buttons.length) group.textContent = group.id === 'city-chart' ? 'No named cities in these results.' : 'No matching jobs.';
+    if (focused) (buttons.find(button => button.dataset.value === focused) || charts.querySelector('summary')).focus({preventScroll:true});
+  }
+  for (const [id, control] of [['city-chart', controls.location], ['mode-chart', controls.mode]]) {
+    byId(id).addEventListener('click', event => {
+      const button = event.target.closest('button');
+      if (!button) return;
+      control.value = control.value === button.dataset.value ? '' : button.dataset.value;
+      changed();
+    });
+  }
   function render(updateURL = true) {
     const date = today();
     const active = card => activeOn(card, date);
@@ -209,7 +244,7 @@
     const range = controls.experience.value
       ? controls.experience.value.split("-").map(Number)
       : null;
-    const candidates = cards
+    const matching = cards
       .filter((card) => {
         const d = card.dataset;
         return (
@@ -217,7 +252,6 @@
           (!savedOnly || saved.has(d.id)) &&
           tokens.every((token) => d.search.includes(token)) &&
           (!controls.company.value || controls.company.value === d.company) &&
-          (!controls.mode.value || controls.mode.value === d.mode) &&
           (!controls.type.value || controls.type.value === d.type) &&
           (!range ||
             ((d.min !== "" || d.max !== "") &&
@@ -225,14 +259,33 @@
               (d.max === "" ? Infinity : Number(d.max)) >= range[0]))
         );
       });
-    // Count locations within the other selected filters, not just the current city.
+    // Each chart honors the other filters so its bars remain useful for switching choices.
+    const candidates = matching.filter(card => !controls.mode.value || card.dataset.mode === controls.mode.value);
+    const cityCounts = [];
     for (const option of controls.location.options) {
       const count = candidates.filter(card => matchesLocation(card, option.value)).length;
       option.textContent = `${option.dataset.label} (${count})`;
       option.disabled = !!option.value && count === 0 && option.value !== controls.location.value;
+      if (option.parentElement.hasAttribute('data-cities'))
+        cityCounts.push({value:option.value, label:option.dataset.label, count});
     }
+    const modes = new Map();
+    for (const card of matching) {
+      if (matchesLocation(card, controls.location.value)) modes.set(card.dataset.mode, (modes.get(card.dataset.mode) || 0) + 1);
+    }
+    const modeCounts = [...controls.mode.options].filter(option => option.value).map(option => ({
+      value:option.value, label:option.textContent, count:modes.get(option.value) || 0,
+    }));
+    const scale = Math.max(1, ...cityCounts.map(entry => entry.count), ...modes.values());
+    drawBars(byId('city-chart'), cityCounts, controls.location.value, scale, 5);
+    drawBars(byId('mode-chart'), modeCounts, controls.mode.value, scale);
     // Filtering preserves the build's newest-added order and its tie-breakers.
     const filtered = candidates.filter(card => matchesLocation(card, controls.location.value));
+    const chartResults = byId('chart-result-link');
+    chartResults.href = filtered.length ? '#open-roles' : '#empty-state';
+    chartResults.textContent = filtered.length
+      ? `View ${filtered.length} matching ${filtered.length === 1 ? 'job' : 'jobs'} ↓`
+      : '0 matching jobs · See options ↓';
     if (controls.sort.value === "oldest") {
       filtered.sort((a, b) => Number(!a.dataset.ingested) - Number(!b.dataset.ingested) ||
         a.dataset.ingested.localeCompare(b.dataset.ingested));
@@ -338,7 +391,7 @@
   byId('clear-search').addEventListener('click', () => { controls.q.value = ''; changed(); controls.q.focus(); });
   readURL();
   render(false);
-  for (const id of ["search-form", "quick-searches", "sort-control", "view-bar"])
+  for (const id of ["search-form", "quick-searches", "sort-control", "view-bar", "job-charts"])
     byId(id).hidden = false;
   syncFilterPanel();
   controls.q.addEventListener("input", changed);

@@ -180,6 +180,12 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs node tests/browser.mjs
 
 Set `CHROMIUM_EXECUTABLE` if the installed browser is outside Playwright's default cache. Optionally set `AXE_MODULE` to an installed `@axe-core/playwright/dist/index.js` for accessibility checks. Screenshots go into ignored `.artifacts/`.
 
+The header’s **Theme** picker follows the device setting by default. Selecting Light or Dark saves that choice in this browser and synchronizes open tabs. Without JavaScript, the board still follows the system appearance.
+
+**Explore job charts** shows the five cities with the most matching jobs and the counts by work style. Selecting a bar applies the corresponding filter, and selecting it again clears that filter. Both charts use all matching listings across pages. Each chart respects the other filters and the saved-jobs view. Multi-city roles count once in each named city.
+
+Run `node tests/charts-theme-browser.mjs` against the preview with the same Playwright environment to check chart counts, filter interactions, theme persistence, and system appearance. Set `BROWSER=firefox` or `BROWSER=webkit` for those engines.
+
 Browser QA includes narrow phone and tablet layouts, unclipped default filter labels, single-line header navigation, the active saved-jobs state and keyboard focus during background updates. Filters collapse at 900px and below, with a single column on phones up to 480px. CSS and JavaScript asset URLs include content hashes so new releases load the matching assets; an already-open page still needs a refresh to load updated HTML.
 
 Job cards show the role, company logo/name, location, work style and known experience, plus available pay labeled Expected salary. Cards show the first Go Careers import date in India time when it is known. Skills and employer posting dates live on detail pages; funding evidence, verification dates and salary research stay in the repository. Full-time and unknown-value placeholders are omitted from cards; internships remain identifiable in the title or metadata. Skill search and all filters still use the complete CSV data.
