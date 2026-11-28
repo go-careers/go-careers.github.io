@@ -66,6 +66,8 @@ Optional `company_logo` and `verified_date` columns supplement the required sche
 
 Official logos are stored locally and documented in `data/company-logos.json`, including source page and asset URLs. Company trademarks belong to their owners. The site makes no external logo requests. The Drivetrain recruiting wordmark is displayed through a square CSS viewport showing its emblem.
 
+The Jobs abroad page matches employers to this logo registry by company name and shows initials for new employers. Its flight photograph is by [Fujiphilm on Unsplash](https://unsplash.com/photos/airplane-engine-and-wing-above-clouds-at-sunset-wNNdhPycLkU), under the [Unsplash License](https://unsplash.com/license).
+
 ### Location filters
 
 City filters include every city on multi-location roles, normalize Bangalore/Bengaluru, and group Delhi, Noida and Gurugram under Delhi NCR. Counts update against the other active filters, including saved jobs. Empty choices are disabled while the current selection remains removable. Explicit remote jobs have a separate choice; a country-only India listing is shown as city unspecified and is never assumed remote. The card retains the employer's original location. City aliases also work in search, and previously shared location URLs still resolve.

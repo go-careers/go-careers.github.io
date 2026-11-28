@@ -28,14 +28,17 @@ const initials = company => company.split(/\s+/).slice(0, 2).map(s => s[0]).join
 export async function build({ output = join(root, 'dist'), csv, today = indiaDate(), production = false, siteURL = process.env.SITE_URL || '', validateOnly = false, companyAudit, relocationJobs } = {}) {
   const allJobs = readJobs(csv ?? await readFile(join(root, 'data/jobs.csv'), 'utf8'), await readIngestionTimes());
   if (production && allJobs.some(job => job.is_demo)) throw new Error('Production build blocked: replace or remove all demo jobs in data/jobs.csv first.');
-  for (const logo of new Set(allJobs.map(job => job.company_logo).filter(Boolean))) {
+  const logoRegistry = JSON.parse(await readFile(join(root, 'data/company-logos.json'), 'utf8'));
+  const companyLogos = new Map(logoRegistry.logos.map(({company, file}) => [company, file]));
+  const overseas = relocationListings(relocationJobs ?? (csv === undefined
+    ? JSON.parse(await readFile(join(root, 'data/relocation-jobs.json'), 'utf8')) : []), today)
+    .map(job => ({...job, company_logo: companyLogos.get(job.company)}));
+  for (const logo of new Set([...allJobs, ...overseas].map(job => job.company_logo).filter(Boolean))) {
     const bytes = await readFile(join(root, 'site/companies', logo));
     if (!bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) throw new Error('Invalid PNG company logo: ' + logo);
   }
   validateCompanyEligibility(allJobs, companyAudit ?? JSON.parse(await readFile(join(root, 'data/company-funding.json'), 'utf8')));
   const jobs = activeJobs(allJobs, today);
-  const overseas = relocationListings(relocationJobs ?? (csv === undefined
-    ? JSON.parse(await readFile(join(root, 'data/relocation-jobs.json'), 'utf8')) : []), today);
   if (validateOnly) return { total: allJobs.length, active: jobs.length };
   const linkedinData = JSON.parse(await readFile(join(root, 'data/company-linkedin.json'), 'utf8'));
   const linkedinCompanies = new Map();
@@ -161,7 +164,8 @@ ${browseMenu}</main>` });
   const relocation = shell({
     path: relocationPath, prefix: '../', type: 'CollectionPage', title: relocationTitle + ' | Go Careers',
     description: 'Engineering jobs outside India with employer-provided relocation support. Compare destinations, moving benefits and visa terms.',
-    noindex: !overseas.length, crumbs: [homeCrumb, { name: relocationTitle, path: relocationPath }], body: relocationPage(overseas),
+    noindex: !overseas.length, crumbs: [homeCrumb, { name: relocationTitle, path: relocationPath }],
+    body: relocationPage(overseas, (job, index) => badge(job, '../', index > 3)),
   });
   await mkdir(join(output, relocationPath), { recursive: true });
   await writeFile(join(output, relocationPath, 'index.html'), relocation);

@@ -2135,6 +2135,78 @@
       "checked_at": "2026-11-27",
       "retrieved_at": "2026-11-27T15:35:30.267995+00:00",
       "source_sha256": "f75fd7427f6ba5069979eef037085b7dcf8b5c1db7c621cbcacd7325f98b3c62"
+    },
+    {
+      "company": "Wayve",
+      "file": "wayve.png",
+      "page": "https://wayve.ai/",
+      "url": "https://wayve.ai/wp-content/uploads/2026/06/cropped-wayve-favicon-2026-1-192x192.png",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.225845+00:00",
+      "source_sha256": "80b54723b572b420fba75cc39b413d9600d4f0b771c5a611136534081a435c0a"
+    },
+    {
+      "company": "Monzo",
+      "file": "monzo.png",
+      "page": "https://monzo.com/",
+      "url": "https://static-assets.monzo.com/monzo-com/e5d8d436785be62a699489a14dd51c322f465b8b/_next/static/media/favicon.4c6ebc6f.svg",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.733132+00:00",
+      "source_sha256": "ac1aa7a41d4f28504811029e77948c698d188a7f43d8dfa6b97aadf4ca2ca430"
+    },
+    {
+      "company": "Mujin",
+      "file": "mujin.png",
+      "page": "https://www.mujin-corp.com/",
+      "url": "https://framerusercontent.com/images/GaWdMmVtiRxsghsJbNs6ggSBfU.png",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.227428+00:00",
+      "source_sha256": "6d2d396305e99446f47df659a0cf201a26fcf1027431604df8b7123e70ccbcc1"
+    },
+    {
+      "company": "Rapyuta Robotics",
+      "file": "rapyuta.png",
+      "page": "https://www.rapyuta-robotics.com/",
+      "url": "https://www.rapyuta-robotics.com/wp-content/uploads/2022/03/rr-favicon2022-150x150.png",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.226211+00:00",
+      "source_sha256": "9c9735501e03f1981720f35ae508eb82732e9b8b79f8a3815f226920d262088d"
+    },
+    {
+      "company": "SmartNews",
+      "file": "smartnews.png",
+      "page": "https://www.smartnews.com/",
+      "url": "https://cdn.smartnews.com/sn-web/_next/static/media/smartnews_logo.37pkc2cx7t2xt.svg?dpl=e5031b8f9f2e40a3b08e48fbe7d67d72b6a76442",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.327934+00:00",
+      "source_sha256": "e04503db1856d849b780fb1252c6b83e04818d46a0b31955eb615a59bee9ba4c"
+    },
+    {
+      "company": "N26",
+      "file": "n26.png",
+      "page": "https://n26.com/en-eu",
+      "url": "https://n26.com/_build/logo-256x256.png",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.890580+00:00",
+      "source_sha256": "125239618e02e84f5d3e575c3b68a112dacb66e46f8ea6a65fe97c612bef82e8"
+    },
+    {
+      "company": "BlockTech",
+      "file": "blocktech.png",
+      "page": "https://www.block-tech.io/",
+      "url": "https://cdn.prod.website-files.com/67ef8ff4c8592506445ebe97/67f51973d512697fd945ad7c_Webclip.png",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.527494+00:00",
+      "source_sha256": "81404565243b58773149c8d2126cd65c949a916853866bff8fb59df44f4f16b7"
+    },
+    {
+      "company": "Callosum",
+      "file": "callosum.png",
+      "page": "https://jobs.ashbyhq.com/callosum/ad91c6a1-91d2-4ea1-9086-6dec238e617d",
+      "url": "https://app.ashbyhq.com/api/images/org-theme-logo/e8903dc7-6eb5-4181-a289-1e8530232de0/31c1b670-da53-4fab-952c-9e6c894b7ad5/b0cf370c-6907-4e4f-8d0f-0daec5f774ff.png",
+      "checked_at": "2026-11-28",
+      "retrieved_at": "2026-11-28T11:34:05.614289+00:00",
+      "source_sha256": "85d9cfb284cf95cb1a4f50ab15c371caa4ee3477495f281facc467ffa2873a55"
     }
   ]
 }

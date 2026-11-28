@@ -28,21 +28,31 @@ export function relocationListings(rows, today) {
   return activeJobs(jobs.filter(job => indiaDate(new Date(job.ingested_at)) <= today), today);
 }
 
-export function relocationPage(jobs) {
+const flag = country => String.fromCodePoint(...[...country].map(letter => 0x1F1E6 + letter.charCodeAt(0) - 65));
+const time = date => `<time datetime="${date}">${dateLabel.format(new Date(date))}</time>`;
+
+export function relocationPage(jobs, companyMark) {
   const countries = [...new Set(jobs.map(job => job.country))].sort((a, b) => countryNames.of(a).localeCompare(countryNames.of(b)));
-  const time = date => `<time datetime="${date}">${dateLabel.format(new Date(date))}</time>`;
+  const cards = jobs.map((job, index) => `<article class="relocation-row" data-country="${job.country}" data-window-end="${windowEnd(job.posted_date)}" data-expiry="${job.expiry_date || ''}">
+    <div class="relocation-role">
+      <div class="relocation-identity">${companyMark(job, index)}<div><p class="relocation-company">${e(job.company)}</p>
+        <p class="relocation-place"><span aria-hidden="true">${flag(job.country)}</span> ${e(job.city)}, ${e(countryNames.of(job.country))}</p></div></div>
+      <h2>${e(job.title)}</h2><p class="relocation-description">${e(job.description)}</p>
+    </div>
+    <dl class="moving-support"><div><dt><span aria-hidden="true">📦</span> Moving assistance</dt><dd>${e(job.relocation_support)}</dd></div>
+      <div><dt><span aria-hidden="true">🛂</span> Visa support</dt><dd>${e(job.visa_support)}</dd></div></dl>
+    <div class="relocation-action"><p class="relocation-dates"><span>Posted ${time(job.posted_date)}</span><span>Checked ${time(job.verified_date)}</span></p>
+      <a class="row-link" href="${e(job.source_url)}" aria-label="View ${e(job.title)} at ${e(job.company)} on the employer’s site">View opening <span aria-hidden="true">↗</span></a></div>
+  </article>`).join('');
   return `<main id="main" class="container collection-page relocation-page">
-    <a class="back-link" href="../#opportunities">← Jobs in India</a>
-    <h1>Jobs abroad with relocation</h1>
-    <p class="collection-summary">Explore engineering roles outside India with employer-provided moving support. Each opening links to the employer’s relocation and visa terms.</p>
-    <div class="relocation-toolbar"><p id="relocation-count" role="status">${jobs.length} ${jobs.length === 1 ? 'opening' : 'openings'}</p>
+    <header class="relocation-hero"><div class="relocation-intro">
+      <a class="back-link" href="../#opportunities"><span aria-hidden="true">←</span> Jobs in India</a>
+      <h1>Jobs abroad <em>with relocation</em></h1>
+      <p>Explore engineering jobs outside India. Compare moving assistance and visa terms for each role.</p>
+    </div><div class="relocation-photo"><img src="../assets/relocation-flight.webp" alt="" width="1152" height="740" fetchpriority="high"></div></header>
+    <div class="relocation-toolbar"><div class="relocation-results"><h2>Open roles</h2><p id="relocation-count" role="status">${jobs.length} ${jobs.length === 1 ? 'opening' : 'openings'}</p></div>
       <div id="destination-field" class="filter-field" hidden><label for="destination">Destination</label><select id="destination"><option value="">All countries</option>${countries.map(code => `<option value="${code}">${e(countryNames.of(code))}</option>`).join('')}</select></div></div>
-    <div class="relocation-list">${jobs.map(job => `<article class="relocation-row" data-country="${job.country}" data-window-end="${windowEnd(job.posted_date)}" data-expiry="${job.expiry_date || ''}">
-      <div><p class="relocation-place">${e(job.city)}, ${e(countryNames.of(job.country))}</p>
-        <h2>${e(job.title)}</h2><p class="company-name">${e(job.company)}</p><p>${e(job.description)}</p></div>
-      <div class="moving-support"><h3>Relocation support</h3><p>${e(job.relocation_support)} ${e(job.visa_support)}</p></div>
-      <div class="relocation-action"><a class="row-link" href="${e(job.source_url)}" aria-label="View ${e(job.title)} at ${e(job.company)} on the employer’s site">View opening <span aria-hidden="true">↗</span></a>
-        <div class="relocation-dates"><small>Posted ${time(job.posted_date)}</small><small>Checked ${time(job.verified_date)}</small></div></div></article>`).join('')}</div>
+    <div class="relocation-list">${cards}</div>
     <div id="relocation-empty" class="empty-state"${jobs.length ? ' hidden' : ''}><h2>No current relocation openings</h2><p>Check back for newly verified roles or explore jobs in India.</p><a class="button secondary" href="../#opportunities">Browse jobs in India</a></div>
   </main>`;
 }

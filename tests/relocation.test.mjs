@@ -44,7 +44,10 @@ test('relocation is linked, readable without JavaScript and excluded from India 
   assert.doesNotMatch(await read('index.html'), /Engineer &lt;Data&gt;/);
   const page = await read('relocation/index.html');
   assert.match(page, /Engineer &lt;Data&gt;/);
-  assert.match(page, /International moving allowance/);
+  assert.match(page, /company-mark tone-\d+" aria-hidden="true">E<\/span>/);
+  assert.match(page, /Moving assistance<\/dt><dd>International moving allowance/);
+  assert.match(page, /Visa support<\/dt><dd>Visa sponsorship available/);
+  assert.match(page, /aria-hidden="true">🇯🇵<\/span>/);
   assert.match(page, /Tokyo, Japan/);
   assert.match(page, /href="https:\/\/example.com\/careers\/engineer"/);
   assert.match(await read('sitemap.xml'), /board\/relocation\//);

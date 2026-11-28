@@ -31,6 +31,15 @@ try {
   const links = page.locator('.relocation-row:visible a');
   const sources = () => links.evaluateAll(nodes => nodes.map(node => node.href));
   assert.deepEqual(await sources(), jobs.map(job => job.source_url));
+  const logos = new Map(JSON.parse(await readFile(new URL('../data/company-logos.json', import.meta.url))).logos.map(({company, file}) => [company, file]));
+  const images = page.locator('.relocation-row img');
+  assert.deepEqual(await images.evaluateAll(nodes => nodes.map(img => img.src.split('/').pop())),
+    jobs.map(job => logos.get(job.company)).filter(Boolean));
+  const visuals = page.locator('.relocation-hero img, .relocation-row img');
+  await visuals.evaluateAll(async nodes => {
+    for (const img of nodes) img.loading = 'eager';
+    await Promise.all(nodes.map(img => img.decode()));
+  });
   const destination = page.getByLabel('Destination', {exact:true});
   if (new Set(jobs.map(job => job.country)).size > 1) {
     const country = jobs.at(-1).country;
@@ -44,7 +53,7 @@ try {
     await page.goto(new URL('?country=INVALID', page.url()).href);
     assert.deepEqual(await sources(), jobs.map(job => job.source_url));
   }
-  for (const width of [1440,768,481,390,361,320]) {
+  for (const width of [1440,1024,768,481,390,361,320]) {
     await page.setViewportSize({width,height:850});
     assert.ok(await page.evaluate(() => {
       const header = document.querySelector('.brand').getBoundingClientRect();

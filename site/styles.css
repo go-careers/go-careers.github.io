@@ -211,26 +211,66 @@ button:disabled { opacity: .45; cursor: default; }
 #mark-applied[aria-pressed="true"] { background: var(--selected); border-color: #a88a23; }
 .collection-page h1, .guide-page h1 { margin: 0; font-size: clamp(30px, 4vw, 46px); line-height: 1.12; letter-spacing: -.045em; }
 .collection-summary { margin: 10px 0 22px; color: var(--muted); }
-.relocation-page { max-width: 1080px; }
-.relocation-page .collection-summary { max-width: 64ch; }
-.relocation-toolbar { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; padding-bottom: 12px; }
-.relocation-toolbar p { margin: 0; font-size: 14px; color: var(--muted); }
-.relocation-toolbar select { min-width: 154px; }
-.relocation-list:has(.relocation-row:not([hidden])) { border-block: 1px solid var(--control-line); }
-.relocation-row { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr) auto; align-items: start; gap: 24px; padding: 24px 0; }
-.relocation-row:not([hidden]) ~ .relocation-row { border-top: 1px solid var(--line); }
-.relocation-row h2 { margin: 4px 0; font-size: 20px; line-height: 1.25; letter-spacing: -.025em; }
-.relocation-row h3 { margin: 0 0 4px; font-size: 14px; }
-.relocation-row p { margin: 0; font-size: 14px; }
-.relocation-row .company-name { margin-bottom: 6px; }
-.relocation-place { color: var(--accent); font-weight: 600; }
-.relocation-action { display: grid; gap: 6px; justify-items: end; }
-.relocation-action .row-link { margin-inline: 0; }
-.relocation-dates { display: grid; gap: 2px; text-align: end; }
-.relocation-action small { color: var(--muted); font-size: 12px; }
-@media (max-width: 720px) {
-  .relocation-row { grid-template-columns: minmax(0, 1fr); gap: 12px; padding: 20px 0; }
-  .relocation-action { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.relocation-page { padding-block: 24px 48px; }
+.relocation-hero { display: grid; grid-template-columns: 1.08fr 1fr; overflow: hidden; border-radius: 14px; background: #fff3cc; }
+.relocation-intro { align-self: center; padding: 22px clamp(24px, 3.4vw, 52px) 32px; }
+.relocation-intro .back-link { gap: 7px; margin: 0 0 12px; }
+.relocation-intro h1 { font-size: clamp(42px, 5.2vw, 76px); font-weight: 650; line-height: .99; letter-spacing: -.06em; }
+.relocation-intro h1 em { display: block; color: var(--accent); font: italic 1em/1.05 Georgia, serif; letter-spacing: -.05em; }
+.relocation-intro p { max-width: 44ch; margin: 17px 0 0; color: var(--muted); font-size: clamp(15px, 1.15vw, 17px); }
+.relocation-photo { position: relative; overflow: hidden; }
+.relocation-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 60% 45%; }
+.relocation-toolbar, .relocation-results, .relocation-toolbar .filter-field { display: flex; align-items: center; flex-wrap: wrap; }
+.relocation-toolbar { justify-content: space-between; gap: 12px; padding: 26px 0 14px; }
+.relocation-results { gap: 4px 14px; }
+.relocation-results h2 { margin: 0; font-size: clamp(23px, 2.2vw, 30px); letter-spacing: -.045em; }
+.relocation-results p { margin: 0; color: var(--muted); font-size: 14px; }
+.relocation-toolbar .filter-field { gap: 8px; }
+.relocation-toolbar .filter-field label { margin: 0; }
+.relocation-toolbar select { width: auto; min-width: 154px; }
+.relocation-list { display: grid; gap: 14px; }
+.relocation-row { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 18px clamp(24px, 4vw, 64px); padding: clamp(18px, 2.2vw, 32px); border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.relocation-row:focus-within { border-color: var(--accent); }
+.relocation-identity { display: flex; gap: 12px; align-items: center; }
+.relocation-identity .company-mark { width: 48px; height: 48px; flex: none; font-size: 16px; font-weight: 600; }
+.relocation-company { margin: 0; font-size: 15px; font-weight: 650; }
+.relocation-place, .relocation-description, .relocation-dates { color: var(--muted); }
+.relocation-place { margin: 2px 0 0; font-size: 13px; }
+.relocation-place span { margin-right: 3px; }
+.relocation-role h2 { margin: 16px 0 6px; font-size: clamp(21px, 2vw, 29px); line-height: 1.16; letter-spacing: -.035em; overflow-wrap: anywhere; }
+.relocation-description { max-width: 66ch; margin: 0; font-size: 15px; }
+.moving-support { align-self: start; display: grid; gap: 13px; margin: 0; padding: 16px 20px; border-radius: 8px; background: #f0f5ee; }
+.moving-support dt { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 650; }
+.moving-support dt span { width: 19px; text-align: center; }
+.moving-support dd { margin: 2px 0 0 27px; color: var(--muted); font-size: 14px; line-height: 1.45; }
+.relocation-action { grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; border-top: 1px solid var(--line); padding-top: 12px; }
+.relocation-dates { display: flex; flex-wrap: wrap; gap: 2px 16px; margin: 0; font-size: 12px; }
+.relocation-action .row-link { justify-content: center; margin: 0; padding-inline: 15px; border-color: transparent; background: var(--brand-ink); color: white; font-size: 13px; }
+.relocation-action .row-link:hover { background: var(--accent); }
+@media (prefers-reduced-motion: no-preference) {
+  .relocation-intro h1 { animation: headline-in .3s ease-out; }
+  .relocation-photo img { transition: transform .5s ease-out; }
+  .relocation-photo:hover img { transform: scale(1.025); }
+}
+@media (max-width: 700px) {
+  .relocation-page { padding-top: 14px; }
+  .relocation-hero { grid-template-columns: 1fr; }
+  .relocation-intro { padding: 10px 20px 20px; }
+  .relocation-intro .back-link { margin-bottom: 4px; }
+  .relocation-intro p { margin-top: 10px; }
+  .relocation-photo { height: clamp(88px, 27vw, 164px); }
+  .relocation-photo img { object-position: 60% 8%; }
+  .relocation-row { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .relocation-role h2 { margin-top: 12px; }
+  .moving-support { padding: 12px 14px; gap: 10px; }
+  .relocation-toolbar { padding-top: 18px; }
+}
+@media (max-width: 480px) {
+  .relocation-toolbar .filter-field { display: grid; gap: 2px; }
+  .relocation-toolbar .filter-field label { font-size: 12px; }
+  .relocation-toolbar select { min-width: 0; max-width: 155px; }
+  .relocation-results { display: grid; gap: 0; }
+  .relocation-dates { display: grid; }
 }
 .collection-jobs:has(.job-card:not([hidden])) { border: 1px solid var(--line); }
 .detail-layout { display: grid; grid-template-columns: minmax(0,1fr) 300px; gap: 48px; }
