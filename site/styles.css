@@ -148,6 +148,17 @@ button:disabled { opacity: .45; cursor: default; }
 .collection-page, .guide-page { padding-block: 24px 48px; }
 .guide-page { max-width: 740px; }
 .guide-page > .button { margin-top: 12px; }
+.tracker-page { min-height: 65vh; }
+.tracker-page .empty-state h2 { margin: 0; font-size: 20px; }
+.tracker-feedback { color: var(--muted); font-size: 13px; }
+.tracker-feedback:empty { margin: 0; }
+.applications-list { list-style: none; margin: 0; padding: 0; background: white; border: 1px solid var(--line); border-radius: 10px; }
+.application-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px 20px; }
+.application-row + .application-row { border-top: 1px solid var(--line); }
+.application-row h2 { margin: 0 0 4px; font-size: 16px; overflow-wrap: anywhere; }
+.application-row h2 a { text-decoration: underline; }
+.application-meta { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+#mark-applied[aria-pressed="true"] { background: #fff4c4; border-color: #a88a23; }
 .collection-page h1, .guide-page h1 { margin: 0; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -.8px; }
 .collection-summary { margin: 10px 0 22px; color: var(--muted); }
 .collection-jobs:has(.job-card:not([hidden])) { border: 1px solid var(--line); border-radius: 10px; }
@@ -271,6 +282,7 @@ button:disabled { opacity: .45; cursor: default; }
   .nav-suffix { display: none; }
 }
 @media (max-width: 360px) {
+  .brand-copy { display: none; }
   .search-bar .button { padding-inline: 8px; }
   .search-icon { display: none; }
   .quick-searches { gap: 4px; }

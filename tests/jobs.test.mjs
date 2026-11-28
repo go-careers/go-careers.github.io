@@ -171,6 +171,12 @@ test("real builds create static detail pages, canonical URLs and sitemap while e
     assert.match(html, /href="\.\.\/\.\.\/assets\/styles\.css\?v=[a-f0-9]{12}"/);
     assert.ok(html.includes("https://example.com/jobs-board/jobs/frontend-1/"));
     assert.ok(html.includes('id="apply-link"'));
+    assert.ok(html.includes('id="mark-applied"'));
+    assert.ok(html.includes('href="../../applications/"'));
+    const tracker = await readFile(join(output, "applications/index.html"), "utf8");
+    assert.match(tracker, /content="noindex, follow"/);
+    assert.match(tracker, /src="\.\.\/assets\/applications\.js\?v=[a-f0-9]{12}"/);
+    assert.doesNotMatch(await readFile(join(output, "sitemap.xml"), "utf8"), /\/applications\//);
     assert.ok(!html.includes("noindex"));
     assert.match(
       await readFile(join(output, "sitemap.xml"), "utf8"),
