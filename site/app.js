@@ -49,14 +49,6 @@
     syncSavedButtons();
     onSavedChange();
   });
-  const backTop = byId('back-top');
-  const syncBackTop = () => { backTop.hidden = scrollY < 900; };
-  window.addEventListener('scroll', syncBackTop, {passive: true});
-  syncBackTop();
-  backTop.addEventListener('click', () => {
-    window.scrollTo({top: 0, behavior: 'auto'});
-    (byId('search') || document.querySelector('.back-link'))?.focus({preventScroll: true});
-  });
   const share = byId("share");
   if (share) {
     share.hidden = false;
@@ -198,6 +190,14 @@
     history.replaceState(null, "", url);
   }
   const charts = byId('job-charts');
+  const chartSwitches = charts.querySelectorAll('[data-chart-view]');
+  for (const button of chartSwitches) button.addEventListener('click', () => {
+    charts.dataset.view = button.dataset.chartView;
+    for (const choice of chartSwitches) choice.setAttribute('aria-pressed', String(choice === button));
+  });
+  byId('chart-result-link').addEventListener('click', event => {
+    if (!(event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) charts.open = false;
+  });
   function drawBars(group, entries, selected, scale, limit = entries.length) {
     entries.sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
     const rows = entries.filter((entry, index) => (index < limit && entry.count > 0) || entry.value === selected);

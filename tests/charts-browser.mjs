@@ -16,28 +16,26 @@ const context = await browser.newContext({viewport:{width:1440,height:900}, colo
 const page = await context.newPage();
 const errors = [];
 page.on('pageerror', error => errors.push(error.message));
-const theme = page.getByRole('combobox', {name:'Color theme'});
 const chart = page.locator('#job-charts');
 const bars = key => page.locator('#' + key + '-chart button');
 const counts = key => bars(key).evaluateAll(nodes => nodes.map(node => [node.dataset.value, Number(node.querySelector('.chart-count').textContent)]));
-const verifyScheme = (tab, scheme) => tab.waitForFunction(expected => getComputedStyle(document.documentElement).colorScheme === expected, scheme);
+async function verifyLight(tab) {
+  const scheme = await tab.locator('html').evaluate(root => getComputedStyle(root).colorScheme);
+  assert.deepEqual(scheme.split(' ').sort(), ['light', 'only']);
+  assert.equal(await tab.locator('#theme, #dark-palette').count(), 0);
+}
 
 try {
+  await context.addInitScript(() => localStorage.setItem('go-careers:theme:v1', 'dark'));
   await page.goto(base);
-  assert.equal(await theme.inputValue(), 'system');
-  await verifyScheme(page, 'light');
+  await verifyLight(page);
   await page.emulateMedia({colorScheme:'dark'});
-  await verifyScheme(page, 'dark');
-  await theme.selectOption('light');
-  await verifyScheme(page, 'light');
   await page.reload();
-  await verifyScheme(page, 'light');
+  await verifyLight(page);
   const tab = await context.newPage();
+  await tab.emulateMedia({colorScheme:'dark'});
   await tab.goto(base + '/applications/');
-  await theme.selectOption('dark');
-  await verifyScheme(page, 'dark');
-  await verifyScheme(tab, 'dark');
-  assert.equal(await tab.locator('#theme').inputValue(), 'dark');
+  await verifyLight(tab);
   await tab.close();
 
   assert.equal(await chart.getAttribute('open'), null);
@@ -99,33 +97,36 @@ try {
   const axeModule = process.env.AXE_MODULE && await import(pathToFileURL(process.env.AXE_MODULE).href);
   for (const width of [1440, 768, 481, 390, 361, 320]) {
     await page.setViewportSize({width,height:844});
-    const appearance = await theme.boundingBox();
-    assert.ok(appearance.x + appearance.width <= width - 8, 'Theme picker fits at ' + width);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'Charts or navigation overflow at ' + width);
+    assert.equal(await page.locator('.chart-switch').isVisible(), width <= 480);
+    assert.equal(await page.locator('#mode-panel').isVisible(), width > 480);
     if (engine === 'chromium' && axeModule && [1440, 390].includes(width)) {
       const Axe = axeModule.default.default || axeModule.default;
       const audit = await new Axe({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();
       assert.deepEqual(audit.violations.map(v => [v.id, v.nodes.map(n => n.target)]), []);
     }
   }
+  const workStyle = page.getByRole('button', {name:'Work style', exact:true});
+  await workStyle.focus();
+  await page.keyboard.press('Enter');
+  assert.equal(await page.locator('#city-panel').isVisible(), false);
+  assert.equal(await workStyle.getAttribute('aria-pressed'), 'true');
+  await bars('mode').first().click();
+  assert.ok(new URL(page.url()).searchParams.has('mode'));
   await page.locator('#job-charts a').click();
   assert.equal(new URL(page.url()).hash, '#open-roles');
+  assert.equal(await chart.getAttribute('open'), null);
+  await page.getByRole('link', {name:'Back to top'}).click();
+  assert.equal(new URL(page.url()).hash, '#top');
+  assert.equal(await page.evaluate(() => scrollY), 0);
   await first.locator('h3 a').click();
-  await verifyScheme(page, 'dark');
-  await theme.selectOption('system');
-  await page.emulateMedia({colorScheme:'light'});
-  await verifyScheme(page, 'light');
+  await verifyLight(page);
 
   const noJS = await browser.newPage({javaScriptEnabled:false, colorScheme:'dark'});
   await noJS.goto(base);
-  await verifyScheme(noJS, 'dark');
+  await verifyLight(noJS);
   assert.equal(await noJS.locator('#job-charts').isVisible(), false);
   assert.equal(await noJS.locator('.job-card:visible').count(), jobs.length);
-  const blocked = await browser.newPage({colorScheme:'light'});
-  await blocked.addInitScript(() => Object.defineProperty(window, 'localStorage', {get(){ throw new Error('Storage disabled'); }}));
-  await blocked.goto(base);
-  await blocked.locator('#theme').selectOption('dark');
-  await verifyScheme(blocked, 'dark');
   const aging = await browser.newPage();
   const lastDay = jobs.map(job => windowEnd(job.posted_date)).sort().at(-1);
   await aging.clock.install({time:new Date(lastDay + 'T18:29:00Z')});
@@ -134,5 +135,5 @@ try {
   await aging.clock.fastForward(60001);
   assert.equal(await aging.locator('.chart-bars button').count(), 0, 'Expired listings disappear from both charts at India midnight');
   assert.deepEqual(errors, []);
-  console.log(engine + ': chart counts, filters, keyboard, responsive layout, system theme, manual preference and storage checks passed.');
+  console.log(engine + ': chart counts, filters, keyboard, responsive layout, and light-only appearance checks passed.');
 } finally { await browser.close(); }
