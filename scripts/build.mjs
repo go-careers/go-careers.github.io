@@ -9,6 +9,7 @@ import { linkedinPeopleLinks } from './linkedin.mjs';
 import { jobLocations, locationOptions, locationSearchTerms } from './locations.mjs';
 import { browseCollections } from './browse.mjs';
 import { discoveryHead, jobPreview } from './seo.mjs';
+import { relocationListings, relocationPage } from './relocation.mjs';
 
 export const root = fileURLToPath(new URL('../', import.meta.url));
 const dateLabel = value => new Intl.DateTimeFormat('en-IN', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(value));
@@ -24,7 +25,7 @@ const compensation = job => `<dt id="compensation">Expected salary</dt><dd class
 
 const initials = company => company.split(/\s+/).slice(0, 2).map(s => s[0]).join('').toUpperCase();
 
-export async function build({ output = join(root, 'dist'), csv, today = indiaDate(), production = false, siteURL = process.env.SITE_URL || '', validateOnly = false, companyAudit } = {}) {
+export async function build({ output = join(root, 'dist'), csv, today = indiaDate(), production = false, siteURL = process.env.SITE_URL || '', validateOnly = false, companyAudit, relocationJobs } = {}) {
   const allJobs = readJobs(csv ?? await readFile(join(root, 'data/jobs.csv'), 'utf8'), await readIngestionTimes());
   if (production && allJobs.some(job => job.is_demo)) throw new Error('Production build blocked: replace or remove all demo jobs in data/jobs.csv first.');
   for (const logo of new Set(allJobs.map(job => job.company_logo).filter(Boolean))) {
@@ -33,6 +34,8 @@ export async function build({ output = join(root, 'dist'), csv, today = indiaDat
   }
   validateCompanyEligibility(allJobs, companyAudit ?? JSON.parse(await readFile(join(root, 'data/company-funding.json'), 'utf8')));
   const jobs = activeJobs(allJobs, today);
+  const overseas = relocationListings(relocationJobs ?? (csv === undefined
+    ? JSON.parse(await readFile(join(root, 'data/relocation-jobs.json'), 'utf8')) : []), today);
   if (validateOnly) return { total: allJobs.length, active: jobs.length };
   const linkedinData = JSON.parse(await readFile(join(root, 'data/company-linkedin.json'), 'utf8'));
   const linkedinCompanies = new Map();
@@ -66,6 +69,7 @@ export async function build({ output = join(root, 'dist'), csv, today = indiaDat
   const homeCrumb = { name: 'Go Careers', path: '' };
   const aboutPath = 'about/';
   const applicationsPath = 'applications/';
+  const relocationPath = 'relocation/';
   const browseMenu = collections.length ? `<nav class="browse-menu container" aria-label="Browse startup jobs"><h2>Browse startup jobs</h2>${['Role', 'Location'].map(group => {
     const links = collections.filter(c => c.group === group).map(c => `<a href="${browsePath(c)}">${e(c.label)}</a>`).join('');
     return links ? `<div><strong>${group}</strong>${links}</div>` : '';
@@ -108,7 +112,7 @@ export async function build({ output = join(root, 'dist'), csv, today = indiaDat
     </div><div class="chart-footer"><span>Select a bar to filter jobs. Select it again to clear.</span><a id="chart-result-link" href="#open-roles">View results ↓</a></div></details>`;
   const shell = ({ title, description, body, prefix = './', path = '', noindex = false, type, crumbs, source }) => `<!doctype html>
 <html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${e(title)}</title><meta name="description" content="${e(description)}"><meta name="color-scheme" content="only light"><meta name="theme-color" content="#ffffff">${discoveryHead({ base: canonicalBase, path, title, description, type, crumbs, source, noindex: noindex || demo })}<link rel="icon" href="${prefix}assets/favicon.png" type="image/png"><link rel="stylesheet" href="${prefix}assets/styles.css?v=${styleVersion}">${analyticsEnabled ? `<script src="${prefix}assets/analytics.js?v=${analyticsVersion}" defer></script>` : ''}<script src="${prefix}assets/app.js?v=${scriptVersion}" defer></script>${path === applicationsPath || path.startsWith('jobs/') ? `<script src="${prefix}assets/applications.js?v=${trackerVersion}" defer></script>` : ''}${analyticsEnabled ? '<script id="umami-tracker" defer src="https://cloud.umami.is/script.js" data-website-id="e6cb80e5-9b47-4a06-823e-7d76c5c0e762" data-domains="go-careers.github.io" data-auto-pageview="false" data-before-send="goCareersBeforeSend"></script>' : ''}</head>
-<body><a class="skip-link" href="#main">Skip to content</a>${demo ? '<div class="demo-bar">Preview · All sample listings are fictional. Applications are disabled.</div>' : ''}<header id="top" tabindex="-1" class="site-header"><div class="container nav"><a class="brand" href="${prefix}" aria-label="Go Careers home"><img class="brand-logo" src="${prefix}assets/logo.jpg" alt="" width="46" height="46"><span class="brand-copy">Go Careers</span></a><nav aria-label="Main navigation"><a class="browse-nav${path === '' ? ' nav-current' : ''}" data-nav-view="all"${path === '' ? ' aria-current="page"' : ''} href="${prefix}#opportunities" aria-label="Browse jobs"><span>Browse<span class="nav-suffix"> jobs</span></span></a><a class="saved-nav" data-nav-view="saved" href="${prefix}?saved=1#opportunities" aria-label="Saved jobs" hidden><span>Saved<span class="nav-suffix"> jobs</span></span></a><a href="${prefix}${applicationsPath}"${path === applicationsPath ? ' class="nav-current" aria-current="page"' : ''}>Applications</a></nav></div></header>
+<body><a class="skip-link" href="#main">Skip to content</a>${demo ? '<div class="demo-bar">Preview · All sample listings are fictional. Applications are disabled.</div>' : ''}<header id="top" tabindex="-1" class="site-header"><div class="container nav"><a class="brand" href="${prefix}" aria-label="Go Careers home"><img class="brand-logo" src="${prefix}assets/logo.jpg" alt="" width="46" height="46"><span class="brand-copy">Go Careers</span></a><nav aria-label="Main navigation"><a class="browse-nav${path === '' ? ' nav-current' : ''}" data-nav-view="all"${path === '' ? ' aria-current="page"' : ''} href="${prefix}#opportunities" aria-label="Browse jobs"><span>Browse<span class="nav-suffix"> jobs</span></span></a><a href="${prefix}${relocationPath}"${path === relocationPath ? ' class="nav-current" aria-current="page"' : ''} aria-label="Jobs abroad with relocation"><span>Jobs abroad</span></a><a class="saved-nav" data-nav-view="saved" href="${prefix}?saved=1#opportunities" aria-label="Saved jobs" hidden><span>Saved<span class="nav-suffix"> jobs</span></span></a><a href="${prefix}${applicationsPath}"${path === applicationsPath ? ' class="nav-current" aria-current="page"' : ''}>Applications</a></nav></div></header>
 ${body}<p id="save-status" class="save-status" role="status" aria-live="polite"></p><footer class="site-footer" id="about-board"><div class="container footer-inner"><p><strong>Go Careers</strong></p><a href="${prefix}about/">How listings are selected</a><span>© ${today.slice(0, 4)}</span><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer></body></html>`;
   const index = shell({ title: 'Startup Jobs in India for Software, AI & ML Engineers | Go Careers', type: 'CollectionPage', description: 'Find software engineering, AI and machine learning jobs at private startups hiring in India. Filter by experience, city or remote work and apply on the original listing.', body: `
 <main id="main"><section class="hero" aria-labelledby="board-title"><div class="container hero-inner">
@@ -150,11 +154,19 @@ ${browseMenu}</main>` });
   });
   await mkdir(join(output, applicationsPath), { recursive: true });
   await writeFile(join(output, applicationsPath, 'index.html'), tracker);
+  const relocationTitle = 'Jobs abroad with relocation';
+  const relocation = shell({
+    path: relocationPath, prefix: '../', type: 'CollectionPage', title: relocationTitle + ' | Go Careers',
+    description: 'Engineering jobs outside India with employer-provided relocation support. Compare destinations, moving benefits and visa terms.',
+    noindex: !overseas.length, crumbs: [homeCrumb, { name: relocationTitle, path: relocationPath }], body: relocationPage(overseas),
+  });
+  await mkdir(join(output, relocationPath), { recursive: true });
+  await writeFile(join(output, relocationPath, 'index.html'), relocation);
   const about = shell({
     path: aboutPath, prefix: '../', type: 'AboutPage', title: 'How Go Careers selects startup jobs in India',
     description: 'How Go Careers selects India startup jobs, checks posting dates, handles expected pay and links applicants to the original hiring page.',
     crumbs: [homeCrumb, { name: 'How listings are selected', path: aboutPath }],
-    body: `<main id="main" class="container guide-page"><a class="back-link" href="../">← Go Careers</a><h1>How listings are selected</h1><section class="description"><h2>Which jobs make the board?</h2><p>Go Careers curates public software, data and AI engineering openings at independent, private startups hiring in India. Each listing has an original posting date and an advertised Indian location or explicit eligibility to work remotely from India.</p></section><section class="description"><h2>How recent are the openings?</h2><p>We keep one calendar month of postings. A listing leaves the board sooner if its advertised closing date passes. Following the application link lets you check whether the employer is still accepting applications.</p></section><section class="description"><h2>Where does expected salary come from?</h2><p>We show the employer’s published pay when available. Otherwise, we may show an estimate from comparable Indian roles. The original listing is the source for any compensation the employer offers.</p></section><section class="description"><h2>Where do I apply?</h2><p>Each job brief links to the original hiring page. The employer or its recruiting platform handles the application.</p></section><a class="button" href="../#opportunities">Browse open jobs →</a></main>`,
+    body: `<main id="main" class="container guide-page"><a class="back-link" href="../">← Go Careers</a><h1>How listings are selected</h1><section class="description"><h2>Which jobs make the board?</h2><p>Go Careers curates public software, data and AI engineering openings at independent, private startups hiring in India. Each listing has an original posting date and an advertised Indian location or explicit eligibility to work remotely from India. The <a href="../relocation/">jobs abroad section</a> lists overseas openings where the employer advertises international hiring and help with the move. Each entry links to the employer’s terms.</p></section><section class="description"><h2>How recent are the openings?</h2><p>We keep one calendar month of postings. A listing leaves the board sooner if its advertised closing date passes. Following the application link lets you check whether the employer is still accepting applications.</p></section><section class="description"><h2>Where does expected salary come from?</h2><p>We show the employer’s published pay when available. Otherwise, we may show an estimate from comparable Indian roles. The original listing is the source for any compensation the employer offers.</p></section><section class="description"><h2>Where do I apply?</h2><p>Each job brief links to the original hiring page. The employer or its recruiting platform handles the application.</p></section><a class="button" href="../#opportunities">Browse open jobs →</a></main>`,
   });
   await mkdir(join(output, aboutPath), { recursive: true });
   await writeFile(join(output, aboutPath, 'index.html'), about);
@@ -188,7 +200,7 @@ ${browseMenu}</main>` });
   }
   await writeFile(join(output, '404.html'), shell({ title: 'Page not found | Go Careers', description: 'This opportunity may have closed or moved.', path: '404.html', noindex: true, prefix: canonicalBase || '/', body: `<main id="main" class="container not-found"><h1>Page not found</h1><p>The job may have closed, or the link may be incorrect.</p><a class="button" href="${e(canonicalBase || '/')}">Explore current opportunities →</a></main>` }));
   if (canonicalBase && !demo) {
-    await writeFile(join(output, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['', aboutPath, ...collections.map(browsePath), ...jobs.map(job => `jobs/${job.id}/`)].map(path => `<url><loc>${e(canonicalBase + path)}</loc></url>`).join('')}</urlset>`);
+    await writeFile(join(output, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['', aboutPath, ...(overseas.length ? [relocationPath] : []), ...collections.map(browsePath), ...jobs.map(job => `jobs/${job.id}/`)].map(path => `<url><loc>${e(canonicalBase + path)}</loc></url>`).join('')}</urlset>`);
     await writeFile(join(output, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${canonicalBase}sitemap.xml\n`);
   } else await writeFile(join(output, 'robots.txt'), demo ? 'User-agent: *\nDisallow: /\n' : 'User-agent: *\nAllow: /\n');
   return { total: allJobs.length, active: jobs.length };

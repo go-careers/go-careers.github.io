@@ -108,6 +108,12 @@ The command archives complete removed CSV rows in `data/job-archive/` before rep
 
 Builds enforce the same window without modifying the CSV, including scheduled daily deployments. Browser tabs recheck the generated retention deadline every minute, remove stale cards and disable Apply on aged-out detail pages. Generated pages and sitemap entries disappear on the next build. No new analytics events are added.
 
+## Jobs abroad with relocation
+
+The **Jobs abroad** navigation link opens `/relocation/`. Each role shows its destination, the employer's moving and visa terms, the posting and verification dates, and a link to the original vacancy. The destination filter is shareable, for example `/relocation/?country=JP`. These roles have their own feed so searches and charts for India keep their geographic scope.
+
+Maintain `data/relocation-jobs.json` from employer postings. Check the application is open to applicants moving from overseas, record the advertised moving support and work-authorization terms, and omit domestic-only moves and visa-only offers. Preserve the original posting date and first ingestion timestamp when rechecking a role. Remove confirmed closures or set an advertised `expiry_date`. The build and open browser tabs apply the board's one-calendar-month window. Listings appear newest import first, with posting date as a tie-breaker.
+
 ## Search discovery
 
 The homepage links to static pages for role families, engineering internships, remote work and major Indian cities. The generator creates a collection only when it contains current openings. Every listing is readable without JavaScript and links to its original application page. The selection and salary methodology is published at `/about/`.

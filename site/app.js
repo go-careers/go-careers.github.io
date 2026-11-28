@@ -97,6 +97,40 @@
   const list = byId("job-list");
   if (!list) {
     if (detail) setInterval(checkDetail, 60000);
+    const destination = byId('destination');
+    if (destination) {
+      const rows = [...document.querySelectorAll('.relocation-row')];
+      function refreshRelocation() {
+        const date = today();
+        const current = rows.filter(row => activeOn(row, date));
+        const countries = new Set(current.map(row => row.dataset.country));
+        const url = new URL(location.href);
+        const requested = url.searchParams.get('country');
+        destination.value = countries.has(requested) ? requested : '';
+        const visible = current.filter(row => !destination.value || row.dataset.country === destination.value);
+        const matching = new Set(visible);
+        for (const row of rows) row.hidden = !matching.has(row);
+        for (const option of destination.options) option.disabled = !!option.value && !countries.has(option.value);
+        byId('destination-field').hidden = countries.size < 2 && !destination.value;
+        byId('relocation-count').textContent = `${visible.length} ${visible.length === 1 ? 'opening' : 'openings'}`;
+        byId('relocation-empty').hidden = current.length > 0;
+        if (!current.length) markClosedPage();
+        if (requested && !destination.value) {
+          url.searchParams.delete('country');
+          history.replaceState(null, '', url);
+        }
+      }
+      destination.addEventListener('change', () => {
+        const url = new URL(location.href);
+        if (destination.value) url.searchParams.set('country', destination.value);
+        else url.searchParams.delete('country');
+        history.replaceState(null, '', url);
+        refreshRelocation();
+      });
+      refreshRelocation();
+      window.addEventListener('popstate', refreshRelocation);
+      setInterval(refreshRelocation, 60000);
+    }
     const collection = document.querySelector('[data-collection]');
     if (collection) {
       const cards = [...collection.querySelectorAll('.job-card')];
