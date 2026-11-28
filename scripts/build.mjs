@@ -85,7 +85,7 @@ export async function build({ output = join(root, 'dist'), csv, today = indiaDat
   const themeScript = await readFile(join(root, 'scripts/theme.js'), 'utf8');
   const themePicker = `<label class="theme-picker" title="Color theme" hidden>
     <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg>
-    <span class="theme-caption">Theme</span><select id="theme" aria-label="Color theme"><option value="system">Device setting</option><option value="light">Light</option><option value="dark">Dark</option></select></label>`;
+    <span class="theme-caption">Theme</span><select id="theme" aria-label="Color theme"><option value="system">Auto</option><option value="light">Light</option><option value="dark">Dark</option></select></label>`;
   const jobCharts = `<details id="job-charts" class="job-charts" hidden>
     <summary><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path d="M4 5h16M4 12h11M4 19h6"/></svg>Explore job charts</summary>
     <div class="chart-grid">

@@ -180,7 +180,7 @@ PLAYWRIGHT_MODULE=/absolute/path/to/playwright/index.mjs node tests/browser.mjs
 
 Set `CHROMIUM_EXECUTABLE` if the installed browser is outside Playwright's default cache. Optionally set `AXE_MODULE` to an installed `@axe-core/playwright/dist/index.js` for accessibility checks. Screenshots go into ignored `.artifacts/`.
 
-The header’s **Theme** picker follows the device setting by default. Selecting Light or Dark saves that choice in this browser and synchronizes open tabs. Without JavaScript, the board still follows the system appearance.
+The header’s **Theme** picker defaults to **Auto**, which follows the device setting. Selecting Light or Dark saves that choice in this browser and synchronizes open tabs. Without JavaScript, the board still follows the system appearance.
 
 **Explore job charts** shows the five cities with the most matching jobs and the counts by work style. Selecting a bar applies the corresponding filter, and selecting it again clears that filter. Both charts use all matching listings across pages. Each chart respects the other filters and the saved-jobs view. Multi-city roles count once in each named city.
 
