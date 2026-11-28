@@ -1730,6 +1730,411 @@
       "checked_at": "2026-11-23",
       "retrieved_at": "2026-11-23T14:07:56.970813+00:00",
       "source_sha256": "a99f03152a04a0a4a51679af5e8a01ed1ed31bdbc8b96c511c092eaa59813bed"
+    },
+    {
+      "company": "AlphaSense",
+      "file": "alphasense.png",
+      "page": "https://www.alpha-sense.com/",
+      "url": "https://www.alpha-sense.com/apple-touch-icon.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:26.828356+00:00",
+      "source_sha256": "9a33c0925f47c3b26b72a25b403c5e7e5a2634f950c059609744d5250580eb68"
+    },
+    {
+      "company": "BJAK",
+      "file": "bjak.png",
+      "page": "https://bjak.my/",
+      "url": "https://bjak.my/apple-touch-icon.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.611900+00:00",
+      "source_sha256": "608264adde9e334bbc50ee320c5f497fa9668385890fb2539b492a9b659d0f33"
+    },
+    {
+      "company": "Diagrid",
+      "file": "diagrid.png",
+      "page": "https://www.diagrid.io/",
+      "url": "https://www.diagrid.io/favicon.svg",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.832249+00:00",
+      "source_sha256": "c8720c0ce0a1733e345588e95287133baf44995c85e9f569a6f2e8fca2ab5afc"
+    },
+    {
+      "company": "Doxel",
+      "file": "doxel.png",
+      "page": "https://doxel.ai/",
+      "url": "https://cdn.prod.website-files.com/66aa56b055292635770d0c44/672e0c7bd52bd8476c269e3c_resize-17310710791984656422ve8F0yty400x400removebgpreview.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.751938+00:00",
+      "source_sha256": "77916459c448fd69f00f9a44f017a75fb7b76b6c35660fc198612f875051ee83"
+    },
+    {
+      "company": "Dozee",
+      "file": "dozee.png",
+      "page": "https://jobs.lever.co/dozee/3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "url": "https://lever-client-logos.s3.us-west-2.amazonaws.com/a820bdf0-68ad-4f7f-afa2-7b00788ec256-1794556229971.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:19:48.958545+00:00",
+      "source_sha256": "6acf929c0cc863bb345acc934ce2b120c4d80ffa2de7ee20d67a379f65d9d804"
+    },
+    {
+      "company": "Headout",
+      "file": "headout.png",
+      "page": "https://www.headout.com/",
+      "url": "https://www.headout.com/static/favicons/favicon-1024x1024.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:27.112072+00:00",
+      "source_sha256": "8080ff0c0f528e381b48e780180762f9b3b1e17a59c2ffadee938285f28b1447"
+    },
+    {
+      "company": "Mindtickle",
+      "file": "mindtickle.png",
+      "page": "https://www.mindtickle.com/",
+      "url": "https://www.mindtickle.com/images/favicon.png",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:26.568966+00:00",
+      "source_sha256": "ff37a500c9cc53512a712edbac9ea6c68f0a477262d15d4e406bd5ee06d8e499"
+    },
+    {
+      "company": "SiFive",
+      "file": "sifive.png",
+      "page": "https://www.sifive.com/",
+      "url": "https://www.sifive.com/favicon.ico",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:17:26.569812+00:00",
+      "source_sha256": "4297afcf922d27d3010fe804f2fca4fc0300b1b52d38b6799e475fe25d9c74e5"
+    },
+    {
+      "company": "Trackier",
+      "file": "trackier.png",
+      "page": "https://trackier.com/",
+      "url": "https://trackier.com/wp-content/uploads/2024/12/cropped-Fav-Icon-4-192x192.webp",
+      "checked_at": "2026-11-25",
+      "retrieved_at": "2026-11-25T18:23:50.581884+00:00",
+      "source_sha256": "c992f8c93af8ee8926abbdbc7e4c12e64618f22b0123f1e176f1237a9040c436"
+    },
+    {
+      "company": "AI Accountant",
+      "file": "ai-accountant.png",
+      "page": "https://www.aiaccountant.com/about-us",
+      "url": "https://cdn.prod.website-files.com/67ed19ac5d8a1253defd2450/67f8d5997a9800c1fd03947f_favicon-32x32.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:05:13.827726+00:00",
+      "source_sha256": "9d01ef3852bc36c6cb602f5039d4d776ab9a1dc6ab7353d54fbb9fc3abf2301e"
+    },
+    {
+      "company": "Arivihan Technologies",
+      "file": "arivihan-technologies.png",
+      "page": "https://wellfound.com/jobs/5130406-java-backend-engineer",
+      "url": "https://photos.wellfound.com/startups/i/8782367-3da24fb4169b086345892fd78f61d50d-medium_jpg.jpg?buster=1647117559",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:15.016854+00:00",
+      "source_sha256": "7fdc352db9b88ad3feb4f9cd3d4f7bb2594404e54c0c75a5078abbe7df46e2e4"
+    },
+    {
+      "company": "Backbase",
+      "file": "backbase.png",
+      "page": "https://www.backbase.com/",
+      "url": "https://cdn.prod.website-files.com/688b633d00cf5931b997219b/6a8c131b8996d359cc949c19_Favicon.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:05:13.898194+00:00",
+      "source_sha256": "be7fdd86bcdf0f68e8c99bcc31059cdae546492d0623bd355b1fc4c64afff89e"
+    },
+    {
+      "company": "Commenda",
+      "file": "commenda.png",
+      "page": "https://wellfound.com/jobs/5101345-software-engineer-product",
+      "url": "https://photos.wellfound.com/startups/i/9260767-83a17f514c1922523f1ac63db5d4aeb9-medium_jpg.jpg?buster=1684186666",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:15.025756+00:00",
+      "source_sha256": "72a00eb6e678fb3d0bd4b8233efdaa71fbeea4212a581b49f4f1041a256620f5"
+    },
+    {
+      "company": "Fam",
+      "file": "fam.png",
+      "page": "https://famapp.in/",
+      "url": "https://www.famapp.in/assets/localImages/favicon.ico",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:05:15.325306+00:00",
+      "source_sha256": "e16dfb4af8e2451c0492a50b2fc6c7d045ea36efd93e533e8af598c0a7b87e5c"
+    },
+    {
+      "company": "Fanatics",
+      "file": "fanatics.png",
+      "page": "https://www.fanaticsinc.com/",
+      "url": "https://images.squarespace-cdn.com/content/v1/5ff494b9931735466ce28d5b/0af296b4-363c-495a-b5b8-108753ab3c60/favicon.ico?format=100w",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:05:14.072704+00:00",
+      "source_sha256": "66ab71214124a625b9776ff5d3d0ff8aab8074a6dc8f3052e320212f07444231"
+    },
+    {
+      "company": "Fulfillment IQ",
+      "file": "fulfillment-iq.png",
+      "page": "https://jobs.workable.com/view/sXiXeRBPuyr6z3AqWs1nB8/hybrid-devops-engineer-(azure-%2F-gcp)-in-bengaluru-at-fulfillment-iq",
+      "url": "https://workablehr.s3.amazonaws.com/uploads/account/logo/715570/logo",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:15.058574+00:00",
+      "source_sha256": "0ba2ef37cbcbec46ecf67058955e935f6cbfb74525f42118e18f4567ace3508a"
+    },
+    {
+      "company": "Hiresense.ai",
+      "file": "hiresense-ai.png",
+      "page": "https://wellfound.com/jobs/5137627-agentic-ai-backend-engineer",
+      "url": "https://photos.wellfound.com/startups/i/10650004-98a885e500ded1c8b8d9c0e83dfe5bee-medium_jpg.jpg?buster=1755451624",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.890382+00:00",
+      "source_sha256": "88b3deefcacdcadd96c9be45329f79154400b06d10b725f57917c05e5324b6f8"
+    },
+    {
+      "company": "Jash Data Sciences",
+      "file": "jash-data-sciences.png",
+      "page": "https://wellfound.com/jobs/4995481-ai-data-engineer",
+      "url": "https://photos.wellfound.com/startups/i/8166097-62ab038f7cb6a6be5b66ad7b2dca9c25-medium_jpg.jpg?buster=1611570708",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.989032+00:00",
+      "source_sha256": "1fc41821ff9ebe41e39cd53e79ed472ba03dd075170527f7ed57927dea21ef81"
+    },
+    {
+      "company": "Legion Technologies",
+      "file": "legion-technologies.png",
+      "page": "https://legion.co/",
+      "url": "https://cdn-ilfabao.nitrocdn.com/tubukXWqpphofsoXUXKPYTmWgduUudeY/assets/images/optimized/rev-d5e8b0a/legion.co/apple-touch-icon.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:05:13.663638+00:00",
+      "source_sha256": "d63480e07d2f19e837421296e52681968b4c363a30a56028b4fc844246d71a23"
+    },
+    {
+      "company": "Maropost",
+      "file": "maropost.png",
+      "page": "https://wellfound.com/jobs/5105648-senior-software-engineer-machine-learning",
+      "url": "https://photos.wellfound.com/startups/i/10399598-3fa4845a9fc2f53ae790afcd1bcd7fc2-medium_jpg.jpg?buster=1770635067",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.859826+00:00",
+      "source_sha256": "ad143d95745c11a7da04f9825aa79c996b2e5d39f60321760d8c93ca43d2c7ce"
+    },
+    {
+      "company": "Metron Security",
+      "file": "metron-security.png",
+      "page": "https://cutshort.io/job/Full-Stack-Developer-Pune-Bengaluru-Bangalore-Metron-Security-Private-Limited-YcfkP61e",
+      "url": "https://cdnv2.cutshort.io/company-static/659e7f83d32e8a0028ccc51b/user_uploaded_data/logos/company_logo.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.768281+00:00",
+      "source_sha256": "42376e495f5c6756fd514a2b3765447e263b58812126e46e183d41b980d40513"
+    },
+    {
+      "company": "P99soft",
+      "file": "p99soft.png",
+      "page": "https://cutshort.io/job/AI-Integration-Engineer-Hyderabad-P99soft-fDLiDWJh",
+      "url": "https://cdnv2.cutshort.io/company-static/647937f9bfc31f12e88839da/user_uploaded_data/logos/company_logo.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.663027+00:00",
+      "source_sha256": "d1c02a8498e2c7552d23c5d2f6b70fcd3692514e251b0fa58e8ea8d6cd3b9b43"
+    },
+    {
+      "company": "Platform Science",
+      "file": "platform-science.png",
+      "page": "https://www.platformscience.com/",
+      "url": "https://cdn.prod.website-files.com/63b186271e34a71f39c0b0ce/63b186271e34a7fdf7c0b10f_favicon-32x32.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:05:13.803367+00:00",
+      "source_sha256": "6637635a74551a85f7069c540d4f1e6eda8262a01d63980a1181cda605b0d665"
+    },
+    {
+      "company": "Platinumlist",
+      "file": "platinumlist.png",
+      "page": "https://jobs.workable.com/view/8bbopNtM8jVGc7jyWR37Kf/remote-lead-ai-engineer-(full-stack)-in-india-at-platinumlist",
+      "url": "https://workablehr.s3.amazonaws.com/uploads/account/logo/678592/logo",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:15.045151+00:00",
+      "source_sha256": "6de27cd852c8f3219e4f875a6ced190cfd20069e62de04acf3c529408692f02e"
+    },
+    {
+      "company": "Proximity Works",
+      "file": "proximity-works.png",
+      "page": "https://proximity.tech/",
+      "url": "https://framerusercontent.com/images/oui7zZbfnKdqJFty2YAVoKjY3Q.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:05:14.026951+00:00",
+      "source_sha256": "3a3353bbdc07fe20ad2ef67016de0502ca7a28fbdad7bdba73449a359aaa1e30"
+    },
+    {
+      "company": "RockED",
+      "file": "rocked.png",
+      "page": "https://cutshort.io/job/DevOps-AI-Infrastructure-Engineer-Bengaluru-Bangalore-RockED-lKwbOsFF",
+      "url": "https://cdnv2.cutshort.io/company-static/682700df51b0d30c5eee2a9c/user_uploaded_data/logos/company_logo.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.818973+00:00",
+      "source_sha256": "c909bca2971563a5e3a48879ccf75d19fee2e769cc21cd64b1e6b750ec55dea9"
+    },
+    {
+      "company": "Schpot",
+      "file": "schpot.png",
+      "page": "https://wellfound.com/jobs/5133337-full-stack-engineer",
+      "url": "https://photos.wellfound.com/startups/i/10899290-3d6257ca1868898e48f0939ae05f1825-medium_jpg.jpg?buster=1795533967",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.937442+00:00",
+      "source_sha256": "53aa15108d4eee3780ebae0a835a4ce5bccf14a4c91d33b77020440ebca1fa23"
+    },
+    {
+      "company": "Techjays",
+      "file": "techjays.png",
+      "page": "https://cutshort.io/job/AI-Engineer-Coimbatore-Techjays-2ZWD0fBS",
+      "url": "https://cdnv2.cutshort.io/company-static/647940e9bfc31f12e8885b70/user_uploaded_data/logos/techjays_new_white_logo_bg_removed_rnLse71U.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.742728+00:00",
+      "source_sha256": "36f5662d37775fe8f6dad0791f0c70cf9c0c491f7677141ffe29040e701af0eb"
+    },
+    {
+      "company": "VectovateAI",
+      "file": "vectovateai.png",
+      "page": "https://wellfound.com/jobs/5137943-ai-ml-engineer",
+      "url": "https://photos.wellfound.com/startups/i/11280354-79e2680014bbe862f53c69a9f1b6ae97-medium_jpg.jpg?buster=1791980661",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.949641+00:00",
+      "source_sha256": "b1793faab70fe735f2c75778720b1e4d3dcaab92ac1549d3efd9b24f3b5c126c"
+    },
+    {
+      "company": "YouTrip",
+      "file": "youtrip.png",
+      "page": "https://apply.workable.com/youtrip/j/1B9B879C80/",
+      "url": "https://workablehr.s3.amazonaws.com/uploads/account/open_graph_logo/696540/social?1766818303000",
+      "source_sha256": "e4811a303aa766510c6549e1d141f2e099cf93a4dd363a9d5f97d5c0c280afaf",
+      "retrieved_at": "2026-11-26T21:06:44.964883+00:00",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "ownpath",
+      "file": "ownpath.png",
+      "page": "https://wellfound.com/jobs/5137948-brand-design-manager-clone",
+      "url": "https://photos.wellfound.com/startups/i/6919943-27153641dfccbae8cc0278a208285c30-medium_jpg.jpg?buster=1726809390",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-26T21:02:14.975676+00:00",
+      "source_sha256": "6885d12ab1f2518bc5166123824c8b1818734683a9bd2fdabb2998af51e1cff7"
+    },
+    {
+      "company": "Amantya Technologies",
+      "file": "amantya-technologies.png",
+      "page": "https://www.amantyatech.com/",
+      "url": "https://www.amantyatech.com/public/img/Favicon.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:23.210836+00:00",
+      "source_sha256": "baf9e2fc9b92ff15277352f3ef4882d04eb597fb3c7624fd45bc97466256b7b4"
+    },
+    {
+      "company": "Aviatrix",
+      "file": "aviatrix.png",
+      "page": "https://aviatrix.ai/",
+      "url": "https://aviatrix.ai/images/cropped-Aviatrix-Logo@2x-1-32x32.webp",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:24.275224+00:00",
+      "source_sha256": "44ec33278d09b9b35f4df3bb765fdfe5c7aeaa0af674d0f39cf9f84e173610e5"
+    },
+    {
+      "company": "BestEx Research",
+      "file": "bestex-research.png",
+      "page": "https://jobs.workable.com/view/cn3yjH7X19iK55HQ9Tg8xB/quant-data-engineer--in-bengaluru-at-bestex-research",
+      "url": "https://workablehr.s3.amazonaws.com/uploads/account/logo/540348/logo",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:24.502405+00:00",
+      "source_sha256": "a52e541cb7fe13d358724605281af577c23eb3af3e3fe08eace6b56fd8e9067f"
+    },
+    {
+      "company": "CRED",
+      "file": "cred.png",
+      "page": "https://cred.club/",
+      "url": "https://web-images.credcdn.in/v2/_next/assets/icons/logo.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:25.674484+00:00",
+      "source_sha256": "471e0789111cb2cadeab16daab3d89e4380155daba076121baad83df3f0c1979"
+    },
+    {
+      "company": "CloudThat",
+      "file": "cloudthat.png",
+      "page": "https://www.cloudthat.com/",
+      "url": "https://cdn-labgd.nitrocdn.com/DgsEbCQFApREClXUXMwcDAPWJfHtBIby/assets/images/optimized/rev-2843b6f/www.cloudthat.com/wp-content/themes/masterstudy-child/newfiles/images/favicon-64x64.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:25.859301+00:00",
+      "source_sha256": "975a3fddc480a3490a8aac53fc16f58ee449a7afe027699717a733921d8d48f4"
+    },
+    {
+      "company": "ElevenLabs",
+      "file": "elevenlabs.png",
+      "page": "https://elevenlabs.io/",
+      "url": "https://elevenlabs.io/apple-icon.png?6592732ab34b1d42",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:26.057134+00:00",
+      "source_sha256": "7936b8ae0c53b049edec573876bfb2b44b450fdce10675bd98f29182833d373e"
+    },
+    {
+      "company": "Faraday Loop",
+      "file": "faraday-loop.png",
+      "page": "https://wellfound.com/jobs/5078012-founding-engineer-physics-x-ee-x-ml",
+      "url": "https://photos.wellfound.com/startups/i/11420269-67e35ef06b171c397902f67b64f20c33-medium_jpg.jpg?buster=1794693246",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:26.334614+00:00",
+      "source_sha256": "2094205dfb7a70f2afc7b0b662dad136fb1b0b77ed77b9f0ab54768cec18f1af"
+    },
+    {
+      "company": "Huvo AI",
+      "file": "huvo-ai.png",
+      "page": "https://wellfound.com/jobs/4544645-backend-engineer-python",
+      "url": "https://photos.wellfound.com/startups/i/11135533-dcebd0cd12dd6545c43fe838a6964091-medium_jpg.jpg?buster=1785328045",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:26.472277+00:00",
+      "source_sha256": "a7bd98c6da46903fffb30283dda23f815bd3b7009e203a143bf24e036dd1d7ea"
+    },
+    {
+      "company": "Igloo",
+      "file": "igloo.png",
+      "page": "https://jobs.workable.com/view/wE5tVqkacvrPbMnfzBHtVS/full-stack-engineer-in-pune-at-igloo",
+      "url": "https://workablehr.s3.amazonaws.com/uploads/account/logo/655279/logo",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:26.604812+00:00",
+      "source_sha256": "a93cb23667308f90bf9de7f44bddddb07e34e173091f6063fc17cd0790fb3f7f"
+    },
+    {
+      "company": "MontyCloud",
+      "file": "montycloud.png",
+      "page": "https://montycloud.com/",
+      "url": "https://eadn-wc04-20112898.nxedge.io/wp-content/uploads/2025/07/full-color-favicon.svg",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:27.558190+00:00",
+      "source_sha256": "289dae76135611d9985b46af0a1bc20dff1c9f49064dd22b2e97750a8697eed8"
+    },
+    {
+      "company": "ProArch",
+      "file": "proarch.png",
+      "page": "https://jobs.workable.com/view/q8dwDMTaiBcxRUth9R2jUv/hybrid-technical-lead---cloud-devops-engineer-(aws%2Foci)-in-mumbai-at-proarch",
+      "url": "https://workablehr.s3.amazonaws.com/uploads/account/logo/390768/logo",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:28.968407+00:00",
+      "source_sha256": "daa58a7a832ef9602491bee6d755b16f8d4ef32efd0b906a846a9c232d669c0c"
+    },
+    {
+      "company": "Tech Prescient",
+      "file": "tech-prescient.png",
+      "page": "https://cutshort.io/job/Technical-Architect-Product-Engineering-Pune-Tech-Prescient-bYfIw2Dm",
+      "url": "https://cdnv2.cutshort.io/company-static/592fb1da02d67c0cdca1df9d/user_uploaded_data/logos/Logo_100x100px_1_EnMBpcAg.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:29.926798+00:00",
+      "source_sha256": "085ce59f7799c2ab26b5a060168d81d6393914fb9ad72939906c259cfdc7ff26"
+    },
+    {
+      "company": "Virallens",
+      "file": "virallens.png",
+      "page": "https://www.virallens.com/",
+      "url": "https://www.virallens.com/icon1.png?icon1.2rxy_sn8t-2ag.png",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:30.081071+00:00",
+      "source_sha256": "8a23caf06da7f61abc64a09b794ceca6dac64da53f9dc5306d73e005fb80e7af"
+    },
+    {
+      "company": "Zocdoc",
+      "file": "zocdoc.png",
+      "page": "https://www.zocdoc.com/",
+      "url": "https://www.zocdoc.com/favicon.ico",
+      "checked_at": "2026-11-27",
+      "retrieved_at": "2026-11-27T15:35:30.267995+00:00",
+      "source_sha256": "f75fd7427f6ba5069979eef037085b7dcf8b5c1db7c621cbcacd7325f98b3c62"
     }
   ]
 }

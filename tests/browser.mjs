@@ -17,11 +17,40 @@ const context = await browser.newContext({ viewport: { width: 1440, height: 1000
 const page = await context.newPage();
 page.on('pageerror', error => errors.push(error.message));
 const count = () => page.locator('.job-card:visible').count();
+async function checkSalaryColumns() {
+  for (const width of [1440, 1120, 1024, 390, 320]) {
+    await page.setViewportSize({width, height: 900});
+    const positions = await page.evaluate(() => {
+      const original = document.querySelector('.job-card:has(.salary)');
+      if (!original) return [];
+      const card = original.cloneNode(true);
+      card.hidden = false;
+      document.querySelector('#job-list').prepend(card);
+      try {
+        const pay = card.querySelector('.salary');
+        const actions = card.querySelector('.row-actions');
+        return ['₹17.75 LPA', '₹27.4–47.9 LPA', 'USD 40,000–100,000 / year'].map(value => {
+          pay.textContent = value;
+          const money = pay.getBoundingClientRect();
+          const buttons = actions.getBoundingClientRect();
+          return { payEdge: money.right, actionEdge: buttons.left, stacked: money.bottom <= buttons.top };
+        });
+      } finally { card.remove(); }
+    });
+    for (const position of positions) {
+      assert.equal(position.payEdge, positions[0].payEdge, `Salary column stays aligned at ${width}px`);
+      assert.equal(position.actionEdge, positions[0].actionEdge, `Actions stay aligned at ${width}px`);
+      assert.equal(position.stacked, width === 1024, `Row layout is independent of salary length at ${width}px`);
+    }
+  }
+  await page.setViewportSize({width:1440, height:1000});
+}
 await mkdir('.artifacts', { recursive: true });
 try {
   assert.equal((await page.goto(base)).status(), 200);
   await page.locator('#search-form:visible').waitFor();
   assert.equal(await page.locator('.job-card').count(), jobs.length);
+  await checkSalaryColumns();
   await page.waitForFunction(() => [...document.querySelectorAll('.company-logo img:not([loading="lazy"])')].every(img => img.complete && img.naturalWidth > 0));
   assert.equal(await page.locator('.company-logo img').count(), jobs.filter(job => job.company_logo).length);
   assert.equal(await page.locator('.job-card img[loading="lazy"]').count(), jobs.slice(4).filter(job => job.company_logo).length);

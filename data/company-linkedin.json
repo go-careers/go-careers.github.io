@@ -1374,6 +1374,282 @@
       "company_id": "2058906",
       "source_url": "https://www.linkedin.com/company/whatfix",
       "checked_at": "2026-11-23"
+    },
+    {
+      "company": "AlphaSense",
+      "company_id": "3508673",
+      "source_url": "https://www.linkedin.com/company/alphasense",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "BJAK",
+      "company_id": "14607755",
+      "source_url": "https://www.linkedin.com/company/bjak",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Diagrid",
+      "company_id": "78416785",
+      "source_url": "https://www.linkedin.com/company/diagrid-inc",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Doxel",
+      "company_id": "13182198",
+      "source_url": "https://www.linkedin.com/company/13182198",
+      "checked_at": "2026-11-25",
+      "profile_url": "https://www.linkedin.com/company/doxel-sr-autonomous-inc.-",
+      "evidence_note": "The public named profile contains punctuation in its slug. Its employee-search link supplies the numeric ID used for the company permalink."
+    },
+    {
+      "company": "Dozee",
+      "company_id": "6635733",
+      "source_url": "https://www.linkedin.com/company/dozeehealth",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Headout",
+      "company_id": "3218656",
+      "source_url": "https://www.linkedin.com/company/headout-com/",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Mindtickle",
+      "company_id": "2337411",
+      "source_url": "https://www.linkedin.com/company/mindtickle",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "SiFive",
+      "company_id": "7579420",
+      "source_url": "https://www.linkedin.com/company/sifive",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "Trackier",
+      "company_id": "13214136",
+      "source_url": "https://www.linkedin.com/company/trackier",
+      "checked_at": "2026-11-25"
+    },
+    {
+      "company": "AI Accountant",
+      "company_id": "106990518",
+      "source_url": "https://www.linkedin.com/company/aiacc",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Arivihan Technologies",
+      "company_id": "68048246",
+      "source_url": "https://www.linkedin.com/company/arivihan",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Backbase",
+      "company_id": "20992",
+      "source_url": "https://www.linkedin.com/company/backbase",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Commenda",
+      "company_id": "81870304",
+      "source_url": "https://www.linkedin.com/company/commenda",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Fam",
+      "company_id": "14618763",
+      "source_url": "https://www.linkedin.com/company/famappbytrio",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Fanatics",
+      "company_id": "68543",
+      "source_url": "https://www.linkedin.com/company/fanatics-inc-",
+      "checked_at": "2026-11-27",
+      "company_id_source_url": "https://in.linkedin.com/jobs/search/?f_C=68543&location=Worldwide"
+    },
+    {
+      "company": "Fulfillment IQ",
+      "company_id": "15782107",
+      "source_url": "https://www.linkedin.com/company/fulfillmentiq_",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Hiresense.ai",
+      "company_id": "105720206",
+      "source_url": "https://www.linkedin.com/company/hiresense-ai",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Jash Data Sciences",
+      "company_id": "14036894",
+      "source_url": "https://www.linkedin.com/company/jashds",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Legion Technologies",
+      "company_id": "24584274",
+      "source_url": "https://www.linkedin.com/company/legionco",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Maropost",
+      "company_id": "386756",
+      "source_url": "https://www.linkedin.com/company/maropost",
+      "checked_at": "2026-11-27",
+      "company_id_source_url": "https://in.linkedin.com/jobs/search/?f_C=386756&location=Worldwide"
+    },
+    {
+      "company": "Metron Security",
+      "company_id": "13258896",
+      "source_url": "https://www.linkedin.com/company/metronsecurity",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "P99soft",
+      "company_id": "77851963",
+      "source_url": "https://www.linkedin.com/company/p99soft",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Platform Science",
+      "company_id": "18000638",
+      "source_url": "https://www.linkedin.com/company/platform-science",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Platinumlist",
+      "company_id": "10635599",
+      "source_url": "https://www.linkedin.com/company/10635599",
+      "checked_at": "2026-11-27",
+      "named_profile_url": "https://www.linkedin.com/company/platinumlist.net"
+    },
+    {
+      "company": "Proximity Works",
+      "company_id": "30884584",
+      "source_url": "https://www.linkedin.com/company/proxwrks",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "RockED",
+      "company_id": "74502886",
+      "source_url": "https://www.linkedin.com/company/the-rocked-company-inc",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Schpot",
+      "company_id": "114304101",
+      "source_url": "https://www.linkedin.com/company/schpot",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Techjays",
+      "company_id": "67096842",
+      "source_url": "https://www.linkedin.com/company/techjays",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "VectovateAI",
+      "company_id": "136026728",
+      "source_url": "https://www.linkedin.com/company/vectovateai",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "YouTrip",
+      "company_id": "13239491",
+      "source_url": "https://www.linkedin.com/company/youtrip",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "ownpath",
+      "company_id": "14600132",
+      "source_url": "https://www.linkedin.com/company/ownpath",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Amantya Technologies",
+      "company_id": "14505646",
+      "source_url": "https://www.linkedin.com/company/amantyatech",
+      "checked_at": "2026-11-27",
+      "company_id_source_url": "https://in.linkedin.com/jobs/search/?f_C=14505646&location=Worldwide"
+    },
+    {
+      "company": "Aviatrix",
+      "company_id": "6440846",
+      "source_url": "https://www.linkedin.com/company/aviatrix-systems",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "BestEx Research",
+      "company_id": "11800879",
+      "source_url": "https://www.linkedin.com/company/bestex-research-group",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "CRED",
+      "company_id": "14485479",
+      "source_url": "https://www.linkedin.com/company/credapp",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "CloudThat",
+      "company_id": "2880382",
+      "source_url": "https://www.linkedin.com/company/cloudthat",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "ElevenLabs",
+      "company_id": "86583130",
+      "source_url": "https://www.linkedin.com/company/elevenlabs",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Faraday Loop",
+      "company_id": "145320012",
+      "source_url": "https://www.linkedin.com/company/faradayloop",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Huvo AI",
+      "company_id": "117023965",
+      "source_url": "https://www.linkedin.com/company/huvo-ai",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Igloo",
+      "company_id": "13379095",
+      "source_url": "https://www.linkedin.com/company/iglooinsure",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "MontyCloud",
+      "company_id": "14428154",
+      "source_url": "https://www.linkedin.com/company/montycloud",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "ProArch",
+      "company_id": "1957898",
+      "source_url": "https://www.linkedin.com/company/proarch-it-solutions-pvt-ltd",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Tech Prescient",
+      "company_id": "13247861",
+      "source_url": "https://www.linkedin.com/company/techprescient",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Virallens",
+      "company_id": "3803380",
+      "source_url": "https://www.linkedin.com/company/virallens",
+      "checked_at": "2026-11-27"
+    },
+    {
+      "company": "Zocdoc",
+      "company_id": "167902",
+      "source_url": "https://www.linkedin.com/company/zocdoc",
+      "checked_at": "2026-11-27"
     }
   ]
 }

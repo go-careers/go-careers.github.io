@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-11-25T18:30:43.586Z",
+  "run_date": "2026-11-26",
+  "cutoff": "2026-10-26",
+  "policy": "one-calendar-month",
+  "records": [
+    {
+      "reason": "older-than-one-month",
+      "job": {
+        "id": "gokwik-130841",
+        "title": "Lead DevSecOps Engineer",
+        "company": "GoKwik",
+        "location": "Bengaluru / Gurugram",
+        "work_mode": "Not specified",
+        "employment_type": "Full-time",
+        "experience_min": "8",
+        "experience_max": "12",
+        "skills": "DevSecOps|CI/CD|Kubernetes|Python|IAM",
+        "salary": "₹50–70 LPA",
+        "apply_url": "https://gokwik.keka.com/careers/jobdetails/130841",
+        "posted_date": "2026-10-25",
+        "expiry_date": "",
+        "description": "Build security checks into delivery pipelines and cloud infrastructure. Automate access policies and secrets management so product teams can release safely.",
+        "is_demo": "false",
+        "salary_benchmark": "",
+        "salary_basis": "",
+        "salary_source_url": "",
+        "salary_source_name": "",
+        "salary_note": "",
+        "salary_checked_at": "2026-11-20",
+        "funding_stage": "Series B",
+        "funding_source_url": "https://rtp.vc/gokwik-series-growth-round-raise-2025/",
+        "funding_checked_at": "2026-11-20",
+        "company_logo": "gokwik.png",
+        "verified_date": "2026-11-20"
+      }
+    }
+  ]
+}

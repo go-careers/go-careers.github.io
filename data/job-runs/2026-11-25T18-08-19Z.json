@@ -1,0 +1,698 @@
+{
+  "started_at": "2026-11-25T18:08:19Z",
+  "run_date": "2026-11-25",
+  "status": "complete",
+  "target": 50,
+  "target_met": true,
+  "added_ids": [
+    "coderabbit-2ac28238-d1e4-423c-82ae-03dc826bee40",
+    "celonis-8198070003",
+    "certify-6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+    "certa-7045409d-3a8f-493f-b76f-113b849db8a4",
+    "razorpay-4746998005",
+    "onetrust-8405036",
+    "gokwik-167254",
+    "gokwik-163510",
+    "tide-8215174003",
+    "mindtickle-2f32712f-bc84-4485-b2fb-99e167f54e21",
+    "atlys-b890cae8-aed2-4c4c-be41-53843662f947",
+    "refold-ai-d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+    "zeta-bf61238b-c630-4f34-a940-77398c388bb3",
+    "hackerrank-8245384",
+    "sahaj-software-5046980101",
+    "blitzy-877a82e4-9271-4523-806a-aac67f48e2da",
+    "quantiphi-jr10775",
+    "sifive-r-101617",
+    "arctic-wolf-r26-1281",
+    "arctic-wolf-r26-1288",
+    "bjak-eff3f437-4bfa-4970-91f8-58b21f80b18d",
+    "alphasense-8769853002",
+    "headout-575a9f45-486b-4368-a69c-aab596733817",
+    "cohesity-r05337",
+    "dozee-3c48b863-38ae-4f4c-be4e-608e805f53c0",
+    "dozee-9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+    "bjak-e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+    "bjak-08454ce3-a782-45b8-834e-a3c9452b1647",
+    "bjak-4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+    "bjak-3a04559c-3700-429b-b2d2-1e144dc27611",
+    "bjak-7f6692fb-eed1-4134-9baa-76cb68850037",
+    "trackier-5135332",
+    "exotel-fk0pzgl",
+    "skan-ai-42722",
+    "doxel-7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+    "quantiphi-jr12626",
+    "emergence-ai-4485910009",
+    "uptimeai-7f25cca4-3722-474c-b937-4d75f0fb7efe",
+    "diagrid-06fdf2f3-fff0-4628-b58c-2c07d408e656",
+    "diagrid-ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+    "sahaj-software-5028440101",
+    "sahaj-software-5028691101",
+    "sifive-r-101160",
+    "exotel-fk0zndh",
+    "sahaj-software-5020301101",
+    "sahaj-software-5020648101",
+    "sahaj-software-5018878101",
+    "sahaj-software-5017265101",
+    "quantiphi-jr12555",
+    "sifive-r-101274"
+  ],
+  "retention": {
+    "initial": {
+      "run_date": "2026-11-25",
+      "cutoff": "2026-10-25",
+      "before": 388,
+      "remaining": 369,
+      "removed": [
+        {
+          "id": "coherehealth-8037633003",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "neuron7-a5b7f297-c371-41a0-bdb4-a7931aec745c",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "sarvam-db89b576-2456-4cc4-ab0b-c45f8c6c27f0",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "atlan-20fe5046-b287-40f6-990f-842ad75526e5",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "skanai-93522",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "skanai-93520",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "skanai-93517",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "tekion-cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "harness-5252771007",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "harness-5270901007",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "blitzy-fed53b6a-c54b-4da0-804d-d621e048a8bb",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "learntube-ai-3301948",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "highlevel-011acab0-4b2c-4896-a3d2-53006f668c33",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "idfy-4890545",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "6sense-8304080",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "harvey-78d412a6-d63a-4475-802b-934aa0e12ccb",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "highlevel-c7972450-4798-49a4-8389-cf74d5b7d7a5",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "quantiphi-jr12243",
+          "reason": "employer-expired"
+        },
+        {
+          "id": "automation-anywhere-jr1553",
+          "reason": "older-than-one-month"
+        }
+      ],
+      "dry_run": false,
+      "archive": "/Users/anubhavsinha98/github/go-careers-csv/data/job-archive/2026-11-25T18-08-38.889Z-3531abc8.json"
+    },
+    "final": {
+      "run_date": "2026-11-26",
+      "cutoff": "2026-10-26",
+      "before": 419,
+      "remaining": 418,
+      "removed": [
+        {
+          "id": "gokwik-130841",
+          "reason": "older-than-one-month"
+        }
+      ],
+      "dry_run": false,
+      "archive": "/Users/anubhavsinha98/github/go-careers-csv/data/job-archive/2026-11-25T18-30-43.586Z-8e74f6ad.json"
+    },
+    "removed_ids_by_reason": {
+      "older-than-one-month": [
+        "coherehealth-8037633003",
+        "neuron7-a5b7f297-c371-41a0-bdb4-a7931aec745c",
+        "sarvam-db89b576-2456-4cc4-ab0b-c45f8c6c27f0",
+        "atlan-20fe5046-b287-40f6-990f-842ad75526e5",
+        "skanai-93522",
+        "skanai-93520",
+        "skanai-93517",
+        "tekion-cd4d9c70-5d4b-468b-a4d8-83bd7e023833",
+        "harness-5252771007",
+        "harness-5270901007",
+        "blitzy-fed53b6a-c54b-4da0-804d-d621e048a8bb",
+        "learntube-ai-3301948",
+        "highlevel-011acab0-4b2c-4896-a3d2-53006f668c33",
+        "idfy-4890545",
+        "6sense-8304080",
+        "harvey-78d412a6-d63a-4475-802b-934aa0e12ccb",
+        "highlevel-c7972450-4798-49a4-8389-cf74d5b7d7a5",
+        "automation-anywhere-jr1553",
+        "gokwik-130841"
+      ],
+      "employer-expired": [
+        "quantiphi-jr12243"
+      ]
+    },
+    "archive_paths": [
+      "data/job-archive/2026-11-25T18-08-38.889Z-3531abc8.json",
+      "data/job-archive/2026-11-25T18-30-43.586Z-8e74f6ad.json"
+    ],
+    "cutoff": "2026-10-26",
+    "final_run_date": "2026-11-26",
+    "intermediate": {
+      "run_date": "2026-11-25",
+      "cutoff": "2026-10-25",
+      "before": 419,
+      "remaining": 419,
+      "removed": [],
+      "dry_run": false
+    },
+    "post_edit_check": {
+      "run_date": "2026-11-26",
+      "cutoff": "2026-10-26",
+      "before": 418,
+      "remaining": 418,
+      "removed": [],
+      "dry_run_and_apply_agree": true
+    }
+  },
+  "search_window": {
+    "previous_completed_run": "data/job-runs/2026-11-23T13-37-32Z.json",
+    "initial_start": "2026-11-23T14:15:35.239191+00:00",
+    "initial_end": "2026-11-25T18:36:41.267941+00:00",
+    "expanded_start": "2026-10-26",
+    "expanded_end": "2026-11-26",
+    "initial_calendar_cutoff": "2026-10-25",
+    "posted_after_previous_check": [
+      "coderabbit-2ac28238-d1e4-423c-82ae-03dc826bee40",
+      "celonis-8198070003",
+      "certify-6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+      "certa-7045409d-3a8f-493f-b76f-113b849db8a4",
+      "razorpay-4746998005",
+      "gokwik-167254",
+      "gokwik-163510",
+      "tide-8215174003",
+      "mindtickle-2f32712f-bc84-4485-b2fb-99e167f54e21",
+      "atlys-b890cae8-aed2-4c4c-be41-53843662f947",
+      "refold-ai-d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+      "zeta-bf61238b-c630-4f34-a940-77398c388bb3",
+      "hackerrank-8245384",
+      "sahaj-software-5046980101",
+      "blitzy-877a82e4-9271-4523-806a-aac67f48e2da",
+      "quantiphi-jr10775",
+      "sifive-r-101617",
+      "arctic-wolf-r26-1281",
+      "arctic-wolf-r26-1288",
+      "alphasense-8769853002",
+      "headout-575a9f45-486b-4368-a69c-aab596733817",
+      "cohesity-r05337"
+    ],
+    "note": "Started with publications after the previous completed run. Expanded through the inclusive calendar month. The list of postings after the previous check counts only dates unambiguously after November 23."
+  },
+  "updated_ids": [
+    "certify-3ac954c0-376b-41ad-953b-e3df7e835114",
+    "certify-dc312473-7dd8-449c-b707-a8c3231bca56",
+    "certify-0bcadb51-f3a0-4bfb-8dd7-be3f283c55a7",
+    "certify-c107e265-1479-470e-85a3-911536adaa89"
+  ],
+  "dated_recent_ids": [
+    "coderabbit-2ac28238-d1e4-423c-82ae-03dc826bee40",
+    "celonis-8198070003",
+    "certify-6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+    "certa-7045409d-3a8f-493f-b76f-113b849db8a4",
+    "razorpay-4746998005",
+    "onetrust-8405036",
+    "gokwik-167254",
+    "gokwik-163510",
+    "tide-8215174003",
+    "mindtickle-2f32712f-bc84-4485-b2fb-99e167f54e21",
+    "atlys-b890cae8-aed2-4c4c-be41-53843662f947",
+    "refold-ai-d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+    "zeta-bf61238b-c630-4f34-a940-77398c388bb3",
+    "hackerrank-8245384",
+    "sahaj-software-5046980101",
+    "blitzy-877a82e4-9271-4523-806a-aac67f48e2da",
+    "quantiphi-jr10775",
+    "sifive-r-101617",
+    "arctic-wolf-r26-1281",
+    "arctic-wolf-r26-1288",
+    "bjak-eff3f437-4bfa-4970-91f8-58b21f80b18d",
+    "alphasense-8769853002",
+    "headout-575a9f45-486b-4368-a69c-aab596733817",
+    "cohesity-r05337",
+    "dozee-3c48b863-38ae-4f4c-be4e-608e805f53c0",
+    "dozee-9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+    "bjak-e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+    "bjak-08454ce3-a782-45b8-834e-a3c9452b1647",
+    "bjak-4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+    "bjak-3a04559c-3700-429b-b2d2-1e144dc27611",
+    "bjak-7f6692fb-eed1-4134-9baa-76cb68850037",
+    "trackier-5135332",
+    "exotel-fk0pzgl",
+    "skan-ai-42722",
+    "doxel-7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+    "quantiphi-jr12626",
+    "emergence-ai-4485910009",
+    "uptimeai-7f25cca4-3722-474c-b937-4d75f0fb7efe",
+    "diagrid-06fdf2f3-fff0-4628-b58c-2c07d408e656",
+    "diagrid-ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+    "sahaj-software-5028440101",
+    "sahaj-software-5028691101",
+    "sifive-r-101160",
+    "exotel-fk0zndh",
+    "sahaj-software-5020301101",
+    "sahaj-software-5020648101",
+    "sahaj-software-5018878101",
+    "sahaj-software-5017265101",
+    "quantiphi-jr12555",
+    "sifive-r-101274"
+  ],
+  "undated_discovery_ids": [],
+  "new_companies": [
+    "AlphaSense",
+    "BJAK",
+    "Diagrid",
+    "Doxel",
+    "Dozee",
+    "Headout",
+    "Mindtickle",
+    "SiFive",
+    "Trackier"
+  ],
+  "employers_in_batch": [
+    "AlphaSense",
+    "Arctic Wolf",
+    "Atlys",
+    "BJAK",
+    "Blitzy",
+    "Celonis",
+    "Certa",
+    "Certify",
+    "CodeRabbit",
+    "Cohesity",
+    "Diagrid",
+    "Doxel",
+    "Dozee",
+    "Emergence AI",
+    "Exotel",
+    "GoKwik",
+    "HackerRank",
+    "Headout",
+    "Mindtickle",
+    "OneTrust",
+    "Quantiphi",
+    "Razorpay",
+    "Refold AI",
+    "Sahaj Software",
+    "SiFive",
+    "Skan AI",
+    "Tide",
+    "Trackier",
+    "UptimeAI",
+    "Zeta"
+  ],
+  "companies_in_batch": 30,
+  "active_companies": 185,
+  "total": 418,
+  "active": 418,
+  "cutoff": "2026-10-26",
+  "timezone": "Asia/Kolkata",
+  "publication_status": "Local working tree",
+  "added_count": 50,
+  "flagged_existing_ids": [],
+  "excluded": [
+    {
+      "company": "6sense",
+      "title": "Sr. AI Engineer",
+      "url": "https://boards.greenhouse.io/6sense/jobs/8403278?gh_jid=8403278",
+      "reason": "Matches archived 6sense-8304080 by role, location and agent orchestration duties."
+    },
+    {
+      "company": "Certa",
+      "title": "Forward Deployed Engineer",
+      "url": "https://jobs.ashbyhq.com/certa/0b101c4d-6e2e-4711-9a70-6302d0c094e1",
+      "reason": "Same Certa requisition already published August 27."
+    },
+    {
+      "company": "UptimeAI",
+      "title": "Data Scientist - Data Science + GenAl ",
+      "url": "https://jobs.ashbyhq.com/uptimeai/81f68069-b6f5-4a55-a907-4468026f6b83",
+      "reason": "Same UptimeAI requisition already published August 11."
+    },
+    {
+      "company": "handshake",
+      "title": "Senior Forward Deployed Engineer",
+      "url": "https://jobs.ashbyhq.com/handshake/c57961b2-fdfa-4537-84b0-6416c42de9e4",
+      "reason": "Same Handshake requisition already published July 24."
+    },
+    {
+      "company": "sardine",
+      "title": "Software Engineer - Backend",
+      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704",
+      "reason": "Same Sardine requisition already published October 14."
+    },
+    {
+      "company": "AuxoAI",
+      "title": "AI Engineer",
+      "url": "https://wellfound.com/jobs/5127203-ai-engineer",
+      "reason": "Matches archived auxoai-4867067 by role, locations and enterprise agent duties."
+    },
+    {
+      "company": "Lyzr AI",
+      "title": "Lead Core Engineer / Architect – Platform – India",
+      "url": "https://jobs.ashbyhq.com/lyzr/81a6f04b-cd99-459a-8e12-1369701e1218",
+      "reason": "Older title and duties match earlier career-system records during an apparent ATS migration."
+    },
+    {
+      "company": "Rippling",
+      "title": "Staff Software Engineer",
+      "url": "https://ats.rippling.com/rippling/jobs/4d8cc8e5-f186-4cb9-a356-6b90022cbeb4",
+      "reason": "Accounting integrations duties match the existing Bengaluru staff opening."
+    },
+    {
+      "company": "Certa",
+      "title": "Solution Engineer - Post Implementation",
+      "url": "https://jobs.ashbyhq.com/certa/f526ed60-d978-46a6-b44a-a0bdb17ce7ea",
+      "reason": "Support and troubleshooting after implementation."
+    },
+    {
+      "company": "TrueFoundry",
+      "title": "Developer Relations Engineer",
+      "url": "https://app.careerpuck.com/job-board/truefoundry/job/5484575008?gh_jid=5484575008",
+      "reason": "Developer marketing and community engagement are the primary duties."
+    },
+    {
+      "company": "Entrata",
+      "title": "Software Engineer (AI Document Processing)",
+      "url": "https://jobs.lever.co/entrata/44eecb2a-0dcc-4023-8c98-b976e9e92dcb",
+      "reason": "Employer reports a controlling investment by Silver Lake: https://www.entrata.com/press/blackstone"
+    },
+    {
+      "company": "Cube",
+      "title": "QA Engineer",
+      "url": "https://jobs.ashbyhq.com/CUBE/e2d3fa95-2e57-4696-8a0f-5e6739a0b0eb",
+      "reason": "The CUBE RegTech employer is distinct from the existing Indian Cube employer."
+    },
+    {
+      "company": "Rubrik",
+      "title": "Senior AI Engineer - Enterprise Agentic Systems",
+      "url": "https://www.rubrik.com/company/careers/departments/job.8318071?gh_jid=8318071",
+      "reason": "Public company."
+    },
+    {
+      "company": "OneTrust",
+      "title": "Senior Staff Software Engineer",
+      "url": "https://job-boards.greenhouse.io/onetrust/jobs/8405016",
+      "reason": "Same senior staff title, location and duties as an existing or mirrored requisition."
+    },
+    {
+      "company": "Lynx Analytics",
+      "title": "Data Scientist and Senior Data Scientist | Walk-in Drive | Pune",
+      "url": "https://job-boards.greenhouse.io/lynxanalytics/jobs/8956192002",
+      "reason": "Registration closed November 25."
+    },
+    {
+      "company": "Tide",
+      "title": "Director of Engineering, Commercial Services",
+      "url": "https://job-boards.greenhouse.io/tide/jobs/8213969003",
+      "reason": "Second city posting for the same commercial services director. Both cities are included on one listing."
+    }
+  ],
+  "sources": [
+    {
+      "source": "LinkedIn Jobs",
+      "url": "https://in.linkedin.com/jobs/search/?keywords=Machine%20Learning%20Engineer&location=India&f_TPR=r86400",
+      "checked_at": "2026-11-25T18:09:40.273556+00:00",
+      "retrieval": 200,
+      "result": "Public India job search returned role links. Used as discovery."
+    },
+    {
+      "source": "Wellfound",
+      "url": "https://wellfound.com/role/l/machine-learning-engineer/india",
+      "checked_at": "2026-11-25T18:09:40.272201+00:00",
+      "retrieval": 200,
+      "result": "Examined live employer postings, their JobPosting data and closure notices. Added Trackier. Excluded an AuxoAI repeat."
+    },
+    {
+      "source": "Instahyre jobs",
+      "url": "https://www.instahyre.com/search-jobs/",
+      "checked_at": "2026-11-25T18:09:40.273782+00:00",
+      "retrieval": "HTTP Error 403: Forbidden",
+      "result": "Public search returned HTTP 403."
+    },
+    {
+      "source": "Naukri",
+      "url": "https://www.naukri.com/machine-learning-engineer-startup-jobs",
+      "checked_at": "2026-11-25T18:09:40.273957+00:00",
+      "retrieval": 200,
+      "result": "Search returned a client-rendered page without sufficient vacancy evidence."
+    },
+    {
+      "source": "Himalayas",
+      "url": "https://himalayas.app/jobs/countries/india/machine-learning",
+      "checked_at": "2026-11-25T18:09:40.274975+00:00",
+      "retrieval": "HTTP Error 403: Forbidden",
+      "result": "India machine learning listings returned HTTP 403."
+    },
+    {
+      "source": "Remotive",
+      "url": "https://remotive.com/api/remote-jobs?category=software-dev",
+      "checked_at": "2026-11-25T18:09:40.415084+00:00",
+      "retrieval": 200,
+      "result": "Inspected remote software vacancies and their geographic restrictions."
+    },
+    {
+      "source": "Remote OK",
+      "url": "https://remoteok.com/remote-india-jobs",
+      "checked_at": "2026-11-25T18:09:40.420853+00:00",
+      "retrieval": 200,
+      "result": "Checked the public India collection."
+    },
+    {
+      "source": "Cutshort",
+      "url": "https://cutshort.io/jobs/artificial-intelligence-ai-jobs-in-bangalore-bengaluru",
+      "checked_at": "2026-11-25T18:09:40.472561+00:00",
+      "retrieval": 200,
+      "result": "Reviewed employer listings, original posting and expiry dates. No distinct addition selected here."
+    },
+    {
+      "source": "Y Combinator",
+      "url": "https://www.ycombinator.com/jobs/location/india",
+      "checked_at": "2026-11-25T18:09:40.530836+00:00",
+      "retrieval": 200,
+      "result": "Examined the India collection and employer listings. Firstwork’s platform role was already in the feed."
+    },
+    {
+      "source": "Ashby feeds",
+      "checked_from": "2026-11-25T18:09:42.106564+00:00",
+      "checked_through": "2026-11-25T18:11:44.661312+00:00",
+      "requests": 148,
+      "outcomes": {
+        "200": 148
+      },
+      "example_url": "https://api.ashbyhq.com/posting-api/job-board/plane?includeCompensation=true"
+    },
+    {
+      "source": "Cutshort employer pages",
+      "checked_from": "2026-11-25T18:17:29.454848+00:00",
+      "checked_through": "2026-11-25T18:17:32.201585+00:00",
+      "requests": 50,
+      "outcomes": {
+        "200": 50
+      },
+      "example_url": "https://cutshort.io/job/DevOps-AI-Infrastructure-Engineer-Bengaluru-Bangalore-RockED-lKwbOsFF"
+    },
+    {
+      "source": "Greenhouse feeds",
+      "checked_from": "2026-11-25T18:09:41.395680+00:00",
+      "checked_through": "2026-11-25T18:12:47.657637+00:00",
+      "requests": 286,
+      "outcomes": {
+        "200": 267,
+        "HTTP Error 404: Not Found": 19
+      },
+      "example_url": "https://boards-api.greenhouse.io/v1/boards/weave/jobs?content=true"
+    },
+    {
+      "source": "Keka feeds",
+      "checked_from": "2026-11-25T18:09:46.844588+00:00",
+      "checked_through": "2026-11-25T18:09:59.662821+00:00",
+      "requests": 6,
+      "outcomes": {
+        "200": 6
+      },
+      "example_url": "https://entropik.keka.com/careers/api/embedjobs/default/active/72f54fa8-901f-4481-b3ed-8cbaaa838d80"
+    },
+    {
+      "source": "Lever feeds",
+      "checked_from": "2026-11-25T18:09:40.535094+00:00",
+      "checked_through": "2026-11-25T18:12:19.379988+00:00",
+      "requests": 73,
+      "outcomes": {
+        "200": 71,
+        "HTTP Error 404: Not Found": 1,
+        "The read operation timed out": 1
+      },
+      "example_url": "https://api.lever.co/v0/postings/drivetrain?mode=json"
+    },
+    {
+      "source": "Rippling feeds",
+      "checked_from": "2026-11-25T18:09:58.572420+00:00",
+      "checked_through": "2026-11-25T18:12:21.707618+00:00",
+      "requests": 17,
+      "outcomes": {
+        "200": 16,
+        "HTTP Error 404: Not Found": 1
+      },
+      "example_url": "https://api.rippling.com/platform/api/ats/v2/board/rippling/jobs?pageSize=100&page=5"
+    },
+    {
+      "source": "Trakstar",
+      "checked_from": "2026-11-25T18:19:47.180082+00:00",
+      "checked_through": "2026-11-25T18:21:07.328894+00:00",
+      "requests": 93,
+      "outcomes": {
+        "200": 93
+      },
+      "example_url": "https://whatfix101.hire.trakstar.com/jobs/fk0zp3h/"
+    },
+    {
+      "source": "Wellfound employer pages",
+      "checked_from": "2026-11-25T18:17:27.898935+00:00",
+      "checked_through": "2026-11-25T18:17:29.394400+00:00",
+      "requests": 26,
+      "outcomes": {
+        "200": 26
+      },
+      "example_url": "https://wellfound.com/jobs/3870954-technical-support-engineer"
+    },
+    {
+      "source": "Workable feeds",
+      "checked_from": "2026-11-25T18:10:57.275504+00:00",
+      "checked_through": "2026-11-25T18:19:46.253737+00:00",
+      "requests": 58,
+      "outcomes": {
+        "200": 58
+      },
+      "example_url": "https://apply.workable.com/api/v1/widget/accounts/bitquery?details=true"
+    },
+    {
+      "source": "YC employer pages",
+      "checked_from": "2026-11-25T18:10:58.043399+00:00",
+      "checked_through": "2026-11-25T18:11:01.459796+00:00",
+      "requests": 25,
+      "outcomes": {
+        "200": 25
+      },
+      "example_url": "https://www.ycombinator.com/companies/attack-capital/jobs/WyDXUHL-head-of-sales-gtm-venture-studio-team"
+    },
+    {
+      "source": "Workday",
+      "searched_companies": [
+        "Automation Anywhere",
+        "FNZ",
+        "OutSystems",
+        "Quantiphi",
+        "Reputation",
+        "SiFive",
+        "Uniphore",
+        "Cohesity",
+        "BrowserStack",
+        "Arctic Wolf"
+      ],
+      "queries": [
+        "India",
+        "Bengaluru",
+        "Pune",
+        "Bangalore",
+        "Gurugram"
+      ],
+      "result": "Paged public search results and checked eligible, posted requisitions and canApply flags. Employer deadlines are in the CSV."
+    },
+    {
+      "source": "New-company web discovery",
+      "queries": [
+        "India AI startup engineering hiring November 2026 Bengaluru Hyderabad",
+        "AI/ML engineering roles at India startups, original career pages"
+      ],
+      "urls": [
+        "https://www.remjobs.works/jobs/india/ai-machine-learning",
+        "https://getchayan.com/ai-ml-engineer-jobs-india/"
+      ],
+      "result": "Discovery only. Reposted Hiver leads and RhythmX ownership were not used as vacancy evidence."
+    }
+  ],
+  "additions_by_source": {
+    "ashby": 16,
+    "greenhouse": 14,
+    "keka": 3,
+    "lever": 5,
+    "workday": 9,
+    "wellfound": 1,
+    "trakstar": 2
+  },
+  "deduplication": "Compared stable ATS IDs, canonical applications, original employer publication timestamps, active and archived company/title/location records, prior run IDs and earlier feed captures where available. Consolidated mirrored openings and retained separately advertised city or level-specific requisitions.",
+  "validation": {
+    "evidence": "All 50 current IDs, dates, application URLs, compensation records and PNG signatures match. No new ID or canonical application was previously archived.",
+    "npm_run_check": "Passed 26 tests, CSV validation and static build.",
+    "active": 418,
+    "total": 418,
+    "git_diff_check": "Passed.",
+    "browser": "Repository Playwright QA passed, including desktop and mobile layout, filters, application links and Axe accessibility checks.",
+    "new_listings": "All 50 cards and detail pages verified at 1440px and 390px, including application destinations, logo loading and viewport overflow."
+  },
+  "salary_research": {
+    "employer_disclosed_ids": [
+      "gokwik-167254",
+      "gokwik-163510"
+    ],
+    "company_role_location_estimate_ids": [
+      "razorpay-4746998005"
+    ],
+    "other_additions_with_no_verified_range": 47
+  },
+  "company_updates": [
+    {
+      "company": "Certify",
+      "stage": "Series B",
+      "applies_to_existing_ids": [
+        "certify-3ac954c0-376b-41ad-953b-e3df7e835114",
+        "certify-dc312473-7dd8-449c-b707-a8c3231bca56",
+        "certify-0bcadb51-f3a0-4bfb-8dd7-be3f283c55a7",
+        "certify-c107e265-1479-470e-85a3-911536adaa89"
+      ],
+      "source_url": "https://www.certifyos.com/company/news/series-b-announcement"
+    }
+  ],
+  "finished_at": "2026-11-25T18:36:41.267941+00:00"
+}

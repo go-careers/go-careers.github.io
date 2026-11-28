@@ -1,0 +1,586 @@
+{
+  "started_at": "2026-11-26T20:44:32Z",
+  "run_date": "2026-11-27",
+  "status": "complete",
+  "target": 50,
+  "target_met": true,
+  "added_ids": [
+    "commerceiq-8215092003",
+    "commerceiq-8217481003",
+    "tide-8216874003",
+    "celonis-8198058003",
+    "fam-cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+    "atlan-dbb8cec5-f9b8-46af-bbbe-9638c5646638",
+    "cohesity-r05386",
+    "arctic-wolf-r26-1271",
+    "ownpath-5137948",
+    "vectovateai-5137943",
+    "apna-71033a2821",
+    "platinumlist-3a1bcf24-f25a-4644-8868-4916a5e2adc4",
+    "hevo-data-21fbe701-e71b-4f45-b865-a497a62a6482",
+    "hiresense-ai-5137627",
+    "ai-accountant-084d6a4b77",
+    "fulfillment-iq-da469379-0f74-4c65-b9f4-ae80d9dc1249",
+    "legion-technologies-8210343003",
+    "legion-technologies-8201621003",
+    "fanatics-4510368009",
+    "ai-accountant-4de2769fbd",
+    "schpot-5133337",
+    "arivihan-technologies-5130406",
+    "fanatics-4480063009",
+    "fanatics-4479543009",
+    "maropost-5105648",
+    "apna-43d54a4fb2",
+    "commenda-5101345",
+    "youtrip-1b9b879c80",
+    "platform-science-8206889003",
+    "fanatics-4481060009",
+    "backbase-8327524",
+    "rocked-6af6d61856c02efb11840424",
+    "proximity-works-205d681cbd",
+    "rocked-6af21e9469860d2862f040ab",
+    "p99soft-6af17d6a048042646b1926ec",
+    "p99soft-6af183a2a9eb62955ee7568b",
+    "p99soft-6af18133f1114320dba29e03",
+    "techjays-6aed8269f54efca4d345f287",
+    "jash-data-sciences-4995481",
+    "proximity-works-56a6206ab1",
+    "proximity-works-db79068e4f",
+    "proximity-works-ca3e5012bd",
+    "proximity-works-0b72d09a1b",
+    "techjays-6aeafe6009eeef45c0c0ead0",
+    "techjays-6aeb00c5d8cc5c4459eff8cd",
+    "techjays-6aeaffb7f54efca4d30255a5",
+    "motive-8905066002",
+    "techdome-168372",
+    "apna-3207488765",
+    "metron-security-6ae306d1d0cc2b3a296a268f"
+  ],
+  "retention": {
+    "initial": {
+      "run_date": "2026-11-27",
+      "cutoff": "2026-10-27",
+      "before": 418,
+      "remaining": 398,
+      "removed": [
+        {
+          "id": "ema-5224df3c-9bef-406d-8b0c-381f2055c6c4",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "sarvam-f09b6a35-e2d1-4833-8bc5-2b495991d882",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "sarvam-1dd07b8b-0c0b-422a-8ff4-c99bdc5add68",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "atlan-c6bb032c-6ac8-4b59-915c-d59b6f3a86f8",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "turing-6235517004",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "marmeto-4372239",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "sei-ai-3162567",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "gyrus-ai-2360186",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "harvey-235f1793-7b5a-470b-b6ee-4f0f0249623c",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "harvey-b8a48279-6b24-45c2-b101-3ae322ba5fb5",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "browserstack-jr103661",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "arctic-wolf-r26-1074",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "leena-ai-68d93daef4",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "aktoria-robotics-118749",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "8th-element-digital-4895656",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "blink-health-8904959002",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "meraki-labs-d0c8081c-3660-41f2-a907-4355028ec7eb",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "ddn-eabb807f-539c-4c3d-85b9-ea6d560d5739",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "ddn-2071f05b-4afe-4728-a048-4e37ad5da61d",
+          "reason": "older-than-one-month"
+        },
+        {
+          "id": "sifive-r-101274",
+          "reason": "older-than-one-month"
+        }
+      ],
+      "dry_run": false,
+      "archive": "/Users/anubhavsinha98/github/go-careers-csv/data/job-archive/2026-11-26T20-44-42.728Z-1e68ef99.json"
+    },
+    "final": {
+      "run_date": "2026-11-27",
+      "cutoff": "2026-10-27",
+      "before": 448,
+      "remaining": 448,
+      "removed": [],
+      "dry_run": false
+    },
+    "removed_ids_by_reason": {
+      "older-than-one-month": [
+        "ema-5224df3c-9bef-406d-8b0c-381f2055c6c4",
+        "sarvam-f09b6a35-e2d1-4833-8bc5-2b495991d882",
+        "sarvam-1dd07b8b-0c0b-422a-8ff4-c99bdc5add68",
+        "atlan-c6bb032c-6ac8-4b59-915c-d59b6f3a86f8",
+        "turing-6235517004",
+        "marmeto-4372239",
+        "sei-ai-3162567",
+        "gyrus-ai-2360186",
+        "harvey-235f1793-7b5a-470b-b6ee-4f0f0249623c",
+        "harvey-b8a48279-6b24-45c2-b101-3ae322ba5fb5",
+        "browserstack-jr103661",
+        "arctic-wolf-r26-1074",
+        "leena-ai-68d93daef4",
+        "aktoria-robotics-118749",
+        "8th-element-digital-4895656",
+        "blink-health-8904959002",
+        "meraki-labs-d0c8081c-3660-41f2-a907-4355028ec7eb",
+        "ddn-eabb807f-539c-4c3d-85b9-ea6d560d5739",
+        "ddn-2071f05b-4afe-4728-a048-4e37ad5da61d",
+        "sifive-r-101274"
+      ]
+    },
+    "archive_paths": [
+      "data/job-archive/2026-11-26T20-44-42.728Z-1e68ef99.json"
+    ],
+    "dry_runs": "Initial and final dry runs matched their respective applied retention passes."
+  },
+  "timezone": "Asia/Kolkata",
+  "cutoff": "2026-10-27",
+  "search_window": {
+    "previous_completed_run": "data/job-runs/2026-11-25T18-08-19Z.json",
+    "initial_start": "2026-11-25T18:36:41.267941+00:00",
+    "initial_end": "2026-11-26T20:44:32Z",
+    "expanded_start": "2026-10-27",
+    "expanded_end": "2026-11-27",
+    "reason": "Fewer than 50 distinct qualifying openings were found since the previous completed run. Expanded to the inclusive one-calendar-month cutoff."
+  },
+  "updated_ids": [],
+  "dated_recent_ids": [
+    "commerceiq-8215092003",
+    "commerceiq-8217481003",
+    "tide-8216874003",
+    "celonis-8198058003",
+    "fam-cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+    "atlan-dbb8cec5-f9b8-46af-bbbe-9638c5646638",
+    "cohesity-r05386",
+    "arctic-wolf-r26-1271",
+    "ownpath-5137948",
+    "vectovateai-5137943",
+    "apna-71033a2821",
+    "platinumlist-3a1bcf24-f25a-4644-8868-4916a5e2adc4",
+    "hevo-data-21fbe701-e71b-4f45-b865-a497a62a6482",
+    "hiresense-ai-5137627",
+    "ai-accountant-084d6a4b77",
+    "fulfillment-iq-da469379-0f74-4c65-b9f4-ae80d9dc1249",
+    "legion-technologies-8210343003",
+    "legion-technologies-8201621003",
+    "fanatics-4510368009",
+    "ai-accountant-4de2769fbd",
+    "schpot-5133337",
+    "arivihan-technologies-5130406",
+    "fanatics-4480063009",
+    "fanatics-4479543009",
+    "maropost-5105648",
+    "apna-43d54a4fb2",
+    "commenda-5101345",
+    "youtrip-1b9b879c80",
+    "platform-science-8206889003",
+    "fanatics-4481060009",
+    "backbase-8327524",
+    "rocked-6af6d61856c02efb11840424",
+    "proximity-works-205d681cbd",
+    "rocked-6af21e9469860d2862f040ab",
+    "p99soft-6af17d6a048042646b1926ec",
+    "p99soft-6af183a2a9eb62955ee7568b",
+    "p99soft-6af18133f1114320dba29e03",
+    "techjays-6aed8269f54efca4d345f287",
+    "jash-data-sciences-4995481",
+    "proximity-works-56a6206ab1",
+    "proximity-works-db79068e4f",
+    "proximity-works-ca3e5012bd",
+    "proximity-works-0b72d09a1b",
+    "techjays-6aeafe6009eeef45c0c0ead0",
+    "techjays-6aeb00c5d8cc5c4459eff8cd",
+    "techjays-6aeaffb7f54efca4d30255a5",
+    "motive-8905066002",
+    "techdome-168372",
+    "apna-3207488765",
+    "metron-security-6ae306d1d0cc2b3a296a268f"
+  ],
+  "undated_discovery_ids": [],
+  "new_companies": [
+    "AI Accountant",
+    "Arivihan Technologies",
+    "Backbase",
+    "Commenda",
+    "Fam",
+    "Fanatics",
+    "Fulfillment IQ",
+    "Hiresense.ai",
+    "Jash Data Sciences",
+    "Legion Technologies",
+    "Maropost",
+    "Metron Security",
+    "P99soft",
+    "Platform Science",
+    "Platinumlist",
+    "Proximity Works",
+    "RockED",
+    "Schpot",
+    "Techjays",
+    "VectovateAI",
+    "YouTrip",
+    "ownpath"
+  ],
+  "employers_in_batch": [
+    "AI Accountant",
+    "Apna",
+    "Arctic Wolf",
+    "Arivihan Technologies",
+    "Atlan",
+    "Backbase",
+    "Celonis",
+    "Cohesity",
+    "Commenda",
+    "CommerceIQ",
+    "Fam",
+    "Fanatics",
+    "Fulfillment IQ",
+    "Hevo Data",
+    "Hiresense.ai",
+    "Jash Data Sciences",
+    "Legion Technologies",
+    "Maropost",
+    "Metron Security",
+    "Motive",
+    "P99soft",
+    "Platform Science",
+    "Platinumlist",
+    "Proximity Works",
+    "RockED",
+    "Schpot",
+    "Techdome",
+    "Techjays",
+    "Tide",
+    "VectovateAI",
+    "YouTrip",
+    "ownpath"
+  ],
+  "companies_in_batch": 32,
+  "active_companies": 198,
+  "active": 448,
+  "total": 448,
+  "added_count": 50,
+  "flagged_existing_ids": [],
+  "publication_status": "Validated local working tree on feat/csv-job-board.",
+  "sources": [
+    {
+      "source": "LinkedIn Jobs",
+      "url": "https://in.linkedin.com/jobs/search/?keywords=Machine%20Learning%20Engineer&location=India&f_TPR=r86400",
+      "retrieval": 200,
+      "checked_at": "2026-11-26T20:46:34.793156+00:00",
+      "result": "Read public India machine-learning job search. Used employer pages for confirmation where available."
+    },
+    {
+      "source": "Wellfound",
+      "url": "https://wellfound.com/role/l/machine-learning-engineer/india",
+      "retrieval": 200,
+      "checked_at": "2026-11-26T20:46:05.617808+00:00",
+      "result": "Read India role indexes and employer-authored listings."
+    },
+    {
+      "source": "Instahyre jobs",
+      "url": "https://www.instahyre.com/search-jobs/",
+      "retrieval": "HTTP Error 403: Forbidden",
+      "checked_at": "2026-11-26T20:46:35.790960+00:00",
+      "result": "HTTP 403. No results retrieved."
+    },
+    {
+      "source": "Naukri",
+      "url": "https://www.naukri.com/machine-learning-engineer-startup-jobs",
+      "retrieval": 200,
+      "checked_at": "2026-11-26T20:46:35.874714+00:00",
+      "result": "HTTP 200 JavaScript shell without usable public listings."
+    },
+    {
+      "source": "Himalayas",
+      "url": "https://himalayas.app/jobs/countries/india/machine-learning",
+      "retrieval": "HTTP Error 403: Forbidden",
+      "checked_at": "2026-11-26T20:46:34.701027+00:00",
+      "result": "HTTP 403. No results retrieved."
+    },
+    {
+      "source": "Remotive",
+      "url": "https://remotive.com/api/remote-jobs?category=software-dev",
+      "retrieval": 200,
+      "checked_at": "2026-11-26T20:46:35.338302+00:00",
+      "result": "Read public software development feed and reviewed candidate geography."
+    },
+    {
+      "source": "Remote OK",
+      "url": "https://remoteok.com/remote-india-jobs",
+      "retrieval": 200,
+      "checked_at": "2026-11-26T20:46:35.060196+00:00",
+      "result": "Read the public India job index."
+    },
+    {
+      "source": "Cutshort",
+      "url": "https://cutshort.io/jobs/artificial-intelligence-ai-jobs-in-bangalore-bengaluru",
+      "retrieval": 200,
+      "checked_at": "2026-11-26T20:46:34.499903+00:00",
+      "result": "Read India AI search and individual employer-authored listings."
+    },
+    {
+      "source": "Y Combinator",
+      "url": "https://www.ycombinator.com/jobs/location/india",
+      "retrieval": 200,
+      "checked_at": "2026-11-26T20:46:06.029701+00:00",
+      "result": "Read the public India jobs index and followed employer leads."
+    },
+    {
+      "source": "Ashby",
+      "attempted_urls": 276,
+      "http_200": 158,
+      "urls": [
+        "https://api.ashbyhq.com/posting-api/job-board/Baseten?includeCompensation=true",
+        "https://api.ashbyhq.com/posting-api/job-board/Decagon?includeCompensation=true",
+        "https://api.ashbyhq.com/posting-api/job-board/Lambda?includeCompensation=true",
+        "https://api.ashbyhq.com/posting-api/job-board/Level-AI?includeCompensation=true",
+        "https://api.ashbyhq.com/posting-api/job-board/Meraki-Labs?includeCompensation=true"
+      ],
+      "checked_from": "2026-11-26T20:45:13.777298+00:00",
+      "checked_until": "2026-11-26T20:47:05.689345+00:00",
+      "result": "Employer feeds and individual records. Unavailable, closed, undated and duplicate requisitions were excluded."
+    },
+    {
+      "source": "Greenhouse",
+      "attempted_urls": 369,
+      "http_200": 275,
+      "urls": [
+        "https://boards-api.greenhouse.io/v1/boards/6sense/jobs?content=true",
+        "https://boards-api.greenhouse.io/v1/boards/Zenoti/jobs?content=true",
+        "https://boards-api.greenhouse.io/v1/boards/abacusinsights/jobs?content=true",
+        "https://boards-api.greenhouse.io/v1/boards/ably30/jobs?content=true",
+        "https://boards-api.greenhouse.io/v1/boards/abnormalsecurity/jobs?content=true"
+      ],
+      "checked_from": "2026-11-26T20:46:09.347126+00:00",
+      "checked_until": "2026-11-26T20:47:49.350043+00:00",
+      "result": "Employer feeds and individual records. Unavailable, closed, undated and duplicate requisitions were excluded."
+    },
+    {
+      "source": "Keka",
+      "attempted_urls": 8,
+      "http_200": 8,
+      "urls": [
+        "https://entropik.keka.com/careers/api/embedjobs/default/active/72f54fa8-901f-4481-b3ed-8cbaaa838d80",
+        "https://gokwik.keka.com/careers/api/embedjobs/default/active/19d678f6-8b79-4532-a5f0-d57b593a822e",
+        "https://intangles.keka.com/careers/api/embedjobs/default/active/b961bbca-9cf1-427f-b08d-abc6bb7ef793",
+        "https://ketto.keka.com/careers/api/embedjobs/default/active/305b76d0-42c4-4ad9-b650-4200e991ca4e",
+        "https://skanai.keka.com/careers/api/embedjobs/default/active/d83629ac-cbae-4575-a5b0-a6e0e556f459"
+      ],
+      "checked_from": "2026-11-26T20:46:34.522227+00:00",
+      "checked_until": "2026-11-26T20:54:14.529842+00:00",
+      "result": "Employer feeds and individual records. Unavailable, closed, undated and duplicate requisitions were excluded."
+    },
+    {
+      "source": "Lever",
+      "attempted_urls": 171,
+      "http_200": 78,
+      "urls": [
+        "https://api.lever.co/v0/postings/100ms?mode=json",
+        "https://api.lever.co/v0/postings/Loop%20AI?mode=json",
+        "https://api.lever.co/v0/postings/Onehouse?mode=json",
+        "https://api.lever.co/v0/postings/Sprinto?mode=json",
+        "https://api.lever.co/v0/postings/acceldata?mode=json"
+      ],
+      "checked_from": "2026-11-26T20:45:27.630521+00:00",
+      "checked_until": "2026-11-26T20:47:35.494591+00:00",
+      "result": "Employer feeds and individual records. Unavailable, closed, undated and duplicate requisitions were excluded."
+    },
+    {
+      "source": "Rippling",
+      "attempted_urls": 74,
+      "http_200": 73,
+      "urls": [
+        "https://api.rippling.com/platform/api/ats/v2/board/ascentt-india/jobs?pageSize=100&page=0",
+        "https://api.rippling.com/platform/api/ats/v2/board/differentai/jobs?pageSize=100&page=0",
+        "https://api.rippling.com/platform/api/ats/v2/board/disseqt-ai/jobs?pageSize=100&page=0",
+        "https://api.rippling.com/platform/api/ats/v2/board/esper/jobs?pageSize=100&page=0",
+        "https://api.rippling.com/platform/api/ats/v2/board/flexai/jobs?pageSize=100&page=0"
+      ],
+      "checked_from": "2026-11-26T20:46:02.344115+00:00",
+      "checked_until": "2026-11-26T20:49:32.656217+00:00",
+      "result": "Employer feeds and individual records. Unavailable, closed, undated and duplicate requisitions were excluded."
+    },
+    {
+      "source": "Workable",
+      "attempted_urls": 78,
+      "http_200": 72,
+      "urls": [
+        "https://apply.workable.com/api/v1/widget/accounts/ai-accountant?details=true",
+        "https://apply.workable.com/api/v1/widget/accounts/akkodis?details=true",
+        "https://apply.workable.com/api/v1/widget/accounts/bitquery?details=true",
+        "https://apply.workable.com/api/v1/widget/accounts/blue-machines-ai?details=true",
+        "https://apply.workable.com/api/v1/widget/accounts/blueoptima?details=true"
+      ],
+      "checked_from": "2026-11-26T20:46:04.430234+00:00",
+      "checked_until": "2026-11-26T21:03:42.794380+00:00",
+      "result": "Employer feeds and individual records. Unavailable, closed, undated and duplicate requisitions were excluded."
+    },
+    {
+      "source": "Firecrawl",
+      "queries": "India technical and AI roles, Bengaluru and remote India startup openings, job-board and employer pages",
+      "results_urls": [
+        "https://www.sarvam.ai/careers",
+        "https://github.com/speedyapply/2027-AI-College-Jobs/blob/main/NEW_GRAD_INTL.md",
+        "https://www.ycombinator.com/companies/industry/ai/india/hiring",
+        "https://www.productbased.in/jobs/ai-engineer",
+        "https://startup.jobs/artificial-intelligence-jobs",
+        "https://www.moveworks.com/us/en/company/careers",
+        "https://www.observe.ai/careers",
+        "https://www.weekday.works/jobs/remote-ai-jobs-9"
+      ],
+      "sample_workable_index_results": 27,
+      "checked_on": "2026-11-27",
+      "result": "Discovery supplemented direct feed searches. Additions have individual employer or employer-authored records."
+    }
+  ],
+  "additions_by_source": {
+    "greenhouse": 13,
+    "lever": 2,
+    "ashby": 1,
+    "workday": 2,
+    "wellfound": 8,
+    "workable": 11,
+    "workable-page": 2,
+    "cutshort": 10,
+    "keka": 1
+  },
+  "excluded": [
+    {
+      "company": "Certa",
+      "title": "Solution Engineer - Post Implementation",
+      "url": "https://jobs.ashbyhq.com/certa/f526ed60-d978-46a6-b44a-a0bdb17ce7ea",
+      "reason": "Earlier capture of this requisition establishes publication on 2026-08-25"
+    },
+    {
+      "company": "Certa",
+      "title": "Forward Deployed Engineer",
+      "url": "https://jobs.ashbyhq.com/certa/0b101c4d-6e2e-4711-9a70-6302d0c094e1",
+      "reason": "Earlier capture of this requisition establishes publication on 2026-08-27"
+    },
+    {
+      "company": "UptimeAI",
+      "title": "Data Scientist - Data Science + GenAl ",
+      "url": "https://jobs.ashbyhq.com/uptimeai/81f68069-b6f5-4a55-a907-4468026f6b83",
+      "reason": "Earlier capture of this requisition establishes publication on 2026-08-11"
+    },
+    {
+      "company": "UptimeAI",
+      "title": "Implementation Engineer",
+      "url": "https://jobs.ashbyhq.com/uptimeai/2d02ff39-06e4-43d8-a6fe-1410d6ccc903",
+      "reason": "Earlier capture of this requisition establishes publication on 2026-09-15"
+    },
+    {
+      "company": "Tekion",
+      "title": "Senior Database Engineer",
+      "url": "https://jobs.ashbyhq.com/Tekion/1a4c0148-6fc1-4672-b6e6-ff1cb9ef6395",
+      "reason": "Earlier capture of this requisition establishes publication on 2026-10-13"
+    },
+    {
+      "company": "Sardine",
+      "title": "Software Engineer - Backend",
+      "url": "https://jobs.ashbyhq.com/sardine/2524d206-42cb-4202-8d85-59e47c72d704",
+      "reason": "Earlier capture of this requisition establishes publication on 2026-10-14"
+    },
+    {
+      "company": "Nium",
+      "title": "Data Engineer II",
+      "url": "https://jobs.lever.co/nium/4d1f00af-5e5b-4dee-a178-fbd41f42cc01",
+      "earlier_listing": "https://in.linkedin.com/jobs/view/data-engineer-ii-at-nium-4478568766",
+      "reason": "Matching Mumbai role and duties appeared before the rolling window. New ATS timestamp did not establish a new vacancy."
+    },
+    {
+      "company": "Nium",
+      "title": "Sr Data Engineer",
+      "url": "https://jobs.lever.co/nium/63a33282-ee83-46d6-b97f-7bbbf4415f94",
+      "earlier_listing": "https://www.mployee.me/jobs/view/sr-data-engineer-in-mumbai-at-nium-india-18092650478415895/s1",
+      "reason": "Matching Mumbai role and duties appeared before the rolling window. New ATS timestamp did not establish a new vacancy."
+    },
+    {
+      "company": "Lyzr AI",
+      "title": "Full Stack Lead Engineer – Rapid Prototyping – India",
+      "url": "https://jobs.ashbyhq.com/lyzr/d4bc6b87-1c6b-4f2f-8423-8111cbd61ce5",
+      "reason": "Existing duties surfaced in an ATS migration. Could not establish a new requisition in the window."
+    },
+    {
+      "company": "Arivihan Technologies",
+      "title": "Java Backend Engineer",
+      "url": "https://wellfound.com/jobs/5138020-backend-engineer-java",
+      "retained_id": "arivihan-technologies-5130406",
+      "reason": "Cross-posting or repeated listing with matching responsibilities. Counted once, using the earlier employer publication."
+    },
+    {
+      "company": "Proximity Works",
+      "title": "Senior Backend Engineer, Video on Demand",
+      "url": "https://cutshort.io/job/VOD-Consultant-Backend-Python-Go-Onsite-BLR-6-Month-Contract-Bengaluru-Bangalore-Proximity-Works-qio9oThz",
+      "retained_id": "proximity-works-0b72d09a1b",
+      "reason": "Cross-posting or repeated listing with matching responsibilities. Counted once, using the earlier employer publication."
+    }
+  ],
+  "deduplication": "Compared stable employer requisitions, canonical application URLs, company/title/location and duties with the active feed, archives and historical source evidence. Preserved existing IDs and posting dates.",
+  "salary_research": {
+    "employer_published_in_batch": 8,
+    "benchmark_in_batch": 1,
+    "benchmark_source": "https://www.levels.fyi/companies/fanatics/salaries/software-engineer/levels/senior-software-engineer/locations/greater-hyderabad-area",
+    "conflicting_employer_ranges": "Arivihan’s two listings disagree on pay. Both ranges and source URLs are recorded in salary and job evidence."
+  },
+  "validation": {
+    "npm_run_check": "26 tests passed. CSV validation and static site build passed for 448 active / 448 total listings.",
+    "git_diff_check": "Passed.",
+    "browser": "Repository Playwright desktop, mobile and accessibility checks passed on all 448 active listings.",
+    "new_pages": "All 50 new cards and individual detail pages verified at 390px and 1440px, including titles, application links, image decoding and horizontal overflow. Desktop and mobile screenshots inspected.",
+    "evidence": "All 50 new IDs, URLs, posting dates, salary rows and PNG assets matched. No duplicate canonical application or reused archived requisition."
+  },
+  "finished_at": "2026-11-26T21:15:38.297053+00:00"
+}

@@ -8199,6 +8199,1523 @@
       "salary_basis": "Base pay",
       "salary_source_name": "Glassdoor",
       "salary_source_url": "https://www.glassdoor.com/Salaries/bangalore-india-cyber-security-engineer-salary-SRCH_IL.0%2C15_IM1091_KO16%2C39.htm"
+    },
+    {
+      "id": "coderabbit-2ac28238-d1e4-423c-82ae-03dc826bee40",
+      "company": "CodeRabbit",
+      "title": "Senior Software Engineer, Backend",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/coderabbit/2ac28238-d1e4-423c-82ae-03dc826bee40",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "celonis-8198070003",
+      "company": "Celonis",
+      "title": "Analytics Engineer, IC2",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/celonis/jobs/8198070003?gh_jid=8198070003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "certify-6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+      "company": "Certify",
+      "title": "Engineering Manager",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/certifyos/6ddc5dc2-ee8c-44c6-a231-8a2a19db25cb",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "certa-7045409d-3a8f-493f-b76f-113b849db8a4",
+      "company": "Certa",
+      "title": "Software Development Engineer II, Backend",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/certa/7045409d-3a8f-493f-b76f-113b849db8a4",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "razorpay-4746998005",
+      "company": "Razorpay",
+      "title": "Lead Software Development Engineer",
+      "salary": "",
+      "salary_benchmark": "₹42–60 LPA",
+      "source_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4746998005",
+      "status": "Company, role and location benchmark",
+      "salary_checked_at": "2026-11-26",
+      "salary_basis": "Total pay",
+      "salary_source_url": "https://www.glassdoor.co.in/Salary/Razorpay-Lead-Software-Development-Engineer-Bangalore-Salaries-EJI_IE1146550.0%2C8_KO9%2C43_IL.44%2C53_IM1091.htm",
+      "salary_source_name": "Glassdoor",
+      "salary_note": "Estimated annual total pay for Lead Software Development Engineers at Razorpay in Bengaluru, including base and additional pay. Based on eight reports, updated 10 March 2026."
+    },
+    {
+      "id": "onetrust-8405036",
+      "company": "OneTrust",
+      "title": "Senior Quality Engineer, SDET",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/onetrust/jobs/8405036",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "gokwik-167254",
+      "company": "GoKwik",
+      "title": "Software Development Engineer III",
+      "salary": "₹35–45 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://gokwik.keka.com/careers/jobdetails/167254",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "gokwik-163510",
+      "company": "GoKwik",
+      "title": "Software Development Engineer II",
+      "salary": "₹25–35 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://gokwik.keka.com/careers/jobdetails/163510",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "tide-8215174003",
+      "company": "Tide",
+      "title": "Director of Engineering, Commercial Services",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/tide/jobs/8215174003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "mindtickle-2f32712f-bc84-4485-b2fb-99e167f54e21",
+      "company": "Mindtickle",
+      "title": "Software Development Engineer III",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/mindtickle/2f32712f-bc84-4485-b2fb-99e167f54e21",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "atlys-b890cae8-aed2-4c4c-be41-53843662f947",
+      "company": "Atlys",
+      "title": "iOS Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/atlys/b890cae8-aed2-4c4c-be41-53843662f947",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "refold-ai-d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+      "company": "Refold AI",
+      "title": "Senior AI Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/refoldai/d8a285c0-2d4c-487e-9d5a-31178e35ad61",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "zeta-bf61238b-c630-4f34-a940-77398c388bb3",
+      "company": "Zeta",
+      "title": "Manager, Site Reliability Engineering",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/zeta/bf61238b-c630-4f34-a940-77398c388bb3",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "hackerrank-8245384",
+      "company": "HackerRank",
+      "title": "Senior Engineering Manager, Evaluation",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/hackerrank/jobs/8245384",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sahaj-software-5046980101",
+      "company": "Sahaj Software",
+      "title": "Senior Full-Stack Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5046980101",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "blitzy-877a82e4-9271-4523-806a-aac67f48e2da",
+      "company": "Blitzy",
+      "title": "Senior Backend Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/blitzy/877a82e4-9271-4523-806a-aac67f48e2da",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "quantiphi-jr10775",
+      "company": "Quantiphi",
+      "title": "Research Engineer, Quantum Computing",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Research-Engineer_JR10775",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sifive-r-101617",
+      "company": "SiFive",
+      "title": "Software Engineer, Service Observability Platform",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Software-Engineer--Service-Observability-Platform_R-101617",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "arctic-wolf-r26-1281",
+      "company": "Arctic Wolf",
+      "title": "Staff Developer, AI Threat Intelligence Platform",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Staff-Developer---AI-Threat-Intel-Platform_R26_1281",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "arctic-wolf-r26-1288",
+      "company": "Arctic Wolf",
+      "title": "Senior Developer 2",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Senior-Developer-2_R26_1288",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "bjak-eff3f437-4bfa-4970-91f8-58b21f80b18d",
+      "company": "BJAK",
+      "title": "Staff Software Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/eff3f437-4bfa-4970-91f8-58b21f80b18d",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "alphasense-8769853002",
+      "company": "AlphaSense",
+      "title": "Senior Software Engineer, Document Processing",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/alphasenseindia/jobs/8769853002",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "headout-575a9f45-486b-4368-a69c-aab596733817",
+      "company": "Headout",
+      "title": "Software Engineer in Test",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/headout/575a9f45-486b-4368-a69c-aab596733817",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "cohesity-r05337",
+      "company": "Cohesity",
+      "title": "Research Engineer, Post-Training and Vision-Language Models",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Bangalore---India-Office/Research-Engineer--Post-Training---Vision-Language-Models_R05337",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "dozee-3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "company": "Dozee",
+      "title": "Quality Engineer III",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/dozee/3c48b863-38ae-4f4c-be4e-608e805f53c0",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "dozee-9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+      "company": "Dozee",
+      "title": "Staff Engineer, Full Stack",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/dozee/9ec2dcf4-9f32-42c4-a2b3-35557ea7fe98",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "bjak-e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+      "company": "BJAK",
+      "title": "Applied AI Engineer, AI Finance Agent",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/e8406b78-3cb3-436c-8a22-6e1d44cf8816",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "bjak-08454ce3-a782-45b8-834e-a3c9452b1647",
+      "company": "BJAK",
+      "title": "Full-Stack Software Engineer, AI Finance Agent",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/08454ce3-a782-45b8-834e-a3c9452b1647",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "bjak-4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+      "company": "BJAK",
+      "title": "Android Developer, AI Finance Agent",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/4dce95e8-aceb-4bd8-bf02-1d7f4f212ce6",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "bjak-3a04559c-3700-429b-b2d2-1e144dc27611",
+      "company": "BJAK",
+      "title": "iOS Developer, AI Finance Agent",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/3a04559c-3700-429b-b2d2-1e144dc27611",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "bjak-7f6692fb-eed1-4134-9baa-76cb68850037",
+      "company": "BJAK",
+      "title": "Backend Software Engineer, AI Finance Agent",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bjakcareer/7f6692fb-eed1-4134-9baa-76cb68850037",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "trackier-5135332",
+      "company": "Trackier",
+      "title": "Founding Machine Learning Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5135332-machine-learning-engineer-founding-ml-hire",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "exotel-fk0pzgl",
+      "company": "Exotel",
+      "title": "Principal Engineer, Messaging",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://exotel.hire.trakstar.com/jobs/fk0pzgl/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "skan-ai-42722",
+      "company": "Skan AI",
+      "title": "Site Reliability Engineer, Infrastructure and Support",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://skanai.keka.com/careers/jobdetails/42722",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "doxel-7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+      "company": "Doxel",
+      "title": "Full-Stack Software Engineer, Schedule Mapping",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/doxel/7f6b2263-f6f3-4c85-8bbf-6238bc017e5c",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "quantiphi-jr12626",
+      "company": "Quantiphi",
+      "title": "Associate Technical Architect, Cloud Migration",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Associate-Technical-Architect---Platform---Migration_JR12626",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "emergence-ai-4485910009",
+      "company": "Emergence AI",
+      "title": "Research Engineer, Language Models and Ontologies",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/emergenceai/jobs/4485910009",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "uptimeai-7f25cca4-3722-474c-b937-4d75f0fb7efe",
+      "company": "UptimeAI",
+      "title": "Implementation Engineer, Renewable Energy",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/uptimeai/7f25cca4-3722-474c-b937-4d75f0fb7efe",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "diagrid-06fdf2f3-fff0-4628-b58c-2c07d408e656",
+      "company": "Diagrid",
+      "title": "Senior Full-Stack Software Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/Diagrid/06fdf2f3-fff0-4628-b58c-2c07d408e656",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "diagrid-ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+      "company": "Diagrid",
+      "title": "Senior Software Engineer, Dapr Open Source",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/Diagrid/ac563b95-4910-4124-9441-ef0f8cf3d2c5",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sahaj-software-5028440101",
+      "company": "Sahaj Software",
+      "title": "Senior Full-Stack Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5028440101",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sahaj-software-5028691101",
+      "company": "Sahaj Software",
+      "title": "Senior Full-Stack Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5028691101",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sifive-r-101160",
+      "company": "SiFive",
+      "title": "Engineer II, Design Automation and PPA Analytics",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Engineer--PPA-Analytics---CAD_R-101160",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "exotel-fk0zndh",
+      "company": "Exotel",
+      "title": "Implementation Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://exotel.hire.trakstar.com/jobs/fk0zndh/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sahaj-software-5020301101",
+      "company": "Sahaj Software",
+      "title": "Lead Data Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5020301101",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sahaj-software-5020648101",
+      "company": "Sahaj Software",
+      "title": "Lead Data Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5020648101",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sahaj-software-5018878101",
+      "company": "Sahaj Software",
+      "title": "Lead / Principal Full-Stack Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5018878101",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sahaj-software-5017265101",
+      "company": "Sahaj Software",
+      "title": "Data Scientist",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/sahajsoftware/jobs/5017265101",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "quantiphi-jr12555",
+      "company": "Quantiphi",
+      "title": "Senior Platform Engineer, AWS Cloud Migration",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi/job/IN-KA-Bengaluru/Senior-Platform-Engineer---Cloud-Migration_JR12555",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "sifive-r-101274",
+      "company": "SiFive",
+      "title": "Senior Design Verification Infrastructure Engineer, VIPs and Testbench",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Design-Verification--Infrastructure-Engineer---VIPs-and-Testbench_R-101274",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-25"
+    },
+    {
+      "id": "commerceiq-8215092003",
+      "company": "CommerceIQ",
+      "title": "Data Science Intern",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/commerceiq/jobs/8215092003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "commerceiq-8217481003",
+      "company": "CommerceIQ",
+      "title": "Software Engineering Intern, UI and AI Agents",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/commerceiq/jobs/8217481003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "tide-8216874003",
+      "company": "Tide",
+      "title": "Product Security Engineer III",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/tide/jobs/8216874003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "celonis-8198058003",
+      "company": "Celonis",
+      "title": "Senior Data Scientist, IC3",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/celonis/jobs/8198058003?gh_jid=8198058003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "fam-cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+      "company": "Fam",
+      "title": "Backend Engineering Intern",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/fampay/cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "atlan-dbb8cec5-f9b8-46af-bbbe-9638c5646638",
+      "company": "Atlan",
+      "title": "AI Native Builder, Frontend",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/atlan/dbb8cec5-f9b8-46af-bbbe-9638c5646638",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "cohesity-r05386",
+      "company": "Cohesity",
+      "title": "Senior Engineering Manager, Datapath",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cohesity.wd5.myworkdayjobs.com/Cohesity_Careers/job/Bangalore---India-Office/Senior-Engineering-Manager_R05386",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "arctic-wolf-r26-1271",
+      "company": "Arctic Wolf",
+      "title": "Software Developer III, IDR",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://arcticwolf.wd1.myworkdayjobs.com/External/job/Bengaluru-IND/Developer-3---IDR_R26_1271",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "ownpath-5137948",
+      "company": "ownpath",
+      "title": "Full-Stack Engineer",
+      "salary": "₹14.4–18 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5137948-brand-design-manager-clone",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "vectovateai-5137943",
+      "company": "VectovateAI",
+      "title": "AI and Machine Learning Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5137943-ai-ml-engineer",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "apna-71033a2821",
+      "company": "Apna",
+      "title": "Forward Deployed Engineering Intern, Blue Machines",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://careers.bluemachines.ai/_/j/71033A2821",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "platinumlist-3a1bcf24-f25a-4644-8868-4916a5e2adc4",
+      "company": "Platinumlist",
+      "title": "Lead AI Engineer, Full Stack",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.workable.com/view/8bbopNtM8jVGc7jyWR37Kf/remote-lead-ai-engineer-(full-stack)-in-india-at-platinumlist",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "hevo-data-21fbe701-e71b-4f45-b865-a497a62a6482",
+      "company": "Hevo Data",
+      "title": "Associate Software Development Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/hevodata/21fbe701-e71b-4f45-b865-a497a62a6482",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "hiresense-ai-5137627",
+      "company": "Hiresense.ai",
+      "title": "Agentic AI Backend Engineer",
+      "salary": "₹12–28 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5137627-agentic-ai-backend-engineer",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "ai-accountant-084d6a4b77",
+      "company": "AI Accountant",
+      "title": "Software Development Engineer, Full Stack",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/ai-accountant/j/084D6A4B77/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "fulfillment-iq-da469379-0f74-4c65-b9f4-ae80d9dc1249",
+      "company": "Fulfillment IQ",
+      "title": "DevOps Engineer, Azure and GCP",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.workable.com/view/sXiXeRBPuyr6z3AqWs1nB8/hybrid-devops-engineer-(azure-%2F-gcp)-in-bengaluru-at-fulfillment-iq",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "legion-technologies-8210343003",
+      "company": "Legion Technologies",
+      "title": "Software Development Engineer in Test, Applications",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/legion/jobs/8210343003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "legion-technologies-8201621003",
+      "company": "Legion Technologies",
+      "title": "Software Development Engineer in Test, Integrations",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/legion/jobs/8201621003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "fanatics-4510368009",
+      "company": "Fanatics",
+      "title": "Staff Security Engineer, Perimeter Security",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/fanaticscommerce/jobs/4510368009",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "ai-accountant-4de2769fbd",
+      "company": "AI Accountant",
+      "title": "Software Development Engineer II, Backend",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/ai-accountant/j/4DE2769FBD/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "schpot-5133337",
+      "company": "Schpot",
+      "title": "Full-Stack Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5133337-full-stack-engineer",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "arivihan-technologies-5130406",
+      "company": "Arivihan Technologies",
+      "title": "Java Backend Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5130406-java-backend-engineer",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27",
+      "note": "The 21 November employer listing discloses ₹11–16 LPA. A 26 November listing with matching duties discloses ₹10–14 LPA. Pay left blank pending clarification.",
+      "alternate_source_url": "https://wellfound.com/jobs/5138020-backend-engineer-java"
+    },
+    {
+      "id": "fanatics-4480063009",
+      "company": "Fanatics",
+      "title": "Senior Backend Software Engineer, Product Data",
+      "salary": "",
+      "salary_benchmark": "₹62.8 LPA",
+      "source_url": "https://job-boards.greenhouse.io/fanaticscommerce/jobs/4480063009",
+      "status": "Company and location benchmark",
+      "salary_checked_at": "2026-11-27",
+      "salary_source_url": "https://www.levels.fyi/companies/fanatics/salaries/software-engineer/levels/senior-software-engineer/locations/greater-hyderabad-area",
+      "salary_source_name": "Levels.fyi",
+      "salary_basis": "Total pay",
+      "salary_note": "Average annual total compensation for senior software engineers at Fanatics in Greater Hyderabad, including base pay, stock and bonus. The source does not report a sample size."
+    },
+    {
+      "id": "fanatics-4479543009",
+      "company": "Fanatics",
+      "title": "Software Engineer III, Backend Product Data",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/fanaticscommerce/jobs/4479543009",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "maropost-5105648",
+      "company": "Maropost",
+      "title": "Senior Software Engineer, Machine Learning",
+      "salary": "₹30–42 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5105648-senior-software-engineer-machine-learning",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "apna-43d54a4fb2",
+      "company": "Apna",
+      "title": "AI Data Engineer, Speech and Language, Blue Machines",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://careers.bluemachines.ai/_/j/43D54A4FB2",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "commenda-5101345",
+      "company": "Commenda",
+      "title": "Software Engineer, Product",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5101345-software-engineer-product",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "youtrip-1b9b879c80",
+      "company": "YouTrip",
+      "title": "Staff Software Engineer, Features",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/youtrip/j/1B9B879C80/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "platform-science-8206889003",
+      "company": "Platform Science",
+      "title": "Lead Software Engineer, UI",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/platformscience/jobs/8206889003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "fanatics-4481060009",
+      "company": "Fanatics",
+      "title": "Principal Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/fanaticscommerce/jobs/4481060009",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "backbase-8327524",
+      "company": "Backbase",
+      "title": "Distinguished Frontend Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8327524",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "rocked-6af6d61856c02efb11840424",
+      "company": "RockED",
+      "title": "DevOps and AI Infrastructure Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/DevOps-AI-Infrastructure-Engineer-Bengaluru-Bangalore-RockED-lKwbOsFF",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-205d681cbd",
+      "company": "Proximity Works",
+      "title": "AI Development Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/205D681CBD",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "rocked-6af21e9469860d2862f040ab",
+      "company": "RockED",
+      "title": "Senior Technical Architect, JavaScript and AI",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/Senior-Technical-Architect-Javascript-AI-Bengaluru-Bangalore-RockED-g2CcOac1",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "p99soft-6af17d6a048042646b1926ec",
+      "company": "P99soft",
+      "title": "AI Integration Engineer",
+      "salary": "₹10–15 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/AI-Integration-Engineer-Hyderabad-P99soft-fDLiDWJh",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "p99soft-6af183a2a9eb62955ee7568b",
+      "company": "P99soft",
+      "title": "AI Architect",
+      "salary": "₹15–30 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/AI-Architect-Hyderabad-P99soft-1H4TfY98",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "p99soft-6af18133f1114320dba29e03",
+      "company": "P99soft",
+      "title": "AI Engineer, Product Adoption",
+      "salary": "₹15–30 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/AI-Engineer-Product-Adoption-Capability-Hyderabad-P99soft-EAkIsrg2",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "techjays-6aed8269f54efca4d345f287",
+      "company": "Techjays",
+      "title": "AI Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/AI-Engineer-Coimbatore-Techjays-2ZWD0fBS",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "jash-data-sciences-4995481",
+      "company": "Jash Data Sciences",
+      "title": "AI and Data Engineer",
+      "salary": "₹8–60 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/4995481-ai-data-engineer",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-56a6206ab1",
+      "company": "Proximity Works",
+      "title": "Senior Android Developer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/56A6206AB1",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-db79068e4f",
+      "company": "Proximity Works",
+      "title": "Senior Software Engineer, Go",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/DB79068E4F",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-ca3e5012bd",
+      "company": "Proximity Works",
+      "title": "Backend Engineer, Java Payments",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/CA3E5012BD",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-0b72d09a1b",
+      "company": "Proximity Works",
+      "title": "Senior Backend Engineer, Video on Demand",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/0B72D09A1B",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "techjays-6aeafe6009eeef45c0c0ead0",
+      "company": "Techjays",
+      "title": "Lead AI Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/Lead-AI-Engineer-Coimbatore-Techjays-ZEF8JGcK",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "techjays-6aeb00c5d8cc5c4459eff8cd",
+      "company": "Techjays",
+      "title": "AI Solution Architect",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/AI-Solution-Architect-Coimbatore-Techjays-AA65RARo",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "techjays-6aeaffb7f54efca4d30255a5",
+      "company": "Techjays",
+      "title": "Senior AI Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/Senior-AI-Engineer-Coimbatore-Techjays-mD3Nkfwb",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "motive-8905066002",
+      "company": "Motive",
+      "title": "Software Engineer, Workforce Management",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/gomotive/jobs/8905066002",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "techdome-168372",
+      "company": "Techdome",
+      "title": "Full-Stack Developer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://techdome.keka.com/careers/jobdetails/168372",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "apna-3207488765",
+      "company": "Apna",
+      "title": "Lead Engineer, Voice and Telephony, Blue Machines",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://careers.bluemachines.ai/_/j/3207488765",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "metron-security-6ae306d1d0cc2b3a296a268f",
+      "company": "Metron Security",
+      "title": "Full-Stack Developer, Security Integrations",
+      "salary": "₹6–12 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/Full-Stack-Developer-Pune-Bengaluru-Bangalore-Metron-Security-Private-Limited-YcfkP61e",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "juniper-square-92a6d781-0bfe-4712-9fd2-56e2cffb6072",
+      "company": "Juniper Square",
+      "title": "Principal Engineer, AI and Accounting Systems",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/junipersquare/92a6d781-0bfe-4712-9fd2-56e2cffb6072",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "backbase-8395260",
+      "company": "Backbase",
+      "title": "Senior Software Development Engineer in Test, Customer Engagement",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8395260",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "legion-technologies-8046900003",
+      "company": "Legion Technologies",
+      "title": "Senior Full-Stack Software Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/legion/jobs/8046900003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "bolna-a95b26d8-00d6-496f-a9b3-290d09273de7",
+      "company": "Bolna",
+      "title": "Senior Backend Product Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bolna/a95b26d8-00d6-496f-a9b3-290d09273de7",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "bolna-f7cc2d1d-5fae-494e-9c5f-06404f82f43b",
+      "company": "Bolna",
+      "title": "Backend Product Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bolna/f7cc2d1d-5fae-494e-9c5f-06404f82f43b",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "bolna-dae9d4f0-fcef-478d-a774-86e80eb437ac",
+      "company": "Bolna",
+      "title": "Product Engineer, Voice AI",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/bolna/dae9d4f0-fcef-478d-a774-86e80eb437ac",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "neuron7-3e60a8eb-2c2a-4a5d-9a48-ebb1ab3713ff",
+      "company": "Neuron7",
+      "title": "Software Engineer, Java",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/neuron7/3e60a8eb-2c2a-4a5d-9a48-ebb1ab3713ff",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "aviatrix-4748787005",
+      "company": "Aviatrix",
+      "title": "Principal Software Engineer, Cloud Networking",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/embed/job_app?for=aviatrix&token=4748787005",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "zocdoc-8331078",
+      "company": "Zocdoc",
+      "title": "Senior Software Engineer",
+      "salary": "",
+      "salary_benchmark": "₹54.2 LPA",
+      "source_url": "https://job-boards.greenhouse.io/zocdoc/jobs/8331078",
+      "status": "Company and location benchmark",
+      "salary_checked_at": "2026-11-27",
+      "salary_basis": "Total pay",
+      "salary_source_url": "https://www.levels.fyi/companies/zocdoc/salaries/software-engineer/locations/pune-metropolitan-region",
+      "salary_source_name": "Levels.fyi",
+      "salary_note": "Median annual total compensation for Zocdoc senior software engineers in Pune. The source does not give a sample size for this level."
+    },
+    {
+      "id": "backbase-8305310",
+      "company": "Backbase",
+      "title": "Solution Architect, Digital Banking",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8305310",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-bc4c2f066b",
+      "company": "Proximity Works",
+      "title": "Full-Stack Engineer, Web and Java Payments",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/BC4C2F066B/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-3dc4e89b57",
+      "company": "Proximity Works",
+      "title": "Full-Stack Engineer, Android and Fire TV Payments",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/3DC4E89B57/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-3a307c4453",
+      "company": "Proximity Works",
+      "title": "Senior iOS Developer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/3A307C4453/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-b0d43ea6b2",
+      "company": "Proximity Works",
+      "title": "Senior Java Developer, Content Operations",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/B0D43EA6B2/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-2ed1002b68",
+      "company": "Proximity Works",
+      "title": "Senior Software Development Engineer, Engagement Services",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/2ED1002B68/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-6db08e6d71",
+      "company": "Proximity Works",
+      "title": "Senior Java Software Engineer, Distributed Systems",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/6DB08E6D71/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "techjays-6aed9089f54efca4d3c126e9",
+      "company": "Techjays",
+      "title": "AI Quality Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/AI-Quality-Engineer-Coimbatore-Techjays-6h6LkkxS",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "cloudesign-technology-solutions-6ae1e7438fcb75f94f188ee8",
+      "company": "Cloudesign Technology Solutions",
+      "title": "AI Engineer, E-commerce",
+      "salary": "₹20–45 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/AI-Engineer-Ecommerce-Pune-Cloudesign-Technology-Solutions-d6JM1M7e",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "tech-prescient-6ae1b031aeab4c8b49970e42",
+      "company": "Tech Prescient",
+      "title": "Technical Architect, Product Engineering",
+      "salary": "₹30–38 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/Technical-Architect-Product-Engineering-Pune-Tech-Prescient-bYfIw2Dm",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "tech-prescient-6ae1b17daeab4c8b49a6c6a7",
+      "company": "Tech Prescient",
+      "title": "Go Developer",
+      "salary": "₹15–25 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://cutshort.io/job/Golang-Developer-Pune-Tech-Prescient-PbN4o44P",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "cred-913a6616-78c9-4ca3-8c92-67ddea8a80df",
+      "company": "CRED",
+      "title": "Fraud Analytics Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.lever.co/cred/913a6616-78c9-4ca3-8c92-67ddea8a80df",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "neoware-technology-solutions-4589406",
+      "company": "Neoware Technology Solutions",
+      "title": "Enterprise Data Architect",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/4589406-data-architect",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "neoware-technology-solutions-4557399",
+      "company": "Neoware Technology Solutions",
+      "title": "Lead Data Engineer, AWS",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/4557399-lead-data-engineer-aws",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "mira-labs-ai-4602448",
+      "company": "Mira Labs Ai",
+      "title": "Full-Stack Engineer, Lending Applications",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/4602448-full-stack-engineer",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "montycloud-85410",
+      "company": "MontyCloud",
+      "title": "Senior Site Reliability Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://montycloud.keka.com/careers/jobdetails/85410",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27",
+      "note": "The feed contains a nominal INR range from zero to one or one to two. The employer JD does not confirm a salary."
+    },
+    {
+      "id": "montycloud-87469",
+      "company": "MontyCloud",
+      "title": "Senior Software Development Engineer in Test",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://montycloud.keka.com/careers/jobdetails/87469",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27",
+      "note": "The feed contains a nominal INR range from zero to one or one to two. The employer JD does not confirm a salary."
+    },
+    {
+      "id": "igloo-f8432f50-4727-4579-8262-3638b392ab38",
+      "company": "Igloo",
+      "title": "Full-Stack Engineer, Insurance Platform",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.workable.com/view/wE5tVqkacvrPbMnfzBHtVS/full-stack-engineer-in-pune-at-igloo",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "igloo-d24a38df-c071-45fd-b05e-05e0c5cfcfd8",
+      "company": "Igloo",
+      "title": "QA Engineer, Insurance Platform",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.workable.com/view/rY7EibTFS7NpBerD5tqPuU/qa-engineer-in-pune-at-igloo",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "virallens-5a2b87f7-10be-4e0a-8bca-01fa78bf12db",
+      "company": "Virallens",
+      "title": "Cloud Infrastructure and Platform Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.workable.com/view/c8NJrB5npCxgw4Rj8ewTYx/cloud-infrastructure-%26-platform-engineer-in-bengaluru-at-virallens",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "bestex-research-5c04b86c-ff38-4ee6-84e3-34fa22e68d2d",
+      "company": "BestEx Research",
+      "title": "Quantitative Data Engineer",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.workable.com/view/cn3yjH7X19iK55HQ9Tg8xB/quant-data-engineer--in-bengaluru-at-bestex-research",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proarch-c35d4153-47b4-48c8-a906-54956fe85125",
+      "company": "ProArch",
+      "title": "Technical Lead, AWS and OCI DevOps",
+      "salary": "₹25–32 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.workable.com/view/q8dwDMTaiBcxRUth9R2jUv/hybrid-technical-lead---cloud-devops-engineer-(aws%2Foci)-in-mumbai-at-proarch",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "cloudthat-146567",
+      "company": "CloudThat",
+      "title": "Senior Data Engineer, AWS and Databricks",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://cloudthat.keka.com/careers/jobdetails/146567",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "elevenlabs-3abf96ca-2937-4290-9d23-5208aece08b2",
+      "company": "ElevenLabs",
+      "title": "Full-Stack Engineer, Ads Engine",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://jobs.ashbyhq.com/ElevenLabs/3abf96ca-2937-4290-9d23-5208aece08b2",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "faraday-loop-5078012",
+      "company": "Faraday Loop",
+      "title": "Founding Engineer, Electromagnetics and Machine Learning",
+      "salary": "$50,000–$80,000/year",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/5078012-founding-engineer-physics-x-ee-x-ml",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "huvo-ai-4544645",
+      "company": "Huvo AI",
+      "title": "Backend Engineer, AI Sales Platform",
+      "salary": "₹20–40 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://wellfound.com/jobs/4544645-backend-engineer-python",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "emergence-ai-4485739009",
+      "company": "Emergence AI",
+      "title": "Senior Researcher, Formal Methods",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/emergenceai/jobs/4485739009",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "emergence-ai-4486188009",
+      "company": "Emergence AI",
+      "title": "Senior Researcher, GPU Algorithms",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/emergenceai/jobs/4486188009",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "cloudsek-6264006004",
+      "company": "CloudSEK",
+      "title": "Threat Researcher I",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/cloudsek/jobs/6264006004",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "tide-8200277003",
+      "company": "Tide",
+      "title": "Security Operations Responder",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://job-boards.greenhouse.io/tide/jobs/8200277003",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "cloudthat-147205",
+      "company": "CloudThat",
+      "title": "Cloud Research Intern, 2027 Intake",
+      "salary": "₹10,000/month",
+      "salary_benchmark": "",
+      "source_url": "https://cloudthat.keka.com/careers/jobdetails/147205",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27",
+      "note": "Six-month internship stipend for Ahmedabad. Conditional full-time conversion pay is separate."
+    },
+    {
+      "id": "amantya-technologies-96904",
+      "company": "Amantya Technologies",
+      "title": "Senior Solution Architect",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://amantya.keka.com/careers/jobdetails/96904",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "amantya-technologies-96875",
+      "company": "Amantya Technologies",
+      "title": "Developer, Dashboards and Reporting",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://amantya.keka.com/careers/jobdetails/96875",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "amantya-technologies-88956",
+      "company": "Amantya Technologies",
+      "title": "Senior .NET Developer, WPF",
+      "salary": "₹23–35 LPA",
+      "salary_benchmark": "",
+      "source_url": "https://amantya.keka.com/careers/jobdetails/88956",
+      "status": "Employer-disclosed pay",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "sifive-r-101262",
+      "company": "SiFive",
+      "title": "Staff Verification Engineer, CPU Security Blocks",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Staff-Verification-Engineer---Security-Blocks_R-101262",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "sifive-r-101486",
+      "company": "SiFive",
+      "title": "CPU Design Verification Engineer II",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Hyderabad-India/CPU-Design-Verification-Engineer-II_R-101486",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "sifive-r-101489",
+      "company": "SiFive",
+      "title": "Senior Verification Engineer, RISC-V Vector and Floating Point",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Engineer---CPU-Verification--RISCV-Vector-ALU--FPU-Verification-_R-101489",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "sifive-r-101478",
+      "company": "SiFive",
+      "title": "Senior Engineer, Formal Verification",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Hyderabad-India/Senior-Design-Formal-Verification-Engineer_R-101478",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "proximity-works-422440154f",
+      "company": "Proximity Works",
+      "title": "Solutions Architect, Cloud Platforms",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://apply.workable.com/prox-works/j/422440154F/",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "sifive-r-101251",
+      "company": "SiFive",
+      "title": "Staff Verification Engineer, CPU Power Management",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Staff-Engineer--Verification-of-Power-Management_R-101251",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
+    },
+    {
+      "id": "sifive-r-101488",
+      "company": "SiFive",
+      "title": "Senior CPU Verification Engineer, Arithmetic and Floating Point",
+      "salary": "",
+      "salary_benchmark": "",
+      "source_url": "https://sifive.wd1.myworkdayjobs.com/sifivecareers/job/Bengaluru-Karnataka-India/Senior-Engineer---CPU-Verification--ALU--FPU-Formal-and-Datapath-Verification-_R-101488",
+      "status": "No verified pay range",
+      "salary_checked_at": "2026-11-27"
     }
   ],
   "source_checks": [

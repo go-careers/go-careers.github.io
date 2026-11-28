@@ -86,7 +86,7 @@ button:disabled { opacity: .45; cursor: default; }
 #job-list, .collection-jobs { overflow: clip; border-radius: 10px; }
 #job-list { border: 1px solid var(--line); }
 #job-list:not(:has(.job-card:not([hidden]))) { border: none; }
-.job-card { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 20px; background: white; position: relative; }
+.job-card { display: grid; grid-template-columns: 44px minmax(0, 1fr) 310px; gap: 16px; align-items: center; padding: 20px; background: white; position: relative; }
 .job-card:not([hidden]) ~ .job-card:not([hidden]) { border-top: 1px solid var(--line); }
 .job-card:hover, .job-card:focus-within { background: #f7faf4; }
 .company-mark { display: grid; place-items: center; height: 42px; width: 42px; border: 1px solid var(--line); border-radius: 9px; background: var(--paper); color: var(--muted); font-size: 12px; }
@@ -102,7 +102,8 @@ button:disabled { opacity: .45; cursor: default; }
 .job-meta span:not(:last-child)::after { content: '·'; padding: 0 7px; }
 .skills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
 .skills span { color: var(--muted); font-size: 12px; }
-.job-summary { display: flex; align-items: center; justify-content: end; flex-wrap: wrap; gap: 6px 16px; min-width: 0; max-width: 274px; text-align: right; }
+.job-summary { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 6px 16px; min-width: 0; text-align: right; }
+.salary-block { min-width: 0; overflow-wrap: anywhere; }
 .salary { margin: 0; font-size: 14px; font-weight: 650; font-variant-numeric: tabular-nums; }
 .salary-label { display: block; color: var(--muted); font-size: 11px; line-height: 1.5; }
 .row-link { display: inline-flex; border: 1px solid #a6b4a8; gap: 8px; align-items: center; min-height: 44px; border-radius: 6px; padding: 8px 12px; font-size: 12px; font-weight: 600; background: var(--paper); white-space: nowrap; }
@@ -197,7 +198,7 @@ button:disabled { opacity: .45; cursor: default; }
 .not-found h1 { font-size: 32px; letter-spacing: -.8px; }
 .not-found p { color: var(--muted); }
 .eyebrow { font-size: 12px; }
-.row-actions { display: flex; justify-content: flex-end; align-items: center; gap: 8px; }
+.row-actions { grid-column: 2; display: flex; justify-content: flex-end; align-items: center; gap: 8px; }
 .save-job { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; border: 1px solid #d2d5db; border-radius: 6px; background: white; padding: 10px 14px; font-size: 13px; font-weight: 500; }
 .save-job:hover { background: #fff8dc; border-color: #af922a; }
 .save-job[aria-pressed="true"] { background: #fff4c4; border-color: #a88a23; }
@@ -219,8 +220,10 @@ button:disabled { opacity: .45; cursor: default; }
 .back-top { position: fixed; bottom: 24px; right: 24px; z-index: 6; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 14px; border: 1px solid #c8ccd3; border-radius: 8px; background: white; color: var(--ink); box-shadow: 0 2px 8px #0001; font-size: 12px; }
 .back-top:hover { background: #fff4c4; }
 .empty-state .button + .button { margin-left: 8px; }
-@media (min-width: 901px) and (max-width: 1200px) {
-  .job-summary { max-width: 150px; }
+@media (min-width: 901px) and (max-width: 1100px) {
+  .job-card { grid-template-columns: 44px minmax(0, 1fr) 156px; }
+  .job-summary { grid-template-columns: minmax(0, 1fr); }
+  .row-actions { grid-column: 1; }
 }
 @media (max-width: 900px) {
   .results-heading { align-items: start; flex-direction: column; }
@@ -231,7 +234,6 @@ button:disabled { opacity: .45; cursor: default; }
   .board-tabs button { min-height: 48px; font-size: 13px; }
   .saved-hint { width: 100%; }
   .filters-done { display: inline-flex; grid-column: 1/-1; }
-  .row-actions { flex: 0 0 auto; margin-left: auto; }
   .save-status { bottom: 80px; }
   .back-top { bottom: 18px; right: 16px; width: 44px; padding: 8px; font-size: 20px; }
   .back-top span { display: none; }
@@ -268,7 +270,7 @@ button:disabled { opacity: .45; cursor: default; }
   .company-name { font-size: 12px; }
   .job-meta { font-size: 12px; row-gap: 3px; }
   .job-meta span:not(:last-child)::after { padding-inline: 5px; }
-  .job-summary { grid-column: 2; justify-content: space-between; max-width: none; text-align: left; display: flex; align-items: center; flex-wrap: wrap; gap: 8px 10px; min-width: 0; margin-top: 10px; }
+  .job-summary { grid-column: 2; text-align: left; gap: 8px 10px; margin-top: 10px; }
   .salary { margin: 0; font-size: 13px; }
   .row-link { margin-left: auto; min-height: 44px; font-size: 12px; padding: 7px 10px; }
   .salary-label { font-size: 12px; }

@@ -27,9 +27,9 @@ Ownership is a separate build requirement. Every real employer must have an elig
 
 This board is focused on software development, machine learning, AI, and related engineering roles (platform/SRE, data engineering, and security automation). Keep sales, marketing, design, product management, customer support, and general IT operations out of the feed.
 
-The two runs on **23 November 2026** added **100 verified India engineering openings**. The evening refresh added **50 openings across 28 private companies**, including 11 with a 23 November posting date. No additional listings aged out in the evening. After both runs the board contains **388 active roles across 178 private companies** in the inclusive 23 October–23 November window. [Evening run](data/job-runs/2026-11-23T13-37-32Z.json) · [Earlier run](data/job-runs/2026-11-22T20-26-02Z.json)
+The **27 November 2026 evening refresh** added **50 verified India technical openings across 28 private companies**, following 50 additions in the morning. The board contained **498 active listings across 214 companies** at evening validation, covering 27 October through 27 November inclusive. The morning run archived 20 older postings. None aged out in the evening. [Evening run audit](data/job-runs/2026-11-27T15-00-17Z.json) · [Morning run audit](data/job-runs/2026-11-26T20-44-32Z.json)
 
-The [earlier 100-role sourcing run](data/job-runs/2026-11-16T18-53-21Z.json) remains historical evidence. The archive now contains 214 historical listings, including 199 older postings and 15 undated postings. Verification dates apply to individual records; this update does not imply every older listing was checked again.
+The [earlier 100-role sourcing run](data/job-runs/2026-11-16T18-53-21Z.json) remains in the history. On 28 November, 29 more postings aged out of the one-month window. The board has 469 active roles across 208 companies. The archive contains 283 listings, including 267 older postings, 15 undated postings and one listing that reached its employer deadline. Each job carries its own verification date.
 
 The earlier cross-source pass searched LinkedIn, Wellfound, Instahyre, Naukri, Himalayas, Remotive, Remote OK and Cutshort. It added five employer-authored Wellfound roles (Simplismart, Fibr AI, Zenskar), three India-remote OrbitShift roles confirmed through its official Zoho careers feed after discovery on LinkedIn/Himalayas, and five Prodigal roles from its current Greenhouse feed. Naukri denied automated retrieval; Instahyre returned errors/challenge content, so no listings available only on those platforms were claimed as verified. Stale and duplicate leads were excluded. `data/source-search.json` records coverage, access limits and rejected leads; new job audit entries contain `discovered_on` links. Board mirrors do not create extra opportunities.
 
@@ -72,7 +72,7 @@ City filters include every city on multi-location roles, normalize Bangalore/Ben
 
 ### Salary research
 
-On 23 November, **299 of 388 active openings show expected compensation**. Employers published pay for 67 roles and 232 have sourced estimates. The evening refresh added two employer-published ranges and 45 estimates. The board preserves each amount’s currency and pay period.
+On 28 November, **274 of 469 active openings show expected compensation**. Employers published pay for 71 roles, and 203 other roles have sourced estimates. The board preserves each amount’s currency and pay period.
 
 Estimates use relevant company employee reports where available, then documented India role/experience benchmarks from Instahyre, Naukri, Glassdoor and Michael Page. Market estimates are **not company-confirmed salary bands**. Finite experience ranges use the envelope of overlapping published bands; open-ended experience uses the minimum band. Title-only comparisons, mismatched sectors, small samples and aging reports are documented per job. Some ranges include equity and variable pay; base-pay sources remain marked separately in the CSV. These are not take-home amounts. Internship estimates retain their monthly period. No arbitrary startup premium or currency conversion is added.
 
@@ -141,6 +141,8 @@ The live job board is published at **https://go-careers.github.io/** through `.g
 The existing `gocareers.in` domain points to a separate Vercel site. Its DNS and deployment are unchanged. The stale custom-domain mapping was removed from GitHub Pages so this board is accessible at its own HTTPS address. Moving the custom domain to this board requires access to the domain's DNS or the existing Vercel project. The root `CNAME` file belongs to the older app and is not included in this build.
 
 To release changes, review the verified listings and application links, then merge or push to `development-2`. Real jobs must have `is_demo=false`; keep only the CSV header for an empty board. The **CSV job board** workflow can also be run manually on the default branch. Its daily schedule hides jobs outside the one-month window or past employer expiry and releases eligible future-dated jobs; it does not source new listings. Set `ENABLE_CSV_SITE` to `false` to pause future publishing without taking the existing deployment offline.
+
+The daily jobs skill uses a separate research checkout. To publish a completed run, bring its CSV, evidence, run record, archives and company logos into `development-2` together. After Pages deploys, compare the first Recently added results with the newest run’s active IDs.
 
 The deployment passes the Pages base URL into the generator for canonical links and a sitemap, including project-site subpaths. Root and job assets use relative paths. Custom domains are managed in Pages settings; the old root `CNAME` is not copied automatically.
 
