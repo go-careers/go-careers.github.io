@@ -444,7 +444,7 @@
   byId('clear-search').addEventListener('click', () => { controls.q.value = ''; changed(); controls.q.focus(); });
   readURL();
   render(false);
-  for (const id of ["search-form", "quick-searches", "sort-control", "view-bar", "job-charts"])
+  for (const id of ["search-form", "quick-searches", "sort-control", "all-view", "saved-view", "job-charts"])
     byId(id).hidden = false;
   syncFilterPanel();
   controls.q.addEventListener("input", changed);

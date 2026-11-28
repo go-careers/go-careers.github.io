@@ -110,7 +110,7 @@ Builds enforce the same window without modifying the CSV, including scheduled da
 
 ## Jobs abroad with relocation
 
-The **Jobs abroad** navigation link opens `/relocation/`. Each role shows its destination, the employer's moving and visa terms, the posting and verification dates, and a link to the original vacancy. The destination filter is shareable, for example `/relocation/?country=JP`. These roles have their own feed so searches and charts for India keep their geographic scope.
+On the homepage, the **Jobs abroad** tab between **All jobs** and **Saved jobs** opens `/relocation/`. Each role shows its destination, the employer's moving and visa terms, the posting and verification dates, and a link to the original vacancy. The destination filter is shareable, for example `/relocation/?country=JP`. These roles have their own feed so searches and charts for India keep their geographic scope.
 
 Maintain `data/relocation-jobs.json` from employer postings. Check the application is open to applicants moving from overseas, record the advertised moving support and work-authorization terms, and omit domestic-only moves and visa-only offers. Preserve the original posting date and first ingestion timestamp when rechecking a role. Remove confirmed closures or set an advertised `expiry_date`. The build and open browser tabs apply the board's one-calendar-month window. Listings appear newest import first, with posting date as a tie-breaker.
 

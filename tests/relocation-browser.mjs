@@ -14,7 +14,19 @@ try {
   const page = await context.newPage();
   await page.route('https://cloud.umami.is/**', route => route.abort());
   await page.goto(base);
-  await page.getByRole('link', {name:'Jobs abroad with relocation'}).click();
+  const views = page.getByRole('group', {name:'Job views'});
+  const abroad = views.getByRole('link', {name:'Jobs abroad', exact:true});
+  for (const width of [1440, 390, 320]) {
+    await page.setViewportSize({width, height:812});
+    const left = await views.getByRole('button', {name:'All jobs'}).boundingBox();
+    const tab = await abroad.boundingBox();
+    const right = await views.getByRole('button', {name:/Saved jobs/}).boundingBox();
+    assert.ok(tab && left && right && left.x + left.width <= tab.x && tab.x + tab.width <= right.x);
+    assert.ok(tab.y === left.y && tab.y === right.y && tab.y >= 0 && tab.y + tab.height <= 812, 'All three views are visible together at ' + width);
+  }
+  await abroad.focus();
+  await page.keyboard.press('Enter');
+  await page.waitForURL('**/relocation/');
   assert.ok(await page.getByRole('heading', {level:1, name:'Jobs abroad with relocation'}).isVisible());
   const links = page.locator('.relocation-row:visible a');
   const sources = () => links.evaluateAll(nodes => nodes.map(node => node.href));
@@ -47,7 +59,8 @@ try {
     assert.deepEqual(result.violations.map(v => v.id), []);
   }
   const noJs = await browser.newPage({javaScriptEnabled:false});
-  await noJs.goto(new URL('/relocation/', base).href);
+  await noJs.goto(base);
+  await noJs.getByRole('group', {name:'Job views'}).getByRole('link', {name:'Jobs abroad'}).click();
   assert.equal(await noJs.locator('.relocation-row:visible a').count(), jobs.length);
   assert.equal(await noJs.locator('#destination-field').isVisible(), false);
   if (jobs.length) {
